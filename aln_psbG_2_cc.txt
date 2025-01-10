@@ -1,0 +1,95 @@
+BLASTN 2.16.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: plastomes/final/gb2sequin_out/c_callicephala_old/Crepis_callicephala
+___149980_bp____DNA.fsa.txt
+           1 sequences; 149,980 total letters
+
+
+
+Query= psbG
+
+Length=54
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Crepis_callicephala 149980 bp DNA [organism=Crepis callicephala] ...  86.1    7e-20
+
+
+>Crepis_callicephala   149980 bp    DNA [organism=Crepis callicephala] 
+[mol_type=genomic DNA] [completeness=complete] [topology=circular] 
+[gcode=11] [location=genomic] Plastid
+Length=149980
+
+ Score = 86.1 bits (46),  Expect = 7e-20
+ Identities = 51/53 (96%), Gaps = 1/53 (2%)
+ Strand=Plus/Minus
+
+Query  1      ATGGTCTTAGCTCCTGAATATTCAGACAATaaaaagaaaaaaggaaaaa-TTT  52
+              |||||||||||||||||||||| |||||||||||||||||||||||||| |||
+Sbjct  49645  ATGGTCTTAGCTCCTGAATATTAAGACAATAAAAAGAAAAAAGGAAAAAATTT  49593
+
+
+ Score = 23.3 bits (12),  Expect = 0.57
+ Identities = 12/12 (100%), Gaps = 0/12 (0%)
+ Strand=Plus/Minus
+
+Query  11     CTCCTGAATATT  22
+              ||||||||||||
+Sbjct  64078  CTCCTGAATATT  64067
+
+
+ Score = 21.4 bits (11),  Expect = 2.1
+ Identities = 11/11 (100%), Gaps = 0/11 (0%)
+ Strand=Plus/Minus
+
+Query  19    TATTCAGACAA  29
+             |||||||||||
+Sbjct  6400  TATTCAGACAA  6390
+
+
+ Score = 21.4 bits (11),  Expect = 2.1
+ Identities = 11/11 (100%), Gaps = 0/11 (0%)
+ Strand=Plus/Minus
+
+Query  24     AGACAATaaaa  34
+              |||||||||||
+Sbjct  73449  AGACAATAAAA  73439
+
+
+ Score = 19.6 bits (10),  Expect = 7.4
+ Identities = 12/13 (92%), Gaps = 0/13 (0%)
+ Strand=Plus/Plus
+
+Query  11     CTCCTGAATATTC  23
+              ||| |||||||||
+Sbjct  51784  CTCATGAATATTC  51796
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 5848635
+
+
+  Database: plastomes/final/gb2sequin_out/c_callicephala_old/Crepis_callicephala
+___149980_bp____DNA.fsa.txt
+    Posted date:  Dec 24, 2024  11:35 PM
+  Number of letters in database: 149,980
+  Number of sequences in database:  1
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
