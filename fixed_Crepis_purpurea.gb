@@ -483,10 +483,7 @@ FEATURES             Location/Qualifiers
                      /transl_table=11
      gene            complement(49633..49681)
                      /gene="psbG"
-     CDS             complement(49633..49681)
-                     /gene="psbG"
-                     /product="PsbG; Photosystem II G protein"
-                     /transl_table=11
+                     /pseudo=""
      gene            complement(49672..50034)
                      /gene="ndhC"
      CDS             complement(49672..50034)
@@ -556,12 +553,7 @@ FEATURES             Location/Qualifiers
                      /transl_table=11
      gene            56801..57093
                      /gene="accD"
-     CDS             56801..57093
-                     /gene="accD"
-                     /product="Acetyl-coenzyme A carboxylase carboxyl
-                     transferase subunit beta, chloroplastic; ACCase subunit
-                     beta; Acetyl-CoA carboxylase carboxyltransferase subunit
-                     beta; AccD"
+                     /pseudogene="unknown"
                      /transl_table=11
      gene            57221..57331
                      /gene="psaI"
@@ -686,11 +678,11 @@ FEATURES             Location/Qualifiers
                      AHRDRDRQKINFRRLWITRINAAIRERGVCYSYSRLINGLYKRQLLLNRKILAQIAISN
                      RNCLYMISNEIIKEVSWKESTG"
                      /transl_table=11
-     gene            complement(join(67399..67512,136034..136826))
+     gene            join(complement(67399..67512),136034..136826)
                      /gene="rps12"
                      /trans_splicing=""
-     CDS             complement(join(67399..67512,136034..136264,
-                     136800..136826))
+     CDS             join(complement(67399..67512),136034..136264,
+                     136800..136826)
                      /gene="rps12"
                      /product="ribosomal protein S12"
                      /translation="MPTIKQLIRNTRQPIRNVTKSPALRGCPQRRGTCTRVYTITPKKP
@@ -1116,13 +1108,7 @@ FEATURES             Location/Qualifiers
      gene            106290..106769
                      /note="ycf1 fragment"
                      /gene="ycf1 fragment"
-     CDS             106290..106769
-                     /product="Ycf1 protein"
-                     /translation="MILKSFLLGNLVSLCMKIINSVVVVGLYYGFLTTFSIGPSYLFLL
-                     RAHVMEEGEEGTEKKVSATTGFITGQLIMFISIYYAPLHLALGRPHTITVLALPYLLFH
-                     FVCNTHKHFFDYGSTNRNSMRNLSIQSLFLNNLIFQLFNHFILPSPMLARLVYIFQ"
-                     /gene="ycf1 fragment"
-                     /transl_table=11
+                     /pseudo=""
      gene            complement(106766..108991)
                      /gene="ndhF"
      CDS             complement(106766..108991)
@@ -1263,12 +1249,8 @@ FEATURES             Location/Qualifiers
                      KKDYLSQRGLRIILGKRQRLLAYLSNKNRARYKELIGRLDIRERKTR"
                      /transl_table=11
      gene            complement(120579..125551)
-                     /gene="ycf1 fragment"
-     CDS             complement(120579..125551)
                      /gene="ycf1"
-                     /product="Putative membrane protein ycf1; RF1; hypothetical
-                     chloroplast RF1 (chloroplast)"
-                     /transl_table=11
+                     /pseudo=""
      repeat_region   125072..150007
                      /note="inverted repeat A (IRA)"
                      /rpt_type=inverted
@@ -1466,12 +1448,7 @@ FEATURES             Location/Qualifiers
                      /number=2
      gene            149953..150007
                      /gene="rps19 fragment"
-     CDS             149953..150007
-                     /gene="rps19-fragment"
-                     /product="Small ribosomal subunit protein uS19c; 30S
-                     ribosomal protein S19, chloroplastic; Ribosomal protein
-                     S19"
-                     /transl_table=11
+                     /pseudo=""
 ORIGIN
         1 aatttgggcg aacgacggga attgaacccg cgcatggtgg attcacaatc cactgccttg
        61 atccacttgg ctacatccgc ccctctacta ttatctagta tttctatatt tttccattaa

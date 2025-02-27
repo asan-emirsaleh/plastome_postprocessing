@@ -1,0 +1,2 @@
+ERROR: valid [SEQ_FEAT.StartCodon] Illegal start codon used. Wrong genetic code [11] or protein should be partial FEATURE: CDS: photosystem II subunit L [lcl|Crepis_purpurea:c62025-61909] [lcl|Crepis_purpurea: raw, dna len= 150007] -> [lcl|Crepis_purpurea_35]
+ERROR: valid [SEQ_INST.BadProteinStart] gap symbol at start of protein sequence (psbL - photosystem II subunit L) BIOSEQ: lcl|Crepis_purpurea_35: raw, aa len= 38
