@@ -498,9 +498,12 @@ FEATURES             Location/Qualifiers
                      DRIMSQRENRCFTTNHKFQVGHSIHTGNYDQGFLYQPTSASEIPPETFFKYKSSVSSPE
                      LVN"
                      /transl_table=11
-     gene            complement(49592..49645)
+     gene            complement(49597..49645)
                      /gene="psbG"
-                     /pseudo=""
+     CDS             complement(49597..49645)
+                     /gene="psbG"
+                     /product="PsbG; Photosystem II G protein"
+                     /transl_table=11
      gene            complement(49636..49998)
                      /gene="ndhC"
      CDS             complement(49636..49998)
@@ -1262,7 +1265,11 @@ FEATURES             Location/Qualifiers
                      /transl_table=11
      gene            complement(120558..125527)
                      /gene="ycf1"
-                     /pseudo=""
+     CDS             complement(120558..125527)
+                     /gene="ycf1"
+                     /product="Putative membrane protein ycf1; RF1; hypothetical
+                     chloroplast RF1 (chloroplast)"
+                     /transl_table=11
      repeat_region   125048..149980
                      /note="inverted repeat A (IRA)"
                      /rpt_type=inverted
@@ -1279,7 +1286,7 @@ FEATURES             Location/Qualifiers
      gene            complement(126749..126870)
                      /gene="rrn5"
      rRNA            complement(126749..126870)
-                     /gene="rrn5"
+                     /gene="rrn5S"
                      /product="5S ribosomal RNA"
      gene            complement(127114..127216)
                      /gene="rrn4.5"

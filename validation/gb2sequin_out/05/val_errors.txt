@@ -1,0 +1,4 @@
+ERROR: valid [SEQ_FEAT.StartCodon] Illegal start codon used. Wrong genetic code [11] or protein should be partial FEATURE: CDS: photosystem II subunit L [lcl|Crepis_callicephala:c61997-61881] [lcl|Crepis_callicephala: raw, dna len= 149980] -> [lcl|Crepis_callicephala_35]
+ERROR: valid [SEQ_FEAT.StartCodon] Illegal start codon used. Wrong genetic code [11] or protein should be partial FEATURE: CDS: NADH dehydrogenase subunit D [lcl|Crepis_callicephala:c113907-112405] [lcl|Crepis_callicephala: raw, dna len= 149980] -> [lcl|Crepis_callicephala_72]
+ERROR: valid [SEQ_INST.BadProteinStart] gap symbol at start of protein sequence (psbL - photosystem II subunit L) BIOSEQ: lcl|Crepis_callicephala_35: raw, aa len= 38
+ERROR: valid [SEQ_INST.BadProteinStart] gap symbol at start of protein sequence (ndhD - NADH dehydrogenase subunit D) BIOSEQ: lcl|Crepis_callicephala_72: raw, aa len= 500
