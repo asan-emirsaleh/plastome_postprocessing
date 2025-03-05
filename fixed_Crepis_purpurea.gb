@@ -1095,7 +1095,7 @@ FEATURES             Location/Qualifiers
      gene            104941..105062
                      /gene="rrn5"
      rRNA            104941..105062
-                     /gene="rrn5S"
+                     /gene="rrn5"
      gene            105317..105391
                      /gene="trnR-ACG"
      tRNA            105317..105391
