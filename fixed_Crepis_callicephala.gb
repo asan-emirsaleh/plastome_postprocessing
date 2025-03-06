@@ -940,7 +940,7 @@ FEATURES             Location/Qualifiers
      gene            complement(83888..83961)
                      /gene="trnM-CAU"
      tRNA            complement(83888..83961)
-                     /gene="trnM"
+                     /gene="trnM-CAU"
                      /product="tRNA-Met"
      gene            84073..90927
                      /gene="ycf2"
@@ -1429,7 +1429,7 @@ FEATURES             Location/Qualifiers
      gene            147834..147908
                      /gene="trnM-CAU"
      tRNA            147834..147908
-                     /gene="trnM"
+                     /gene="trnM-CAU"
                      /product="tRNA-Met"
      gene            148073..148354
                      /gene="rpl23"
