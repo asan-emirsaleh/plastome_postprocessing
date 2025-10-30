@@ -24,15 +24,15 @@ table2asn expects a file of nucleotide sequence data, in FASTA format, with a .f
 
 Other types of data files for this record will have the same base name (sde3), but with different suffixes. For example, a feature table file, in a five-column format described later, would have a .tbl suffix. Running `table2asn -i sde3.fsa` will automatically look for sde3.tbl without needing to explicitly specify it in another argument.
 
-(The .fsa file could also contain a set of concatenated FASTA sequence records, in which case the .tbl file could contain a matching set of concatenated feature tables, as discussed below.)
+(The `.fsa` file could also contain a set of concatenated FASTA sequence records, in which case the .tbl file could contain a matching set of concatenated feature tables, as discussed below.)
 
-Every submission also needs a template file containing contact information (for a person to whom questions about the submission can be addressed) and a submission citation (which lists the authors who get scientific credit for the sequencing). This file is in text ASN.1 format, has a .sbt suffix, and, since its name is not likely to correspond to any sequence record, it is selected with the `-t` argument:
+Every submission also needs a template file containing contact information (for a person to whom questions about the submission can be addressed) and a submission citation (which lists the authors who get scientific credit for the sequencing). This file is in text ASN.1 format, has a `.sbt` suffix, and, since its name is not likely to correspond to any sequence record, it is selected with the `-t` argument:
 
   ```
   table2asn -t sangerLab.sbt -i sde3.fsa
   ```
 
-In addition, information about the biological source is required. This information can be provided via the definition line of the FASTA file, the command line with the -j argument, or a .src file, as described below.
+In addition, information about the biological source is required. This information can be provided via the definition line of the FASTA file, the command line with the `-j` argument, or a `.src` file, as described below.
 
 The output file is in text ASN.1 format, with a .sqn suffix (for Sequin, the predecessor of Genome Workbench) and the same base name, in this case generating sde3.sqn. This output name can be overridden with the `-o` argument, if necessary:
 
@@ -48,7 +48,7 @@ Details about the various input file types are given in the appropriate sections
 
 Nucleotide sequence data without feature annotation can be obtained from FASTA (`.fsa`) files.
 
-Biological features for the sequence can be read from Feature Table (.tbl) and GenBank-specific GFF3 (`.gff`) files.
+Biological features for the sequence can be read from Feature Table (`.tbl`) and GenBank-specific GFF3 (`.gff`) files.
 
 Sequence and feature data can be read in a single step from ASN.1 (.asn or .sqn) files.
 
@@ -78,7 +78,7 @@ The `-E` argument causes recursive exploration of all subdirectories within the 
 
 Output files are placed with the input files, unless overridden with `-outdir`. In this case, when `-M n` or `-V v` or `-Z` is used, the name of the output directory is the basename of the `.stats` and `.dr` files that are generated (those arguments are discussed in more detail below). 
 
-A 5-column feature table or GenBank-specific GFF3 file can be explicitly selected with the -f argument, but not when `-indir` is used.
+A 5-column feature table or GenBank-specific GFF3 file can be explicitly selected with the `-f` argument, but not when `-indir` is used.
 
 Most other command-line customization arguments behave the same whether `-i` or `-indir` is used to select sequence records.
 
