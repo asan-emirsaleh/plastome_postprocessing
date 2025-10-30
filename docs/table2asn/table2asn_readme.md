@@ -34,13 +34,13 @@ Every submission also needs a template file containing contact information (for 
 
 In addition, information about the biological source is required. This information can be provided via the definition line of the FASTA file, the command line with the `-j` argument, or a `.src` file, as described below.
 
-The output file is in text ASN.1 format, with a .sqn suffix (for Sequin, the predecessor of Genome Workbench) and the same base name, in this case generating sde3.sqn. This output name can be overridden with the `-o` argument, if necessary:
+The output file is in text ASN.1 format, with a `.sqn` suffix (for Sequin, the predecessor of Genome Workbench) and the same base name, in this case generating `sde3.sqn`. This output name can be overridden with the `-o` argument, if necessary:
 
   ```
   table2asn -t sangerLab.sbt -i sde3.fsa -o helicase.sqn
   ```
 
-The .sqn file is generally suitable for submission to GenBank. The -binary argument will produce binary ASN.1, if desired.
+The `.sqn` file is generally suitable for submission to GenBank. The -binary argument will produce binary ASN.1, if desired.
 
 ## INPUT FILE TYPES AND SUFFIXES
 
@@ -50,7 +50,7 @@ Nucleotide sequence data without feature annotation can be obtained from FASTA (
 
 Biological features for the sequence can be read from Feature Table (`.tbl`) and GenBank-specific GFF3 (`.gff`) files.
 
-Sequence and feature data can be read in a single step from ASN.1 (.asn or .sqn) files.
+Sequence and feature data can be read in a single step from ASN.1 (`.asn` or `.sqn`) files.
 
 Correction of CDS translation discrepancies (due, for example, to post-transcriptional RNA editing) can be made with sequences in `.pep` files, finding the appropriate CDS feature by matching the protein_id qualifier.
 
@@ -58,7 +58,7 @@ Source qualifiers for sets of related sequences can be stored in Source Table (`
 
 Base calling reliability scores can reside in Quality Score (`.qvl`) files.
 
-The submission information is usually read from a .sbt template file containing a Submit-block object. It can also be obtained, along with sequence and feature data, from an earlier `.sqn` file containing a Seq-submit object, in which case a template file indicated by the -t argument would not be needed.
+The submission information is usually read from a `.sbt` template file containing a Submit-block object. It can also be obtained, along with sequence and feature data, from an earlier `.sqn` file containing a Seq-submit object, in which case a template file indicated by the `-t` argument would not be needed.
 
 ## SUBMISSION TEMPLATE WEB SITE
 
@@ -104,7 +104,7 @@ The FASTA title (definition line) can contain bracketed information about the bi
 
   >sde3n [organism=Arabidopsis thaliana] [ecotype=C24] [chromosome=1] RNA helicase SDE3
 
-[Alternatively, the source information in the same bracketed format can be included with a -j argument in the table2asn command line, as seen in some examples at the end of this document. This strategy is useful when all the sequences in the FASTA file(s) have the same source information.]
+[Alternatively, the source information in the same bracketed format can be included with a `-j` argument in the table2asn command line, as seen in some examples at the end of this document. This strategy is useful when all the sequences in the FASTA file(s) have the same source information.]
 
 Other common elements include [topology=circular] and [location=mitochondrion]. RNA viruses would be indicated by [molecule=rna] and [moltype=genomic]. Many other source qualifiers, such as map, strain, clone, isolate, cell-line, and cultivar, can also be used. See:
 
@@ -355,13 +355,13 @@ Master genomes are indicated by the -M argument, which can take the following le
   n    Normal
   t    TSA (transcriptome shotgun assembly)
 ```
-The `-M n` ("Normal") choice is used for genome submissions and combines flags, replacing "-a s -V v -c f", and also invokes FATAL calls when -Z is included for running the discrepancy report. The -J flag should be added separately.
+The `-M n` ("Normal") choice is used for genome submissions and combines flags, replacing "`-a s -V v -c f`", and also invokes FATAL calls when `-Z` is included for running the discrepancy report. The `-J` flag should be added separately.
 
 The `-j` argument will add source qualifiers. These qualifier values override any conflicting values read from a file.
 
 The `-f` argument will use a particular 5-column feature table or GenBank-specific GFF3 file as annotation input.
 
-The `-Y` argument will use the text in a file, while the -y argument will use the quoted text in the command line, to create a COMMENT.
+The `-Y` argument will use the text in a file, while the `-y` argument will use the quoted text in the command line, to create a COMMENT.
 
 ## GAPPED SEQUENCE ASSEMBLIES
 
