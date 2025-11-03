@@ -1,0 +1,17 @@
+Total messages:		43
+
+=================================================================
+39 WARNING-level messages exist
+
+SEQ_FEAT.CDSgeneRange:	7
+SEQ_FEAT.GeneXrefWithoutGene:	16
+SEQ_FEAT.MissingTrnaAA:	9
+SEQ_FEAT.GeneXrefStrandProblem:	7
+
+=================================================================
+4 ERROR-level messages exist
+
+SEQ_INST.BadProteinStart:	2
+SEQ_FEAT.StartCodon:	2
+
+=================================================================
