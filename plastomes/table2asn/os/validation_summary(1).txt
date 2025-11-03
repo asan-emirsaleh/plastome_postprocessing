@@ -1,0 +1,3 @@
+     1 ERROR:   SEQ_FEAT.NoStop
+     1 WARNING: SEQ_INST.CompleteCircleProblem
+    19 INFO:    SEQ_FEAT.ReplicatedGeneSequence

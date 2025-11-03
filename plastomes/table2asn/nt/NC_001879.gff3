@@ -1,0 +1,449 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_001879.2 1 155943
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4097
+NC_001879.2	RefSeq	region	1	155943	.	+	.	ID=NC_001879.2:1..155943;Dbxref=taxon:4097;Is_circular=true;Name=Pltd;cultivar=Bright Yellow 4;gbkey=Src;genome=plastid;mol_type=genomic DNA
+NC_001879.2	RefSeq	sequence_feature	1	155848	.	-	.	ID=id-NC_001879.2:1..155848;Note=JLA%2C junction IRA-LSC;gbkey=misc_feature
+NC_001879.2	RefSeq	inverted_repeat	1	86686	.	+	.	ID=id-NC_001879.2:1..86686;Note=inverted repeat B;gbkey=repeat_region;rpt_family=IRB;rpt_type=inverted
+NC_001879.2	RefSeq	gene	6	80	.	-	.	ID=gene-NitaCt113;Dbxref=GeneID:800436;Name=trnH;gbkey=Gene;gene=trnH;gene_biotype=tRNA;locus_tag=NitaCt113
+NC_001879.2	RefSeq	tRNA	6	80	.	-	.	ID=rna-NitaCt113;Parent=gene-NitaCt113;Dbxref=GeneID:800436;gbkey=tRNA;gene=trnH;locus_tag=NitaCt113;product=tRNA-His
+NC_001879.2	RefSeq	exon	6	80	.	-	.	ID=exon-NitaCt113-1;Parent=rna-NitaCt113;Dbxref=GeneID:800436;gbkey=tRNA;gene=trnH;locus_tag=NitaCt113;product=tRNA-His
+NC_001879.2	RefSeq	gene	536	1597	.	-	.	ID=gene-NitaCp001;Dbxref=GeneID:800514;Name=psbA;gbkey=Gene;gene=psbA;gene_biotype=protein_coding;locus_tag=NitaCp001
+NC_001879.2	RefSeq	CDS	536	1597	.	-	0	ID=cds-NP_054477.1;Parent=gene-NitaCp001;Dbxref=UniProtKB/Swiss-Prot:P04848,GenBank:NP_054477.1,GeneID:800514;Name=NP_054477.1;gbkey=CDS;gene=psbA;locus_tag=NitaCp001;product=photosystem II protein D1;protein_id=NP_054477.1;transl_table=11
+NC_001879.2	RefSeq	gene	1812	4409	.	-	.	ID=gene-NitaCt114;Dbxref=GeneID:800467;Name=trnK;gbkey=Gene;gene=trnK;gene_biotype=tRNA;locus_tag=NitaCt114
+NC_001879.2	RefSeq	tRNA	1812	4409	.	-	.	ID=rna-NitaCt114;Parent=gene-NitaCt114;Dbxref=GeneID:800467;gbkey=tRNA;gene=trnK;locus_tag=NitaCt114;product=tRNA-Lys
+NC_001879.2	RefSeq	exon	4373	4409	.	-	.	ID=exon-NitaCt114-1;Parent=rna-NitaCt114;Dbxref=GeneID:800467;gbkey=tRNA;gene=trnK;locus_tag=NitaCt114;product=tRNA-Lys
+NC_001879.2	RefSeq	exon	1812	1846	.	-	.	ID=exon-NitaCt114-2;Parent=rna-NitaCt114;Dbxref=GeneID:800467;gbkey=tRNA;gene=trnK;locus_tag=NitaCt114;product=tRNA-Lys
+NC_001879.2	RefSeq	exon	1812	1846	.	-	.	ID=id-NitaCt114-2;Parent=gene-NitaCt114;Dbxref=GeneID:800467;exon_number=2;gbkey=exon;gene=trnK;locus_tag=NitaCt114;number=2
+NC_001879.2	RefSeq	exon	4373	4409	.	-	.	ID=id-NitaCt114-1;Parent=gene-NitaCt114;Dbxref=GeneID:800467;exon_number=1;gbkey=exon;gene=trnK;locus_tag=NitaCt114;number=1
+NC_001879.2	RefSeq	gene	2131	3660	.	-	.	ID=gene-NitaCp002;Dbxref=GeneID:800495;Name=matK;gbkey=Gene;gene=matK;gene_biotype=protein_coding;locus_tag=NitaCp002
+NC_001879.2	RefSeq	CDS	2131	3660	.	-	0	ID=cds-NP_054478.1;Parent=gene-NitaCp002;Dbxref=UniProtKB/Swiss-Prot:P12176,GenBank:NP_054478.1,GeneID:800495;Name=NP_054478.1;gbkey=CDS;gene=matK;locus_tag=NitaCp002;product=maturase K;protein_id=NP_054478.1;transl_table=11
+NC_001879.2	RefSeq	gene	5097	6214	.	-	.	ID=gene-NitaCp003;Dbxref=GeneID:800493;Name=rps16;gbkey=Gene;gene=rps16;gene_biotype=protein_coding;locus_tag=NitaCp003
+NC_001879.2	RefSeq	CDS	6175	6214	.	-	0	ID=cds-NP_054479.1;Parent=gene-NitaCp003;Dbxref=UniProtKB/Swiss-Prot:P06374,GenBank:NP_054479.1,GeneID:800493;Name=NP_054479.1;gbkey=CDS;gene=rps16;locus_tag=NitaCp003;product=ribosomal protein S16;protein_id=NP_054479.1;transl_table=11
+NC_001879.2	RefSeq	CDS	5097	5314	.	-	2	ID=cds-NP_054479.1;Parent=gene-NitaCp003;Dbxref=UniProtKB/Swiss-Prot:P06374,GenBank:NP_054479.1,GeneID:800493;Name=NP_054479.1;gbkey=CDS;gene=rps16;locus_tag=NitaCp003;product=ribosomal protein S16;protein_id=NP_054479.1;transl_table=11
+NC_001879.2	RefSeq	exon	5097	5314	.	-	.	ID=id-NitaCp003-2;Parent=gene-NitaCp003;Dbxref=GeneID:800493;exon_number=2;gbkey=exon;gene=rps16;locus_tag=NitaCp003;number=2
+NC_001879.2	RefSeq	exon	6175	6214	.	-	.	ID=id-NitaCp003-1;Parent=gene-NitaCp003;Dbxref=GeneID:800493;exon_number=1;gbkey=exon;gene=rps16;locus_tag=NitaCp003;number=1
+NC_001879.2	RefSeq	intron	5315	6174	.	-	.	ID=id-NitaCp003;Parent=gene-NitaCp003;Dbxref=GeneID:800493;exon_number=1;gbkey=intron;gene=rps16;locus_tag=NitaCp003;number=1
+NC_001879.2	RefSeq	gene	7420	7491	.	-	.	ID=gene-NitaCt115;Dbxref=GeneID:800507;Name=trnQ;gbkey=Gene;gene=trnQ;gene_biotype=tRNA;locus_tag=NitaCt115
+NC_001879.2	RefSeq	tRNA	7420	7491	.	-	.	ID=rna-NitaCt115;Parent=gene-NitaCt115;Dbxref=GeneID:800507;gbkey=tRNA;gene=trnQ;locus_tag=NitaCt115;product=tRNA-Gln
+NC_001879.2	RefSeq	exon	7420	7491	.	-	.	ID=exon-NitaCt115-1;Parent=rna-NitaCt115;Dbxref=GeneID:800507;gbkey=tRNA;gene=trnQ;locus_tag=NitaCt115;product=tRNA-Gln
+NC_001879.2	RefSeq	gene	7839	8024	.	+	.	ID=gene-NitaCp004;Dbxref=GeneID:1466293;Name=psbK;gbkey=Gene;gene=psbK;gene_biotype=protein_coding;locus_tag=NitaCp004
+NC_001879.2	RefSeq	CDS	7839	8024	.	+	0	ID=cds-NP_054480.1;Parent=gene-NitaCp004;Dbxref=UniProtKB/Swiss-Prot:P12164,GenBank:NP_054480.1,GeneID:1466293;Name=NP_054480.1;Note=ORF98;gbkey=CDS;gene=psbK;locus_tag=NitaCp004;product=photosystem II protein K;protein_id=NP_054480.1;transl_table=11
+NC_001879.2	RefSeq	gene	8357	8512	.	+	.	ID=gene-NitaCp150;Dbxref=GeneID:7564683;Name=psbI;gbkey=Gene;gene=psbI;gene_biotype=protein_coding;locus_tag=NitaCp150
+NC_001879.2	RefSeq	CDS	8357	8512	.	+	0	ID=cds-YP_002720022.1;Parent=gene-NitaCp150;Dbxref=GenBank:YP_002720022.1,GeneID:7564683;Name=YP_002720022.1;gbkey=CDS;gene=psbI;locus_tag=NitaCp150;product=photosystem II protein I;protein_id=YP_002720022.1;transl_table=11
+NC_001879.2	RefSeq	gene	8636	8723	.	-	.	ID=gene-NitaCt116;Dbxref=GeneID:800499;Name=trnS;gbkey=Gene;gene=trnS;gene_biotype=tRNA;locus_tag=NitaCt116
+NC_001879.2	RefSeq	tRNA	8636	8723	.	-	.	ID=rna-NitaCt116;Parent=gene-NitaCt116;Dbxref=GeneID:800499;gbkey=tRNA;gene=trnS;locus_tag=NitaCt116;product=tRNA-Ser
+NC_001879.2	RefSeq	exon	8636	8723	.	-	.	ID=exon-NitaCt116-1;Parent=rna-NitaCt116;Dbxref=GeneID:800499;gbkey=tRNA;gene=trnS;locus_tag=NitaCt116;product=tRNA-Ser
+NC_001879.2	RefSeq	gene	9503	10265	.	+	.	ID=gene-NitaCt117;Dbxref=GeneID:800505;Name=trnG;gbkey=Gene;gene=trnG;gene_biotype=tRNA;locus_tag=NitaCt117
+NC_001879.2	RefSeq	tRNA	9503	10265	.	+	.	ID=rna-NitaCt117;Parent=gene-NitaCt117;Dbxref=GeneID:800505;gbkey=tRNA;gene=trnG;locus_tag=NitaCt117;product=tRNA-Gly
+NC_001879.2	RefSeq	exon	9503	9525	.	+	.	ID=exon-NitaCt117-1;Parent=rna-NitaCt117;Dbxref=GeneID:800505;gbkey=tRNA;gene=trnG;locus_tag=NitaCt117;product=tRNA-Gly
+NC_001879.2	RefSeq	exon	10218	10265	.	+	.	ID=exon-NitaCt117-2;Parent=rna-NitaCt117;Dbxref=GeneID:800505;gbkey=tRNA;gene=trnG;locus_tag=NitaCt117;product=tRNA-Gly
+NC_001879.2	RefSeq	exon	9503	9525	.	+	.	ID=id-NitaCt117-2;Parent=gene-NitaCt117;Dbxref=GeneID:800505;exon_number=2;gbkey=exon;gene=trnG;locus_tag=NitaCt117;number=2
+NC_001879.2	RefSeq	exon	10218	10265	.	+	.	ID=id-NitaCt117-1;Parent=gene-NitaCt117;Dbxref=GeneID:800505;exon_number=1;gbkey=exon;gene=trnG;locus_tag=NitaCt117;number=1
+NC_001879.2	RefSeq	gene	10435	10506	.	+	.	ID=gene-NitaCt118;Dbxref=GeneID:800504;Name=trnR;gbkey=Gene;gene=trnR;gene_biotype=tRNA;locus_tag=NitaCt118
+NC_001879.2	RefSeq	tRNA	10435	10506	.	+	.	ID=rna-NitaCt118;Parent=gene-NitaCt118;Dbxref=GeneID:800504;gbkey=tRNA;gene=trnR;locus_tag=NitaCt118;product=tRNA-Arg
+NC_001879.2	RefSeq	exon	10435	10506	.	+	.	ID=exon-NitaCt118-1;Parent=rna-NitaCt118;Dbxref=GeneID:800504;gbkey=tRNA;gene=trnR;locus_tag=NitaCt118;product=tRNA-Arg
+NC_001879.2	RefSeq	gene	10630	12153	.	-	.	ID=gene-NitaCp005;Dbxref=GeneID:800492;Name=atpA;gbkey=Gene;gene=atpA;gene_biotype=protein_coding;locus_tag=NitaCp005
+NC_001879.2	RefSeq	CDS	10630	12153	.	-	0	ID=cds-NP_054481.2;Parent=gene-NitaCp005;Dbxref=UniProtKB/Swiss-Prot:P00823,GenBank:NP_054481.2,GeneID:800492;Name=NP_054481.2;Note=ATPase alpha subunit;gbkey=CDS;gene=atpA;locus_tag=NitaCp005;product=ATP synthase CF1 alpha subunit;protein_id=NP_054481.2;transl_table=11
+NC_001879.2	RefSeq	gene	12208	13457	.	-	.	ID=gene-NitaCp006;Dbxref=GeneID:800473;Name=atpF;gbkey=Gene;gene=atpF;gene_biotype=protein_coding;locus_tag=NitaCp006
+NC_001879.2	RefSeq	CDS	13313	13457	.	-	0	ID=cds-NP_054482.2;Parent=gene-NitaCp006;Dbxref=UniProtKB/Swiss-Prot:P06290,GenBank:NP_054482.2,GeneID:800473;Name=NP_054482.2;gbkey=CDS;gene=atpF;locus_tag=NitaCp006;product=ATP synthase CF0 B subunit;protein_id=NP_054482.2;transl_table=11
+NC_001879.2	RefSeq	CDS	12208	12617	.	-	2	ID=cds-NP_054482.2;Parent=gene-NitaCp006;Dbxref=UniProtKB/Swiss-Prot:P06290,GenBank:NP_054482.2,GeneID:800473;Name=NP_054482.2;gbkey=CDS;gene=atpF;locus_tag=NitaCp006;product=ATP synthase CF0 B subunit;protein_id=NP_054482.2;transl_table=11
+NC_001879.2	RefSeq	exon	12208	12617	.	-	.	ID=id-NitaCp006-2;Parent=gene-NitaCp006;Dbxref=GeneID:800473;exon_number=2;gbkey=exon;gene=atpF;locus_tag=NitaCp006;number=2
+NC_001879.2	RefSeq	exon	13313	13457	.	-	.	ID=id-NitaCp006-1;Parent=gene-NitaCp006;Dbxref=GeneID:800473;exon_number=1;gbkey=exon;gene=atpF;locus_tag=NitaCp006;number=1
+NC_001879.2	RefSeq	intron	12618	13312	.	-	.	ID=id-NitaCp006;Parent=gene-NitaCp006;Dbxref=GeneID:800473;exon_number=1;gbkey=intron;gene=atpF;locus_tag=NitaCp006;number=1
+NC_001879.2	RefSeq	gene	13859	14104	.	-	.	ID=gene-NitaCp007;Dbxref=GeneID:800475;Name=atpH;gbkey=Gene;gene=atpH;gene_biotype=protein_coding;locus_tag=NitaCp007
+NC_001879.2	RefSeq	CDS	13859	14104	.	-	0	ID=cds-NP_054483.1;Parent=gene-NitaCp007;Dbxref=UniProtKB/Swiss-Prot:P06286,GenBank:NP_054483.1,GeneID:800475;Name=NP_054483.1;Note=ATP synthase CF0 C chain;gbkey=CDS;gene=atpH;locus_tag=NitaCp007;product=ATP synthase CF0 C subunit;protein_id=NP_054483.1;transl_table=11
+NC_001879.2	RefSeq	sequence_feature	14575	15093	.	+	.	ID=id-NC_001879.2:14575..15093;Note=ars2;gbkey=misc_feature
+NC_001879.2	RefSeq	gene	15262	16005	.	-	.	ID=gene-NitaCp008;Dbxref=GeneID:800497;Name=atpI;gbkey=Gene;gene=atpI;gene_biotype=protein_coding;locus_tag=NitaCp008
+NC_001879.2	RefSeq	CDS	15262	16005	.	-	0	ID=cds-NP_054484.1;Parent=gene-NitaCp008;Dbxref=UniProtKB/Swiss-Prot:P06288,GenBank:NP_054484.1,GeneID:800497;Name=NP_054484.1;Note=ATP synthase CF0 A chain;gbkey=CDS;gene=atpI;locus_tag=NitaCp008;product=ATP synthase CF0 A subunit;protein_id=NP_054484.1;transl_table=11
+NC_001879.2	RefSeq	gene	16232	16942	.	-	.	ID=gene-NitaCp009;Dbxref=GeneID:800455;Name=rps2;gbkey=Gene;gene=rps2;gene_biotype=protein_coding;locus_tag=NitaCp009
+NC_001879.2	RefSeq	CDS	16232	16942	.	-	0	ID=cds-NP_054485.1;Parent=gene-NitaCp009;Dbxref=UniProtKB/Swiss-Prot:P06355,GenBank:NP_054485.1,GeneID:800455;Name=NP_054485.1;gbkey=CDS;gene=rps2;locus_tag=NitaCp009;product=ribosomal protein S2;protein_id=NP_054485.1;transl_table=11
+NC_001879.2	RefSeq	gene	17170	21336	.	-	.	ID=gene-NitaCp010;Dbxref=GeneID:800532;Name=rpoC2;gbkey=Gene;gene=rpoC2;gene_biotype=protein_coding;locus_tag=NitaCp010
+NC_001879.2	RefSeq	CDS	17170	21336	.	-	0	ID=cds-NP_054486.2;Parent=gene-NitaCp010;Dbxref=UniProtKB/Swiss-Prot:P38550,GenBank:NP_054486.2,GeneID:800532;Name=NP_054486.2;Note=one of four subunits of the minimal PEP RNA polymerase catalytic core;gbkey=CDS;gene=rpoC2;locus_tag=NitaCp010;product=RNA polymerase beta'' subunit;protein_id=NP_054486.2;transl_table=11
+NC_001879.2	RefSeq	gene	21495	24298	.	-	.	ID=gene-NitaCp011;Dbxref=GeneID:800521;Name=rpoC1;gbkey=Gene;gene=rpoC1;gene_biotype=protein_coding;locus_tag=NitaCp011
+NC_001879.2	RefSeq	CDS	23846	24298	.	-	0	ID=cds-NP_054487.1;Parent=gene-NitaCp011;Dbxref=UniProtKB/Swiss-Prot:P12116,GenBank:NP_054487.1,GeneID:800521;Name=NP_054487.1;gbkey=CDS;gene=rpoC1;locus_tag=NitaCp011;product=RNA polymerase beta' subunit;protein_id=NP_054487.1;transl_table=11
+NC_001879.2	RefSeq	CDS	21495	23108	.	-	0	ID=cds-NP_054487.1;Parent=gene-NitaCp011;Dbxref=UniProtKB/Swiss-Prot:P12116,GenBank:NP_054487.1,GeneID:800521;Name=NP_054487.1;gbkey=CDS;gene=rpoC1;locus_tag=NitaCp011;product=RNA polymerase beta' subunit;protein_id=NP_054487.1;transl_table=11
+NC_001879.2	RefSeq	exon	21495	23108	.	-	.	ID=id-NitaCp011-2;Parent=gene-NitaCp011;Dbxref=GeneID:800521;exon_number=2;gbkey=exon;gene=rpoC1;locus_tag=NitaCp011;number=2
+NC_001879.2	RefSeq	exon	23846	24298	.	-	.	ID=id-NitaCp011-1;Parent=gene-NitaCp011;Dbxref=GeneID:800521;exon_number=1;gbkey=exon;gene=rpoC1;locus_tag=NitaCp011;number=1
+NC_001879.2	RefSeq	intron	23109	23845	.	-	.	ID=id-NitaCp011;Parent=gene-NitaCp011;Dbxref=GeneID:800521;exon_number=1;gbkey=intron;gene=rpoC1;locus_tag=NitaCp011;number=1
+NC_001879.2	RefSeq	gene	24304	27516	.	-	.	ID=gene-NitaCp012;Dbxref=GeneID:800449;Name=rpoB;gbkey=Gene;gene=rpoB;gene_biotype=protein_coding;locus_tag=NitaCp012
+NC_001879.2	RefSeq	CDS	24304	27516	.	-	0	ID=cds-NP_054488.1;Parent=gene-NitaCp012;Dbxref=UniProtKB/Swiss-Prot:P06271,GenBank:NP_054488.1,GeneID:800449;Name=NP_054488.1;Note=one of four subunits of the minimal PEP RNA polymerase catalytic core;gbkey=CDS;gene=rpoB;locus_tag=NitaCp012;product=RNA polymerase beta subunit;protein_id=NP_054488.1;transl_table=11
+NC_001879.2	RefSeq	gene	28801	28872	.	+	.	ID=gene-NitaCt119;Dbxref=GeneID:800530;Name=trnC;gbkey=Gene;gene=trnC;gene_biotype=tRNA;locus_tag=NitaCt119
+NC_001879.2	RefSeq	tRNA	28801	28872	.	+	.	ID=rna-NitaCt119;Parent=gene-NitaCt119;Dbxref=GeneID:800530;gbkey=tRNA;gene=trnC;locus_tag=NitaCt119;product=tRNA-Cys
+NC_001879.2	RefSeq	exon	28801	28872	.	+	.	ID=exon-NitaCt119-1;Parent=rna-NitaCt119;Dbxref=GeneID:800530;gbkey=tRNA;gene=trnC;locus_tag=NitaCt119;product=tRNA-Cys
+NC_001879.2	RefSeq	gene	29543	29632	.	+	.	ID=gene-NitaCp013;Dbxref=GeneID:800464;Name=petN;gbkey=Gene;gene=petN;gene_biotype=protein_coding;gene_synonym=ycf6;locus_tag=NitaCp013
+NC_001879.2	RefSeq	CDS	29543	29632	.	+	0	ID=cds-NP_054489.1;Parent=gene-NitaCp013;Dbxref=UniProtKB/Swiss-Prot:P12178,GenBank:NP_054489.1,GeneID:800464;Name=NP_054489.1;gbkey=CDS;gene=petN;locus_tag=NitaCp013;product=cytochrome b6/f complex subunit VIII;protein_id=NP_054489.1;transl_table=11
+NC_001879.2	RefSeq	gene	30765	30869	.	-	.	ID=gene-NitaCp014;Dbxref=GeneID:800459;Name=psbM;gbkey=Gene;gene=psbM;gene_biotype=protein_coding;locus_tag=NitaCp014
+NC_001879.2	RefSeq	CDS	30765	30869	.	-	0	ID=cds-NP_054490.1;Parent=gene-NitaCp014;Dbxref=UniProtKB/Swiss-Prot:P12169,GenBank:NP_054490.1,GeneID:800459;Name=NP_054490.1;gbkey=CDS;gene=psbM;locus_tag=NitaCp014;product=photosystem II protein M;protein_id=NP_054490.1;transl_table=11
+NC_001879.2	RefSeq	gene	31940	32013	.	-	.	ID=gene-NitaCt121;Dbxref=GeneID:800518;Name=trnD;gbkey=Gene;gene=trnD;gene_biotype=tRNA;locus_tag=NitaCt121
+NC_001879.2	RefSeq	tRNA	31940	32013	.	-	.	ID=rna-NitaCt121;Parent=gene-NitaCt121;Dbxref=GeneID:800518;gbkey=tRNA;gene=trnD;locus_tag=NitaCt121;product=tRNA-Asp
+NC_001879.2	RefSeq	exon	31940	32013	.	-	.	ID=exon-NitaCt121-1;Parent=rna-NitaCt121;Dbxref=GeneID:800518;gbkey=tRNA;gene=trnD;locus_tag=NitaCt121;product=tRNA-Asp
+NC_001879.2	RefSeq	gene	32122	32205	.	-	.	ID=gene-NitaCt122;Dbxref=GeneID:800477;Name=trnY;gbkey=Gene;gene=trnY;gene_biotype=tRNA;locus_tag=NitaCt122
+NC_001879.2	RefSeq	tRNA	32122	32205	.	-	.	ID=rna-NitaCt122;Parent=gene-NitaCt122;Dbxref=GeneID:800477;gbkey=tRNA;gene=trnY;locus_tag=NitaCt122;product=tRNA-Tyr
+NC_001879.2	RefSeq	exon	32122	32205	.	-	.	ID=exon-NitaCt122-1;Parent=rna-NitaCt122;Dbxref=GeneID:800477;gbkey=tRNA;gene=trnY;locus_tag=NitaCt122;product=tRNA-Tyr
+NC_001879.2	RefSeq	gene	32265	32337	.	-	.	ID=gene-NitaCt120;Dbxref=GeneID:800519;Name=trnE;gbkey=Gene;gene=trnE;gene_biotype=tRNA;locus_tag=NitaCt120
+NC_001879.2	RefSeq	tRNA	32265	32337	.	-	.	ID=rna-NitaCt120;Parent=gene-NitaCt120;Dbxref=GeneID:800519;gbkey=tRNA;gene=trnE;locus_tag=NitaCt120;product=tRNA-Glu
+NC_001879.2	RefSeq	exon	32265	32337	.	-	.	ID=exon-NitaCt120-1;Parent=rna-NitaCt120;Dbxref=GeneID:800519;gbkey=tRNA;gene=trnE;locus_tag=NitaCt120;product=tRNA-Glu
+NC_001879.2	RefSeq	gene	33186	33257	.	+	.	ID=gene-NitaCt123;Dbxref=GeneID:800481;Name=trnT;gbkey=Gene;gene=trnT;gene_biotype=tRNA;locus_tag=NitaCt123
+NC_001879.2	RefSeq	tRNA	33186	33257	.	+	.	ID=rna-NitaCt123;Parent=gene-NitaCt123;Dbxref=GeneID:800481;gbkey=tRNA;gene=trnT;locus_tag=NitaCt123;product=tRNA-Thr
+NC_001879.2	RefSeq	exon	33186	33257	.	+	.	ID=exon-NitaCt123-1;Parent=rna-NitaCt123;Dbxref=GeneID:800481;gbkey=tRNA;gene=trnT;locus_tag=NitaCt123;product=tRNA-Thr
+NC_001879.2	RefSeq	gene	34475	35536	.	+	.	ID=gene-NitaCp015;Dbxref=GeneID:800525;Name=psbD;gbkey=Gene;gene=psbD;gene_biotype=protein_coding;locus_tag=NitaCp015
+NC_001879.2	RefSeq	CDS	34475	35536	.	+	0	ID=cds-NP_054491.1;Parent=gene-NitaCp015;Dbxref=UniProtKB/Swiss-Prot:P06403,GenBank:NP_054491.1,GeneID:800525;Name=NP_054491.1;gbkey=CDS;gene=psbD;locus_tag=NitaCp015;product=photosystem II protein D2;protein_id=NP_054491.1;transl_table=11
+NC_001879.2	RefSeq	gene	35520	36905	.	+	.	ID=gene-NitaCp016;Dbxref=GeneID:800516;Name=psbC;gbkey=Gene;gene=psbC;gene_biotype=protein_coding;locus_tag=NitaCp016
+NC_001879.2	RefSeq	CDS	35520	36905	.	+	0	ID=cds-NP_054492.2;Parent=gene-NitaCp016;Dbxref=UniProtKB/Swiss-Prot:P06413,GenBank:NP_054492.2,GeneID:800516;Name=NP_054492.2;Note=CP43;gbkey=CDS;gene=psbC;locus_tag=NitaCp016;product=photosystem II 44 kDa protein;protein_id=NP_054492.2;transl_table=11
+NC_001879.2	RefSeq	gene	37145	37236	.	-	.	ID=gene-NitaCt124;Dbxref=GeneID:800529;Name=trnS;gbkey=Gene;gene=trnS;gene_biotype=tRNA;locus_tag=NitaCt124
+NC_001879.2	RefSeq	tRNA	37145	37236	.	-	.	ID=rna-NitaCt124;Parent=gene-NitaCt124;Dbxref=GeneID:800529;gbkey=tRNA;gene=trnS;locus_tag=NitaCt124;product=tRNA-Ser
+NC_001879.2	RefSeq	exon	37145	37236	.	-	.	ID=exon-NitaCt124-1;Parent=rna-NitaCt124;Dbxref=GeneID:800529;gbkey=tRNA;gene=trnS;locus_tag=NitaCt124;product=tRNA-Ser
+NC_001879.2	RefSeq	gene	37254	37571	.	-	.	ID=gene-NitaCp017;Dbxref=GeneID:1466294;Name=NitaCp017;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NitaCp017
+NC_001879.2	RefSeq	CDS	37254	37571	.	-	0	ID=cds-NP_054493.1;Parent=gene-NitaCp017;Dbxref=UniProtKB/TrEMBL:Q32712,GenBank:NP_054493.1,GeneID:1466294;Name=NP_054493.1;Note=ORF105;gbkey=CDS;locus_tag=NitaCp017;product=hypothetical protein;protein_id=NP_054493.1;transl_table=11
+NC_001879.2	RefSeq	gene	37599	37787	.	+	.	ID=gene-NitaCp018;Dbxref=GeneID:800480;Name=psbZ;gbkey=Gene;gene=psbZ;gene_biotype=protein_coding;locus_tag=NitaCp018
+NC_001879.2	RefSeq	CDS	37599	37787	.	+	0	ID=cds-NP_054494.1;Parent=gene-NitaCp018;Dbxref=UniProtKB/Swiss-Prot:P09974,GenBank:NP_054494.1,GeneID:800480;Name=NP_054494.1;Note=YCF9;gbkey=CDS;gene=psbZ;locus_tag=NitaCp018;product=photosystem II protein Z;protein_id=NP_054494.1;transl_table=11
+NC_001879.2	RefSeq	gene	38063	38133	.	+	.	ID=gene-NitaCt125;Dbxref=GeneID:800427;Name=trnG;gbkey=Gene;gene=trnG;gene_biotype=tRNA;locus_tag=NitaCt125
+NC_001879.2	RefSeq	tRNA	38063	38133	.	+	.	ID=rna-NitaCt125;Parent=gene-NitaCt125;Dbxref=GeneID:800427;gbkey=tRNA;gene=trnG;locus_tag=NitaCt125;product=tRNA-Gly
+NC_001879.2	RefSeq	exon	38063	38133	.	+	.	ID=exon-NitaCt125-1;Parent=rna-NitaCt125;Dbxref=GeneID:800427;gbkey=tRNA;gene=trnG;locus_tag=NitaCt125;product=tRNA-Gly
+NC_001879.2	RefSeq	gene	38361	38434	.	-	.	ID=gene-NitaCt126;Dbxref=GeneID:800479;Name=trnfM;gbkey=Gene;gene=trnfM;gene_biotype=tRNA;locus_tag=NitaCt126
+NC_001879.2	RefSeq	tRNA	38361	38434	.	-	.	ID=rna-NitaCt126;Parent=gene-NitaCt126;Dbxref=GeneID:800479;Note=fMet;gbkey=tRNA;gene=trnfM;locus_tag=NitaCt126;product=tRNA-Met
+NC_001879.2	RefSeq	exon	38361	38434	.	-	.	ID=exon-NitaCt126-1;Parent=rna-NitaCt126;Dbxref=GeneID:800479;Note=fMet;gbkey=tRNA;gene=trnfM;locus_tag=NitaCt126;product=tRNA-Met
+NC_001879.2	RefSeq	gene	38584	38886	.	-	.	ID=gene-NitaCp020;Dbxref=GeneID:800488;Name=rps14;gbkey=Gene;gene=rps14;gene_biotype=protein_coding;locus_tag=NitaCp020
+NC_001879.2	RefSeq	CDS	38584	38886	.	-	0	ID=cds-NP_054495.1;Parent=gene-NitaCp020;Dbxref=UniProtKB/Swiss-Prot:P06371,GenBank:NP_054495.1,GeneID:800488;Name=NP_054495.1;gbkey=CDS;gene=rps14;locus_tag=NitaCp020;product=ribosomal protein S14;protein_id=NP_054495.1;transl_table=11
+NC_001879.2	RefSeq	gene	39009	41213	.	-	.	ID=gene-NitaCp021;Dbxref=GeneID:800418;Name=psaB;gbkey=Gene;gene=psaB;gene_biotype=protein_coding;locus_tag=NitaCp021
+NC_001879.2	RefSeq	CDS	39009	41213	.	-	0	ID=cds-NP_054496.1;Parent=gene-NitaCp021;Dbxref=UniProtKB/Swiss-Prot:P06407,GenBank:NP_054496.1,GeneID:800418;Name=NP_054496.1;Note=PsaB;gbkey=CDS;gene=psaB;locus_tag=NitaCp021;product=photosystem I P700 chlorophyll a apoprotein A2;protein_id=NP_054496.1;transl_table=11
+NC_001879.2	RefSeq	gene	41239	43491	.	-	.	ID=gene-NitaCp019;Dbxref=GeneID:800453;Name=psaA;gbkey=Gene;gene=psaA;gene_biotype=protein_coding;locus_tag=NitaCp019
+NC_001879.2	RefSeq	CDS	41239	43491	.	-	0	ID=cds-NP_054497.2;Parent=gene-NitaCp019;Dbxref=UniProtKB/Swiss-Prot:P06405,GenBank:NP_054497.2,GeneID:800453;Name=NP_054497.2;Note=PsaA;gbkey=CDS;gene=psaA;locus_tag=NitaCp019;product=photosystem I P700 chlorophyll a apoprotein A1;protein_id=NP_054497.2;transl_table=11
+NC_001879.2	RefSeq	gene	44244	46271	.	-	.	ID=gene-NitaCp022;Dbxref=GeneID:800437;Name=ycf3;gbkey=Gene;gene=ycf3;gene_biotype=protein_coding;locus_tag=NitaCp022
+NC_001879.2	RefSeq	CDS	46148	46271	.	-	0	ID=cds-NP_054498.1;Parent=gene-NitaCp022;Dbxref=UniProtKB/Swiss-Prot:P12204,GenBank:NP_054498.1,GeneID:800437;Name=NP_054498.1;gbkey=CDS;gene=ycf3;locus_tag=NitaCp022;product=photosystem I assembly protein Ycf3;protein_id=NP_054498.1;transl_table=11
+NC_001879.2	RefSeq	CDS	45180	45409	.	-	2	ID=cds-NP_054498.1;Parent=gene-NitaCp022;Dbxref=UniProtKB/Swiss-Prot:P12204,GenBank:NP_054498.1,GeneID:800437;Name=NP_054498.1;gbkey=CDS;gene=ycf3;locus_tag=NitaCp022;product=photosystem I assembly protein Ycf3;protein_id=NP_054498.1;transl_table=11
+NC_001879.2	RefSeq	CDS	44244	44396	.	-	0	ID=cds-NP_054498.1;Parent=gene-NitaCp022;Dbxref=UniProtKB/Swiss-Prot:P12204,GenBank:NP_054498.1,GeneID:800437;Name=NP_054498.1;gbkey=CDS;gene=ycf3;locus_tag=NitaCp022;product=photosystem I assembly protein Ycf3;protein_id=NP_054498.1;transl_table=11
+NC_001879.2	RefSeq	exon	44244	44396	.	-	.	ID=id-NitaCp022-3;Parent=gene-NitaCp022;Dbxref=GeneID:800437;exon_number=3;gbkey=exon;gene=ycf3;locus_tag=NitaCp022;number=3
+NC_001879.2	RefSeq	exon	45180	45409	.	-	.	ID=id-NitaCp022-2;Parent=gene-NitaCp022;Dbxref=GeneID:800437;exon_number=2;gbkey=exon;gene=ycf3;locus_tag=NitaCp022;number=2
+NC_001879.2	RefSeq	exon	46148	46271	.	-	.	ID=id-NitaCp022-1;Parent=gene-NitaCp022;Dbxref=GeneID:800437;exon_number=1;gbkey=exon;gene=ycf3;locus_tag=NitaCp022;number=1
+NC_001879.2	RefSeq	intron	44397	45179	.	-	.	ID=id-NitaCp022;Parent=gene-NitaCp022;Dbxref=GeneID:800437;exon_number=2;gbkey=intron;gene=ycf3;locus_tag=NitaCp022;number=2
+NC_001879.2	RefSeq	intron	45410	46147	.	-	.	ID=id-NitaCp022-4;Parent=gene-NitaCp022;Dbxref=GeneID:800437;exon_number=1;gbkey=intron;gene=ycf3;locus_tag=NitaCp022;number=1
+NC_001879.2	RefSeq	gene	46253	46477	.	-	.	ID=gene-NitaCp023;Dbxref=GeneID:1466295;Name=NitaCp023;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NitaCp023
+NC_001879.2	RefSeq	CDS	46253	46477	.	-	0	ID=cds-NP_054499.1;Parent=gene-NitaCp023;Dbxref=UniProtKB/TrEMBL:Q32714,GenBank:NP_054499.1,GeneID:1466295;Name=NP_054499.1;Note=ORF74;gbkey=CDS;locus_tag=NitaCp023;product=hypothetical protein;protein_id=NP_054499.1;transl_table=11
+NC_001879.2	RefSeq	gene	47126	47204	.	+	.	ID=gene-NitaCt127;Dbxref=GeneID:800500;Name=trnS;gbkey=Gene;gene=trnS;gene_biotype=tRNA;locus_tag=NitaCt127
+NC_001879.2	RefSeq	tRNA	47126	47204	.	+	.	ID=rna-NitaCt127;Parent=gene-NitaCt127;Dbxref=GeneID:800500;gbkey=tRNA;gene=trnS;locus_tag=NitaCt127;product=tRNA-Ser
+NC_001879.2	RefSeq	exon	47126	47204	.	+	.	ID=exon-NitaCt127-1;Parent=rna-NitaCt127;Dbxref=GeneID:800500;gbkey=tRNA;gene=trnS;locus_tag=NitaCt127;product=tRNA-Ser
+NC_001879.2	RefSeq	gene	47543	48148	.	-	.	ID=gene-NitaCp024;Dbxref=GeneID:800429;Name=rps4;gbkey=Gene;gene=rps4;gene_biotype=protein_coding;locus_tag=NitaCp024
+NC_001879.2	RefSeq	CDS	47543	48148	.	-	0	ID=cds-NP_054500.1;Parent=gene-NitaCp024;Dbxref=UniProtKB/Swiss-Prot:P06359,GenBank:NP_054500.1,GeneID:800429;Name=NP_054500.1;gbkey=CDS;gene=rps4;locus_tag=NitaCp024;product=ribosomal protein S4;protein_id=NP_054500.1;transl_table=11
+NC_001879.2	RefSeq	gene	48519	48591	.	-	.	ID=gene-NitaCt128;Dbxref=GeneID:800523;Name=trnT;gbkey=Gene;gene=trnT;gene_biotype=tRNA;locus_tag=NitaCt128
+NC_001879.2	RefSeq	tRNA	48519	48591	.	-	.	ID=rna-NitaCt128;Parent=gene-NitaCt128;Dbxref=GeneID:800523;gbkey=tRNA;gene=trnT;locus_tag=NitaCt128;product=tRNA-Thr
+NC_001879.2	RefSeq	exon	48519	48591	.	-	.	ID=exon-NitaCt128-1;Parent=rna-NitaCt128;Dbxref=GeneID:800523;gbkey=tRNA;gene=trnT;locus_tag=NitaCt128;product=tRNA-Thr
+NC_001879.2	RefSeq	gene	48947	49159	.	+	.	ID=gene-NitaCp025;Dbxref=GeneID:1466296;Name=NitaCp025;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NitaCp025
+NC_001879.2	RefSeq	CDS	48947	49159	.	+	0	ID=cds-NP_054501.1;Parent=gene-NitaCp025;Dbxref=UniProtKB/TrEMBL:Q32715,GenBank:NP_054501.1,GeneID:1466296;Name=NP_054501.1;Note=ORF70A;gbkey=CDS;locus_tag=NitaCp025;product=hypothetical protein;protein_id=NP_054501.1;transl_table=11
+NC_001879.2	RefSeq	gene	49302	49889	.	+	.	ID=gene-NitaCt129;Dbxref=GeneID:800456;Name=trnL;gbkey=Gene;gene=trnL;gene_biotype=tRNA;locus_tag=NitaCt129
+NC_001879.2	RefSeq	tRNA	49302	49889	.	+	.	ID=rna-NitaCt129;Parent=gene-NitaCt129;Dbxref=GeneID:800456;gbkey=tRNA;gene=trnL;locus_tag=NitaCt129;product=tRNA-Leu
+NC_001879.2	RefSeq	exon	49302	49336	.	+	.	ID=exon-NitaCt129-1;Parent=rna-NitaCt129;Dbxref=GeneID:800456;gbkey=tRNA;gene=trnL;locus_tag=NitaCt129;product=tRNA-Leu
+NC_001879.2	RefSeq	exon	49840	49889	.	+	.	ID=exon-NitaCt129-2;Parent=rna-NitaCt129;Dbxref=GeneID:800456;gbkey=tRNA;gene=trnL;locus_tag=NitaCt129;product=tRNA-Leu
+NC_001879.2	RefSeq	exon	49302	49336	.	+	.	ID=id-NitaCt129-1;Parent=gene-NitaCt129;Dbxref=GeneID:800456;exon_number=1;gbkey=exon;gene=trnL;locus_tag=NitaCt129;number=1
+NC_001879.2	RefSeq	exon	49840	49889	.	+	.	ID=id-NitaCt129-2;Parent=gene-NitaCt129;Dbxref=GeneID:800456;exon_number=2;gbkey=exon;gene=trnL;locus_tag=NitaCt129;number=2
+NC_001879.2	RefSeq	gene	50246	50318	.	+	.	ID=gene-NitaCt130;Dbxref=GeneID:800487;Name=trnF;gbkey=Gene;gene=trnF;gene_biotype=tRNA;locus_tag=NitaCt130
+NC_001879.2	RefSeq	tRNA	50246	50318	.	+	.	ID=rna-NitaCt130;Parent=gene-NitaCt130;Dbxref=GeneID:800487;gbkey=tRNA;gene=trnF;locus_tag=NitaCt130;product=tRNA-Phe
+NC_001879.2	RefSeq	exon	50246	50318	.	+	.	ID=exon-NitaCt130-1;Parent=rna-NitaCt130;Dbxref=GeneID:800487;gbkey=tRNA;gene=trnF;locus_tag=NitaCt130;product=tRNA-Phe
+NC_001879.2	RefSeq	gene	50995	51471	.	-	.	ID=gene-NitaCp026;Dbxref=GeneID:800452;Name=ndhJ;gbkey=Gene;gene=ndhJ;gene_biotype=protein_coding;locus_tag=NitaCp026
+NC_001879.2	RefSeq	CDS	50995	51471	.	-	0	ID=cds-NP_054502.1;Parent=gene-NitaCp026;Dbxref=UniProtKB/Swiss-Prot:P12201,GenBank:NP_054502.1,GeneID:800452;Name=NP_054502.1;gbkey=CDS;gene=ndhJ;locus_tag=NitaCp026;product=NADH dehydrogenase subunit J;protein_id=NP_054502.1;transl_table=11
+NC_001879.2	RefSeq	gene	51577	52320	.	-	.	ID=gene-NitaCp027;Dbxref=GeneID:800442;Name=ndhK;gbkey=Gene;gene=ndhK;gene_biotype=protein_coding;locus_tag=NitaCp027
+NC_001879.2	RefSeq	CDS	51577	52320	.	-	0	ID=cds-NP_054503.2;Parent=gene-NitaCp027;Dbxref=UniProtKB/Swiss-Prot:P06409,GenBank:NP_054503.2,GeneID:800442;Name=NP_054503.2;gbkey=CDS;gene=ndhK;locus_tag=NitaCp027;product=NADH dehydrogenase subunit K;protein_id=NP_054503.2;transl_table=11
+NC_001879.2	RefSeq	gene	52311	52673	.	-	.	ID=gene-NitaCp028;Dbxref=GeneID:800470;Name=ndhC;gbkey=Gene;gene=ndhC;gene_biotype=protein_coding;gene_synonym=ndh3;locus_tag=NitaCp028
+NC_001879.2	RefSeq	CDS	52311	52673	.	-	0	ID=cds-NP_054504.1;Parent=gene-NitaCp028;Dbxref=UniProtKB/Swiss-Prot:P06258,GenBank:NP_054504.1,GeneID:800470;Name=NP_054504.1;gbkey=CDS;gene=ndhC;locus_tag=NitaCp028;product=NADH dehydrogenase subunit 3;protein_id=NP_054504.1;transl_table=11
+NC_001879.2	RefSeq	gene	53760	54403	.	-	.	ID=gene-NitaCt131;Dbxref=GeneID:800528;Name=trnV;gbkey=Gene;gene=trnV;gene_biotype=tRNA;locus_tag=NitaCt131
+NC_001879.2	RefSeq	tRNA	53760	54403	.	-	.	ID=rna-NitaCt131;Parent=gene-NitaCt131;Dbxref=GeneID:800528;gbkey=tRNA;gene=trnV;locus_tag=NitaCt131;product=tRNA-Val
+NC_001879.2	RefSeq	exon	54366	54403	.	-	.	ID=exon-NitaCt131-1;Parent=rna-NitaCt131;Dbxref=GeneID:800528;gbkey=tRNA;gene=trnV;locus_tag=NitaCt131;product=tRNA-Val
+NC_001879.2	RefSeq	exon	53760	53794	.	-	.	ID=exon-NitaCt131-2;Parent=rna-NitaCt131;Dbxref=GeneID:800528;gbkey=tRNA;gene=trnV;locus_tag=NitaCt131;product=tRNA-Val
+NC_001879.2	RefSeq	exon	53760	53794	.	-	.	ID=id-NitaCt131-2;Parent=gene-NitaCt131;Dbxref=GeneID:800528;exon_number=2;gbkey=exon;gene=trnV;locus_tag=NitaCt131;number=2
+NC_001879.2	RefSeq	exon	54366	54403	.	-	.	ID=id-NitaCt131-1;Parent=gene-NitaCt131;Dbxref=GeneID:800528;exon_number=1;gbkey=exon;gene=trnV;locus_tag=NitaCt131;number=1
+NC_001879.2	RefSeq	gene	54594	54666	.	+	.	ID=gene-NitaCt132;Dbxref=GeneID:800482;Name=trnM;gbkey=Gene;gene=trnM;gene_biotype=tRNA;locus_tag=NitaCt132
+NC_001879.2	RefSeq	tRNA	54594	54666	.	+	.	ID=rna-NitaCt132;Parent=gene-NitaCt132;Dbxref=GeneID:800482;gbkey=tRNA;gene=trnM;locus_tag=NitaCt132;product=tRNA-Met
+NC_001879.2	RefSeq	exon	54594	54666	.	+	.	ID=exon-NitaCt132-1;Parent=rna-NitaCt132;Dbxref=GeneID:800482;gbkey=tRNA;gene=trnM;locus_tag=NitaCt132;product=tRNA-Met
+NC_001879.2	RefSeq	gene	54888	55289	.	-	.	ID=gene-NitaCp029;Dbxref=GeneID:800472;Name=atpE;gbkey=Gene;gene=atpE;gene_biotype=protein_coding;locus_tag=NitaCp029
+NC_001879.2	RefSeq	CDS	54888	55289	.	-	0	ID=cds-NP_054505.1;Parent=gene-NitaCp029;Dbxref=UniProtKB/Swiss-Prot:P00834,GenBank:NP_054505.1,GeneID:800472;Name=NP_054505.1;gbkey=CDS;gene=atpE;locus_tag=NitaCp029;product=ATP synthase CF1 epsilon subunit;protein_id=NP_054505.1;transl_table=11
+NC_001879.2	RefSeq	gene	55286	56782	.	-	.	ID=gene-NitaCp030;Dbxref=GeneID:800515;Name=atpB;gbkey=Gene;gene=atpB;gene_biotype=protein_coding;locus_tag=NitaCp030
+NC_001879.2	RefSeq	CDS	55286	56782	.	-	0	ID=cds-NP_054506.2;Parent=gene-NitaCp030;Dbxref=UniProtKB/Swiss-Prot:P00826,GenBank:NP_054506.2,GeneID:800515;Name=NP_054506.2;Note=ATP synthase CF1 beta subunit;gbkey=CDS;gene=atpB;locus_tag=NitaCp030;product=ATP synthase CF1 beta subunit;protein_id=NP_054506.2;transl_table=11
+NC_001879.2	RefSeq	gene	57600	59033	.	+	.	ID=gene-NitaCp031;Dbxref=GeneID:800513;Name=rbcL;gbkey=Gene;gene=rbcL;gene_biotype=protein_coding;locus_tag=NitaCp031
+NC_001879.2	RefSeq	CDS	57600	59033	.	+	0	ID=cds-NP_054507.1;Parent=gene-NitaCp031;Dbxref=UniProtKB/TrEMBL:Q32716,GenBank:NP_054507.1,GeneID:800513;Name=NP_054507.1;gbkey=CDS;gene=rbcL;locus_tag=NitaCp031;product=ribulose-1%2C5-bisphosphate carboxylase/oxygenase large subunit;protein_id=NP_054507.1;transl_table=11
+NC_001879.2	RefSeq	gene	59798	61336	.	+	.	ID=gene-NitaCp032;Dbxref=GeneID:800510;Name=accD;gbkey=Gene;gene=accD;gene_biotype=protein_coding;locus_tag=NitaCp032
+NC_001879.2	RefSeq	CDS	59798	61336	.	+	0	ID=cds-NP_054508.1;Parent=gene-NitaCp032;Dbxref=UniProtKB/Swiss-Prot:P12219,GenBank:NP_054508.1,GeneID:800510;Name=NP_054508.1;gbkey=CDS;gene=accD;locus_tag=NitaCp032;product=acetyl-CoA carboxylase beta subunit;protein_id=NP_054508.1;transl_table=11
+NC_001879.2	RefSeq	gene	62088	62198	.	+	.	ID=gene-NitaCp033;Dbxref=GeneID:800490;Name=psaI;gbkey=Gene;gene=psaI;gene_biotype=protein_coding;locus_tag=NitaCp033
+NC_001879.2	RefSeq	CDS	62088	62198	.	+	0	ID=cds-NP_054509.1;Parent=gene-NitaCp033;Dbxref=UniProtKB/Swiss-Prot:P12187,GenBank:NP_054509.1,GeneID:800490;Name=NP_054509.1;gbkey=CDS;gene=psaI;locus_tag=NitaCp033;product=photosystem I subunit VIII;protein_id=NP_054509.1;transl_table=11
+NC_001879.2	RefSeq	gene	62643	63197	.	+	.	ID=gene-NitaCp034;Dbxref=GeneID:1466297;Name=ycf4;gbkey=Gene;gene=ycf4;gene_biotype=protein_coding;locus_tag=NitaCp034
+NC_001879.2	RefSeq	CDS	62643	63197	.	+	0	ID=cds-NP_054510.1;Parent=gene-NitaCp034;Dbxref=UniProtKB/Swiss-Prot:P12207,GenBank:NP_054510.1,GeneID:1466297;Name=NP_054510.1;Note=ORF184;gbkey=CDS;gene=ycf4;locus_tag=NitaCp034;product=photosystem I assembly protein Ycf4;protein_id=NP_054510.1;transl_table=11
+NC_001879.2	RefSeq	gene	63420	64109	.	+	.	ID=gene-NitaCp035;Dbxref=GeneID:1466298;Name=cemA;gbkey=Gene;gene=cemA;gene_biotype=protein_coding;gene_synonym=ycf10;locus_tag=NitaCp035
+NC_001879.2	RefSeq	CDS	63420	64109	.	+	0	ID=cds-NP_054511.1;Parent=gene-NitaCp035;Dbxref=UniProtKB/Swiss-Prot:P12213,GenBank:NP_054511.1,GeneID:1466298;Name=NP_054511.1;Note=ORF229;gbkey=CDS;gene=cemA;locus_tag=NitaCp035;product=envelope membrane protein;protein_id=NP_054511.1;transl_table=11
+NC_001879.2	RefSeq	gene	64340	65302	.	+	.	ID=gene-NitaCp036;Dbxref=GeneID:800461;Name=petA;gbkey=Gene;gene=petA;gene_biotype=protein_coding;locus_tag=NitaCp036
+NC_001879.2	RefSeq	CDS	64340	65302	.	+	0	ID=cds-NP_054512.1;Parent=gene-NitaCp036;Dbxref=UniProtKB/Swiss-Prot:P06449,GenBank:NP_054512.1,GeneID:800461;Name=NP_054512.1;Note=component of cytochrome b6/f complex;gbkey=CDS;gene=petA;locus_tag=NitaCp036;product=cytochrome f;protein_id=NP_054512.1;transl_table=11
+NC_001879.2	RefSeq	gene	66181	66480	.	+	.	ID=gene-NitaCp037;Dbxref=GeneID:1466299;Name=NitaCp037;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NitaCp037
+NC_001879.2	RefSeq	CDS	66181	66480	.	+	0	ID=cds-NP_054513.1;Parent=gene-NitaCp037;Dbxref=UniProtKB/TrEMBL:Q32717,GenBank:NP_054513.1,GeneID:1466299;Name=NP_054513.1;Note=ORF99;gbkey=CDS;locus_tag=NitaCp037;product=hypothetical protein;protein_id=NP_054513.1;transl_table=11
+NC_001879.2	RefSeq	gene	66368	66490	.	-	.	ID=gene-NitaCp038;Dbxref=GeneID:800496;Name=psbJ;gbkey=Gene;gene=psbJ;gene_biotype=protein_coding;locus_tag=NitaCp038
+NC_001879.2	RefSeq	CDS	66368	66490	.	-	0	ID=cds-NP_054514.1;Parent=gene-NitaCp038;Dbxref=UniProtKB/Swiss-Prot:P12190,GenBank:NP_054514.1,GeneID:800496;Name=NP_054514.1;gbkey=CDS;gene=psbJ;locus_tag=NitaCp038;product=photosystem II protein J;protein_id=NP_054514.1;transl_table=11
+NC_001879.2	RefSeq	gene	66615	66731	.	-	.	ID=gene-NitaCp039;Dbxref=GeneID:800491;Name=psbL;end_range=66731,.;gbkey=Gene;gene=psbL;gene_biotype=protein_coding;locus_tag=NitaCp039;partial=true
+NC_001879.2	RefSeq	CDS	66615	66731	.	-	0	ID=cds-NP_054515.2;Parent=gene-NitaCp039;Dbxref=UniProtKB/TrEMBL:O47030,GenBank:NP_054515.2,GeneID:800491;Name=NP_054515.2;exception=RNA editing;gbkey=CDS;gene=psbL;locus_tag=NitaCp039;product=photosystem II protein L;protein_id=NP_054515.2;transl_table=11
+NC_001879.2	RefSeq	gene	66754	66873	.	-	.	ID=gene-NitaCp040;Dbxref=GeneID:800446;Name=psbF;gbkey=Gene;gene=psbF;gene_biotype=protein_coding;locus_tag=NitaCp040
+NC_001879.2	RefSeq	CDS	66754	66873	.	-	0	ID=cds-NP_054516.1;Parent=gene-NitaCp040;Dbxref=UniProtKB/Swiss-Prot:P05171,GenBank:NP_054516.1,GeneID:800446;Name=NP_054516.1;gbkey=CDS;gene=psbF;locus_tag=NitaCp040;product=photosystem II protein VI;protein_id=NP_054516.1;transl_table=11
+NC_001879.2	RefSeq	gene	66883	67134	.	-	.	ID=gene-NitaCp041;Dbxref=GeneID:800531;Name=psbE;gbkey=Gene;gene=psbE;gene_biotype=protein_coding;locus_tag=NitaCp041
+NC_001879.2	RefSeq	CDS	66883	67134	.	-	0	ID=cds-NP_054517.1;Parent=gene-NitaCp041;Dbxref=UniProtKB/Swiss-Prot:P05168,GenBank:NP_054517.1,GeneID:800531;Name=NP_054517.1;gbkey=CDS;gene=psbE;locus_tag=NitaCp041;product=photosystem II protein V;protein_id=NP_054517.1;transl_table=11
+NC_001879.2	RefSeq	gene	67282	67593	.	-	.	ID=gene-NitaCp042;Dbxref=GeneID:1466300;Name=NitaCp042;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NitaCp042
+NC_001879.2	RefSeq	CDS	67282	67593	.	-	0	ID=cds-NP_054518.1;Parent=gene-NitaCp042;Dbxref=UniProtKB/TrEMBL:Q32718,GenBank:NP_054518.1,GeneID:1466300;Name=NP_054518.1;Note=ORF103;gbkey=CDS;locus_tag=NitaCp042;product=hypothetical protein;protein_id=NP_054518.1;transl_table=11
+NC_001879.2	RefSeq	gene	68298	68393	.	+	.	ID=gene-NitaCp043;Dbxref=GeneID:800424;Name=petL;gbkey=Gene;gene=petL;gene_biotype=protein_coding;locus_tag=NitaCp043
+NC_001879.2	RefSeq	CDS	68298	68393	.	+	0	ID=cds-NP_054519.1;Parent=gene-NitaCp043;Dbxref=UniProtKB/Swiss-Prot:P12181,GenBank:NP_054519.1,GeneID:800424;Name=NP_054519.1;gbkey=CDS;gene=petL;locus_tag=NitaCp043;product=cytochrome b6/f complex subunit VI;protein_id=NP_054519.1;transl_table=11
+NC_001879.2	RefSeq	gene	68575	68688	.	+	.	ID=gene-NitaCp044;Dbxref=GeneID:800450;Name=petG;gbkey=Gene;gene=petG;gene_biotype=protein_coding;locus_tag=NitaCp044
+NC_001879.2	RefSeq	CDS	68575	68688	.	+	0	ID=cds-NP_054520.1;Parent=gene-NitaCp044;Dbxref=UniProtKB/Swiss-Prot:P12121,GenBank:NP_054520.1,GeneID:800450;Name=NP_054520.1;Note=required for the either the stability or assembly of the cytochrome b6/f complex;gbkey=CDS;gene=petG;locus_tag=NitaCp044;product=cytochrome b6/f complex subunit V;protein_id=NP_054520.1;transl_table=11
+NC_001879.2	RefSeq	gene	68820	68893	.	-	.	ID=gene-NitaCt133;Dbxref=GeneID:800520;Name=trnW;gbkey=Gene;gene=trnW;gene_biotype=tRNA;locus_tag=NitaCt133
+NC_001879.2	RefSeq	tRNA	68820	68893	.	-	.	ID=rna-NitaCt133;Parent=gene-NitaCt133;Dbxref=GeneID:800520;gbkey=tRNA;gene=trnW;locus_tag=NitaCt133;product=tRNA-Trp
+NC_001879.2	RefSeq	exon	68820	68893	.	-	.	ID=exon-NitaCt133-1;Parent=rna-NitaCt133;Dbxref=GeneID:800520;gbkey=tRNA;gene=trnW;locus_tag=NitaCt133;product=tRNA-Trp
+NC_001879.2	RefSeq	gene	69058	69131	.	-	.	ID=gene-NitaCt134;Dbxref=GeneID:800506;Name=trnP;gbkey=Gene;gene=trnP;gene_biotype=tRNA;locus_tag=NitaCt134
+NC_001879.2	RefSeq	tRNA	69058	69131	.	-	.	ID=rna-NitaCt134;Parent=gene-NitaCt134;Dbxref=GeneID:800506;gbkey=tRNA;gene=trnP;locus_tag=NitaCt134;product=tRNA-Pro
+NC_001879.2	RefSeq	exon	69058	69131	.	-	.	ID=exon-NitaCt134-1;Parent=rna-NitaCt134;Dbxref=GeneID:800506;gbkey=tRNA;gene=trnP;locus_tag=NitaCt134;product=tRNA-Pro
+NC_001879.2	RefSeq	gene	69570	69704	.	+	.	ID=gene-NitaCp045;Dbxref=GeneID:800526;Name=psaJ;gbkey=Gene;gene=psaJ;gene_biotype=protein_coding;locus_tag=NitaCp045
+NC_001879.2	RefSeq	CDS	69570	69704	.	+	0	ID=cds-NP_054521.1;Parent=gene-NitaCp045;Dbxref=UniProtKB/Swiss-Prot:P12193,GenBank:NP_054521.1,GeneID:800526;Name=NP_054521.1;gbkey=CDS;gene=psaJ;locus_tag=NitaCp045;product=photosystem I subunit IX;protein_id=NP_054521.1;transl_table=11
+NC_001879.2	RefSeq	gene	70136	70336	.	+	.	ID=gene-NitaCp046;Dbxref=GeneID:800444;Name=rpl33;gbkey=Gene;gene=rpl33;gene_biotype=protein_coding;locus_tag=NitaCp046
+NC_001879.2	RefSeq	CDS	70136	70336	.	+	0	ID=cds-NP_054522.1;Parent=gene-NitaCp046;Dbxref=UniProtKB/Swiss-Prot:P06393,GenBank:NP_054522.1,GeneID:800444;Name=NP_054522.1;gbkey=CDS;gene=rpl33;locus_tag=NitaCp046;product=ribosomal protein L33;protein_id=NP_054522.1;transl_table=11
+NC_001879.2	RefSeq	gene	70523	70828	.	+	.	ID=gene-NitaCp047;Dbxref=GeneID:800476;Name=rps18;gbkey=Gene;gene=rps18;gene_biotype=protein_coding;locus_tag=NitaCp047
+NC_001879.2	RefSeq	CDS	70523	70828	.	+	0	ID=cds-NP_054523.1;Parent=gene-NitaCp047;Dbxref=UniProtKB/Swiss-Prot:P06376,GenBank:NP_054523.1,GeneID:800476;Name=NP_054523.1;gbkey=CDS;gene=rps18;locus_tag=NitaCp047;product=ribosomal protein S18;protein_id=NP_054523.1;transl_table=11
+NC_001879.2	RefSeq	gene	71028	71414	.	-	.	ID=gene-NitaCp048;Dbxref=GeneID:800465;Name=rpl20;gbkey=Gene;gene=rpl20;gene_biotype=protein_coding;locus_tag=NitaCp048
+NC_001879.2	RefSeq	CDS	71028	71414	.	-	0	ID=cds-NP_054524.1;Parent=gene-NitaCp048;Dbxref=UniProtKB/Swiss-Prot:P06386,GenBank:NP_054524.1,GeneID:800465;Name=NP_054524.1;gbkey=CDS;gene=rpl20;locus_tag=NitaCp048;product=ribosomal protein L20;protein_id=NP_054524.1;transl_table=11
+NC_001879.2	RefSeq	sequence_feature	72223	141774	.	+	.	ID=id-NC_001879.2:72223..141774;Note=trans splicing 5'-rps12 and 3'-rps12 in IRA;gbkey=misc_feature
+NC_001879.2	RefSeq	sequence_feature	72223	100086	.	+	.	ID=id-NC_001879.2:72223..100086;Note=trans splicing 5'-rps12 and 3'-rps12 in IRB;gbkey=misc_feature
+NC_001879.2	RefSeq	gene	72224	72337	.	-	.	ID=gene-NitaCp095;Dbxref=GeneID:1466311;Name=rps12;exception=trans-splicing;gbkey=Gene;gene=rps12;gene_biotype=protein_coding;locus_tag=NitaCp095;part=1
+NC_001879.2	RefSeq	gene	141775	142568	.	+	.	ID=gene-NitaCp095;Dbxref=GeneID:1466311;Name=rps12;exception=trans-splicing;gbkey=Gene;gene=rps12;gene_biotype=protein_coding;locus_tag=NitaCp095;part=2
+NC_001879.2	RefSeq	CDS	72224	72337	.	-	0	ID=cds-NP_054568.2;Parent=gene-NitaCp095;Dbxref=UniProtKB/Swiss-Prot:P06369,GenBank:NP_054568.2,GeneID:1466311;Name=NP_054568.2;exception=trans-splicing;gbkey=CDS;gene=rps12;locus_tag=NitaCp095;part=1;product=ribosomal protein S12;protein_id=NP_054568.2;transl_table=11
+NC_001879.2	RefSeq	CDS	141775	142006	.	+	0	ID=cds-NP_054568.2;Parent=gene-NitaCp095;Dbxref=UniProtKB/Swiss-Prot:P06369,GenBank:NP_054568.2,GeneID:1466311;Name=NP_054568.2;exception=trans-splicing;gbkey=CDS;gene=rps12;locus_tag=NitaCp095;part=2;product=ribosomal protein S12;protein_id=NP_054568.2;transl_table=11
+NC_001879.2	RefSeq	CDS	142543	142568	.	+	2	ID=cds-NP_054568.2;Parent=gene-NitaCp095;Dbxref=UniProtKB/Swiss-Prot:P06369,GenBank:NP_054568.2,GeneID:1466311;Name=NP_054568.2;exception=trans-splicing;gbkey=CDS;gene=rps12;locus_tag=NitaCp095;part=3;product=ribosomal protein S12;protein_id=NP_054568.2;transl_table=11
+NC_001879.2	RefSeq	exon	141775	142006	.	+	.	ID=id-NitaCp095-1;Parent=gene-NitaCp095;Dbxref=GeneID:1466311;exon_number=1;gbkey=exon;gene=rps12;locus_tag=NitaCp095;number=1
+NC_001879.2	RefSeq	exon	142543	142568	.	+	.	ID=id-NitaCp095-2;Parent=gene-NitaCp095;Dbxref=GeneID:1466311;exon_number=2;gbkey=exon;gene=rps12;locus_tag=NitaCp095;number=2
+NC_001879.2	RefSeq	gene	72476	74510	.	-	.	ID=gene-NitaCp050;Dbxref=GeneID:800474;Name=clpP;gbkey=Gene;gene=clpP;gene_biotype=protein_coding;locus_tag=NitaCp050
+NC_001879.2	RefSeq	CDS	74440	74510	.	-	0	ID=cds-NP_054525.1;Parent=gene-NitaCp050;Dbxref=UniProtKB/Swiss-Prot:P12210,GenBank:NP_054525.1,GeneID:800474;Name=NP_054525.1;gbkey=CDS;gene=clpP;locus_tag=NitaCp050;product=ATP-dependent Clp protease proteolytic subunit;protein_id=NP_054525.1;transl_table=11
+NC_001879.2	RefSeq	CDS	73341	73632	.	-	1	ID=cds-NP_054525.1;Parent=gene-NitaCp050;Dbxref=UniProtKB/Swiss-Prot:P12210,GenBank:NP_054525.1,GeneID:800474;Name=NP_054525.1;gbkey=CDS;gene=clpP;locus_tag=NitaCp050;product=ATP-dependent Clp protease proteolytic subunit;protein_id=NP_054525.1;transl_table=11
+NC_001879.2	RefSeq	CDS	72476	72703	.	-	0	ID=cds-NP_054525.1;Parent=gene-NitaCp050;Dbxref=UniProtKB/Swiss-Prot:P12210,GenBank:NP_054525.1,GeneID:800474;Name=NP_054525.1;gbkey=CDS;gene=clpP;locus_tag=NitaCp050;product=ATP-dependent Clp protease proteolytic subunit;protein_id=NP_054525.1;transl_table=11
+NC_001879.2	RefSeq	exon	72476	72703	.	-	.	ID=id-NitaCp050-3;Parent=gene-NitaCp050;Dbxref=GeneID:800474;exon_number=3;gbkey=exon;gene=clpP;locus_tag=NitaCp050;number=3
+NC_001879.2	RefSeq	exon	73341	73632	.	-	.	ID=id-NitaCp050-2;Parent=gene-NitaCp050;Dbxref=GeneID:800474;exon_number=2;gbkey=exon;gene=clpP;locus_tag=NitaCp050;number=2
+NC_001879.2	RefSeq	exon	74440	74510	.	-	.	ID=id-NitaCp050-1;Parent=gene-NitaCp050;Dbxref=GeneID:800474;exon_number=1;gbkey=exon;gene=clpP;locus_tag=NitaCp050;number=1
+NC_001879.2	RefSeq	intron	72704	73340	.	-	.	ID=id-NitaCp050;Parent=gene-NitaCp050;Dbxref=GeneID:800474;exon_number=2;gbkey=intron;gene=clpP;locus_tag=NitaCp050;number=2
+NC_001879.2	RefSeq	intron	73633	74439	.	-	.	ID=id-NitaCp050-4;Parent=gene-NitaCp050;Dbxref=GeneID:800474;exon_number=1;gbkey=intron;gene=clpP;locus_tag=NitaCp050;number=1
+NC_001879.2	RefSeq	gene	74956	76482	.	+	.	ID=gene-NitaCp052;Dbxref=GeneID:800527;Name=psbB;gbkey=Gene;gene=psbB;gene_biotype=protein_coding;locus_tag=NitaCp052
+NC_001879.2	RefSeq	CDS	74956	76482	.	+	0	ID=cds-NP_054526.1;Parent=gene-NitaCp052;Dbxref=UniProtKB/Swiss-Prot:P06411,GenBank:NP_054526.1,GeneID:800527;Name=NP_054526.1;Note=PSII 47 kDa protein;gbkey=CDS;gene=psbB;locus_tag=NitaCp052;product=photosystem II 47 kDa protein;protein_id=NP_054526.1;transl_table=11
+NC_001879.2	RefSeq	gene	76683	76787	.	+	.	ID=gene-NitaCp053;Dbxref=GeneID:800438;Name=psbT;gbkey=Gene;gene=psbT;gene_biotype=protein_coding;locus_tag=NitaCp053
+NC_001879.2	RefSeq	CDS	76683	76787	.	+	0	ID=cds-NP_054527.1;Parent=gene-NitaCp053;Dbxref=UniProtKB/Swiss-Prot:P12184,GenBank:NP_054527.1,GeneID:800438;Name=NP_054527.1;gbkey=CDS;gene=psbT;locus_tag=NitaCp053;product=photosystem II protein T;protein_id=NP_054527.1;transl_table=11
+NC_001879.2	RefSeq	gene	76861	76992	.	-	.	ID=gene-NitaCp054;Dbxref=GeneID:800457;Name=psbN;gbkey=Gene;gene=psbN;gene_biotype=protein_coding;locus_tag=NitaCp054
+NC_001879.2	RefSeq	CDS	76861	76992	.	-	0	ID=cds-NP_054528.1;Parent=gene-NitaCp054;Dbxref=UniProtKB/Swiss-Prot:P12172,GenBank:NP_054528.1,GeneID:800457;Name=NP_054528.1;gbkey=CDS;gene=psbN;locus_tag=NitaCp054;product=photosystem II protein N;protein_id=NP_054528.1;transl_table=11
+NC_001879.2	RefSeq	gene	77104	77325	.	+	.	ID=gene-NitaCp055;Dbxref=GeneID:800417;Name=psbH;gbkey=Gene;gene=psbH;gene_biotype=protein_coding;locus_tag=NitaCp055
+NC_001879.2	RefSeq	CDS	77104	77325	.	+	0	ID=cds-NP_054529.1;Parent=gene-NitaCp055;Dbxref=UniProtKB/Swiss-Prot:P06415,GenBank:NP_054529.1,GeneID:800417;Name=NP_054529.1;Note=photosystem II phosphoprotein;gbkey=CDS;gene=psbH;locus_tag=NitaCp055;product=photosystem II protein H;protein_id=NP_054529.1;transl_table=11
+NC_001879.2	RefSeq	gene	77455	78855	.	+	.	ID=gene-NitaCp056;Dbxref=GeneID:800462;Name=petB;gbkey=Gene;gene=petB;gene_biotype=protein_coding;locus_tag=NitaCp056
+NC_001879.2	RefSeq	CDS	77455	77460	.	+	0	ID=cds-NP_054530.1;Parent=gene-NitaCp056;Dbxref=UniProtKB/Swiss-Prot:P06247,GenBank:NP_054530.1,GeneID:800462;Name=NP_054530.1;gbkey=CDS;gene=petB;locus_tag=NitaCp056;product=cytochrome b6;protein_id=NP_054530.1;transl_table=11
+NC_001879.2	RefSeq	CDS	78214	78855	.	+	0	ID=cds-NP_054530.1;Parent=gene-NitaCp056;Dbxref=UniProtKB/Swiss-Prot:P06247,GenBank:NP_054530.1,GeneID:800462;Name=NP_054530.1;gbkey=CDS;gene=petB;locus_tag=NitaCp056;product=cytochrome b6;protein_id=NP_054530.1;transl_table=11
+NC_001879.2	RefSeq	exon	77455	77460	.	+	.	ID=id-NitaCp056-1;Parent=gene-NitaCp056;Dbxref=GeneID:800462;exon_number=1;gbkey=exon;gene=petB;locus_tag=NitaCp056;number=1
+NC_001879.2	RefSeq	exon	78214	78855	.	+	.	ID=id-NitaCp056-2;Parent=gene-NitaCp056;Dbxref=GeneID:800462;exon_number=2;gbkey=exon;gene=petB;locus_tag=NitaCp056;number=2
+NC_001879.2	RefSeq	intron	77461	78213	.	+	.	ID=id-NitaCp056;Parent=gene-NitaCp056;Dbxref=GeneID:800462;exon_number=1;gbkey=intron;gene=petB;locus_tag=NitaCp056;number=1
+NC_001879.2	RefSeq	gene	79046	80270	.	+	.	ID=gene-NitaCp051;Dbxref=GeneID:800494;Name=petD;gbkey=Gene;gene=petD;gene_biotype=protein_coding;locus_tag=NitaCp051
+NC_001879.2	RefSeq	CDS	79046	79053	.	+	0	ID=cds-NP_054531.1;Parent=gene-NitaCp051;Dbxref=UniProtKB/Swiss-Prot:P06249,GenBank:NP_054531.1,GeneID:800494;Name=NP_054531.1;gbkey=CDS;gene=petD;locus_tag=NitaCp051;product=cytochrome b6/f complex subunit IV;protein_id=NP_054531.1;transl_table=11
+NC_001879.2	RefSeq	CDS	79796	80270	.	+	1	ID=cds-NP_054531.1;Parent=gene-NitaCp051;Dbxref=UniProtKB/Swiss-Prot:P06249,GenBank:NP_054531.1,GeneID:800494;Name=NP_054531.1;gbkey=CDS;gene=petD;locus_tag=NitaCp051;product=cytochrome b6/f complex subunit IV;protein_id=NP_054531.1;transl_table=11
+NC_001879.2	RefSeq	exon	79046	79053	.	+	.	ID=id-NitaCp051-1;Parent=gene-NitaCp051;Dbxref=GeneID:800494;exon_number=1;gbkey=exon;gene=petD;locus_tag=NitaCp051;number=1
+NC_001879.2	RefSeq	exon	79796	80270	.	+	.	ID=id-NitaCp051-2;Parent=gene-NitaCp051;Dbxref=GeneID:800494;exon_number=2;gbkey=exon;gene=petD;locus_tag=NitaCp051;number=2
+NC_001879.2	RefSeq	intron	79054	79795	.	+	.	ID=id-NitaCp051;Parent=gene-NitaCp051;Dbxref=GeneID:800494;exon_number=1;gbkey=intron;gene=petD;locus_tag=NitaCp051;number=1
+NC_001879.2	RefSeq	gene	80458	81471	.	-	.	ID=gene-NitaCp057;Dbxref=GeneID:800443;Name=rpoA;gbkey=Gene;gene=rpoA;gene_biotype=protein_coding;locus_tag=NitaCp057
+NC_001879.2	RefSeq	CDS	80458	81471	.	-	0	ID=cds-NP_054532.1;Parent=gene-NitaCp057;Dbxref=UniProtKB/Swiss-Prot:P06269,GenBank:NP_054532.1,GeneID:800443;Name=NP_054532.1;gbkey=CDS;gene=rpoA;locus_tag=NitaCp057;product=RNA polymerase alpha subunit;protein_id=NP_054532.1;transl_table=11
+NC_001879.2	RefSeq	gene	81537	81953	.	-	.	ID=gene-NitaCp058;Dbxref=GeneID:800448;Name=rps11;gbkey=Gene;gene=rps11;gene_biotype=protein_coding;locus_tag=NitaCp058
+NC_001879.2	RefSeq	CDS	81537	81953	.	-	0	ID=cds-NP_054533.1;Parent=gene-NitaCp058;Dbxref=UniProtKB/Swiss-Prot:P06365,GenBank:NP_054533.1,GeneID:800448;Name=NP_054533.1;gbkey=CDS;gene=rps11;locus_tag=NitaCp058;product=ribosomal protein S11;protein_id=NP_054533.1;transl_table=11
+NC_001879.2	RefSeq	gene	82055	82168	.	-	.	ID=gene-NitaCp152;Dbxref=GeneID:7564684;Name=rpl36;gbkey=Gene;gene=rpl36;gene_biotype=protein_coding;locus_tag=NitaCp152
+NC_001879.2	RefSeq	CDS	82055	82168	.	-	0	ID=cds-YP_002720023.1;Parent=gene-NitaCp152;Dbxref=GenBank:YP_002720023.1,GeneID:7564684;Name=YP_002720023.1;gbkey=CDS;gene=rpl36;locus_tag=NitaCp152;product=ribosomal protein L36;protein_id=YP_002720023.1;transl_table=11
+NC_001879.2	RefSeq	pseudogene	82181	82498	.	-	.	ID=gene-NitaCp059;Dbxref=GeneID:1466315;Name=NitaCp059;description=initiation factor 1;gbkey=Gene;gene_biotype=pseudogene;locus_tag=NitaCp059;pseudo=true
+NC_001879.2	RefSeq	gene	82605	83009	.	-	.	ID=gene-NitaCp060;Dbxref=GeneID:800524;Name=rps8;gbkey=Gene;gene=rps8;gene_biotype=protein_coding;locus_tag=NitaCp060
+NC_001879.2	RefSeq	CDS	82605	83009	.	-	0	ID=cds-NP_054534.1;Parent=gene-NitaCp060;Dbxref=UniProtKB/Swiss-Prot:P06363,GenBank:NP_054534.1,GeneID:800524;Name=NP_054534.1;gbkey=CDS;gene=rps8;locus_tag=NitaCp060;product=ribosomal protein S8;protein_id=NP_054534.1;transl_table=11
+NC_001879.2	RefSeq	gene	83178	83546	.	-	.	ID=gene-NitaCp061;Dbxref=GeneID:800439;Name=rpl14;gbkey=Gene;gene=rpl14;gene_biotype=protein_coding;locus_tag=NitaCp061
+NC_001879.2	RefSeq	CDS	83178	83546	.	-	0	ID=cds-NP_054535.2;Parent=gene-NitaCp061;Dbxref=UniProtKB/Swiss-Prot:P06382,GenBank:NP_054535.2,GeneID:800439;Name=NP_054535.2;gbkey=CDS;gene=rpl14;locus_tag=NitaCp061;product=ribosomal protein L14;protein_id=NP_054535.2;transl_table=11
+NC_001879.2	RefSeq	gene	83671	85095	.	-	.	ID=gene-NitaCp062;Dbxref=GeneID:800422;Name=rpl16;gbkey=Gene;gene=rpl16;gene_biotype=protein_coding;locus_tag=NitaCp062
+NC_001879.2	RefSeq	CDS	85087	85095	.	-	0	ID=cds-NP_054536.1;Parent=gene-NitaCp062;Dbxref=UniProtKB/Swiss-Prot:P06384,GenBank:NP_054536.1,GeneID:800422;Name=NP_054536.1;gbkey=CDS;gene=rpl16;locus_tag=NitaCp062;product=ribosomal protein L16;protein_id=NP_054536.1;transl_table=11
+NC_001879.2	RefSeq	CDS	83671	84066	.	-	0	ID=cds-NP_054536.1;Parent=gene-NitaCp062;Dbxref=UniProtKB/Swiss-Prot:P06384,GenBank:NP_054536.1,GeneID:800422;Name=NP_054536.1;gbkey=CDS;gene=rpl16;locus_tag=NitaCp062;product=ribosomal protein L16;protein_id=NP_054536.1;transl_table=11
+NC_001879.2	RefSeq	exon	83671	84066	.	-	.	ID=id-NitaCp062-2;Parent=gene-NitaCp062;Dbxref=GeneID:800422;exon_number=2;gbkey=exon;gene=rpl16;locus_tag=NitaCp062;number=2
+NC_001879.2	RefSeq	exon	85087	85095	.	-	.	ID=id-NitaCp062-1;Parent=gene-NitaCp062;Dbxref=GeneID:800422;exon_number=1;gbkey=exon;gene=rpl16;locus_tag=NitaCp062;number=1
+NC_001879.2	RefSeq	intron	84067	85086	.	-	.	ID=id-NitaCp062;Parent=gene-NitaCp062;Dbxref=GeneID:800422;exon_number=1;gbkey=intron;gene=rpl16;locus_tag=NitaCp062;number=1
+NC_001879.2	RefSeq	gene	85242	85898	.	-	.	ID=gene-NitaCp063;Dbxref=GeneID:800454;Name=rps3;gbkey=Gene;gene=rps3;gene_biotype=protein_coding;locus_tag=NitaCp063
+NC_001879.2	RefSeq	CDS	85242	85898	.	-	0	ID=cds-NP_054537.1;Parent=gene-NitaCp063;Dbxref=UniProtKB/Swiss-Prot:P06357,GenBank:NP_054537.1,GeneID:800454;Name=NP_054537.1;gbkey=CDS;gene=rps3;locus_tag=NitaCp063;product=ribosomal protein S3;protein_id=NP_054537.1;transl_table=11
+NC_001879.2	RefSeq	gene	85883	86350	.	-	.	ID=gene-NitaCp064;Dbxref=GeneID:800419;Name=rpl22;gbkey=Gene;gene=rpl22;gene_biotype=protein_coding;locus_tag=NitaCp064
+NC_001879.2	RefSeq	CDS	85883	86350	.	-	0	ID=cds-NP_054538.1;Parent=gene-NitaCp064;Dbxref=UniProtKB/Swiss-Prot:P06389,GenBank:NP_054538.1,GeneID:800419;Name=NP_054538.1;gbkey=CDS;gene=rpl22;locus_tag=NitaCp064;product=ribosomal protein L22;protein_id=NP_054538.1;transl_table=11
+NC_001879.2	RefSeq	gene	86404	86682	.	-	.	ID=gene-NitaCp065;Dbxref=GeneID:800434;Name=rps19;gbkey=Gene;gene=rps19;gene_biotype=protein_coding;locus_tag=NitaCp065
+NC_001879.2	RefSeq	CDS	86404	86682	.	-	0	ID=cds-NP_054539.1;Parent=gene-NitaCp065;Dbxref=UniProtKB/Swiss-Prot:P02376,GenBank:NP_054539.1,GeneID:800434;Name=NP_054539.1;gbkey=CDS;gene=rps19;locus_tag=NitaCp065;product=ribosomal protein S19;protein_id=NP_054539.1;transl_table=11
+NC_001879.2	RefSeq	sequence_feature	86686	86687	.	+	.	ID=id-NC_001879.2:86686..86687;Note=JLB%2C junction LSC-IRB;gbkey=misc_feature
+NC_001879.2	RefSeq	sequence_feature	86687	112029	.	+	.	ID=id-NC_001879.2:86687..112029;Note=small single copy region%3B SSC;gbkey=misc_feature
+NC_001879.2	RefSeq	gene	86743	88233	.	-	.	ID=gene-NitaCp066;Dbxref=GeneID:800420;Name=rpl2;gbkey=Gene;gene=rpl2;gene_biotype=protein_coding;locus_tag=NitaCp066
+NC_001879.2	RefSeq	CDS	87843	88233	.	-	0	ID=cds-NP_054540.1;Parent=gene-NitaCp066;Dbxref=UniProtKB/Swiss-Prot:P06379,GenBank:NP_054540.1,GeneID:800420;Name=NP_054540.1;gbkey=CDS;gene=rpl2;locus_tag=NitaCp066;product=ribosomal protein L2;protein_id=NP_054540.1;transl_table=11
+NC_001879.2	RefSeq	CDS	86743	87176	.	-	2	ID=cds-NP_054540.1;Parent=gene-NitaCp066;Dbxref=UniProtKB/Swiss-Prot:P06379,GenBank:NP_054540.1,GeneID:800420;Name=NP_054540.1;gbkey=CDS;gene=rpl2;locus_tag=NitaCp066;product=ribosomal protein L2;protein_id=NP_054540.1;transl_table=11
+NC_001879.2	RefSeq	exon	86743	87176	.	-	.	ID=id-NitaCp066-2;Parent=gene-NitaCp066;Dbxref=GeneID:800420;exon_number=2;gbkey=exon;gene=rpl2;locus_tag=NitaCp066;number=2
+NC_001879.2	RefSeq	exon	87843	88233	.	-	.	ID=id-NitaCp066-1;Parent=gene-NitaCp066;Dbxref=GeneID:800420;exon_number=1;gbkey=exon;gene=rpl2;locus_tag=NitaCp066;number=1
+NC_001879.2	RefSeq	intron	87175	87840	.	-	.	ID=id-NitaCp066;Parent=gene-NitaCp066;Dbxref=GeneID:800420;exon_number=1;gbkey=intron;gene=rpl2;locus_tag=NitaCp066;number=1
+NC_001879.2	RefSeq	gene	88252	88533	.	-	.	ID=gene-NitaCp067;Dbxref=GeneID:800478;Name=rpl23;gbkey=Gene;gene=rpl23;gene_biotype=protein_coding;locus_tag=NitaCp067
+NC_001879.2	RefSeq	CDS	88252	88533	.	-	0	ID=cds-NP_054541.1;Parent=gene-NitaCp067;Dbxref=UniProtKB/Swiss-Prot:P06391,GenBank:NP_054541.1,GeneID:800478;Name=NP_054541.1;gbkey=CDS;gene=rpl23;locus_tag=NitaCp067;product=ribosomal protein L23;protein_id=NP_054541.1;transl_table=11
+NC_001879.2	RefSeq	gene	88699	88772	.	-	.	ID=gene-NitaCt135;Dbxref=GeneID:800433;Name=trnI;gbkey=Gene;gene=trnI;gene_biotype=tRNA;locus_tag=NitaCt135
+NC_001879.2	RefSeq	tRNA	88699	88772	.	-	.	ID=rna-NitaCt135;Parent=gene-NitaCt135;Dbxref=GeneID:800433;gbkey=tRNA;gene=trnI;locus_tag=NitaCt135;product=tRNA-Ile
+NC_001879.2	RefSeq	exon	88699	88772	.	-	.	ID=exon-NitaCt135-1;Parent=rna-NitaCt135;Dbxref=GeneID:800433;gbkey=tRNA;gene=trnI;locus_tag=NitaCt135;product=tRNA-Ile
+NC_001879.2	RefSeq	gene	88885	95727	.	+	.	ID=gene-NitaCp068;Dbxref=GeneID:800485;Name=ycf2;gbkey=Gene;gene=ycf2;gene_biotype=protein_coding;locus_tag=NitaCp068
+NC_001879.2	RefSeq	CDS	88885	95727	.	+	0	ID=cds-NP_054542.1;Parent=gene-NitaCp068;Dbxref=UniProtKB/Swiss-Prot:P09976,GenBank:NP_054542.1,GeneID:800485;Name=NP_054542.1;Note=hypothetical protein RF2;gbkey=CDS;gene=ycf2;locus_tag=NitaCp068;product=Ycf2;protein_id=NP_054542.1;transl_table=11
+NC_001879.2	RefSeq	gene	96430	96510	.	-	.	ID=gene-NitaCt136;Dbxref=GeneID:800498;Name=trnL;gbkey=Gene;gene=trnL;gene_biotype=tRNA;locus_tag=NitaCt136
+NC_001879.2	RefSeq	tRNA	96430	96510	.	-	.	ID=rna-NitaCt136;Parent=gene-NitaCt136;Dbxref=GeneID:800498;gbkey=tRNA;gene=trnL;locus_tag=NitaCt136;product=tRNA-Leu
+NC_001879.2	RefSeq	exon	96430	96510	.	-	.	ID=exon-NitaCt136-1;Parent=rna-NitaCt136;Dbxref=GeneID:800498;gbkey=tRNA;gene=trnL;locus_tag=NitaCt136;product=tRNA-Leu
+NC_001879.2	RefSeq	gene	96556	96795	.	+	.	ID=gene-NitaCp072;Dbxref=GeneID:1466303;Name=NitaCp072;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NitaCp072
+NC_001879.2	RefSeq	CDS	96556	96795	.	+	0	ID=cds-NP_054546.1;Parent=gene-NitaCp072;Dbxref=UniProtKB/TrEMBL:Q37048,GenBank:NP_054546.1,GeneID:1466303;Name=NP_054546.1;Note=ORF79;gbkey=CDS;locus_tag=NitaCp072;product=hypothetical protein;protein_id=NP_054546.1;transl_table=11
+NC_001879.2	RefSeq	gene	97050	99261	.	-	.	ID=gene-NitaCp073;Dbxref=GeneID:800511;Name=ndhB;gbkey=Gene;gene=ndhB;gene_biotype=protein_coding;gene_synonym=ndh2;locus_tag=NitaCp073
+NC_001879.2	RefSeq	CDS	98485	99261	.	-	0	ID=cds-NP_054547.1;Parent=gene-NitaCp073;Dbxref=UniProtKB/Swiss-Prot:P06256,GenBank:NP_054547.1,GeneID:800511;Name=NP_054547.1;gbkey=CDS;gene=ndhB;locus_tag=NitaCp073;product=NADH dehydrogenase subunit 2;protein_id=NP_054547.1;transl_table=11
+NC_001879.2	RefSeq	CDS	97050	97805	.	-	0	ID=cds-NP_054547.1;Parent=gene-NitaCp073;Dbxref=UniProtKB/Swiss-Prot:P06256,GenBank:NP_054547.1,GeneID:800511;Name=NP_054547.1;gbkey=CDS;gene=ndhB;locus_tag=NitaCp073;product=NADH dehydrogenase subunit 2;protein_id=NP_054547.1;transl_table=11
+NC_001879.2	RefSeq	exon	97050	97805	.	-	.	ID=id-NitaCp073-2;Parent=gene-NitaCp073;Dbxref=GeneID:800511;exon_number=2;gbkey=exon;gene=ndhB;locus_tag=NitaCp073;number=2
+NC_001879.2	RefSeq	exon	98485	99261	.	-	.	ID=id-NitaCp073-1;Parent=gene-NitaCp073;Dbxref=GeneID:800511;exon_number=1;gbkey=exon;gene=ndhB;locus_tag=NitaCp073;number=1
+NC_001879.2	RefSeq	intron	97806	98484	.	-	.	ID=id-NitaCp073;Parent=gene-NitaCp073;Dbxref=GeneID:800511;exon_number=1;gbkey=intron;gene=ndhB;locus_tag=NitaCp073;number=1
+NC_001879.2	RefSeq	gene	99541	100008	.	-	.	ID=gene-NitaCp074;Dbxref=GeneID:800447;Name=rps7;gbkey=Gene;gene=rps7;gene_biotype=protein_coding;locus_tag=NitaCp074
+NC_001879.2	RefSeq	CDS	99541	100008	.	-	0	ID=cds-NP_054548.1;Parent=gene-NitaCp074;Dbxref=UniProtKB/Swiss-Prot:P06361,GenBank:NP_054548.1,GeneID:800447;Name=NP_054548.1;gbkey=CDS;gene=rps7;locus_tag=NitaCp074;product=ribosomal protein S7;protein_id=NP_054548.1;transl_table=11
+NC_001879.2	RefSeq	gene	72224	72337	.	-	.	ID=gene-NitaCp049;Dbxref=GeneID:800423;Name=rps12;exception=trans-splicing;gbkey=Gene;gene=rps12;gene_biotype=protein_coding;locus_tag=NitaCp049;part=1
+NC_001879.2	RefSeq	gene	100062	100855	.	-	.	ID=gene-NitaCp049;Dbxref=GeneID:800423;Name=rps12;exception=trans-splicing;gbkey=Gene;gene=rps12;gene_biotype=protein_coding;locus_tag=NitaCp049;part=2
+NC_001879.2	RefSeq	CDS	72224	72337	.	-	0	ID=cds-NP_054549.2;Parent=gene-NitaCp049;Dbxref=UniProtKB/Swiss-Prot:P06369,GenBank:NP_054549.2,GeneID:800423;Name=NP_054549.2;exception=trans-splicing;gbkey=CDS;gene=rps12;locus_tag=NitaCp049;part=1;product=ribosomal protein S12;protein_id=NP_054549.2;transl_table=11
+NC_001879.2	RefSeq	CDS	100624	100855	.	-	0	ID=cds-NP_054549.2;Parent=gene-NitaCp049;Dbxref=UniProtKB/Swiss-Prot:P06369,GenBank:NP_054549.2,GeneID:800423;Name=NP_054549.2;exception=trans-splicing;gbkey=CDS;gene=rps12;locus_tag=NitaCp049;part=2;product=ribosomal protein S12;protein_id=NP_054549.2;transl_table=11
+NC_001879.2	RefSeq	CDS	100062	100087	.	-	2	ID=cds-NP_054549.2;Parent=gene-NitaCp049;Dbxref=UniProtKB/Swiss-Prot:P06369,GenBank:NP_054549.2,GeneID:800423;Name=NP_054549.2;exception=trans-splicing;gbkey=CDS;gene=rps12;locus_tag=NitaCp049;part=3;product=ribosomal protein S12;protein_id=NP_054549.2;transl_table=11
+NC_001879.2	RefSeq	exon	72224	72337	.	-	.	ID=id-NitaCp049-1;Parent=gene-NitaCp049;Dbxref=GeneID:800423;exon_number=1;gbkey=exon;gene=rps12;locus_tag=NitaCp049;number=1
+NC_001879.2	RefSeq	exon	100062	100087	.	-	.	ID=id-NitaCp049-3;Parent=gene-NitaCp049;Dbxref=GeneID:800423;exon_number=3;gbkey=exon;gene=rps12;locus_tag=NitaCp049;number=3
+NC_001879.2	RefSeq	exon	100624	100855	.	-	.	ID=id-NitaCp049-2;Parent=gene-NitaCp049;Dbxref=GeneID:800423;exon_number=2;gbkey=exon;gene=rps12;locus_tag=NitaCp049;number=2
+NC_001879.2	RefSeq	intron	100088	100623	.	-	.	ID=id-NitaCp049;Parent=gene-NitaCp049;Dbxref=GeneID:800423;exon_number=2;gbkey=intron;gene=rps12;locus_tag=NitaCp049;number=2
+NC_001879.2	RefSeq	gene	101952	102347	.	-	.	ID=gene-NitaCp076;Dbxref=GeneID:1466305;Name=NitaCp076;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NitaCp076
+NC_001879.2	RefSeq	CDS	101952	102347	.	-	0	ID=cds-NP_054550.1;Parent=gene-NitaCp076;Dbxref=UniProtKB/TrEMBL:Q36877,GenBank:NP_054550.1,GeneID:1466305;Name=NP_054550.1;Note=ORF131;gbkey=CDS;locus_tag=NitaCp076;product=hypothetical protein;protein_id=NP_054550.1;transl_table=11
+NC_001879.2	RefSeq	gene	102103	102315	.	+	.	ID=gene-NitaCp077;Dbxref=GeneID:1466304;Name=NitaCp077;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NitaCp077
+NC_001879.2	RefSeq	CDS	102103	102315	.	+	0	ID=cds-NP_054551.1;Parent=gene-NitaCp077;Dbxref=UniProtKB/TrEMBL:Q37073,GenBank:NP_054551.1,GeneID:1466304;Name=NP_054551.1;Note=ORF70B;gbkey=CDS;locus_tag=NitaCp077;product=hypothetical protein;protein_id=NP_054551.1;transl_table=11
+NC_001879.2	RefSeq	gene	102463	102534	.	+	.	ID=gene-NitaCt137;Dbxref=GeneID:800435;Name=trnV;gbkey=Gene;gene=trnV;gene_biotype=tRNA;locus_tag=NitaCt137
+NC_001879.2	RefSeq	tRNA	102463	102534	.	+	.	ID=rna-NitaCt137;Parent=gene-NitaCt137;Dbxref=GeneID:800435;gbkey=tRNA;gene=trnV;locus_tag=NitaCt137;product=tRNA-Val
+NC_001879.2	RefSeq	exon	102463	102534	.	+	.	ID=exon-NitaCt137-1;Parent=rna-NitaCt137;Dbxref=GeneID:800435;gbkey=tRNA;gene=trnV;locus_tag=NitaCt137;product=tRNA-Val
+NC_001879.2	RefSeq	gene	102762	104252	.	+	.	ID=gene-NitaCr105;Dbxref=GeneID:1466285;Name=NitaCr105;gbkey=Gene;gene_biotype=rRNA;locus_tag=NitaCr105
+NC_001879.2	RefSeq	rRNA	102762	104252	.	+	.	ID=rna-NitaCr105;Parent=gene-NitaCr105;Dbxref=GeneID:1466285;gbkey=rRNA;locus_tag=NitaCr105;product=16S ribosomal RNA
+NC_001879.2	RefSeq	exon	102762	104252	.	+	.	ID=exon-NitaCr105-1;Parent=rna-NitaCr105;Dbxref=GeneID:1466285;gbkey=rRNA;locus_tag=NitaCr105;product=16S ribosomal RNA
+NC_001879.2	RefSeq	gene	104553	105331	.	+	.	ID=gene-NitaCt138;Dbxref=GeneID:800522;Name=trnI;gbkey=Gene;gene=trnI;gene_biotype=tRNA;locus_tag=NitaCt138
+NC_001879.2	RefSeq	tRNA	104553	105331	.	+	.	ID=rna-NitaCt138;Parent=gene-NitaCt138;Dbxref=GeneID:800522;gbkey=tRNA;gene=trnI;locus_tag=NitaCt138;product=tRNA-Ile
+NC_001879.2	RefSeq	exon	104553	104589	.	+	.	ID=exon-NitaCt138-1;Parent=rna-NitaCt138;Dbxref=GeneID:800522;gbkey=tRNA;gene=trnI;locus_tag=NitaCt138;product=tRNA-Ile
+NC_001879.2	RefSeq	exon	105297	105331	.	+	.	ID=exon-NitaCt138-2;Parent=rna-NitaCt138;Dbxref=GeneID:800522;gbkey=tRNA;gene=trnI;locus_tag=NitaCt138;product=tRNA-Ile
+NC_001879.2	RefSeq	exon	104553	104589	.	+	.	ID=id-NitaCt138-1;Parent=gene-NitaCt138;Dbxref=GeneID:800522;exon_number=1;gbkey=exon;gene=trnI;locus_tag=NitaCt138;number=1
+NC_001879.2	RefSeq	exon	105297	105331	.	+	.	ID=id-NitaCt138-2;Parent=gene-NitaCt138;Dbxref=GeneID:800522;exon_number=2;gbkey=exon;gene=trnI;locus_tag=NitaCt138;number=2
+NC_001879.2	RefSeq	origin_of_replication	105297	105331	.	+	.	ID=id-NC_001879.2:105297..105331;Note=oriA;gbkey=rep_origin
+NC_001879.2	RefSeq	gene	105396	106177	.	+	.	ID=gene-NitaCt139;Dbxref=GeneID:800463;Name=trnA;gbkey=Gene;gene=trnA;gene_biotype=tRNA;locus_tag=NitaCt139
+NC_001879.2	RefSeq	tRNA	105396	106177	.	+	.	ID=rna-NitaCt139;Parent=gene-NitaCt139;Dbxref=GeneID:800463;gbkey=tRNA;gene=trnA;locus_tag=NitaCt139;product=tRNA-Ala
+NC_001879.2	RefSeq	exon	105396	105433	.	+	.	ID=exon-NitaCt139-1;Parent=rna-NitaCt139;Dbxref=GeneID:800463;gbkey=tRNA;gene=trnA;locus_tag=NitaCt139;product=tRNA-Ala
+NC_001879.2	RefSeq	exon	106143	106177	.	+	.	ID=exon-NitaCt139-2;Parent=rna-NitaCt139;Dbxref=GeneID:800463;gbkey=tRNA;gene=trnA;locus_tag=NitaCt139;product=tRNA-Ala
+NC_001879.2	RefSeq	exon	105396	105433	.	+	.	ID=id-NitaCt139-1;Parent=gene-NitaCt139;Dbxref=GeneID:800463;exon_number=1;gbkey=exon;gene=trnA;locus_tag=NitaCt139;number=1
+NC_001879.2	RefSeq	exon	106143	106177	.	+	.	ID=id-NitaCt139-2;Parent=gene-NitaCt139;Dbxref=GeneID:800463;exon_number=2;gbkey=exon;gene=trnA;locus_tag=NitaCt139;number=2
+NC_001879.2	RefSeq	gene	106331	109140	.	+	.	ID=gene-NitaCr106;Dbxref=GeneID:1466286;Name=NitaCr106;gbkey=Gene;gene_biotype=rRNA;locus_tag=NitaCr106
+NC_001879.2	RefSeq	rRNA	106331	109140	.	+	.	ID=rna-NitaCr106;Parent=gene-NitaCr106;Dbxref=GeneID:1466286;gbkey=rRNA;locus_tag=NitaCr106;product=23S ribosomal RNA
+NC_001879.2	RefSeq	exon	106331	109140	.	+	.	ID=exon-NitaCr106-1;Parent=rna-NitaCr106;Dbxref=GeneID:1466286;gbkey=rRNA;locus_tag=NitaCr106;product=23S ribosomal RNA
+NC_001879.2	RefSeq	gene	109242	109344	.	+	.	ID=gene-NitaCr107;Dbxref=GeneID:1466287;Name=NitaCr107;gbkey=Gene;gene_biotype=rRNA;locus_tag=NitaCr107
+NC_001879.2	RefSeq	rRNA	109242	109344	.	+	.	ID=rna-NitaCr107;Parent=gene-NitaCr107;Dbxref=GeneID:1466287;gbkey=rRNA;locus_tag=NitaCr107;product=4.5S ribosomal RNA
+NC_001879.2	RefSeq	exon	109242	109344	.	+	.	ID=exon-NitaCr107-1;Parent=rna-NitaCr107;Dbxref=GeneID:1466287;gbkey=rRNA;locus_tag=NitaCr107;product=4.5S ribosomal RNA
+NC_001879.2	RefSeq	gene	109601	109721	.	+	.	ID=gene-NitaCr108;Dbxref=GeneID:1466288;Name=NitaCr108;gbkey=Gene;gene_biotype=rRNA;locus_tag=NitaCr108
+NC_001879.2	RefSeq	rRNA	109601	109721	.	+	.	ID=rna-NitaCr108;Parent=gene-NitaCr108;Dbxref=GeneID:1466288;gbkey=rRNA;locus_tag=NitaCr108;product=5S ribosomal RNA
+NC_001879.2	RefSeq	exon	109601	109721	.	+	.	ID=exon-NitaCr108-1;Parent=rna-NitaCr108;Dbxref=GeneID:1466288;gbkey=rRNA;locus_tag=NitaCr108;product=5S ribosomal RNA
+NC_001879.2	RefSeq	gene	109979	110052	.	+	.	ID=gene-NitaCt140;Dbxref=GeneID:800501;Name=trnR;gbkey=Gene;gene=trnR;gene_biotype=tRNA;locus_tag=NitaCt140
+NC_001879.2	RefSeq	tRNA	109979	110052	.	+	.	ID=rna-NitaCt140;Parent=gene-NitaCt140;Dbxref=GeneID:800501;gbkey=tRNA;gene=trnR;locus_tag=NitaCt140;product=tRNA-Arg
+NC_001879.2	RefSeq	exon	109979	110052	.	+	.	ID=exon-NitaCt140-1;Parent=rna-NitaCt140;Dbxref=GeneID:800501;gbkey=tRNA;gene=trnR;locus_tag=NitaCt140;product=tRNA-Arg
+NC_001879.2	RefSeq	gene	110599	110826	.	-	.	ID=gene-NitaCp078;Dbxref=GeneID:1466306;Name=NitaCp078;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NitaCp078
+NC_001879.2	RefSeq	CDS	110599	110826	.	-	0	ID=cds-NP_054552.1;Parent=gene-NitaCp078;Dbxref=UniProtKB/TrEMBL:Q37113,GenBank:NP_054552.1,GeneID:1466306;Name=NP_054552.1;Note=ORF75;gbkey=CDS;locus_tag=NitaCp078;product=hypothetical protein;protein_id=NP_054552.1;transl_table=11
+NC_001879.2	RefSeq	gene	110634	110705	.	-	.	ID=gene-NitaCt141;Dbxref=GeneID:800426;Name=trnN;gbkey=Gene;gene=trnN;gene_biotype=tRNA;locus_tag=NitaCt141
+NC_001879.2	RefSeq	tRNA	110634	110705	.	-	.	ID=rna-NitaCt141;Parent=gene-NitaCt141;Dbxref=GeneID:800426;gbkey=tRNA;gene=trnN;locus_tag=NitaCt141;product=tRNA-Asn
+NC_001879.2	RefSeq	exon	110634	110705	.	-	.	ID=exon-NitaCt141-1;Parent=rna-NitaCt141;Dbxref=GeneID:800426;gbkey=tRNA;gene=trnN;locus_tag=NitaCt141;product=tRNA-Asn
+NC_001879.2	RefSeq	gene	111031	112083	.	+	.	ID=gene-NitaCp079;Dbxref=GeneID:1466307;Name=NitaCp079;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NitaCp079
+NC_001879.2	RefSeq	CDS	111031	112083	.	+	0	ID=cds-NP_054553.1;Parent=gene-NitaCp079;Dbxref=UniProtKB/TrEMBL:Q32721,GenBank:NP_054553.1,GeneID:1466307;Name=NP_054553.1;Note=ORF350;gbkey=CDS;locus_tag=NitaCp079;product=hypothetical protein;protein_id=NP_054553.1;transl_table=11
+NC_001879.2	RefSeq	sequence_feature	112029	112030	.	+	.	ID=id-NitaCp079;Dbxref=GeneID:1466307;Note=JSB%2C junction IRB-SSC;gbkey=misc_feature;locus_tag=NitaCp079
+NC_001879.2	RefSeq	origin_of_replication	111780	112022	.	+	.	ID=id-NitaCp079-2;Dbxref=GeneID:1466307;Note=oriB;gbkey=rep_origin;locus_tag=NitaCp079
+NC_001879.2	RefSeq	inverted_repeat	112030	130600	.	+	.	ID=id-NC_001879.2:112030..130600;Note=SSC%3B inverted repeat A;gbkey=repeat_region;rpt_family=IRA;rpt_type=inverted
+NC_001879.2	RefSeq	gene	112072	114294	.	-	.	ID=gene-NitaCp080;Dbxref=GeneID:800484;Name=ndhF;gbkey=Gene;gene=ndhF;gene_biotype=protein_coding;gene_synonym=ndh5;locus_tag=NitaCp080
+NC_001879.2	RefSeq	CDS	112072	114294	.	-	0	ID=cds-NP_054554.1;Parent=gene-NitaCp080;Dbxref=UniProtKB/Swiss-Prot:P06265,GenBank:NP_054554.1,GeneID:800484;Name=NP_054554.1;gbkey=CDS;gene=ndhF;locus_tag=NitaCp080;product=NADH dehydrogenase subunit 5;protein_id=NP_054554.1;transl_table=11
+NC_001879.2	RefSeq	sequence_feature	112864	113213	.	+	.	ID=id-NC_001879.2:112864..113213;Note=ars1;gbkey=misc_feature
+NC_001879.2	RefSeq	gene	115063	115230	.	+	.	ID=gene-NitaCp081;Dbxref=GeneID:800466;Name=rpl32;gbkey=Gene;gene=rpl32;gene_biotype=protein_coding;gene_synonym=sprA;locus_tag=NitaCp081
+NC_001879.2	RefSeq	CDS	115063	115230	.	+	0	ID=cds-NP_054555.1;Parent=gene-NitaCp081;Dbxref=UniProtKB/Swiss-Prot:P12198,GenBank:NP_054555.1,GeneID:800466;Name=NP_054555.1;gbkey=CDS;gene=rpl32;locus_tag=NitaCp081;product=ribosomal protein L32;protein_id=NP_054555.1;transl_table=11
+NC_001879.2	RefSeq	gene	116163	116242	.	+	.	ID=gene-NitaCt142;Dbxref=GeneID:800416;Name=trnL;gbkey=Gene;gene=trnL;gene_biotype=tRNA;locus_tag=NitaCt142
+NC_001879.2	RefSeq	tRNA	116163	116242	.	+	.	ID=rna-NitaCt142;Parent=gene-NitaCt142;Dbxref=GeneID:800416;gbkey=tRNA;gene=trnL;locus_tag=NitaCt142;product=tRNA-Leu
+NC_001879.2	RefSeq	exon	116163	116242	.	+	.	ID=exon-NitaCt142-1;Parent=rna-NitaCt142;Dbxref=GeneID:800416;gbkey=tRNA;gene=trnL;locus_tag=NitaCt142;product=tRNA-Leu
+NC_001879.2	RefSeq	gene	116346	117287	.	+	.	ID=gene-NitaCp082;Dbxref=GeneID:800432;Name=ccsA;gbkey=Gene;gene=ccsA;gene_biotype=protein_coding;gene_synonym=ycf5;locus_tag=NitaCp082
+NC_001879.2	RefSeq	CDS	116346	117287	.	+	0	ID=cds-NP_054556.1;Parent=gene-NitaCp082;Dbxref=UniProtKB/Swiss-Prot:P12216,GenBank:NP_054556.1,GeneID:800432;Name=NP_054556.1;gbkey=CDS;gene=ccsA;locus_tag=NitaCp082;product=cytochrome c biogenesis protein;protein_id=NP_054556.1;transl_table=11
+NC_001879.2	RefSeq	gene	117525	119027	.	-	.	ID=gene-NitaCp083;Dbxref=GeneID:800483;Name=ndhD;gbkey=Gene;gene=ndhD;gene_biotype=protein_coding;gene_synonym=ndh4;locus_tag=NitaCp083
+NC_001879.2	RefSeq	CDS	117525	119027	.	-	0	ID=cds-NP_054557.2;Parent=gene-NitaCp083;Dbxref=UniProtKB/Swiss-Prot:P06262,GenBank:NP_054557.2,GeneID:800483;Name=NP_054557.2;gbkey=CDS;gene=ndhD;locus_tag=NitaCp083;product=NADH dehydrogenase subunit 4;protein_id=NP_054557.2;transl_except=(pos:complement(119025..119027)%2Caa:Met);transl_table=11
+NC_001879.2	RefSeq	gene	119146	119391	.	-	.	ID=gene-NitaCp084;Dbxref=GeneID:800430;Name=psaC;gbkey=Gene;gene=psaC;gene_biotype=protein_coding;locus_tag=NitaCp084
+NC_001879.2	RefSeq	CDS	119146	119391	.	-	0	ID=cds-NP_054558.1;Parent=gene-NitaCp084;Dbxref=UniProtKB/Swiss-Prot:P07136,GenBank:NP_054558.1,GeneID:800430;Name=NP_054558.1;Note=9 kDa protein;gbkey=CDS;gene=psaC;locus_tag=NitaCp084;product=photosystem I subunit VII;protein_id=NP_054558.1;transl_table=11
+NC_001879.2	RefSeq	gene	119652	119957	.	-	.	ID=gene-NitaCp085;Dbxref=GeneID:800415;Name=ndhE;gbkey=Gene;gene=ndhE;gene_biotype=protein_coding;gene_synonym=ndh4L;locus_tag=NitaCp085
+NC_001879.2	RefSeq	CDS	119652	119957	.	-	0	ID=cds-NP_054559.1;Parent=gene-NitaCp085;Dbxref=UniProtKB/Swiss-Prot:P06261,GenBank:NP_054559.1,GeneID:800415;Name=NP_054559.1;gbkey=CDS;gene=ndhE;locus_tag=NitaCp085;product=NADH dehydrogenase subunit 4L;protein_id=NP_054559.1;transl_table=11
+NC_001879.2	RefSeq	gene	120181	120711	.	-	.	ID=gene-NitaCp086;Dbxref=GeneID:800451;Name=ndhG;gbkey=Gene;gene=ndhG;gene_biotype=protein_coding;locus_tag=NitaCp086
+NC_001879.2	RefSeq	CDS	120181	120711	.	-	0	ID=cds-NP_054560.1;Parent=gene-NitaCp086;Dbxref=UniProtKB/TrEMBL:Q32722,GenBank:NP_054560.1,GeneID:800451;Name=NP_054560.1;gbkey=CDS;gene=ndhG;locus_tag=NitaCp086;product=NADH dehydrogenase subunit 6;protein_id=NP_054560.1;transl_table=11
+NC_001879.2	RefSeq	gene	121108	121611	.	-	.	ID=gene-NitaCp087;Dbxref=GeneID:800458;Name=ndhI;gbkey=Gene;gene=ndhI;gene_biotype=protein_coding;gene_synonym=frxB;locus_tag=NitaCp087
+NC_001879.2	RefSeq	CDS	121108	121611	.	-	0	ID=cds-NP_054561.1;Parent=gene-NitaCp087;Dbxref=UniProtKB/Swiss-Prot:P06252,GenBank:NP_054561.1,GeneID:800458;Name=NP_054561.1;gbkey=CDS;gene=ndhI;locus_tag=NitaCp087;product=NADH dehydrogenase subunit I;protein_id=NP_054561.1;transl_table=11
+NC_001879.2	RefSeq	gene	121696	123935	.	-	.	ID=gene-NitaCp088;Dbxref=GeneID:800512;Name=ndhA;gbkey=Gene;gene=ndhA;gene_biotype=protein_coding;gene_synonym=ndh1;locus_tag=NitaCp088
+NC_001879.2	RefSeq	CDS	123383	123935	.	-	0	ID=cds-NP_054562.1;Parent=gene-NitaCp088;Dbxref=UniProtKB/Swiss-Prot:P06254,GenBank:NP_054562.1,GeneID:800512;Name=NP_054562.1;gbkey=CDS;gene=ndhA;locus_tag=NitaCp088;product=NADH dehydrogenase subunit 1;protein_id=NP_054562.1;transl_table=11
+NC_001879.2	RefSeq	CDS	121696	122234	.	-	2	ID=cds-NP_054562.1;Parent=gene-NitaCp088;Dbxref=UniProtKB/Swiss-Prot:P06254,GenBank:NP_054562.1,GeneID:800512;Name=NP_054562.1;gbkey=CDS;gene=ndhA;locus_tag=NitaCp088;product=NADH dehydrogenase subunit 1;protein_id=NP_054562.1;transl_table=11
+NC_001879.2	RefSeq	exon	121696	122234	.	-	.	ID=id-NitaCp088-2;Parent=gene-NitaCp088;Dbxref=GeneID:800512;exon_number=2;gbkey=exon;gene=ndhA;locus_tag=NitaCp088;number=2
+NC_001879.2	RefSeq	exon	123383	123935	.	-	.	ID=id-NitaCp088-1;Parent=gene-NitaCp088;Dbxref=GeneID:800512;exon_number=1;gbkey=exon;gene=ndhA;locus_tag=NitaCp088;number=1
+NC_001879.2	RefSeq	intron	122235	123382	.	-	.	ID=id-NitaCp088;Parent=gene-NitaCp088;Dbxref=GeneID:800512;exon_number=1;gbkey=intron;gene=ndhA;locus_tag=NitaCp088;number=1
+NC_001879.2	RefSeq	gene	123937	125118	.	-	.	ID=gene-NitaCp089;Dbxref=GeneID:800441;Name=ndhH;gbkey=Gene;gene=ndhH;gene_biotype=protein_coding;locus_tag=NitaCp089
+NC_001879.2	RefSeq	CDS	123937	125118	.	-	0	ID=cds-NP_054563.1;Parent=gene-NitaCp089;Dbxref=UniProtKB/Swiss-Prot:P12133,GenBank:NP_054563.1,GeneID:800441;Name=NP_054563.1;gbkey=CDS;gene=ndhH;locus_tag=NitaCp089;product=NADH dehydrogenase subunit 7;protein_id=NP_054563.1;transl_table=11
+NC_001879.2	RefSeq	gene	125230	125493	.	-	.	ID=gene-NitaCp090;Dbxref=GeneID:800489;Name=rps15;gbkey=Gene;gene=rps15;gene_biotype=protein_coding;locus_tag=NitaCp090
+NC_001879.2	RefSeq	CDS	125230	125493	.	-	0	ID=cds-NP_054564.1;Parent=gene-NitaCp090;Dbxref=UniProtKB/Swiss-Prot:P06373,GenBank:NP_054564.1,GeneID:800489;Name=NP_054564.1;gbkey=CDS;gene=rps15;locus_tag=NitaCp090;product=ribosomal protein S15;protein_id=NP_054564.1;transl_table=11
+NC_001879.2	RefSeq	gene	125891	131599	.	-	.	ID=gene-NitaCp151;Dbxref=GeneID:7564685;Name=ycf1;gbkey=Gene;gene=ycf1;gene_biotype=protein_coding;locus_tag=NitaCp151
+NC_001879.2	RefSeq	CDS	125891	131599	.	-	0	ID=cds-YP_002720024.1;Parent=gene-NitaCp151;Dbxref=GenBank:YP_002720024.1,GeneID:7564685;Name=YP_002720024.1;gbkey=CDS;gene=ycf1;locus_tag=NitaCp151;product=Ycf1;protein_id=YP_002720024.1;transl_table=11
+NC_001879.2	RefSeq	sequence_feature	130600	130601	.	+	.	ID=id-NC_001879.2:130600..130601;Note=JSA%2C junction SSC-IRA;gbkey=misc_feature
+NC_001879.2	RefSeq	sequence_feature	130601	155943	.	+	.	ID=id-NC_001879.2:130601..155943;Note=IRA;gbkey=misc_feature
+NC_001879.2	RefSeq	origin_of_replication	130608	130850	.	+	.	ID=id-NC_001879.2:130608..130850;Note=oriR;gbkey=rep_origin
+NC_001879.2	RefSeq	gene	131804	132031	.	+	.	ID=gene-NitaCp091;Dbxref=GeneID:1466308;Name=NitaCp091;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NitaCp091
+NC_001879.2	RefSeq	CDS	131804	132031	.	+	0	ID=cds-NP_054565.1;Parent=gene-NitaCp091;Dbxref=UniProtKB/TrEMBL:Q37113,GenBank:NP_054565.1,GeneID:1466308;Name=NP_054565.1;Note=ORF75;gbkey=CDS;locus_tag=NitaCp091;product=hypothetical protein;protein_id=NP_054565.1;transl_table=11
+NC_001879.2	RefSeq	gene	131925	131996	.	+	.	ID=gene-NitaCt143;Dbxref=GeneID:800508;Name=trnN;gbkey=Gene;gene=trnN;gene_biotype=tRNA;locus_tag=NitaCt143
+NC_001879.2	RefSeq	tRNA	131925	131996	.	+	.	ID=rna-NitaCt143;Parent=gene-NitaCt143;Dbxref=GeneID:800508;gbkey=tRNA;gene=trnN;locus_tag=NitaCt143;product=tRNA-Asn
+NC_001879.2	RefSeq	exon	131925	131996	.	+	.	ID=exon-NitaCt143-1;Parent=rna-NitaCt143;Dbxref=GeneID:800508;gbkey=tRNA;gene=trnN;locus_tag=NitaCt143;product=tRNA-Asn
+NC_001879.2	RefSeq	gene	132578	132651	.	-	.	ID=gene-NitaCt144;Dbxref=GeneID:800502;Name=trnR;gbkey=Gene;gene=trnR;gene_biotype=tRNA;locus_tag=NitaCt144
+NC_001879.2	RefSeq	tRNA	132578	132651	.	-	.	ID=rna-NitaCt144;Parent=gene-NitaCt144;Dbxref=GeneID:800502;gbkey=tRNA;gene=trnR;locus_tag=NitaCt144;product=tRNA-Arg
+NC_001879.2	RefSeq	exon	132578	132651	.	-	.	ID=exon-NitaCt144-1;Parent=rna-NitaCt144;Dbxref=GeneID:800502;gbkey=tRNA;gene=trnR;locus_tag=NitaCt144;product=tRNA-Arg
+NC_001879.2	RefSeq	gene	132909	133029	.	-	.	ID=gene-NitaCr109;Dbxref=GeneID:1466289;Name=NitaCr109;gbkey=Gene;gene_biotype=rRNA;locus_tag=NitaCr109
+NC_001879.2	RefSeq	rRNA	132909	133029	.	-	.	ID=rna-NitaCr109;Parent=gene-NitaCr109;Dbxref=GeneID:1466289;gbkey=rRNA;locus_tag=NitaCr109;product=5S ribosomal RNA
+NC_001879.2	RefSeq	exon	132909	133029	.	-	.	ID=exon-NitaCr109-1;Parent=rna-NitaCr109;Dbxref=GeneID:1466289;gbkey=rRNA;locus_tag=NitaCr109;product=5S ribosomal RNA
+NC_001879.2	RefSeq	gene	133286	133388	.	-	.	ID=gene-NitaCr110;Dbxref=GeneID:1466290;Name=NitaCr110;gbkey=Gene;gene_biotype=rRNA;locus_tag=NitaCr110
+NC_001879.2	RefSeq	rRNA	133286	133388	.	-	.	ID=rna-NitaCr110;Parent=gene-NitaCr110;Dbxref=GeneID:1466290;gbkey=rRNA;locus_tag=NitaCr110;product=4.5S ribosomal RNA
+NC_001879.2	RefSeq	exon	133286	133388	.	-	.	ID=exon-NitaCr110-1;Parent=rna-NitaCr110;Dbxref=GeneID:1466290;gbkey=rRNA;locus_tag=NitaCr110;product=4.5S ribosomal RNA
+NC_001879.2	RefSeq	gene	133490	136299	.	-	.	ID=gene-NitaCr111;Dbxref=GeneID:1466291;Name=NitaCr111;gbkey=Gene;gene_biotype=rRNA;locus_tag=NitaCr111
+NC_001879.2	RefSeq	rRNA	133490	136299	.	-	.	ID=rna-NitaCr111;Parent=gene-NitaCr111;Dbxref=GeneID:1466291;gbkey=rRNA;locus_tag=NitaCr111;product=23S ribosomal RNA
+NC_001879.2	RefSeq	exon	133490	136299	.	-	.	ID=exon-NitaCr111-1;Parent=rna-NitaCr111;Dbxref=GeneID:1466291;gbkey=rRNA;locus_tag=NitaCr111;product=23S ribosomal RNA
+NC_001879.2	RefSeq	gene	136453	137234	.	-	.	ID=gene-NitaCt145;Dbxref=GeneID:800425;Name=trnA;gbkey=Gene;gene=trnA;gene_biotype=tRNA;locus_tag=NitaCt145
+NC_001879.2	RefSeq	tRNA	136453	137234	.	-	.	ID=rna-NitaCt145;Parent=gene-NitaCt145;Dbxref=GeneID:800425;gbkey=tRNA;gene=trnA;locus_tag=NitaCt145;product=tRNA-Ala
+NC_001879.2	RefSeq	exon	137197	137234	.	-	.	ID=exon-NitaCt145-1;Parent=rna-NitaCt145;Dbxref=GeneID:800425;gbkey=tRNA;gene=trnA;locus_tag=NitaCt145;product=tRNA-Ala
+NC_001879.2	RefSeq	exon	136453	136487	.	-	.	ID=exon-NitaCt145-2;Parent=rna-NitaCt145;Dbxref=GeneID:800425;gbkey=tRNA;gene=trnA;locus_tag=NitaCt145;product=tRNA-Ala
+NC_001879.2	RefSeq	exon	136453	136487	.	-	.	ID=id-NitaCt145-2;Parent=gene-NitaCt145;Dbxref=GeneID:800425;exon_number=2;gbkey=exon;gene=trnA;locus_tag=NitaCt145;number=2
+NC_001879.2	RefSeq	exon	137197	137234	.	-	.	ID=id-NitaCt145-1;Parent=gene-NitaCt145;Dbxref=GeneID:800425;exon_number=1;gbkey=exon;gene=trnA;locus_tag=NitaCt145;number=1
+NC_001879.2	RefSeq	gene	137299	138077	.	-	.	ID=gene-NitaCt146;Dbxref=GeneID:800440;Name=trnI;gbkey=Gene;gene=trnI;gene_biotype=tRNA;locus_tag=NitaCt146
+NC_001879.2	RefSeq	tRNA	137299	138077	.	-	.	ID=rna-NitaCt146;Parent=gene-NitaCt146;Dbxref=GeneID:800440;gbkey=tRNA;gene=trnI;locus_tag=NitaCt146;product=tRNA-Ile
+NC_001879.2	RefSeq	exon	138041	138077	.	-	.	ID=exon-NitaCt146-1;Parent=rna-NitaCt146;Dbxref=GeneID:800440;gbkey=tRNA;gene=trnI;locus_tag=NitaCt146;product=tRNA-Ile
+NC_001879.2	RefSeq	exon	137299	137333	.	-	.	ID=exon-NitaCt146-2;Parent=rna-NitaCt146;Dbxref=GeneID:800440;gbkey=tRNA;gene=trnI;locus_tag=NitaCt146;product=tRNA-Ile
+NC_001879.2	RefSeq	exon	137299	137333	.	-	.	ID=id-NitaCt146-2;Parent=gene-NitaCt146;Dbxref=GeneID:800440;exon_number=2;gbkey=exon;gene=trnI;locus_tag=NitaCt146;number=2
+NC_001879.2	RefSeq	exon	138041	138077	.	-	.	ID=id-NitaCt146-1;Parent=gene-NitaCt146;Dbxref=GeneID:800440;exon_number=1;gbkey=exon;gene=trnI;locus_tag=NitaCt146;number=1
+NC_001879.2	RefSeq	origin_of_replication	137778	137859	.	+	.	ID=id-NC_001879.2:137778..137859;Note=oriA;gbkey=rep_origin
+NC_001879.2	RefSeq	gene	138378	139868	.	-	.	ID=gene-NitaCr112;Dbxref=GeneID:1466292;Name=NitaCr112;gbkey=Gene;gene_biotype=rRNA;locus_tag=NitaCr112
+NC_001879.2	RefSeq	rRNA	138378	139868	.	-	.	ID=rna-NitaCr112;Parent=gene-NitaCr112;Dbxref=GeneID:1466292;gbkey=rRNA;locus_tag=NitaCr112;product=16S ribosomal RNA
+NC_001879.2	RefSeq	exon	138378	139868	.	-	.	ID=exon-NitaCr112-1;Parent=rna-NitaCr112;Dbxref=GeneID:1466292;gbkey=rRNA;locus_tag=NitaCr112;product=16S ribosomal RNA
+NC_001879.2	RefSeq	gene	140096	140167	.	-	.	ID=gene-NitaCt147;Dbxref=GeneID:800469;Name=trnV;gbkey=Gene;gene=trnV;gene_biotype=tRNA;locus_tag=NitaCt147
+NC_001879.2	RefSeq	tRNA	140096	140167	.	-	.	ID=rna-NitaCt147;Parent=gene-NitaCt147;Dbxref=GeneID:800469;gbkey=tRNA;gene=trnV;locus_tag=NitaCt147;product=tRNA-Val
+NC_001879.2	RefSeq	exon	140096	140167	.	-	.	ID=exon-NitaCt147-1;Parent=rna-NitaCt147;Dbxref=GeneID:800469;gbkey=tRNA;gene=trnV;locus_tag=NitaCt147;product=tRNA-Val
+NC_001879.2	RefSeq	gene	140283	140678	.	+	.	ID=gene-NitaCp092;Dbxref=GeneID:1466309;Name=NitaCp092;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NitaCp092
+NC_001879.2	RefSeq	CDS	140283	140678	.	+	0	ID=cds-NP_054566.1;Parent=gene-NitaCp092;Dbxref=UniProtKB/TrEMBL:Q36877,GenBank:NP_054566.1,GeneID:1466309;Name=NP_054566.1;Note=ORF131;gbkey=CDS;locus_tag=NitaCp092;product=hypothetical protein;protein_id=NP_054566.1;transl_table=11
+NC_001879.2	RefSeq	gene	140315	140527	.	-	.	ID=gene-NitaCp093;Dbxref=GeneID:1466310;Name=NitaCp093;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NitaCp093
+NC_001879.2	RefSeq	CDS	140315	140527	.	-	0	ID=cds-NP_054567.1;Parent=gene-NitaCp093;Dbxref=UniProtKB/TrEMBL:Q37073,GenBank:NP_054567.1,GeneID:1466310;Name=NP_054567.1;Note=ORF70B;gbkey=CDS;locus_tag=NitaCp093;product=hypothetical protein;protein_id=NP_054567.1;transl_table=11
+NC_001879.2	RefSeq	gene	142622	143089	.	+	.	ID=gene-NitaCp096;Dbxref=GeneID:800428;Name=rps7;gbkey=Gene;gene=rps7;gene_biotype=protein_coding;locus_tag=NitaCp096
+NC_001879.2	RefSeq	CDS	142622	143089	.	+	0	ID=cds-NP_054569.1;Parent=gene-NitaCp096;Dbxref=UniProtKB/Swiss-Prot:P06361,GenBank:NP_054569.1,GeneID:800428;Name=NP_054569.1;gbkey=CDS;gene=rps7;locus_tag=NitaCp096;product=ribosomal protein S7;protein_id=NP_054569.1;transl_table=11
+NC_001879.2	RefSeq	gene	143369	145580	.	+	.	ID=gene-NitaCp097;Dbxref=GeneID:800509;Name=ndhB;gbkey=Gene;gene=ndhB;gene_biotype=protein_coding;gene_synonym=ndh2;locus_tag=NitaCp097
+NC_001879.2	RefSeq	CDS	143369	144145	.	+	0	ID=cds-NP_054570.1;Parent=gene-NitaCp097;Dbxref=UniProtKB/Swiss-Prot:P06256,GenBank:NP_054570.1,GeneID:800509;Name=NP_054570.1;gbkey=CDS;gene=ndhB;locus_tag=NitaCp097;product=NADH dehydrogenase subunit 2;protein_id=NP_054570.1;transl_table=11
+NC_001879.2	RefSeq	CDS	144825	145580	.	+	0	ID=cds-NP_054570.1;Parent=gene-NitaCp097;Dbxref=UniProtKB/Swiss-Prot:P06256,GenBank:NP_054570.1,GeneID:800509;Name=NP_054570.1;gbkey=CDS;gene=ndhB;locus_tag=NitaCp097;product=NADH dehydrogenase subunit 2;protein_id=NP_054570.1;transl_table=11
+NC_001879.2	RefSeq	exon	143369	144145	.	+	.	ID=id-NitaCp097-1;Parent=gene-NitaCp097;Dbxref=GeneID:800509;exon_number=1;gbkey=exon;gene=ndhB;locus_tag=NitaCp097;number=1
+NC_001879.2	RefSeq	exon	144825	145580	.	+	.	ID=id-NitaCp097-2;Parent=gene-NitaCp097;Dbxref=GeneID:800509;exon_number=2;gbkey=exon;gene=ndhB;locus_tag=NitaCp097;number=2
+NC_001879.2	RefSeq	intron	144146	145580	.	+	.	ID=id-NitaCp097;Parent=gene-NitaCp097;Dbxref=GeneID:800509;exon_number=1;gbkey=intron;gene=ndhB;locus_tag=NitaCp097;number=1
+NC_001879.2	RefSeq	gene	145835	146074	.	-	.	ID=gene-NitaCp098;Dbxref=GeneID:1466312;Name=NitaCp098;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NitaCp098
+NC_001879.2	RefSeq	CDS	145835	146074	.	-	0	ID=cds-NP_054571.1;Parent=gene-NitaCp098;Dbxref=UniProtKB/TrEMBL:Q37048,GenBank:NP_054571.1,GeneID:1466312;Name=NP_054571.1;Note=ORF79;gbkey=CDS;locus_tag=NitaCp098;product=hypothetical protein;protein_id=NP_054571.1;transl_table=11
+NC_001879.2	RefSeq	gene	146120	146200	.	+	.	ID=gene-NitaCt148;Dbxref=GeneID:800503;Name=trnL;gbkey=Gene;gene=trnL;gene_biotype=tRNA;locus_tag=NitaCt148
+NC_001879.2	RefSeq	tRNA	146120	146200	.	+	.	ID=rna-NitaCt148;Parent=gene-NitaCt148;Dbxref=GeneID:800503;gbkey=tRNA;gene=trnL;locus_tag=NitaCt148;product=tRNA-Leu
+NC_001879.2	RefSeq	exon	146120	146200	.	+	.	ID=exon-NitaCt148-1;Parent=rna-NitaCt148;Dbxref=GeneID:800503;gbkey=tRNA;gene=trnL;locus_tag=NitaCt148;product=tRNA-Leu
+NC_001879.2	RefSeq	gene	146903	153745	.	-	.	ID=gene-NitaCp102;Dbxref=GeneID:800486;Name=ycf2;gbkey=Gene;gene=ycf2;gene_biotype=protein_coding;locus_tag=NitaCp102
+NC_001879.2	RefSeq	CDS	146903	153745	.	-	0	ID=cds-NP_054575.1;Parent=gene-NitaCp102;Dbxref=UniProtKB/Swiss-Prot:P09976,GenBank:NP_054575.1,GeneID:800486;Name=NP_054575.1;Note=hypothetical protein RF2;gbkey=CDS;gene=ycf2;locus_tag=NitaCp102;product=Ycf2;protein_id=NP_054575.1;transl_table=11
+NC_001879.2	RefSeq	gene	153858	153931	.	+	.	ID=gene-NitaCt149;Dbxref=GeneID:800471;Name=trnI;gbkey=Gene;gene=trnI;gene_biotype=tRNA;locus_tag=NitaCt149
+NC_001879.2	RefSeq	tRNA	153858	153931	.	+	.	ID=rna-NitaCt149;Parent=gene-NitaCt149;Dbxref=GeneID:800471;gbkey=tRNA;gene=trnI;locus_tag=NitaCt149;product=tRNA-Ile
+NC_001879.2	RefSeq	exon	153858	153931	.	+	.	ID=exon-NitaCt149-1;Parent=rna-NitaCt149;Dbxref=GeneID:800471;gbkey=tRNA;gene=trnI;locus_tag=NitaCt149;product=tRNA-Ile
+NC_001879.2	RefSeq	gene	154097	154378	.	+	.	ID=gene-NitaCp103;Dbxref=GeneID:800421;Name=rpl23;gbkey=Gene;gene=rpl23;gene_biotype=protein_coding;locus_tag=NitaCp103
+NC_001879.2	RefSeq	CDS	154097	154378	.	+	0	ID=cds-NP_054576.1;Parent=gene-NitaCp103;Dbxref=UniProtKB/Swiss-Prot:P06391,GenBank:NP_054576.1,GeneID:800421;Name=NP_054576.1;gbkey=CDS;gene=rpl23;locus_tag=NitaCp103;product=ribosomal protein L23;protein_id=NP_054576.1;transl_table=11
+NC_001879.2	RefSeq	gene	154397	155887	.	+	.	ID=gene-NitaCp104;Dbxref=GeneID:800468;Name=rpl2;gbkey=Gene;gene=rpl2;gene_biotype=protein_coding;locus_tag=NitaCp104
+NC_001879.2	RefSeq	CDS	154397	154787	.	+	0	ID=cds-NP_054577.1;Parent=gene-NitaCp104;Dbxref=UniProtKB/Swiss-Prot:P06379,GenBank:NP_054577.1,GeneID:800468;Name=NP_054577.1;gbkey=CDS;gene=rpl2;locus_tag=NitaCp104;product=ribosomal protein L2;protein_id=NP_054577.1;transl_table=11
+NC_001879.2	RefSeq	CDS	155454	155887	.	+	2	ID=cds-NP_054577.1;Parent=gene-NitaCp104;Dbxref=UniProtKB/Swiss-Prot:P06379,GenBank:NP_054577.1,GeneID:800468;Name=NP_054577.1;gbkey=CDS;gene=rpl2;locus_tag=NitaCp104;product=ribosomal protein L2;protein_id=NP_054577.1;transl_table=11
+NC_001879.2	RefSeq	exon	154397	154787	.	+	.	ID=id-NitaCp104-1;Parent=gene-NitaCp104;Dbxref=GeneID:800468;exon_number=1;gbkey=exon;gene=rpl2;locus_tag=NitaCp104;number=1
+NC_001879.2	RefSeq	exon	155454	155887	.	+	.	ID=id-NitaCp104-2;Parent=gene-NitaCp104;Dbxref=GeneID:800468;exon_number=2;gbkey=exon;gene=rpl2;locus_tag=NitaCp104;number=2
+NC_001879.2	RefSeq	intron	154788	155453	.	+	.	ID=id-NitaCp104;Parent=gene-NitaCp104;Dbxref=GeneID:800468;exon_number=1;gbkey=intron;gene=rpl2;locus_tag=NitaCp104;number=1
+

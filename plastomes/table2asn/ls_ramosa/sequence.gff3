@@ -1,0 +1,346 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region PP999684.1 1 152765
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4236
+PP999684.1	Genbank	region	1	152765	.	+	.	ID=PP999684.1:1..152765;Dbxref=taxon:4236;Is_circular=true;Name=Pltd;cultivar=Ramosa Hort;gbkey=Src;genome=chloroplast;mol_type=genomic DNA
+PP999684.1	Genbank	gene	14	87	.	-	.	ID=gene-trnH-GUG;Name=trnH-GUG;gbkey=Gene;gene=trnH-GUG;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	14	87	.	-	.	ID=rna-trnH-GUG;Parent=gene-trnH-GUG;gbkey=tRNA;gene=trnH-GUG;product=tRNA-His
+PP999684.1	Genbank	exon	14	87	.	-	.	ID=exon-trnH-GUG-1;Parent=rna-trnH-GUG;gbkey=tRNA;gene=trnH-GUG;product=tRNA-His
+PP999684.1	Genbank	gene	479	1540	.	-	.	ID=gene-psbA;Name=psbA;gbkey=Gene;gene=psbA;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	479	1540	.	-	0	ID=cds-XDF89866.1;Parent=gene-psbA;Dbxref=NCBI_GP:XDF89866.1;Name=XDF89866.1;gbkey=CDS;gene=psbA;product=photosystem II protein D1;protein_id=XDF89866.1;transl_table=11
+PP999684.1	Genbank	gene	1766	4373	.	-	.	ID=gene-trnK-UUU;Name=trnK-UUU;gbkey=Gene;gene=trnK-UUU;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	1766	4373	.	-	.	ID=rna-trnK-UUU;Parent=gene-trnK-UUU;gbkey=tRNA;gene=trnK-UUU;product=tRNA-Lys
+PP999684.1	Genbank	exon	4337	4373	.	-	.	ID=exon-trnK-UUU-1;Parent=rna-trnK-UUU;gbkey=tRNA;gene=trnK-UUU;product=tRNA-Lys
+PP999684.1	Genbank	exon	1766	1800	.	-	.	ID=exon-trnK-UUU-2;Parent=rna-trnK-UUU;gbkey=tRNA;gene=trnK-UUU;product=tRNA-Lys
+PP999684.1	Genbank	gene	2083	3603	.	-	.	ID=gene-matK;Name=matK;gbkey=Gene;gene=matK;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	2083	3603	.	-	0	ID=cds-XDF89867.1;Parent=gene-matK;Dbxref=NCBI_GP:XDF89867.1;Name=XDF89867.1;gbkey=CDS;gene=matK;product=maturase K;protein_id=XDF89867.1;transl_table=11
+PP999684.1	Genbank	gene	5188	6302	.	-	.	ID=gene-rps16;Name=rps16;gbkey=Gene;gene=rps16;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	6263	6302	.	-	0	ID=cds-XDF89868.1;Parent=gene-rps16;Dbxref=NCBI_GP:XDF89868.1;Name=XDF89868.1;gbkey=CDS;gene=rps16;product=ribosomal protein S16;protein_id=XDF89868.1;transl_table=11
+PP999684.1	Genbank	CDS	5188	5414	.	-	2	ID=cds-XDF89868.1;Parent=gene-rps16;Dbxref=NCBI_GP:XDF89868.1;Name=XDF89868.1;gbkey=CDS;gene=rps16;product=ribosomal protein S16;protein_id=XDF89868.1;transl_table=11
+PP999684.1	Genbank	gene	7262	7333	.	-	.	ID=gene-trnQ-UUG;Name=trnQ-UUG;gbkey=Gene;gene=trnQ-UUG;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	7262	7333	.	-	.	ID=rna-trnQ-UUG;Parent=gene-trnQ-UUG;gbkey=tRNA;gene=trnQ-UUG;product=tRNA-Gln
+PP999684.1	Genbank	exon	7262	7333	.	-	.	ID=exon-trnQ-UUG-1;Parent=rna-trnQ-UUG;gbkey=tRNA;gene=trnQ-UUG;product=tRNA-Gln
+PP999684.1	Genbank	gene	7699	7878	.	+	.	ID=gene-psbK;Name=psbK;gbkey=Gene;gene=psbK;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	7699	7878	.	+	0	ID=cds-XDF89869.1;Parent=gene-psbK;Dbxref=NCBI_GP:XDF89869.1;Name=XDF89869.1;gbkey=CDS;gene=psbK;product=photosystem II protein K;protein_id=XDF89869.1;transl_table=11
+PP999684.1	Genbank	gene	8283	8393	.	+	.	ID=gene-psbI;Name=psbI;gbkey=Gene;gene=psbI;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	8283	8393	.	+	0	ID=cds-XDF89870.1;Parent=gene-psbI;Dbxref=NCBI_GP:XDF89870.1;Name=XDF89870.1;gbkey=CDS;gene=psbI;product=photosystem II protein I;protein_id=XDF89870.1;transl_table=11
+PP999684.1	Genbank	gene	8549	8636	.	-	.	ID=gene-trnS-GCU;Name=trnS-GCU;gbkey=Gene;gene=trnS-GCU;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	8549	8636	.	-	.	ID=rna-trnS-GCU;Parent=gene-trnS-GCU;gbkey=tRNA;gene=trnS-GCU;product=tRNA-Ser
+PP999684.1	Genbank	exon	8549	8636	.	-	.	ID=exon-trnS-GCU-1;Parent=rna-trnS-GCU;gbkey=tRNA;gene=trnS-GCU;product=tRNA-Ser
+PP999684.1	Genbank	gene	9388	9458	.	+	.	ID=gene-trnC-GCA;Name=trnC-GCA;gbkey=Gene;gene=trnC-GCA;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	9388	9458	.	+	.	ID=rna-trnC-GCA;Parent=gene-trnC-GCA;gbkey=tRNA;gene=trnC-GCA;product=tRNA-Cys
+PP999684.1	Genbank	exon	9388	9458	.	+	.	ID=exon-trnC-GCA-1;Parent=rna-trnC-GCA;gbkey=tRNA;gene=trnC-GCA;product=tRNA-Cys
+PP999684.1	Genbank	gene	10290	10379	.	+	.	ID=gene-petN;Name=petN;gbkey=Gene;gene=petN;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	10290	10379	.	+	0	ID=cds-XDF89871.1;Parent=gene-petN;Dbxref=NCBI_GP:XDF89871.1;Name=XDF89871.1;gbkey=CDS;gene=petN;product=cytochrome b6/f complex subunit VIII;protein_id=XDF89871.1;transl_table=11
+PP999684.1	Genbank	gene	10872	10976	.	-	.	ID=gene-psbM;Name=psbM;gbkey=Gene;gene=psbM;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	10872	10976	.	-	0	ID=cds-XDF89872.1;Parent=gene-psbM;Dbxref=NCBI_GP:XDF89872.1;Name=XDF89872.1;gbkey=CDS;gene=psbM;product=photosystem II protein M;protein_id=XDF89872.1;transl_table=11
+PP999684.1	Genbank	gene	11642	11715	.	-	.	ID=gene-trnD-GUC;Name=trnD-GUC;gbkey=Gene;gene=trnD-GUC;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	11642	11715	.	-	.	ID=rna-trnD-GUC;Parent=gene-trnD-GUC;gbkey=tRNA;gene=trnD-GUC;product=tRNA-Asp
+PP999684.1	Genbank	exon	11642	11715	.	-	.	ID=exon-trnD-GUC-1;Parent=rna-trnD-GUC;gbkey=tRNA;gene=trnD-GUC;product=tRNA-Asp
+PP999684.1	Genbank	gene	11829	11912	.	-	.	ID=gene-trnY-GUA;Name=trnY-GUA;gbkey=Gene;gene=trnY-GUA;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	11829	11912	.	-	.	ID=rna-trnY-GUA;Parent=gene-trnY-GUA;gbkey=tRNA;gene=trnY-GUA;product=tRNA-Tyr
+PP999684.1	Genbank	exon	11829	11912	.	-	.	ID=exon-trnY-GUA-1;Parent=rna-trnY-GUA;gbkey=tRNA;gene=trnY-GUA;product=tRNA-Tyr
+PP999684.1	Genbank	gene	12016	12087	.	-	.	ID=gene-trnE-UUC;Name=trnE-UUC;gbkey=Gene;gene=trnE-UUC;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	12016	12087	.	-	.	ID=rna-trnE-UUC;Parent=gene-trnE-UUC;gbkey=tRNA;gene=trnE-UUC;product=tRNA-Glu
+PP999684.1	Genbank	exon	12016	12087	.	-	.	ID=exon-trnE-UUC-1;Parent=rna-trnE-UUC;gbkey=tRNA;gene=trnE-UUC;product=tRNA-Glu
+PP999684.1	Genbank	gene	13019	16201	.	+	.	ID=gene-rpoB;Name=rpoB;gbkey=Gene;gene=rpoB;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	13019	16201	.	+	0	ID=cds-XDF89873.1;Parent=gene-rpoB;Dbxref=NCBI_GP:XDF89873.1;Name=XDF89873.1;gbkey=CDS;gene=rpoB;product=RNA polymerase beta subunit;protein_id=XDF89873.1;transl_table=11
+PP999684.1	Genbank	gene	16228	19030	.	+	.	ID=gene-rpoC1;Name=rpoC1;gbkey=Gene;gene=rpoC1;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	16228	16659	.	+	0	ID=cds-XDF89874.1;Parent=gene-rpoC1;Dbxref=NCBI_GP:XDF89874.1;Name=XDF89874.1;gbkey=CDS;gene=rpoC1;product=RNA polymerase beta' subunit;protein_id=XDF89874.1;transl_table=11
+PP999684.1	Genbank	CDS	17393	19030	.	+	0	ID=cds-XDF89874.1;Parent=gene-rpoC1;Dbxref=NCBI_GP:XDF89874.1;Name=XDF89874.1;gbkey=CDS;gene=rpoC1;product=RNA polymerase beta' subunit;protein_id=XDF89874.1;transl_table=11
+PP999684.1	Genbank	gene	19132	23277	.	+	.	ID=gene-rpoC2;Name=rpoC2;gbkey=Gene;gene=rpoC2;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	19132	23277	.	+	0	ID=cds-XDF89875.1;Parent=gene-rpoC2;Dbxref=NCBI_GP:XDF89875.1;Name=XDF89875.1;gbkey=CDS;gene=rpoC2;product=RNA polymerase beta'' subunit;protein_id=XDF89875.1;transl_table=11
+PP999684.1	Genbank	gene	23519	24229	.	+	.	ID=gene-rps2;Name=rps2;gbkey=Gene;gene=rps2;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	23519	24229	.	+	0	ID=cds-XDF89876.1;Parent=gene-rps2;Dbxref=NCBI_GP:XDF89876.1;Name=XDF89876.1;gbkey=CDS;gene=rps2;product=ribosomal protein S2;protein_id=XDF89876.1;transl_table=11
+PP999684.1	Genbank	gene	24446	25189	.	+	.	ID=gene-atpI;Name=atpI;gbkey=Gene;gene=atpI;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	24446	25189	.	+	0	ID=cds-XDF89877.1;Parent=gene-atpI;Dbxref=NCBI_GP:XDF89877.1;Name=XDF89877.1;gbkey=CDS;gene=atpI;product=ATP synthase CF0 subunit IV;protein_id=XDF89877.1;transl_table=11
+PP999684.1	Genbank	gene	26326	26571	.	+	.	ID=gene-atpH;Name=atpH;gbkey=Gene;gene=atpH;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	26326	26571	.	+	0	ID=cds-XDF89878.1;Parent=gene-atpH;Dbxref=NCBI_GP:XDF89878.1;Name=XDF89878.1;gbkey=CDS;gene=atpH;product=ATP synthase CF0 subunit III;protein_id=XDF89878.1;transl_table=11
+PP999684.1	Genbank	gene	26946	28217	.	+	.	ID=gene-atpF;Name=atpF;gbkey=Gene;gene=atpF;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	26946	27090	.	+	0	ID=cds-XDF89879.1;Parent=gene-atpF;Dbxref=NCBI_GP:XDF89879.1;Name=XDF89879.1;gbkey=CDS;gene=atpF;product=ATP synthase CF0 subunit I;protein_id=XDF89879.1;transl_table=11
+PP999684.1	Genbank	CDS	27808	28217	.	+	2	ID=cds-XDF89879.1;Parent=gene-atpF;Dbxref=NCBI_GP:XDF89879.1;Name=XDF89879.1;gbkey=CDS;gene=atpF;product=ATP synthase CF0 subunit I;protein_id=XDF89879.1;transl_table=11
+PP999684.1	Genbank	gene	28282	29808	.	+	.	ID=gene-atpA;Name=atpA;gbkey=Gene;gene=atpA;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	28282	29808	.	+	0	ID=cds-XDF89880.1;Parent=gene-atpA;Dbxref=NCBI_GP:XDF89880.1;Name=XDF89880.1;gbkey=CDS;gene=atpA;product=ATP synthase CF1 alpha subunit;protein_id=XDF89880.1;transl_table=11
+PP999684.1	Genbank	gene	29935	30006	.	-	.	ID=gene-trnR-UCU;Name=trnR-UCU;gbkey=Gene;gene=trnR-UCU;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	29935	30006	.	-	.	ID=rna-trnR-UCU;Parent=gene-trnR-UCU;gbkey=tRNA;gene=trnR-UCU;product=tRNA-Arg
+PP999684.1	Genbank	exon	29935	30006	.	-	.	ID=exon-trnR-UCU-1;Parent=rna-trnR-UCU;gbkey=tRNA;gene=trnR-UCU;product=tRNA-Arg
+PP999684.1	Genbank	gene	30210	30989	.	-	.	ID=gene-trnG-UCC;Name=trnG-UCC;gbkey=Gene;gene=trnG-UCC;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	30210	30989	.	-	.	ID=rna-trnG-UCC;Parent=gene-trnG-UCC;gbkey=tRNA;gene=trnG-UCC;product=tRNA-Gly
+PP999684.1	Genbank	exon	30967	30989	.	-	.	ID=exon-trnG-UCC-1;Parent=rna-trnG-UCC;gbkey=tRNA;gene=trnG-UCC;product=tRNA-Gly
+PP999684.1	Genbank	exon	30210	30256	.	-	.	ID=exon-trnG-UCC-2;Parent=rna-trnG-UCC;gbkey=tRNA;gene=trnG-UCC;product=tRNA-Gly
+PP999684.1	Genbank	gene	31153	31229	.	+	.	ID=gene-trnT;Name=trnT;gbkey=Gene;gene=trnT;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	31153	31229	.	+	.	ID=rna-trnT;Parent=gene-trnT;gbkey=tRNA;gene=trnT;product=tRNA-Thr
+PP999684.1	Genbank	exon	31153	31229	.	+	.	ID=exon-trnT-1;Parent=rna-trnT;gbkey=tRNA;gene=trnT;product=tRNA-Thr
+PP999684.1	Genbank	gene	32456	33517	.	+	.	ID=gene-psbD;Name=psbD;gbkey=Gene;gene=psbD;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	32456	33517	.	+	0	ID=cds-XDF89881.1;Parent=gene-psbD;Dbxref=NCBI_GP:XDF89881.1;Name=XDF89881.1;gbkey=CDS;gene=psbD;product=photosystem II protein D2;protein_id=XDF89881.1;transl_table=11
+PP999684.1	Genbank	gene	33465	34886	.	+	.	ID=gene-psbC;Name=psbC;gbkey=Gene;gene=psbC;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	33465	34886	.	+	0	ID=cds-XDF89882.1;Parent=gene-psbC;Dbxref=NCBI_GP:XDF89882.1;Name=XDF89882.1;gbkey=CDS;gene=psbC;product=photosystem II CP43 chlorophyll apoprotein;protein_id=XDF89882.1;transl_table=11
+PP999684.1	Genbank	gene	35120	35202	.	-	.	ID=gene-trnS;Name=trnS;gbkey=Gene;gene=trnS;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	35120	35202	.	-	.	ID=rna-trnS;Parent=gene-trnS;gbkey=tRNA;gene=trnS;product=tRNA-Ser
+PP999684.1	Genbank	exon	35120	35202	.	-	.	ID=exon-trnS-1;Parent=rna-trnS;gbkey=tRNA;gene=trnS;product=tRNA-Ser
+PP999684.1	Genbank	gene	35540	35728	.	+	.	ID=gene-psbZ;Name=psbZ;gbkey=Gene;gene=psbZ;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	35540	35728	.	+	0	ID=cds-XDF89883.1;Parent=gene-psbZ;Dbxref=NCBI_GP:XDF89883.1;Name=XDF89883.1;gbkey=CDS;gene=psbZ;product=photosystem II protein Z;protein_id=XDF89883.1;transl_table=11
+PP999684.1	Genbank	gene	36036	36106	.	+	.	ID=gene-trnG;Name=trnG;gbkey=Gene;gene=trnG;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	36036	36106	.	+	.	ID=rna-trnG;Parent=gene-trnG;gbkey=tRNA;gene=trnG;product=tRNA-Gly
+PP999684.1	Genbank	exon	36036	36106	.	+	.	ID=exon-trnG-1;Parent=rna-trnG;gbkey=tRNA;gene=trnG;product=tRNA-Gly
+PP999684.1	Genbank	gene	36307	36380	.	-	.	ID=gene-trnfM;Name=trnfM;gbkey=Gene;gene=trnfM;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	36307	36380	.	-	.	ID=rna-trnfM;Parent=gene-trnfM;gbkey=tRNA;gene=trnfM;product=tRNA-Met
+PP999684.1	Genbank	exon	36307	36380	.	-	.	ID=exon-trnfM-1;Parent=rna-trnfM;gbkey=tRNA;gene=trnfM;product=tRNA-Met
+PP999684.1	Genbank	gene	36535	36837	.	-	.	ID=gene-rps14;Name=rps14;gbkey=Gene;gene=rps14;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	36535	36837	.	-	0	ID=cds-XDF89884.1;Parent=gene-rps14;Dbxref=NCBI_GP:XDF89884.1;Name=XDF89884.1;gbkey=CDS;gene=rps14;product=ribosomal protein S14;protein_id=XDF89884.1;transl_table=11
+PP999684.1	Genbank	gene	36971	39175	.	-	.	ID=gene-psaB;Name=psaB;gbkey=Gene;gene=psaB;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	36971	39175	.	-	0	ID=cds-XDF89885.1;Parent=gene-psaB;Dbxref=NCBI_GP:XDF89885.1;Name=XDF89885.1;gbkey=CDS;gene=psaB;product=photosystem I P700 apoprotein A2;protein_id=XDF89885.1;transl_table=11
+PP999684.1	Genbank	gene	39201	41453	.	-	.	ID=gene-psaA;Name=psaA;gbkey=Gene;gene=psaA;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	39201	41453	.	-	0	ID=cds-XDF89886.1;Parent=gene-psaA;Dbxref=NCBI_GP:XDF89886.1;Name=XDF89886.1;gbkey=CDS;gene=psaA;product=photosystem I P700 apoprotein A1;protein_id=XDF89886.1;transl_table=11
+PP999684.1	Genbank	gene	42184	44118	.	-	.	ID=gene-ycf3;Name=ycf3;gbkey=Gene;gene=ycf3;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	43995	44118	.	-	0	ID=cds-XDF89887.1;Parent=gene-ycf3;Dbxref=NCBI_GP:XDF89887.1;Name=XDF89887.1;gbkey=CDS;gene=ycf3;product=hypothetical chloroplast RF34;protein_id=XDF89887.1;transl_table=11
+PP999684.1	Genbank	CDS	43074	43303	.	-	2	ID=cds-XDF89887.1;Parent=gene-ycf3;Dbxref=NCBI_GP:XDF89887.1;Name=XDF89887.1;gbkey=CDS;gene=ycf3;product=hypothetical chloroplast RF34;protein_id=XDF89887.1;transl_table=11
+PP999684.1	Genbank	CDS	42184	42336	.	-	0	ID=cds-XDF89887.1;Parent=gene-ycf3;Dbxref=NCBI_GP:XDF89887.1;Name=XDF89887.1;gbkey=CDS;gene=ycf3;product=hypothetical chloroplast RF34;protein_id=XDF89887.1;transl_table=11
+PP999684.1	Genbank	gene	45004	45090	.	+	.	ID=gene-trnS-2;Name=trnS;gbkey=Gene;gene=trnS;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	45004	45090	.	+	.	ID=rna-trnS-2;Parent=gene-trnS-2;gbkey=tRNA;gene=trnS;product=tRNA-Ser
+PP999684.1	Genbank	exon	45004	45090	.	+	.	ID=exon-trnS-2-1;Parent=rna-trnS-2;gbkey=tRNA;gene=trnS;product=tRNA-Ser
+PP999684.1	Genbank	gene	45422	46027	.	-	.	ID=gene-rps4;Name=rps4;gbkey=Gene;gene=rps4;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	45422	46027	.	-	0	ID=cds-XDF89888.1;Parent=gene-rps4;Dbxref=NCBI_GP:XDF89888.1;Name=XDF89888.1;gbkey=CDS;gene=rps4;product=ribosomal protein S4;protein_id=XDF89888.1;transl_table=11
+PP999684.1	Genbank	gene	46371	46443	.	-	.	ID=gene-trnT-2;Name=trnT;gbkey=Gene;gene=trnT;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	46371	46443	.	-	.	ID=rna-trnT-2;Parent=gene-trnT-2;gbkey=tRNA;gene=trnT;product=tRNA-Thr
+PP999684.1	Genbank	exon	46371	46443	.	-	.	ID=exon-trnT-2-1;Parent=rna-trnT-2;gbkey=tRNA;gene=trnT;product=tRNA-Thr
+PP999684.1	Genbank	gene	47000	47526	.	+	.	ID=gene-trnL;Name=trnL;gbkey=Gene;gene=trnL;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	47000	47526	.	+	.	ID=rna-trnL;Parent=gene-trnL;gbkey=tRNA;gene=trnL;product=tRNA-Leu
+PP999684.1	Genbank	exon	47000	47034	.	+	.	ID=exon-trnL-1;Parent=rna-trnL;gbkey=tRNA;gene=trnL;product=tRNA-Leu
+PP999684.1	Genbank	exon	47477	47526	.	+	.	ID=exon-trnL-2;Parent=rna-trnL;gbkey=tRNA;gene=trnL;product=tRNA-Leu
+PP999684.1	Genbank	gene	47870	47939	.	+	.	ID=gene-trnF;Name=trnF;gbkey=Gene;gene=trnF;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	47870	47939	.	+	.	ID=rna-trnF;Parent=gene-trnF;gbkey=tRNA;gene=trnF;product=tRNA-Phe
+PP999684.1	Genbank	exon	47870	47939	.	+	.	ID=exon-trnF-1;Parent=rna-trnF;gbkey=tRNA;gene=trnF;product=tRNA-Phe
+PP999684.1	Genbank	gene	48586	49062	.	-	.	ID=gene-ndhJ;Name=ndhJ;gbkey=Gene;gene=ndhJ;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	48586	49062	.	-	0	ID=cds-XDF89889.1;Parent=gene-ndhJ;Dbxref=NCBI_GP:XDF89889.1;Name=XDF89889.1;gbkey=CDS;gene=ndhJ;product=NADH-plastoquinone oxidoreductase subunit J;protein_id=XDF89889.1;transl_table=11
+PP999684.1	Genbank	gene	49165	49842	.	-	.	ID=gene-ndhK;Name=ndhK;gbkey=Gene;gene=ndhK;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	49165	49842	.	-	0	ID=cds-XDF89890.1;Parent=gene-ndhK;Dbxref=NCBI_GP:XDF89890.1;Name=XDF89890.1;gbkey=CDS;gene=ndhK;product=NADH-plastoquinone oxidoreductase subunit K;protein_id=XDF89890.1;transl_table=11
+PP999684.1	Genbank	gene	49894	50256	.	-	.	ID=gene-ndhC;Name=ndhC;gbkey=Gene;gene=ndhC;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	49894	50256	.	-	0	ID=cds-XDF89891.1;Parent=gene-ndhC;Dbxref=NCBI_GP:XDF89891.1;Name=XDF89891.1;gbkey=CDS;gene=ndhC;product=NADH-plastoquinone oxidoreductase subunit 3;protein_id=XDF89891.1;transl_table=11
+PP999684.1	Genbank	gene	51289	51941	.	-	.	ID=gene-trnV-UAC;Name=trnV-UAC;gbkey=Gene;gene=trnV-UAC;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	51289	51941	.	-	.	ID=rna-trnV-UAC;Parent=gene-trnV-UAC;gbkey=tRNA;gene=trnV-UAC;product=tRNA-Val
+PP999684.1	Genbank	exon	51904	51941	.	-	.	ID=exon-trnV-UAC-1;Parent=rna-trnV-UAC;gbkey=tRNA;gene=trnV-UAC;product=tRNA-Val
+PP999684.1	Genbank	exon	51289	51326	.	-	.	ID=exon-trnV-UAC-2;Parent=rna-trnV-UAC;gbkey=tRNA;gene=trnV-UAC;product=tRNA-Val
+PP999684.1	Genbank	gene	52117	52189	.	+	.	ID=gene-trnM;Name=trnM;gbkey=Gene;gene=trnM;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	52117	52189	.	+	.	ID=rna-trnM;Parent=gene-trnM;gbkey=tRNA;gene=trnM;product=tRNA-Met
+PP999684.1	Genbank	exon	52117	52189	.	+	.	ID=exon-trnM-1;Parent=rna-trnM;gbkey=tRNA;gene=trnM;product=tRNA-Met
+PP999684.1	Genbank	gene	52402	52803	.	-	.	ID=gene-atpE;Name=atpE;gbkey=Gene;gene=atpE;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	52402	52803	.	-	0	ID=cds-XDF89892.1;Parent=gene-atpE;Dbxref=NCBI_GP:XDF89892.1;Name=XDF89892.1;gbkey=CDS;gene=atpE;product=ATP synthase CF1 epsilon subunit;protein_id=XDF89892.1;transl_table=11
+PP999684.1	Genbank	gene	52800	54296	.	-	.	ID=gene-atpB;Name=atpB;gbkey=Gene;gene=atpB;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	52800	54296	.	-	0	ID=cds-XDF89893.1;Parent=gene-atpB;Dbxref=NCBI_GP:XDF89893.1;Name=XDF89893.1;gbkey=CDS;gene=atpB;product=ATP synthase CF1 beta subunit;protein_id=XDF89893.1;transl_table=11
+PP999684.1	Genbank	gene	55064	56497	.	+	.	ID=gene-rbcL;Name=rbcL;gbkey=Gene;gene=rbcL;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	55064	56497	.	+	0	ID=cds-XDF89894.1;Parent=gene-rbcL;Dbxref=NCBI_GP:XDF89894.1;Name=XDF89894.1;gbkey=CDS;gene=rbcL;product=ribulose-1%2C5-bisphosphate carboxylase/oxygenase large subunit;protein_id=XDF89894.1;transl_table=11
+PP999684.1	Genbank	gene	56978	58570	.	+	.	ID=gene-accD;Name=accD;gbkey=Gene;gene=accD;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	56978	58570	.	+	0	ID=cds-XDF89895.1;Parent=gene-accD;Dbxref=NCBI_GP:XDF89895.1;Name=XDF89895.1;gbkey=CDS;gene=accD;product=acetyl-CoA carboxylase carboxyltransferase beta subunit;protein_id=XDF89895.1;transl_table=11
+PP999684.1	Genbank	gene	59261	59371	.	+	.	ID=gene-psaI;Name=psaI;gbkey=Gene;gene=psaI;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	59261	59371	.	+	0	ID=cds-XDF89896.1;Parent=gene-psaI;Dbxref=NCBI_GP:XDF89896.1;Name=XDF89896.1;gbkey=CDS;gene=psaI;product=photosystem I subunit VIII;protein_id=XDF89896.1;transl_table=11
+PP999684.1	Genbank	gene	59772	60326	.	+	.	ID=gene-ycf4;Name=ycf4;gbkey=Gene;gene=ycf4;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	59772	60326	.	+	0	ID=cds-XDF89897.1;Parent=gene-ycf4;Dbxref=NCBI_GP:XDF89897.1;Name=XDF89897.1;gbkey=CDS;gene=ycf4;product=hypothetical protein;protein_id=XDF89897.1;transl_table=11
+PP999684.1	Genbank	gene	61129	61818	.	+	.	ID=gene-cemA;Name=cemA;gbkey=Gene;gene=cemA;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	61129	61818	.	+	0	ID=cds-XDF89898.1;Parent=gene-cemA;Dbxref=NCBI_GP:XDF89898.1;Name=XDF89898.1;gbkey=CDS;gene=cemA;product=chloroplast envelope membrane protein;protein_id=XDF89898.1;transl_table=11
+PP999684.1	Genbank	gene	62045	63007	.	+	.	ID=gene-petA;Name=petA;gbkey=Gene;gene=petA;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	62045	63007	.	+	0	ID=cds-XDF89899.1;Parent=gene-petA;Dbxref=NCBI_GP:XDF89899.1;Name=XDF89899.1;gbkey=CDS;gene=petA;product=cytochrome f;protein_id=XDF89899.1;transl_table=11
+PP999684.1	Genbank	gene	63783	63905	.	-	.	ID=gene-psbJ;Name=psbJ;gbkey=Gene;gene=psbJ;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	63783	63905	.	-	0	ID=cds-XDF89900.1;Parent=gene-psbJ;Dbxref=NCBI_GP:XDF89900.1;Name=XDF89900.1;gbkey=CDS;gene=psbJ;product=photosystem II protein J;protein_id=XDF89900.1;transl_table=11
+PP999684.1	Genbank	gene	64054	64170	.	-	.	ID=gene-psbL;Name=psbL;gbkey=Gene;gene=psbL;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	64054	64170	.	-	0	ID=cds-XDF89901.1;Parent=gene-psbL;Dbxref=NCBI_GP:XDF89901.1;Name=XDF89901.1;exception=RNA editing;gbkey=CDS;gene=psbL;product=photosystem II protein L;protein_id=XDF89901.1;transl_table=11
+PP999684.1	Genbank	gene	64193	64312	.	-	.	ID=gene-psbF;Name=psbF;gbkey=Gene;gene=psbF;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	64193	64312	.	-	0	ID=cds-XDF89902.1;Parent=gene-psbF;Dbxref=NCBI_GP:XDF89902.1;Name=XDF89902.1;gbkey=CDS;gene=psbF;product=photosystem II cytochrome b559 beta subunit;protein_id=XDF89902.1;transl_table=11
+PP999684.1	Genbank	gene	64322	64573	.	-	.	ID=gene-psbE;Name=psbE;gbkey=Gene;gene=psbE;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	64322	64573	.	-	0	ID=cds-XDF89903.1;Parent=gene-psbE;Dbxref=NCBI_GP:XDF89903.1;Name=XDF89903.1;gbkey=CDS;gene=psbE;product=photosystem II cytochrome b559 alpha subunit;protein_id=XDF89903.1;transl_table=11
+PP999684.1	Genbank	gene	65822	65917	.	+	.	ID=gene-petL;Name=petL;gbkey=Gene;gene=petL;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	65822	65917	.	+	0	ID=cds-XDF89904.1;Parent=gene-petL;Dbxref=NCBI_GP:XDF89904.1;Name=XDF89904.1;gbkey=CDS;gene=petL;product=cytochrome b6/f complex subunit VI;protein_id=XDF89904.1;transl_table=11
+PP999684.1	Genbank	gene	66083	66196	.	+	.	ID=gene-petG;Name=petG;gbkey=Gene;gene=petG;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	66083	66196	.	+	0	ID=cds-XDF89905.1;Parent=gene-petG;Dbxref=NCBI_GP:XDF89905.1;Name=XDF89905.1;gbkey=CDS;gene=petG;product=cytochrome b6/f complex subunit V;protein_id=XDF89905.1;transl_table=11
+PP999684.1	Genbank	gene	66319	66392	.	-	.	ID=gene-trnW;Name=trnW;gbkey=Gene;gene=trnW;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	66319	66392	.	-	.	ID=rna-trnW;Parent=gene-trnW;gbkey=tRNA;gene=trnW;product=tRNA-Trp
+PP999684.1	Genbank	exon	66319	66392	.	-	.	ID=exon-trnW-1;Parent=rna-trnW;gbkey=tRNA;gene=trnW;product=tRNA-Trp
+PP999684.1	Genbank	gene	66558	66631	.	-	.	ID=gene-trnP;Name=trnP;gbkey=Gene;gene=trnP;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	66558	66631	.	-	.	ID=rna-trnP;Parent=gene-trnP;gbkey=tRNA;gene=trnP;product=tRNA-Pro
+PP999684.1	Genbank	exon	66558	66631	.	-	.	ID=exon-trnP-1;Parent=rna-trnP;gbkey=tRNA;gene=trnP;product=tRNA-Pro
+PP999684.1	Genbank	gene	66941	67075	.	+	.	ID=gene-psaJ;Name=psaJ;gbkey=Gene;gene=psaJ;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	66941	67075	.	+	0	ID=cds-XDF89906.1;Parent=gene-psaJ;Dbxref=NCBI_GP:XDF89906.1;Name=XDF89906.1;gbkey=CDS;gene=psaJ;product=photosystem I subunit IX;protein_id=XDF89906.1;transl_table=11
+PP999684.1	Genbank	gene	67521	67727	.	+	.	ID=gene-rpl33;Name=rpl33;gbkey=Gene;gene=rpl33;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	67521	67727	.	+	0	ID=cds-XDF89907.1;Parent=gene-rpl33;Dbxref=NCBI_GP:XDF89907.1;Name=XDF89907.1;gbkey=CDS;gene=rpl33;product=ribosomal protein L33;protein_id=XDF89907.1;transl_table=11
+PP999684.1	Genbank	gene	67909	68214	.	+	.	ID=gene-rps18;Name=rps18;gbkey=Gene;gene=rps18;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	67909	68214	.	+	0	ID=cds-XDF89908.1;Parent=gene-rps18;Dbxref=NCBI_GP:XDF89908.1;Name=XDF89908.1;gbkey=CDS;gene=rps18;product=ribosomal protein S18;protein_id=XDF89908.1;transl_table=11
+PP999684.1	Genbank	gene	68463	68843	.	-	.	ID=gene-rpl20;Name=rpl20;gbkey=Gene;gene=rpl20;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	68463	68843	.	-	0	ID=cds-XDF89909.1;Parent=gene-rpl20;Dbxref=NCBI_GP:XDF89909.1;Name=XDF89909.1;gbkey=CDS;gene=rpl20;product=ribosomal protein L20;protein_id=XDF89909.1;transl_table=11
+PP999684.1	Genbank	gene	69592	69705	.	-	.	ID=gene-rps12;Name=rps12;exception=trans-splicing;gbkey=Gene;gene=rps12;gene_biotype=protein_coding;part=1
+PP999684.1	Genbank	gene	138829	139621	.	+	.	ID=gene-rps12;Name=rps12;exception=trans-splicing;gbkey=Gene;gene=rps12;gene_biotype=protein_coding;part=2
+PP999684.1	Genbank	CDS	69592	69705	.	-	0	ID=cds-XDF89910.1;Parent=gene-rps12;Dbxref=NCBI_GP:XDF89910.1;Name=XDF89910.1;exception=trans-splicing;gbkey=CDS;gene=rps12;part=1;product=ribosomal protein S12;protein_id=XDF89910.1;transl_table=11
+PP999684.1	Genbank	CDS	138829	139060	.	+	0	ID=cds-XDF89910.1;Parent=gene-rps12;Dbxref=NCBI_GP:XDF89910.1;Name=XDF89910.1;exception=trans-splicing;gbkey=CDS;gene=rps12;part=2;product=ribosomal protein S12;protein_id=XDF89910.1;transl_table=11
+PP999684.1	Genbank	CDS	139596	139621	.	+	2	ID=cds-XDF89910.1;Parent=gene-rps12;Dbxref=NCBI_GP:XDF89910.1;Name=XDF89910.1;exception=trans-splicing;gbkey=CDS;gene=rps12;part=3;product=ribosomal protein S12;protein_id=XDF89910.1;transl_table=11
+PP999684.1	Genbank	gene	69872	71903	.	-	.	ID=gene-clpP;Name=clpP;gbkey=Gene;gene=clpP;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	71833	71903	.	-	0	ID=cds-XDF89911.1;Parent=gene-clpP;Dbxref=NCBI_GP:XDF89911.1;Name=XDF89911.1;gbkey=CDS;gene=clpP;product=ATP-dependent Clp protease proteolytic subunit;protein_id=XDF89911.1;transl_table=11
+PP999684.1	Genbank	CDS	70734	71024	.	-	1	ID=cds-XDF89911.1;Parent=gene-clpP;Dbxref=NCBI_GP:XDF89911.1;Name=XDF89911.1;gbkey=CDS;gene=clpP;product=ATP-dependent Clp protease proteolytic subunit;protein_id=XDF89911.1;transl_table=11
+PP999684.1	Genbank	CDS	69872	70100	.	-	1	ID=cds-XDF89911.1;Parent=gene-clpP;Dbxref=NCBI_GP:XDF89911.1;Name=XDF89911.1;gbkey=CDS;gene=clpP;product=ATP-dependent Clp protease proteolytic subunit;protein_id=XDF89911.1;transl_table=11
+PP999684.1	Genbank	gene	72372	73898	.	+	.	ID=gene-psbB;Name=psbB;gbkey=Gene;gene=psbB;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	72372	73898	.	+	0	ID=cds-XDF89912.1;Parent=gene-psbB;Dbxref=NCBI_GP:XDF89912.1;Name=XDF89912.1;gbkey=CDS;gene=psbB;product=photosystem II CP47 chlorophyll apoprotein;protein_id=XDF89912.1;transl_table=11
+PP999684.1	Genbank	gene	74081	74182	.	+	.	ID=gene-psbT;Name=psbT;gbkey=Gene;gene=psbT;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	74081	74182	.	+	0	ID=cds-XDF89913.1;Parent=gene-psbT;Dbxref=NCBI_GP:XDF89913.1;Name=XDF89913.1;gbkey=CDS;gene=psbT;product=photosystem II protein T;protein_id=XDF89913.1;transl_table=11
+PP999684.1	Genbank	gene	74257	74388	.	-	.	ID=gene-psbN;Name=psbN;gbkey=Gene;gene=psbN;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	74257	74388	.	-	0	ID=cds-XDF89914.1;Parent=gene-psbN;Dbxref=NCBI_GP:XDF89914.1;Name=XDF89914.1;gbkey=CDS;gene=psbN;product=photosystem II protein N;protein_id=XDF89914.1;transl_table=11
+PP999684.1	Genbank	gene	74491	74712	.	+	.	ID=gene-psbH;Name=psbH;gbkey=Gene;gene=psbH;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	74491	74712	.	+	0	ID=cds-XDF89915.1;Parent=gene-psbH;Dbxref=NCBI_GP:XDF89915.1;Name=XDF89915.1;gbkey=CDS;gene=psbH;product=photosystem II phosphoprotein;protein_id=XDF89915.1;transl_table=11
+PP999684.1	Genbank	gene	74837	76254	.	+	.	ID=gene-petB;Name=petB;gbkey=Gene;gene=petB;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	74837	74842	.	+	0	ID=cds-XDF89916.1;Parent=gene-petB;Dbxref=NCBI_GP:XDF89916.1;Name=XDF89916.1;gbkey=CDS;gene=petB;product=cytochrome b6;protein_id=XDF89916.1;transl_table=11
+PP999684.1	Genbank	CDS	75613	76254	.	+	0	ID=cds-XDF89916.1;Parent=gene-petB;Dbxref=NCBI_GP:XDF89916.1;Name=XDF89916.1;gbkey=CDS;gene=petB;product=cytochrome b6;protein_id=XDF89916.1;transl_table=11
+PP999684.1	Genbank	gene	76443	77635	.	+	.	ID=gene-petD;Name=petD;gbkey=Gene;gene=petD;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	76443	76450	.	+	0	ID=cds-XDF89917.1;Parent=gene-petD;Dbxref=NCBI_GP:XDF89917.1;Name=XDF89917.1;gbkey=CDS;gene=petD;product=cytochrome b6/f complex subunit IV;protein_id=XDF89917.1;transl_table=11
+PP999684.1	Genbank	CDS	77161	77635	.	+	1	ID=cds-XDF89917.1;Parent=gene-petD;Dbxref=NCBI_GP:XDF89917.1;Name=XDF89917.1;gbkey=CDS;gene=petD;product=cytochrome b6/f complex subunit IV;protein_id=XDF89917.1;transl_table=11
+PP999684.1	Genbank	gene	77834	78847	.	-	.	ID=gene-rpoA;Name=rpoA;gbkey=Gene;gene=rpoA;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	77834	78847	.	-	0	ID=cds-XDF89918.1;Parent=gene-rpoA;Dbxref=NCBI_GP:XDF89918.1;Name=XDF89918.1;gbkey=CDS;gene=rpoA;product=RNA polymerase alpha subunit;protein_id=XDF89918.1;transl_table=11
+PP999684.1	Genbank	gene	78936	79346	.	-	.	ID=gene-rps11;Name=rps11;gbkey=Gene;gene=rps11;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	78936	79346	.	-	0	ID=cds-XDF89919.1;Parent=gene-rps11;Dbxref=NCBI_GP:XDF89919.1;Name=XDF89919.1;gbkey=CDS;gene=rps11;product=ribosomal protein S11;protein_id=XDF89919.1;transl_table=11
+PP999684.1	Genbank	gene	79451	79564	.	-	.	ID=gene-rpl36;Name=rpl36;gbkey=Gene;gene=rpl36;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	79451	79564	.	-	0	ID=cds-XDF89920.1;Parent=gene-rpl36;Dbxref=NCBI_GP:XDF89920.1;Name=XDF89920.1;gbkey=CDS;gene=rpl36;product=ribosomal protein L36;protein_id=XDF89920.1;transl_table=11
+PP999684.1	Genbank	gene	79680	79913	.	-	.	ID=gene-infA;Name=infA;gbkey=Gene;gene=infA;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	79680	79913	.	-	0	ID=cds-XDF89921.1;Parent=gene-infA;Dbxref=NCBI_GP:XDF89921.1;Name=XDF89921.1;gbkey=CDS;gene=infA;product=translational initiation factor 1;protein_id=XDF89921.1;transl_table=11
+PP999684.1	Genbank	gene	80035	80439	.	-	.	ID=gene-rps8;Name=rps8;gbkey=Gene;gene=rps8;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	80035	80439	.	-	0	ID=cds-XDF89922.1;Parent=gene-rps8;Dbxref=NCBI_GP:XDF89922.1;Name=XDF89922.1;gbkey=CDS;gene=rps8;product=ribosomal protein S8;protein_id=XDF89922.1;transl_table=11
+PP999684.1	Genbank	gene	80635	81003	.	-	.	ID=gene-rpl14;Name=rpl14;gbkey=Gene;gene=rpl14;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	80635	81003	.	-	0	ID=cds-XDF89923.1;Parent=gene-rpl14;Dbxref=NCBI_GP:XDF89923.1;Name=XDF89923.1;gbkey=CDS;gene=rpl14;product=ribosomal protein L14;protein_id=XDF89923.1;transl_table=11
+PP999684.1	Genbank	gene	81120	82549	.	-	.	ID=gene-rpl16;Name=rpl16;gbkey=Gene;gene=rpl16;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	82541	82549	.	-	0	ID=cds-XDF89924.1;Parent=gene-rpl16;Dbxref=NCBI_GP:XDF89924.1;Name=XDF89924.1;gbkey=CDS;gene=rpl16;product=ribosomal protein L16;protein_id=XDF89924.1;transl_table=11
+PP999684.1	Genbank	CDS	81120	81518	.	-	0	ID=cds-XDF89924.1;Parent=gene-rpl16;Dbxref=NCBI_GP:XDF89924.1;Name=XDF89924.1;gbkey=CDS;gene=rpl16;product=ribosomal protein L16;protein_id=XDF89924.1;transl_table=11
+PP999684.1	Genbank	gene	82704	83360	.	-	.	ID=gene-rps3;Name=rps3;gbkey=Gene;gene=rps3;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	82704	83360	.	-	0	ID=cds-XDF89925.1;Parent=gene-rps3;Dbxref=NCBI_GP:XDF89925.1;Name=XDF89925.1;gbkey=CDS;gene=rps3;product=ribosomal protein S3;protein_id=XDF89925.1;transl_table=11
+PP999684.1	Genbank	gene	83345	83818	.	-	.	ID=gene-rpl22;Name=rpl22;gbkey=Gene;gene=rpl22;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	83345	83818	.	-	0	ID=cds-XDF89926.1;Parent=gene-rpl22;Dbxref=NCBI_GP:XDF89926.1;Name=XDF89926.1;gbkey=CDS;gene=rpl22;product=ribosomal protein L22;protein_id=XDF89926.1;transl_table=11
+PP999684.1	Genbank	gene	83885	84163	.	-	.	ID=gene-rps19;Name=rps19;gbkey=Gene;gene=rps19;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	83885	84163	.	-	0	ID=cds-XDF89927.1;Parent=gene-rps19;Dbxref=NCBI_GP:XDF89927.1;Name=XDF89927.1;gbkey=CDS;gene=rps19;product=ribosomal protein S19;protein_id=XDF89927.1;transl_table=11
+PP999684.1	Genbank	gene	84221	85710	.	-	.	ID=gene-rpl2;Name=rpl2;gbkey=Gene;gene=rpl2;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	85320	85710	.	-	0	ID=cds-XDF89928.1;Parent=gene-rpl2;Dbxref=NCBI_GP:XDF89928.1;Name=XDF89928.1;gbkey=CDS;gene=rpl2;product=ribosomal protein L2;protein_id=XDF89928.1;transl_table=11
+PP999684.1	Genbank	CDS	84221	84654	.	-	2	ID=cds-XDF89928.1;Parent=gene-rpl2;Dbxref=NCBI_GP:XDF89928.1;Name=XDF89928.1;gbkey=CDS;gene=rpl2;product=ribosomal protein L2;protein_id=XDF89928.1;transl_table=11
+PP999684.1	Genbank	gene	85729	86010	.	-	.	ID=gene-rpl23;Name=rpl23;gbkey=Gene;gene=rpl23;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	85729	86010	.	-	0	ID=cds-XDF89929.1;Parent=gene-rpl23;Dbxref=NCBI_GP:XDF89929.1;Name=XDF89929.1;gbkey=CDS;gene=rpl23;product=ribosomal protein L23;protein_id=XDF89929.1;transl_table=11
+PP999684.1	Genbank	gene	86176	86249	.	-	.	ID=gene-trnM-2;Name=trnM;gbkey=Gene;gene=trnM;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	86176	86249	.	-	.	ID=rna-trnM-2;Parent=gene-trnM-2;gbkey=tRNA;gene=trnM;product=tRNA-Met
+PP999684.1	Genbank	exon	86176	86249	.	-	.	ID=exon-trnM-2-1;Parent=rna-trnM-2;gbkey=tRNA;gene=trnM;product=tRNA-Met
+PP999684.1	Genbank	gene	86361	93155	.	+	.	ID=gene-ycf2;Name=ycf2;gbkey=Gene;gene=ycf2;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	86361	93155	.	+	0	ID=cds-XDF89930.1;Parent=gene-ycf2;Dbxref=NCBI_GP:XDF89930.1;Name=XDF89930.1;gbkey=CDS;gene=ycf2;product=hypothetical chloroplast RF21;protein_id=XDF89930.1;transl_table=11
+PP999684.1	Genbank	gene	93560	93640	.	-	.	ID=gene-trnL-2;Name=trnL;gbkey=Gene;gene=trnL;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	93560	93640	.	-	.	ID=rna-trnL-2;Parent=gene-trnL-2;gbkey=tRNA;gene=trnL;product=tRNA-Leu
+PP999684.1	Genbank	exon	93560	93640	.	-	.	ID=exon-trnL-2-1;Parent=rna-trnL-2;gbkey=tRNA;gene=trnL;product=tRNA-Leu
+PP999684.1	Genbank	gene	94236	96437	.	-	.	ID=gene-ndhB;Name=ndhB;gbkey=Gene;gene=ndhB;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	95661	96437	.	-	0	ID=cds-XDF89931.1;Parent=gene-ndhB;Dbxref=NCBI_GP:XDF89931.1;Name=XDF89931.1;gbkey=CDS;gene=ndhB;product=NADH-plastoquinone oxidoreductase subunit 2;protein_id=XDF89931.1;transl_table=11
+PP999684.1	Genbank	CDS	94236	94991	.	-	0	ID=cds-XDF89931.1;Parent=gene-ndhB;Dbxref=NCBI_GP:XDF89931.1;Name=XDF89931.1;gbkey=CDS;gene=ndhB;product=NADH-plastoquinone oxidoreductase subunit 2;protein_id=XDF89931.1;transl_table=11
+PP999684.1	Genbank	gene	96727	97194	.	-	.	ID=gene-rps7;Name=rps7;gbkey=Gene;gene=rps7;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	96727	97194	.	-	0	ID=cds-XDF89932.1;Parent=gene-rps7;Dbxref=NCBI_GP:XDF89932.1;Name=XDF89932.1;gbkey=CDS;gene=rps7;product=ribosomal protein S7;protein_id=XDF89932.1;transl_table=11
+PP999684.1	Genbank	gene	69592	69705	.	-	.	ID=gene-rps12-2;Name=rps12;exception=trans-splicing;gbkey=Gene;gene=rps12;gene_biotype=protein_coding;part=1
+PP999684.1	Genbank	gene	97248	98040	.	-	.	ID=gene-rps12-2;Name=rps12;exception=trans-splicing;gbkey=Gene;gene=rps12;gene_biotype=protein_coding;part=2
+PP999684.1	Genbank	CDS	69592	69705	.	-	0	ID=cds-XDF89933.1;Parent=gene-rps12-2;Dbxref=NCBI_GP:XDF89933.1;Name=XDF89933.1;exception=trans-splicing;gbkey=CDS;gene=rps12;part=1;product=ribosomal protein S12;protein_id=XDF89933.1;transl_table=11
+PP999684.1	Genbank	CDS	97809	98040	.	-	0	ID=cds-XDF89933.1;Parent=gene-rps12-2;Dbxref=NCBI_GP:XDF89933.1;Name=XDF89933.1;exception=trans-splicing;gbkey=CDS;gene=rps12;part=2;product=ribosomal protein S12;protein_id=XDF89933.1;transl_table=11
+PP999684.1	Genbank	CDS	97248	97273	.	-	2	ID=cds-XDF89933.1;Parent=gene-rps12-2;Dbxref=NCBI_GP:XDF89933.1;Name=XDF89933.1;exception=trans-splicing;gbkey=CDS;gene=rps12;part=3;product=ribosomal protein S12;protein_id=XDF89933.1;transl_table=11
+PP999684.1	Genbank	gene	99017	99208	.	-	.	ID=gene-ycf15;Name=ycf15;gbkey=Gene;gene=ycf15;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	99017	99208	.	-	0	ID=cds-XDF89934.1;Parent=gene-ycf15;Dbxref=NCBI_GP:XDF89934.1;Name=XDF89934.1;gbkey=CDS;gene=ycf15;product=hypothetical protein;protein_id=XDF89934.1;transl_table=11
+PP999684.1	Genbank	gene	99896	99967	.	+	.	ID=gene-trnV;Name=trnV;gbkey=Gene;gene=trnV;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	99896	99967	.	+	.	ID=rna-trnV;Parent=gene-trnV;gbkey=tRNA;gene=trnV;product=tRNA-Val
+PP999684.1	Genbank	exon	99896	99967	.	+	.	ID=exon-trnV-1;Parent=rna-trnV;gbkey=tRNA;gene=trnV;product=tRNA-Val
+PP999684.1	Genbank	gene	100195	101684	.	+	.	ID=gene-rrn16;Name=rrn16;gbkey=Gene;gene=rrn16;gene_biotype=rRNA
+PP999684.1	Genbank	rRNA	100195	101684	.	+	.	ID=rna-rrn16;Parent=gene-rrn16;gbkey=rRNA;gene=rrn16;product=16S ribosomal RNA
+PP999684.1	Genbank	exon	100195	101684	.	+	.	ID=exon-rrn16-1;Parent=rna-rrn16;gbkey=rRNA;gene=rrn16;product=16S ribosomal RNA
+PP999684.1	Genbank	gene	101979	102998	.	+	.	ID=gene-trnI;Name=trnI;gbkey=Gene;gene=trnI;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	101979	102998	.	+	.	ID=rna-trnI;Parent=gene-trnI;gbkey=tRNA;gene=trnI;product=tRNA-Ile
+PP999684.1	Genbank	exon	101979	102021	.	+	.	ID=exon-trnI-1;Parent=rna-trnI;gbkey=tRNA;gene=trnI;product=tRNA-Ile
+PP999684.1	Genbank	exon	102964	102998	.	+	.	ID=exon-trnI-2;Parent=rna-trnI;gbkey=tRNA;gene=trnI;product=tRNA-Ile
+PP999684.1	Genbank	gene	103063	103949	.	+	.	ID=gene-trnA-UGC;Name=trnA-UGC;gbkey=Gene;gene=trnA-UGC;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	103063	103949	.	+	.	ID=rna-trnA-UGC;Parent=gene-trnA-UGC;gbkey=tRNA;gene=trnA-UGC;product=tRNA-Ala
+PP999684.1	Genbank	exon	103063	103100	.	+	.	ID=exon-trnA-UGC-1;Parent=rna-trnA-UGC;gbkey=tRNA;gene=trnA-UGC;product=tRNA-Ala
+PP999684.1	Genbank	exon	103915	103949	.	+	.	ID=exon-trnA-UGC-2;Parent=rna-trnA-UGC;gbkey=tRNA;gene=trnA-UGC;product=tRNA-Ala
+PP999684.1	Genbank	gene	104102	106911	.	+	.	ID=gene-rrn23;Name=rrn23;gbkey=Gene;gene=rrn23;gene_biotype=rRNA
+PP999684.1	Genbank	rRNA	104102	106911	.	+	.	ID=rna-rrn23;Parent=gene-rrn23;gbkey=rRNA;gene=rrn23;product=23S ribosomal RNA
+PP999684.1	Genbank	exon	104102	106911	.	+	.	ID=exon-rrn23-1;Parent=rna-rrn23;gbkey=rRNA;gene=rrn23;product=23S ribosomal RNA
+PP999684.1	Genbank	gene	107010	107112	.	+	.	ID=gene-rrn4.5;Name=rrn4.5;gbkey=Gene;gene=rrn4.5;gene_biotype=rRNA
+PP999684.1	Genbank	rRNA	107010	107112	.	+	.	ID=rna-rrn4.5;Parent=gene-rrn4.5;gbkey=rRNA;gene=rrn4.5;product=4.5S ribosomal RNA
+PP999684.1	Genbank	exon	107010	107112	.	+	.	ID=exon-rrn4.5-1;Parent=rna-rrn4.5;gbkey=rRNA;gene=rrn4.5;product=4.5S ribosomal RNA
+PP999684.1	Genbank	gene	107355	107475	.	+	.	ID=gene-rrn5;Name=rrn5;gbkey=Gene;gene=rrn5;gene_biotype=rRNA
+PP999684.1	Genbank	rRNA	107355	107475	.	+	.	ID=rna-rrn5;Parent=gene-rrn5;gbkey=rRNA;gene=rrn5;product=5S ribosomal RNA
+PP999684.1	Genbank	exon	107355	107475	.	+	.	ID=exon-rrn5-1;Parent=rna-rrn5;gbkey=rRNA;gene=rrn5;product=5S ribosomal RNA
+PP999684.1	Genbank	gene	107733	107806	.	+	.	ID=gene-trnR;Name=trnR;gbkey=Gene;gene=trnR;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	107733	107806	.	+	.	ID=rna-trnR;Parent=gene-trnR;gbkey=tRNA;gene=trnR;product=tRNA-Arg
+PP999684.1	Genbank	exon	107733	107806	.	+	.	ID=exon-trnR-1;Parent=rna-trnR;gbkey=tRNA;gene=trnR;product=tRNA-Arg
+PP999684.1	Genbank	gene	108271	108342	.	-	.	ID=gene-trnN;Name=trnN;gbkey=Gene;gene=trnN;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	108271	108342	.	-	.	ID=rna-trnN;Parent=gene-trnN;gbkey=tRNA;gene=trnN;product=tRNA-Asn
+PP999684.1	Genbank	exon	108271	108342	.	-	.	ID=exon-trnN-1;Parent=rna-trnN;gbkey=tRNA;gene=trnN;product=tRNA-Asn
+PP999684.1	Genbank	pseudogene	108665	109159	.	+	.	ID=gene-ycf1;Name=ycf1;gbkey=Gene;gene=ycf1;gene_biotype=pseudogene;pseudo=true
+PP999684.1	Genbank	gene	109141	111369	.	-	.	ID=gene-ndhF;Name=ndhF;gbkey=Gene;gene=ndhF;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	109141	111369	.	-	0	ID=cds-XDF89935.1;Parent=gene-ndhF;Dbxref=NCBI_GP:XDF89935.1;Name=XDF89935.1;gbkey=CDS;gene=ndhF;product=NADH-plastoquinone oxidoreductase subunit 5;protein_id=XDF89935.1;transl_table=11
+PP999684.1	Genbank	gene	112420	112584	.	+	.	ID=gene-rpl32;Name=rpl32;gbkey=Gene;gene=rpl32;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	112420	112584	.	+	0	ID=cds-XDF89936.1;Parent=gene-rpl32;Dbxref=NCBI_GP:XDF89936.1;Name=XDF89936.1;gbkey=CDS;gene=rpl32;product=ribosomal protein L32;protein_id=XDF89936.1;transl_table=11
+PP999684.1	Genbank	gene	113415	113494	.	+	.	ID=gene-trnL-3;Name=trnL;gbkey=Gene;gene=trnL;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	113415	113494	.	+	.	ID=rna-trnL-3;Parent=gene-trnL-3;gbkey=tRNA;gene=trnL;product=tRNA-Leu
+PP999684.1	Genbank	exon	113415	113494	.	+	.	ID=exon-trnL-3-1;Parent=rna-trnL-3;gbkey=tRNA;gene=trnL;product=tRNA-Leu
+PP999684.1	Genbank	gene	113611	114579	.	+	.	ID=gene-ccsA;Name=ccsA;gbkey=Gene;gene=ccsA;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	113611	114579	.	+	0	ID=cds-XDF89937.1;Parent=gene-ccsA;Dbxref=NCBI_GP:XDF89937.1;Name=XDF89937.1;gbkey=CDS;gene=ccsA;product=cytochrome c heme attachment protein;protein_id=XDF89937.1;transl_table=11
+PP999684.1	Genbank	gene	114868	116388	.	-	.	ID=gene-ndhD;Name=ndhD;gbkey=Gene;gene=ndhD;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	114868	116388	.	-	0	ID=cds-XDF89938.1;Parent=gene-ndhD;Dbxref=NCBI_GP:XDF89938.1;Name=XDF89938.1;gbkey=CDS;gene=ndhD;product=NADH-plastoquinone oxidoreductase subunit 4;protein_id=XDF89938.1;transl_table=11
+PP999684.1	Genbank	gene	116488	116733	.	-	.	ID=gene-psaC;Name=psaC;gbkey=Gene;gene=psaC;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	116488	116733	.	-	0	ID=cds-XDF89939.1;Parent=gene-psaC;Dbxref=NCBI_GP:XDF89939.1;Name=XDF89939.1;gbkey=CDS;gene=psaC;product=photosystem I subunit VII;protein_id=XDF89939.1;transl_table=11
+PP999684.1	Genbank	gene	116977	117282	.	-	.	ID=gene-ndhE;Name=ndhE;gbkey=Gene;gene=ndhE;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	116977	117282	.	-	0	ID=cds-XDF89940.1;Parent=gene-ndhE;Dbxref=NCBI_GP:XDF89940.1;Name=XDF89940.1;gbkey=CDS;gene=ndhE;product=NADH-plastoquinone oxidoreductase subunit 4L;protein_id=XDF89940.1;transl_table=11
+PP999684.1	Genbank	gene	117502	118032	.	-	.	ID=gene-ndhG;Name=ndhG;gbkey=Gene;gene=ndhG;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	117502	118032	.	-	0	ID=cds-XDF89941.1;Parent=gene-ndhG;Dbxref=NCBI_GP:XDF89941.1;Name=XDF89941.1;gbkey=CDS;gene=ndhG;product=NADH-plastoquinone oxidoreductase subunit 6;protein_id=XDF89941.1;transl_table=11
+PP999684.1	Genbank	gene	118352	118852	.	-	.	ID=gene-ndhI;Name=ndhI;gbkey=Gene;gene=ndhI;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	118352	118852	.	-	0	ID=cds-XDF89942.1;Parent=gene-ndhI;Dbxref=NCBI_GP:XDF89942.1;Name=XDF89942.1;gbkey=CDS;gene=ndhI;product=NADH-plastoquinone oxidoreductase subunit I;protein_id=XDF89942.1;transl_table=11
+PP999684.1	Genbank	gene	118937	121081	.	-	.	ID=gene-ndhA;Name=ndhA;gbkey=Gene;gene=ndhA;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	120529	121081	.	-	0	ID=cds-XDF89943.1;Parent=gene-ndhA;Dbxref=NCBI_GP:XDF89943.1;Name=XDF89943.1;gbkey=CDS;gene=ndhA;product=NADH-plastoquinone oxidoreductase subunit 1;protein_id=XDF89943.1;transl_table=11
+PP999684.1	Genbank	CDS	118937	119475	.	-	2	ID=cds-XDF89943.1;Parent=gene-ndhA;Dbxref=NCBI_GP:XDF89943.1;Name=XDF89943.1;gbkey=CDS;gene=ndhA;product=NADH-plastoquinone oxidoreductase subunit 1;protein_id=XDF89943.1;transl_table=11
+PP999684.1	Genbank	gene	121083	122264	.	-	.	ID=gene-ndhH;Name=ndhH;gbkey=Gene;gene=ndhH;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	121083	122264	.	-	0	ID=cds-XDF89944.1;Parent=gene-ndhH;Dbxref=NCBI_GP:XDF89944.1;Name=XDF89944.1;gbkey=CDS;gene=ndhH;product=NADH-plastoquinone oxidoreductase subunit 7;protein_id=XDF89944.1;transl_table=11
+PP999684.1	Genbank	gene	122355	122633	.	-	.	ID=gene-rps15;Name=rps15;gbkey=Gene;gene=rps15;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	122355	122633	.	-	0	ID=cds-XDF89945.1;Parent=gene-rps15;Dbxref=NCBI_GP:XDF89945.1;Name=XDF89945.1;gbkey=CDS;gene=rps15;product=ribosomal protein S15;protein_id=XDF89945.1;transl_table=11
+PP999684.1	Genbank	gene	123024	128204	.	-	.	ID=gene-ycf1-2;Name=ycf1;gbkey=Gene;gene=ycf1;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	123024	128204	.	-	0	ID=cds-XDF89946.1;Parent=gene-ycf1-2;Dbxref=NCBI_GP:XDF89946.1;Name=XDF89946.1;gbkey=CDS;gene=ycf1;product=hypothetical chloroplast RF19;protein_id=XDF89946.1;transl_table=11
+PP999684.1	Genbank	gene	128527	128598	.	+	.	ID=gene-trnN-2;Name=trnN;gbkey=Gene;gene=trnN;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	128527	128598	.	+	.	ID=rna-trnN-2;Parent=gene-trnN-2;gbkey=tRNA;gene=trnN;product=tRNA-Asn
+PP999684.1	Genbank	exon	128527	128598	.	+	.	ID=exon-trnN-2-1;Parent=rna-trnN-2;gbkey=tRNA;gene=trnN;product=tRNA-Asn
+PP999684.1	Genbank	gene	129063	129136	.	-	.	ID=gene-trnR-ACG;Name=trnR-ACG;gbkey=Gene;gene=trnR-ACG;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	129063	129136	.	-	.	ID=rna-trnR-ACG;Parent=gene-trnR-ACG;gbkey=tRNA;gene=trnR-ACG;product=tRNA-Arg
+PP999684.1	Genbank	exon	129063	129136	.	-	.	ID=exon-trnR-ACG-1;Parent=rna-trnR-ACG;gbkey=tRNA;gene=trnR-ACG;product=tRNA-Arg
+PP999684.1	Genbank	gene	129394	129514	.	-	.	ID=gene-rrn5-2;Name=rrn5;gbkey=Gene;gene=rrn5;gene_biotype=rRNA
+PP999684.1	Genbank	rRNA	129394	129514	.	-	.	ID=rna-rrn5-2;Parent=gene-rrn5-2;gbkey=rRNA;gene=rrn5;product=5S ribosomal RNA
+PP999684.1	Genbank	exon	129394	129514	.	-	.	ID=exon-rrn5-2-1;Parent=rna-rrn5-2;gbkey=rRNA;gene=rrn5;product=5S ribosomal RNA
+PP999684.1	Genbank	gene	129757	129859	.	-	.	ID=gene-rrn4.5-2;Name=rrn4.5;gbkey=Gene;gene=rrn4.5;gene_biotype=rRNA
+PP999684.1	Genbank	rRNA	129757	129859	.	-	.	ID=rna-rrn4.5-2;Parent=gene-rrn4.5-2;gbkey=rRNA;gene=rrn4.5;product=4.5S ribosomal RNA
+PP999684.1	Genbank	exon	129757	129859	.	-	.	ID=exon-rrn4.5-2-1;Parent=rna-rrn4.5-2;gbkey=rRNA;gene=rrn4.5;product=4.5S ribosomal RNA
+PP999684.1	Genbank	gene	129958	132767	.	-	.	ID=gene-rrn23-2;Name=rrn23;gbkey=Gene;gene=rrn23;gene_biotype=rRNA
+PP999684.1	Genbank	rRNA	129958	132767	.	-	.	ID=rna-rrn23-2;Parent=gene-rrn23-2;gbkey=rRNA;gene=rrn23;product=23S ribosomal RNA
+PP999684.1	Genbank	exon	129958	132767	.	-	.	ID=exon-rrn23-2-1;Parent=rna-rrn23-2;gbkey=rRNA;gene=rrn23;product=23S ribosomal RNA
+PP999684.1	Genbank	gene	132920	133806	.	-	.	ID=gene-trnA-UGC-2;Name=trnA-UGC;gbkey=Gene;gene=trnA-UGC;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	132920	133806	.	-	.	ID=rna-trnA-UGC-2;Parent=gene-trnA-UGC-2;gbkey=tRNA;gene=trnA-UGC;product=tRNA-Ala
+PP999684.1	Genbank	exon	133769	133806	.	-	.	ID=exon-trnA-UGC-2-1;Parent=rna-trnA-UGC-2;gbkey=tRNA;gene=trnA-UGC;product=tRNA-Ala
+PP999684.1	Genbank	exon	132920	132954	.	-	.	ID=exon-trnA-UGC-2-2;Parent=rna-trnA-UGC-2;gbkey=tRNA;gene=trnA-UGC;product=tRNA-Ala
+PP999684.1	Genbank	gene	133871	134890	.	-	.	ID=gene-trnI-GAU;Name=trnI-GAU;gbkey=Gene;gene=trnI-GAU;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	133871	134890	.	-	.	ID=rna-trnI-GAU;Parent=gene-trnI-GAU;gbkey=tRNA;gene=trnI-GAU;product=tRNA-Ile
+PP999684.1	Genbank	exon	134848	134890	.	-	.	ID=exon-trnI-GAU-1;Parent=rna-trnI-GAU;gbkey=tRNA;gene=trnI-GAU;product=tRNA-Ile
+PP999684.1	Genbank	exon	133871	133905	.	-	.	ID=exon-trnI-GAU-2;Parent=rna-trnI-GAU;gbkey=tRNA;gene=trnI-GAU;product=tRNA-Ile
+PP999684.1	Genbank	gene	135185	136674	.	-	.	ID=gene-rrn16-2;Name=rrn16;gbkey=Gene;gene=rrn16;gene_biotype=rRNA
+PP999684.1	Genbank	rRNA	135185	136674	.	-	.	ID=rna-rrn16-2;Parent=gene-rrn16-2;gbkey=rRNA;gene=rrn16;product=16S ribosomal RNA
+PP999684.1	Genbank	exon	135185	136674	.	-	.	ID=exon-rrn16-2-1;Parent=rna-rrn16-2;gbkey=rRNA;gene=rrn16;product=16S ribosomal RNA
+PP999684.1	Genbank	gene	136902	136973	.	-	.	ID=gene-trnV-2;Name=trnV;gbkey=Gene;gene=trnV;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	136902	136973	.	-	.	ID=rna-trnV-2;Parent=gene-trnV-2;gbkey=tRNA;gene=trnV;product=tRNA-Val
+PP999684.1	Genbank	exon	136902	136973	.	-	.	ID=exon-trnV-2-1;Parent=rna-trnV-2;gbkey=tRNA;gene=trnV;product=tRNA-Val
+PP999684.1	Genbank	gene	137661	137852	.	+	.	ID=gene-ycf15-2;Name=ycf15;gbkey=Gene;gene=ycf15;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	137661	137852	.	+	0	ID=cds-XDF89947.1;Parent=gene-ycf15-2;Dbxref=NCBI_GP:XDF89947.1;Name=XDF89947.1;gbkey=CDS;gene=ycf15;product=hypothetical protein;protein_id=XDF89947.1;transl_table=11
+PP999684.1	Genbank	gene	139675	140142	.	+	.	ID=gene-rps7-2;Name=rps7;gbkey=Gene;gene=rps7;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	139675	140142	.	+	0	ID=cds-XDF89948.1;Parent=gene-rps7-2;Dbxref=NCBI_GP:XDF89948.1;Name=XDF89948.1;gbkey=CDS;gene=rps7;product=ribosomal protein S7;protein_id=XDF89948.1;transl_table=11
+PP999684.1	Genbank	gene	140432	142633	.	+	.	ID=gene-ndhB-2;Name=ndhB;gbkey=Gene;gene=ndhB;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	140432	141208	.	+	0	ID=cds-XDF89949.1;Parent=gene-ndhB-2;Dbxref=NCBI_GP:XDF89949.1;Name=XDF89949.1;gbkey=CDS;gene=ndhB;product=NADH-plastoquinone oxidoreductase subunit 2;protein_id=XDF89949.1;transl_table=11
+PP999684.1	Genbank	CDS	141878	142633	.	+	0	ID=cds-XDF89949.1;Parent=gene-ndhB-2;Dbxref=NCBI_GP:XDF89949.1;Name=XDF89949.1;gbkey=CDS;gene=ndhB;product=NADH-plastoquinone oxidoreductase subunit 2;protein_id=XDF89949.1;transl_table=11
+PP999684.1	Genbank	gene	143229	143309	.	+	.	ID=gene-trnL-4;Name=trnL;gbkey=Gene;gene=trnL;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	143229	143309	.	+	.	ID=rna-trnL-4;Parent=gene-trnL-4;gbkey=tRNA;gene=trnL;product=tRNA-Leu
+PP999684.1	Genbank	exon	143229	143309	.	+	.	ID=exon-trnL-4-1;Parent=rna-trnL-4;gbkey=tRNA;gene=trnL;product=tRNA-Leu
+PP999684.1	Genbank	gene	143714	150508	.	-	.	ID=gene-ycf2-2;Name=ycf2;gbkey=Gene;gene=ycf2;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	143714	150508	.	-	0	ID=cds-XDF89950.1;Parent=gene-ycf2-2;Dbxref=NCBI_GP:XDF89950.1;Name=XDF89950.1;gbkey=CDS;gene=ycf2;product=hypothetical chloroplast RF21;protein_id=XDF89950.1;transl_table=11
+PP999684.1	Genbank	gene	150620	150693	.	+	.	ID=gene-trnM-3;Name=trnM;gbkey=Gene;gene=trnM;gene_biotype=tRNA
+PP999684.1	Genbank	tRNA	150620	150693	.	+	.	ID=rna-trnM-3;Parent=gene-trnM-3;gbkey=tRNA;gene=trnM;product=tRNA-Met
+PP999684.1	Genbank	exon	150620	150693	.	+	.	ID=exon-trnM-3-1;Parent=rna-trnM-3;gbkey=tRNA;gene=trnM;product=tRNA-Met
+PP999684.1	Genbank	gene	150859	151140	.	+	.	ID=gene-rpl23-2;Name=rpl23;gbkey=Gene;gene=rpl23;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	150859	151140	.	+	0	ID=cds-XDF89951.1;Parent=gene-rpl23-2;Dbxref=NCBI_GP:XDF89951.1;Name=XDF89951.1;gbkey=CDS;gene=rpl23;product=ribosomal protein L23;protein_id=XDF89951.1;transl_table=11
+PP999684.1	Genbank	gene	151159	152648	.	+	.	ID=gene-rpl2-2;Name=rpl2;gbkey=Gene;gene=rpl2;gene_biotype=protein_coding
+PP999684.1	Genbank	CDS	151159	151549	.	+	0	ID=cds-XDF89952.1;Parent=gene-rpl2-2;Dbxref=NCBI_GP:XDF89952.1;Name=XDF89952.1;gbkey=CDS;gene=rpl2;product=ribosomal protein L2;protein_id=XDF89952.1;transl_table=11
+PP999684.1	Genbank	CDS	152215	152648	.	+	2	ID=cds-XDF89952.1;Parent=gene-rpl2-2;Dbxref=NCBI_GP:XDF89952.1;Name=XDF89952.1;gbkey=CDS;gene=rpl2;product=ribosomal protein L2;protein_id=XDF89952.1;transl_table=11
+

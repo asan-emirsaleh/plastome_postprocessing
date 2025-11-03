@@ -1,0 +1,1064 @@
+>Feature ref|NC_000932.1|
+69724	69611	gene
+98793	97999
+			gene	rps12
+			locus_tag	ArthCp001
+			trans_splicing
+			exception	trans-splicing
+			db_xref	GeneID:1466250
+69724	69611	CDS
+98793	98562
+98024	97999
+			product	ribosomal protein S12
+			transl_table	11
+			protein_id	ref|NP_051037.1|
+			trans_splicing
+			exception	trans-splicing
+76	4	gene
+			gene	trnH
+			locus_tag	ArthCt088
+			db_xref	GeneID:1466273
+76	4	tRNA
+			product	tRNA-His
+1444	383	gene
+			gene	psbA
+			locus_tag	ArthCp002
+			db_xref	GeneID:844802
+1444	383	CDS
+			product	photosystem II protein D1
+			transl_table	11
+			protein_id	ref|NP_051039.1|
+4347	1717	gene
+			gene	trnK
+			locus_tag	ArthCt089
+			db_xref	GeneID:1466272
+4347	4311	tRNA
+1751	1717
+			product	tRNA-Lys
+3570	2056	gene
+			gene	matK
+			locus_tag	ArthCp003
+			db_xref	GeneID:844797
+3570	2056	CDS
+			product	maturase K
+			transl_table	11
+			protein_id	ref|NP_051040.2|
+6188	5084	gene
+			gene	rps16
+			locus_tag	ArthCp004
+			db_xref	GeneID:844798
+6188	6149	CDS
+5283	5084
+			product	ribosomal protein S16
+			transl_table	11
+			protein_id	ref|NP_051041.1|
+6687	6616	gene
+			gene	trnQ
+			locus_tag	ArthCt090
+			db_xref	GeneID:1466271
+6687	6616	tRNA
+			product	tRNA-Gln
+7017	7202	gene
+			gene	psbK
+			locus_tag	ArthCp005
+			db_xref	GeneID:844795
+7017	7202	CDS
+			product	photosystem II protein K
+			prot_desc	PSII K protein
+			transl_table	11
+			protein_id	ref|NP_051042.1|
+7583	7693	gene
+			gene	psbI
+			locus_tag	ArthCp006
+			db_xref	GeneID:844794
+7583	7693	CDS
+			product	photosystem II protein I
+			transl_table	11
+			protein_id	ref|NP_051043.1|
+7785	7872	gene
+			gene	trnS
+			locus_tag	ArthCt091
+			db_xref	GeneID:1466270
+7785	7872	tRNA
+			product	tRNA-Ser
+8646	9431	gene
+			gene	trnG
+			locus_tag	ArthCt092
+			db_xref	GeneID:1466269
+8646	8668	tRNA
+9383	9431
+			product	tRNA-Gly
+9590	9661	gene
+			gene	trnR
+			locus_tag	ArthCt093
+			db_xref	GeneID:1466268
+9590	9661	tRNA
+			product	tRNA-Arg
+11461	9938	gene
+			gene	atpA
+			locus_tag	ArthCp007
+			db_xref	GeneID:844790
+11461	9938	CDS
+			product	ATP synthase CF1 alpha subunit
+			prot_desc	ATP synthase CF1 alpha chain
+			transl_table	11
+			protein_id	ref|NP_051044.1|
+			note	ATPase alpha subunit
+12798	11529	gene
+			gene	atpF
+			locus_tag	ArthCp008
+			db_xref	GeneID:844789
+12798	12654	CDS
+11938	11529
+			product	ATP synthase CF0 B subunit
+			prot_desc	ATPase subunit I
+			transl_table	11
+			protein_id	ref|NP_051045.1|
+13507	13262	gene
+			gene	atpH
+			locus_tag	ArthCp009
+			db_xref	GeneID:844788
+13507	13262	CDS
+			product	ATP synthase CF0 C subunit
+			prot_desc	ATPase III subunit
+			transl_table	11
+			protein_id	ref|NP_051046.1|
+			note	ATP synthase CF0 C chain
+14770	14021	gene
+			gene	atpI
+			locus_tag	ArthCp010
+			db_xref	GeneID:844787
+14770	14021	CDS
+			product	ATP synthase CF0 A subunit
+			prot_desc	ATPase IV subunit
+			transl_table	11
+			protein_id	ref|NP_051047.1|
+			note	ATP synthase CF0 A chain
+15723	15013	gene
+			gene	rps2
+			locus_tag	ArthCp011
+			db_xref	GeneID:844786
+15723	15013	CDS
+			product	ribosomal protein S2
+			prot_desc	30S ribosomal protein S2
+			transl_table	11
+			protein_id	ref|NP_051048.1|
+20068	15938	gene
+			gene	rpoC2
+			locus_tag	ArthCp012
+			db_xref	GeneID:844785
+20068	15938	CDS
+			product	RNA polymerase beta'' subunit
+			prot_desc	RNA polymerase beta'' chain
+			transl_table	11
+			protein_id	ref|NP_051049.1|
+			note	one of four subunits of the minimal PEP RNA polymerase catalytic core
+23084	20251	gene
+			gene	rpoC1
+			locus_tag	ArthCp013
+			db_xref	GeneID:844784
+23084	22653	CDS
+21861	20251
+			product	RNA polymerase beta' subunit
+			prot_desc	RNA polymerase beta' chain
+			transl_table	11
+			protein_id	ref|NP_051050.1|
+26329	23111	gene
+			gene	rpoB
+			locus_tag	ArthCp014
+			db_xref	GeneID:844783
+26329	23111	CDS
+			product	RNA polymerase beta subunit
+			prot_desc	RNA polymerase beta chain
+			transl_table	11
+			protein_id	ref|NP_051051.1|
+			note	one of four subunits of the minimal PEP RNA polymerase catalytic core
+27373	27443	gene
+			gene	trnC
+			locus_tag	ArthCt094
+			db_xref	GeneID:1466267
+27373	27443	tRNA
+			product	tRNA-Cys
+28089	28178	gene
+			gene	petN
+			gene_syn	ycf6
+			locus_tag	ArthCp015
+			db_xref	GeneID:844779
+28089	28178	CDS
+			product	cytochrome b6/f complex subunit VIII
+			prot_desc	cytochrome b6/f complex subunit N
+			transl_table	11
+			protein_id	ref|NP_051052.1|
+28811	28707	gene
+			gene	psbM
+			locus_tag	ArthCp016
+			db_xref	GeneID:844781
+28811	28707	CDS
+			product	photosystem II protein M
+			transl_table	11
+			protein_id	ref|NP_051053.1|
+29874	29801	gene
+			gene	trnD
+			locus_tag	ArthCt095
+			db_xref	GeneID:1466264
+29874	29801	tRNA
+			product	tRNA-Asp
+30406	30323	gene
+			gene	trnY
+			locus_tag	ArthCt096
+			db_xref	GeneID:1466266
+30406	30323	tRNA
+			product	tRNA-Tyr
+30538	30466	gene
+			gene	trnE
+			locus_tag	ArthCt097
+			db_xref	GeneID:1466265
+30538	30466	tRNA
+			product	tRNA-Glu
+31369	31440	gene
+			gene	trnT
+			locus_tag	ArthCt098
+			db_xref	GeneID:1466263
+31369	31440	tRNA
+			product	tRNA-Thr
+32711	33772	gene
+			gene	psbD
+			locus_tag	ArthCp017
+			db_xref	GeneID:844775
+32711	33772	CDS
+			product	photosystem II protein D2
+			transl_table	11
+			protein_id	ref|NP_051054.1|
+33720	35141	gene
+			gene	psbC
+			locus_tag	ArthCp018
+			db_xref	GeneID:844773
+33720	35141	CDS
+			product	photosystem II 44 kDa protein
+			prot_desc	PSII 43 kDa protein
+			transl_table	11
+			protein_id	ref|NP_051055.1|
+			note	CP43
+35403	35312	gene
+			gene	trnS
+			locus_tag	ArthCt117
+			db_xref	GeneID:4042810
+35403	35312	tRNA
+			product	tRNA-Ser
+35751	35939	gene
+			gene	psbZ
+			locus_tag	ArthCp019
+			db_xref	GeneID:844774
+35751	35939	CDS
+			product	photosystem II protein Z
+			prot_desc	photosystem II reaction center Z protein
+			transl_table	11
+			protein_id	ref|NP_051056.1|
+			note	YCF9
+36490	36560	gene
+			gene	trnG
+			locus_tag	ArthCt116
+			db_xref	GeneID:4042809
+36490	36560	tRNA
+			product	tRNA-Gly
+36777	36704	gene
+			gene	trnfM
+			locus_tag	ArthCt099
+			db_xref	GeneID:1466262
+36777	36704	tRNA
+			product	tRNA-Met
+			note	fMet
+37240	36938	gene
+			gene	rps14
+			locus_tag	ArthCp020
+			db_xref	GeneID:844771
+37240	36938	CDS
+			product	ribosomal protein S14
+			prot_desc	30S ribosomal protein S14
+			transl_table	11
+			protein_id	ref|NP_051057.1|
+39579	37375	gene
+			gene	psaB
+			locus_tag	ArthCp021
+			db_xref	GeneID:844770
+39579	37375	CDS
+			product	photosystem I P700 chlorophyll a apoprotein A2
+			prot_desc	PSI P700 apoprotein A2
+			transl_table	11
+			protein_id	ref|NP_051058.1|
+			note	PsaB
+41857	39605	gene
+			gene	psaA
+			locus_tag	ArthCp022
+			db_xref	GeneID:844768
+41857	39605	CDS
+			product	photosystem I P700 chlorophyll a apoprotein A1
+			prot_desc	PSI P700 apoprotein A1
+			transl_table	11
+			protein_id	ref|NP_051059.1|
+			note	PsaA
+44591	42584	gene
+			gene	ycf3
+			locus_tag	ArthCp023
+			db_xref	GeneID:844767
+44591	44466	CDS
+43751	43524
+42736	42584
+			product	photosystem I assembly protein Ycf3
+			transl_table	11
+			protein_id	ref|NP_051060.2|
+44827	44913	gene
+			gene	trnS
+			locus_tag	ArthCt125
+			db_xref	GeneID:5563232
+44827	44913	tRNA
+			product	tRNA-Ser
+45828	45223	gene
+			gene	rps4
+			locus_tag	ArthCp024
+			db_xref	GeneID:844765
+45828	45223	CDS
+			product	ribosomal protein S4
+			transl_table	11
+			protein_id	ref|NP_051061.1|
+46285	46213	gene
+			locus_tag	ArthCt100
+			db_xref	GeneID:1466275
+46285	46213	tRNA
+			product	tRNA-Thr
+46894	47490	gene
+			gene	trnL
+			locus_tag	ArthCt101
+			db_xref	GeneID:1466259
+46894	46928	tRNA
+47441	47490
+			product	tRNA-Leu
+48175	48247	gene
+			gene	trnF
+			locus_tag	ArthCt102
+			db_xref	GeneID:1466253
+48175	48247	tRNA
+			product	tRNA-Phe
+49153	48677	gene
+			gene	ndhJ
+			locus_tag	ArthCp025
+			db_xref	GeneID:844763
+49153	48677	CDS
+			product	NADH dehydrogenase subunit J
+			prot_desc	NADH dehydrogenase 30 kDa subunit
+			transl_table	11
+			protein_id	ref|NP_051062.1|
+49934	49257	gene
+			gene	ndhK
+			locus_tag	ArthCp026
+			db_xref	GeneID:844761
+49934	49257	CDS
+			product	NADH dehydrogenase subunit K
+			prot_desc	NADH dehydrogenase 27 kDa subunit
+			transl_table	11
+			protein_id	ref|NP_051063.1|
+50363	50001	gene
+			gene	ndhC
+			gene_syn	ndh3
+			locus_tag	ArthCp027
+			db_xref	GeneID:844762
+50363	50001	CDS
+			product	NADH dehydrogenase subunit 3
+			transl_table	11
+			protein_id	ref|NP_051064.1|
+51871	51199	gene
+			gene	trnV
+			locus_tag	ArthCt103
+			db_xref	GeneID:1466261
+51871	51833	tRNA
+51233	51199
+			product	tRNA-Val
+52056	52128	gene
+			gene	trnM
+			locus_tag	ArthCt104
+			db_xref	GeneID:1466257
+52056	52128	tRNA
+			product	tRNA-Met
+52663	52265	gene
+			gene	atpE
+			locus_tag	ArthCp028
+			db_xref	GeneID:844758
+52663	52265	CDS
+			product	ATP synthase CF1 epsilon subunit
+			prot_desc	ATP synthase epsilon chain
+			transl_table	11
+			protein_id	ref|NP_051065.1|
+54156	52660	gene
+			gene	atpB
+			locus_tag	ArthCp029
+			db_xref	GeneID:844757
+54156	52660	CDS
+			product	ATP synthase CF1 beta subunit
+			prot_desc	ATPase beta chain
+			transl_table	11
+			protein_id	ref|NP_051066.1|
+			note	ATP synthase CF1 beta subunit
+54958	56397	gene
+			gene	rbcL
+			locus_tag	ArthCp030
+			db_xref	GeneID:844754
+54958	56397	CDS
+			product	ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit
+			prot_desc	RuBisCO large subunit
+			transl_table	11
+			protein_id	ref|NP_051067.1|
+57075	58541	gene
+			gene	accD
+			locus_tag	ArthCp031
+			db_xref	GeneID:844755
+57075	58541	CDS
+			product	acetyl-CoA carboxylase beta subunit
+			transl_table	11
+			protein_id	ref|NP_051068.1|
+59247	59360	gene
+			gene	psaI
+			locus_tag	ArthCp032
+			db_xref	GeneID:844753
+59247	59360	CDS
+			product	photosystem I subunit VIII
+			transl_table	11
+			protein_id	ref|NP_051069.1|
+59772	60326	gene
+			gene	ycf4
+			locus_tag	ArthCp033
+			db_xref	GeneID:844752
+59772	60326	CDS
+			product	photosystem I assembly protein Ycf4
+			prot_desc	ycf4
+			transl_table	11
+			protein_id	ref|NP_051070.1|
+60741	61430	gene
+			gene	cemA
+			gene_syn	ycf10
+			locus_tag	ArthCp034
+			db_xref	GeneID:844747
+60741	61430	CDS
+			product	envelope membrane protein
+			prot_desc	heme-binding protein
+			transl_table	11
+			protein_id	ref|NP_051071.1|
+61657	62619	gene
+			gene	petA
+			locus_tag	ArthCp035
+			db_xref	GeneID:844748
+61657	62619	CDS
+			product	cytochrome f
+			prot_desc	apocytochrome f precursor
+			transl_table	11
+			protein_id	ref|NP_051072.1|
+			note	component of cytochrome b6/f complex
+63660	63538	gene
+			gene	psbJ
+			locus_tag	ArthCp036
+			db_xref	GeneID:844749
+63660	63538	CDS
+			product	photosystem II protein J
+			prot_desc	photosystem II reaction center subunit X
+			transl_table	11
+			protein_id	ref|NP_051073.1|
+63920	63804	gene
+			gene	psbL
+			locus_tag	ArthCp037
+			db_xref	GeneID:844751
+63920	63804	CDS
+			product	photosystem II protein L
+			prot_desc	PSII reaction center subunit XII
+			transl_table	11
+			protein_id	ref|NP_051074.1|
+64061	63942	gene
+			gene	psbF
+			locus_tag	ArthCp038
+			db_xref	GeneID:844746
+64061	63942	CDS
+			product	photosystem II protein VI
+			prot_desc	photosystem II reaction center subunit VI
+			transl_table	11
+			protein_id	ref|NP_051075.1|
+64322	64071	gene
+			gene	psbE
+			locus_tag	ArthCp039
+			db_xref	GeneID:844745
+64322	64071	CDS
+			product	photosystem II protein V
+			prot_desc	cytochrome b559 alpha subunit
+			transl_table	11
+			protein_id	ref|NP_051076.1|
+65712	65807	gene
+			gene	petL
+			locus_tag	ArthCp040
+			db_xref	GeneID:844744
+65712	65807	CDS
+			product	cytochrome b6/f complex subunit VI
+			prot_desc	ORF31
+			transl_table	11
+			protein_id	ref|NP_051077.1|
+65998	66111	gene
+			gene	petG
+			locus_tag	ArthCp041
+			db_xref	GeneID:844743
+65998	66111	CDS
+			product	cytochrome b6/f complex subunit V
+			prot_desc	cytochrome B6-F complex subunit 5
+			transl_table	11
+			protein_id	ref|NP_051078.1|
+			note	required for the either the stability or assembly of the cytochrome b6/f complex
+66302	66229	gene
+			gene	trnW
+			locus_tag	ArthCt105
+			db_xref	GeneID:1466245
+66302	66229	tRNA
+			product	tRNA-Trp
+66563	66490	gene
+			gene	trnP
+			locus_tag	ArthCt106
+			db_xref	GeneID:1466244
+66563	66490	tRNA
+			product	tRNA-Pro
+66929	67063	gene
+			gene	psaJ
+			locus_tag	ArthCp042
+			db_xref	GeneID:844738
+66929	67063	CDS
+			product	photosystem I subunit IX
+			transl_table	11
+			protein_id	ref|NP_051079.1|
+67488	67688	gene
+			gene	rpl33
+			locus_tag	ArthCp043
+			db_xref	GeneID:844737
+67488	67688	CDS
+			product	ribosomal protein L33
+			transl_table	11
+			protein_id	ref|NP_051080.1|
+67917	68222	gene
+			gene	rps18
+			locus_tag	ArthCp044
+			db_xref	GeneID:844736
+67917	68222	CDS
+			product	ribosomal protein S18
+			prot_desc	30S ribosomal protein S18
+			transl_table	11
+			protein_id	ref|NP_051081.1|
+68865	68512	gene
+			gene	rpl20
+			locus_tag	ArthCp045
+			db_xref	GeneID:844735
+68865	68512	CDS
+			product	ribosomal protein L20
+			prot_desc	50S ribosomal protein L20
+			transl_table	11
+			protein_id	ref|NP_051082.1|
+69724	69611	gene
+139856	140650
+			gene	rps12
+			locus_tag	ArthCp047
+			trans_splicing
+			exception	trans-splicing
+			db_xref	GeneID:844801
+69724	69611	CDS
+139856	140087
+140625	140650
+			product	ribosomal protein S12
+			transl_table	11
+			protein_id	ref|NP_051038.1|
+			note	trans-spliced
+			trans_splicing
+			exception	trans-splicing
+71882	69910	gene
+			gene	clpP
+			locus_tag	ArthCp048
+			db_xref	GeneID:844734
+71882	71812	CDS
+70944	70653
+70137	69910
+			product	ATP-dependent Clp protease proteolytic subunit
+			transl_table	11
+			protein_id	ref|NP_051083.1|
+72371	73897	gene
+			gene	psbB
+			locus_tag	ArthCp049
+			db_xref	GeneID:844733
+72371	73897	CDS
+			product	photosystem II 47 kDa protein
+			prot_desc	photosystem II P680 chlorophyll A apoprotein
+			transl_table	11
+			protein_id	ref|NP_051084.1|
+			note	PSII 47 kDa protein
+74082	74183	gene
+			gene	psbT
+			locus_tag	ArthCp050
+			db_xref	GeneID:844731
+74082	74183	CDS
+			product	photosystem II protein T
+			transl_table	11
+			protein_id	ref|NP_051085.1|
+74380	74249	gene
+			gene	psbN
+			locus_tag	ArthCp051
+			db_xref	GeneID:844732
+74380	74249	CDS
+			product	photosystem II protein N
+			prot_desc	photosystem II reaction center N protein
+			transl_table	11
+			protein_id	ref|NP_051086.1|
+74485	74706	gene
+			gene	psbH
+			locus_tag	ArthCp052
+			db_xref	GeneID:844730
+74485	74706	CDS
+			product	photosystem II protein H
+			prot_desc	photosystem II reaction center protein H
+			transl_table	11
+			protein_id	ref|NP_051087.1|
+			note	photosystem II phosphoprotein
+74841	76292	gene
+			gene	petB
+			locus_tag	ArthCp053
+			db_xref	GeneID:844729
+74841	74846	CDS
+75651	76292
+			product	cytochrome b6
+			transl_table	11
+			protein_id	ref|NP_051088.1|
+76481	77672	gene
+			gene	petD
+			locus_tag	ArthCp054
+			db_xref	GeneID:844728
+76481	76488	CDS
+77198	77672
+			product	cytochrome b6/f complex subunit IV
+			prot_desc	cytochrome b6/f complex subunit 4
+			transl_table	11
+			protein_id	ref|NP_051089.1|
+78890	77901	gene
+			gene	rpoA
+			locus_tag	ArthCp055
+			db_xref	GeneID:844727
+78890	77901	CDS
+			product	RNA polymerase alpha subunit
+			prot_desc	RNA polymerase alpha chain
+			transl_table	11
+			protein_id	ref|NP_051090.1|
+79376	78960	gene
+			gene	rps11
+			locus_tag	ArthCp056
+			db_xref	GeneID:844726
+79376	78960	CDS
+			product	ribosomal protein S11
+			prot_desc	30S ribosomal protein S11
+			transl_table	11
+			protein_id	ref|NP_051091.1|
+79602	79489	gene
+			gene	rpl36
+			gene_syn	secX
+			locus_tag	ArthCp057
+			db_xref	GeneID:844725
+79602	79489	CDS
+			product	ribosomal protein L36
+			prot_desc	50S ribosomal protein L36
+			transl_table	11
+			protein_id	ref|NP_051092.1|
+80472	80068	gene
+			gene	rps8
+			locus_tag	ArthCp058
+			db_xref	GeneID:844724
+80472	80068	CDS
+			product	ribosomal protein S8
+			prot_desc	30S ribosomal protein S8
+			transl_table	11
+			protein_id	ref|NP_051093.1|
+81064	80696	gene
+			gene	rpl14
+			locus_tag	ArthCp059
+			db_xref	GeneID:844723
+81064	80696	CDS
+			product	ribosomal protein L14
+			prot_desc	50S ribosomal protein L14
+			transl_table	11
+			protein_id	ref|NP_051094.1|
+82652	81189	gene
+			gene	rpl16
+			locus_tag	ArthCp060
+			db_xref	GeneID:844722
+82652	82644	CDS
+81587	81189
+			product	ribosomal protein L16
+			transl_table	11
+			protein_id	ref|NP_051095.1|
+83482	82826	gene
+			gene	rps3
+			locus_tag	ArthCp061
+			db_xref	GeneID:844719
+83482	82826	CDS
+			product	ribosomal protein S3
+			prot_desc	30S ribosomal protein S3
+			transl_table	11
+			protein_id	ref|NP_051096.1|
+83949	83467	gene
+			gene	rpl22
+			locus_tag	ArthCp062
+			db_xref	GeneID:844721
+83949	83467	CDS
+			product	ribosomal protein L22
+			transl_table	11
+			protein_id	ref|NP_051097.1|
+84283	84005	gene
+			gene	rps19
+			locus_tag	ArthCp063
+			db_xref	GeneID:844720
+84283	84005	CDS
+			product	ribosomal protein S19
+			prot_desc	30S ribosomal protein S19
+			transl_table	11
+			protein_id	ref|NP_051098.1|
+85843	84337	gene
+			gene	rpl2
+			locus_tag	ArthCp064
+			db_xref	GeneID:844718
+85843	85454	CDS
+84771	84337
+			product	ribosomal protein L2
+			prot_desc	50S ribosomal protein L2
+			transl_table	11
+			protein_id	ref|NP_051099.1|
+86143	85862	gene
+			gene	rpl23
+			locus_tag	ArthCp065
+			db_xref	GeneID:844717
+86143	85862	CDS
+			product	ribosomal protein L23
+			prot_desc	50S ribosomal protein L23
+			transl_table	11
+			protein_id	ref|NP_051100.1|
+86385	86312	gene
+			gene	trnI
+			locus_tag	ArthCt113
+			db_xref	GeneID:4042812
+86385	86312	tRNA
+			product	tRNA-Ile
+			note	CAU; C in the first position of the anticodon assumed to be post-transcriptionally modified to lysidine, which pairs with A rather than G tRNA with a methionine anticodonpost-transcriptionally modified to have tRNA isoleucine activity
+86474	93358	gene
+			gene	ycf2
+			locus_tag	ArthCp066
+			db_xref	GeneID:844715
+86474	93358	CDS
+			product	Ycf2
+			transl_table	11
+			protein_id	ref|NP_051101.1|
+			note	hypothetical protein RF2
+94356	94276	gene
+			gene	trnL
+			locus_tag	ArthCt126
+			db_xref	GeneID:5563230
+94356	94276	tRNA
+			product	tRNA-Leu
+97164	94941	gene
+			gene	ndhB
+			gene_syn	ndh2
+			locus_tag	ArthCp068
+			db_xref	GeneID:844713
+97164	96388	CDS
+95702	94941
+			product	NADH dehydrogenase subunit 2
+			transl_table	11
+			protein_id	ref|NP_051103.2|
+97945	97478	gene
+			gene	rps7
+			locus_tag	ArthCp069
+			db_xref	GeneID:844712
+97945	97478	CDS
+			product	ribosomal protein S7
+			prot_desc	30S ribosomal protein S7
+			transl_table	11
+			protein_id	ref|NP_051104.1|
+100709	100780	gene
+			gene	trnV
+			locus_tag	Arthct121
+			db_xref	GeneID:4386141
+100709	100780	tRNA
+			product	tRNA-Val
+101012	102502	gene
+			gene	rrn16S
+			locus_tag	ArthCr086
+			db_xref	GeneID:1466254
+101012	102502	rRNA
+			product	16S ribosomal RNA
+102801	103601	gene
+			gene	trnI
+			locus_tag	ArthCt107
+			db_xref	GeneID:1466260
+102801	102837	tRNA
+103567	103601
+			product	tRNA-Ile
+103665	104538	gene
+			gene	trnA
+			locus_tag	ArthCt108
+			db_xref	GeneID:1466258
+103665	103702	tRNA
+104504	104538
+			product	tRNA-Ala
+104691	107500	gene
+			gene	rrn23S
+			locus_tag	ArthCr087
+			db_xref	GeneID:1466252
+104691	107500	rRNA
+			product	23S ribosomal RNA
+107599	107701	gene
+			gene	rrn4.5S
+			locus_tag	ArthCt109
+			db_xref	GeneID:1466256
+107599	107701	rRNA
+			product	4.5S ribosomal RNA
+108302	108375	gene
+			gene	trnR
+			locus_tag	ArthCt127
+			db_xref	GeneID:4386137
+108302	108375	tRNA
+			product	tRNA-Arg
+109084	109013	gene
+			gene	trnN
+			locus_tag	Arthct120
+			db_xref	GeneID:4386138
+109084	109013	tRNA
+			product	tRNA-Asn
+109405	110436	gene
+			gene	ycf1
+			locus_tag	ArthCp070
+			db_xref	GeneID:844706
+109405	110436	CDS
+			product	hypothetical protein
+			prot_desc	ycf1
+			transl_table	11
+			protein_id	ref|NP_051105.1|
+112638	110398	gene
+			gene	ndhF
+			gene_syn	ndh5
+			locus_tag	ArthCp071
+			db_xref	GeneID:844705
+112638	110398	CDS
+			product	NADH dehydrogenase subunit 5
+			transl_table	11
+			protein_id	ref|NP_051106.1|
+113449	113607	gene
+			gene	rpl32
+			locus_tag	ArthCp072
+			db_xref	GeneID:844704
+113449	113607	CDS
+			product	ribosomal protein L32
+			transl_table	11
+			protein_id	ref|NP_051107.1|
+114270	114349	gene
+			gene	trnL
+			locus_tag	Arthct122
+			db_xref	GeneID:4386142
+114270	114349	tRNA
+			product	tRNA-Leu
+114461	115447	gene
+			gene	ccsA
+			gene_syn	ycf5
+			locus_tag	ArthCp073
+			db_xref	GeneID:844769
+114461	115447	CDS
+			product	cytochrome c biogenesis protein
+			prot_desc	ycf5
+			transl_table	11
+			protein_id	ref|NP_051108.1|
+117167	115665	gene
+			gene	ndhD
+			gene_syn	ndh4
+			locus_tag	ArthCp074
+			db_xref	GeneID:844756
+117167	115665	CDS
+			product	NADH dehydrogenase subunit 4
+			transl_table	11
+			protein_id	ref|NP_051109.2|
+			exception	RNA editing
+117563	117318	gene
+			gene	psaC
+			locus_tag	ArthCp075
+			db_xref	GeneID:844750
+117563	117318	CDS
+			product	photosystem I subunit VII
+			prot_desc	photosystem I iron-sulfur center
+			transl_table	11
+			protein_id	ref|NP_051110.1|
+			note	9 kDa protein
+118109	117804	gene
+			gene	ndhE
+			gene_syn	ndh4L
+			locus_tag	ArthCp076
+			db_xref	GeneID:844741
+118109	117804	CDS
+			product	NADH dehydrogenase subunit 4L
+			transl_table	11
+			protein_id	ref|NP_051111.1|
+118907	118377	gene
+			gene	ndhG
+			locus_tag	ArthCp077
+			db_xref	GeneID:844739
+118907	118377	CDS
+			product	NADH dehydrogenase subunit 6
+			transl_table	11
+			protein_id	ref|NP_051112.1|
+119762	119244	gene
+			gene	ndhI
+			gene_syn	frxB
+			locus_tag	ArthCp078
+			db_xref	GeneID:844806
+119762	119244	CDS
+			product	NADH dehydrogenase subunit I
+			prot_desc	NADH dehydrogenase 18 kDa subunit
+			transl_table	11
+			protein_id	ref|NP_051113.1|
+122009	119847	gene
+			gene	ndhA
+			gene_syn	ndh1
+			locus_tag	ArthCp079
+			db_xref	GeneID:844804
+122009	121457	CDS
+120376	119847
+			product	NADH dehydrogenase subunit 1
+			transl_table	11
+			protein_id	ref|NP_051114.1|
+123192	122011	gene
+			gene	ndhH
+			locus_tag	ArthCp080
+			db_xref	GeneID:844805
+123192	122011	CDS
+			product	NADH dehydrogenase subunit 7
+			prot_desc	NADH dehydrogenase 49 kDa subunit
+			transl_table	11
+			protein_id	ref|NP_051115.1|
+123562	123296	gene
+			gene	rps15
+			locus_tag	ArthCp081
+			db_xref	GeneID:844799
+123562	123296	CDS
+			product	ribosomal protein S15
+			transl_table	11
+			protein_id	ref|NP_051116.1|
+129244	123884	gene
+			gene	ycf1
+			locus_tag	Arthcp087
+			db_xref	GeneID:4386139
+129244	123884	CDS
+			product	Ycf1
+			transl_table	11
+			protein_id	ref|NP_051117.1|
+129565	129636	gene
+			gene	trnN
+			locus_tag	ArthCt110
+			db_xref	GeneID:1466255
+129565	129636	tRNA
+			product	tRNA-Asn
+130347	130274	gene
+			gene	trnR
+			locus_tag	ArthCt115
+			db_xref	GeneID:4042808
+130347	130274	tRNA
+			product	tRNA-Arg
+130700	130580	gene
+			locus_tag	ArthCr091
+			db_xref	GeneID:4042818
+130700	130580	rRNA
+			product	5S ribosomal RNA
+131050	130948	gene
+			locus_tag	ArthCr090
+			db_xref	GeneID:4042816
+131050	130948	rRNA
+			product	4.5S ribosomal RNA
+133958	131149	gene
+			locus_tag	ArthCr089
+			db_xref	GeneID:4042814
+133958	131149	rRNA
+			product	23S ribosomal RNA
+134984	134111	gene
+			gene	trnA
+			locus_tag	ArthCt114
+			db_xref	GeneID:4042813
+134984	134947	tRNA
+134145	134111
+			product	tRNA-Ala
+135848	135048	gene
+			gene	trnI
+			locus_tag	ArthCt124
+			db_xref	GeneID:5563231
+135848	135812	tRNA
+135082	135048
+			product	tRNA-Ile
+137637	136147	gene
+			locus_tag	ArthCr088
+			db_xref	GeneID:4042819
+137637	136147	rRNA
+			product	16S ribosomal RNA
+137940	137869	gene
+			locus_tag	ArthCt112
+			db_xref	GeneID:4042817
+137940	137869	tRNA
+			product	tRNA-Val
+140704	141171	gene
+			gene	rps7
+			locus_tag	ArthCp088
+			db_xref	GeneID:4386140
+140704	141171	CDS
+			product	ribosomal protein S7
+			prot_desc	30S ribosomal protein S7
+			transl_table	11
+			protein_id	ref|NP_051118.1|
+141485	143708	gene
+			gene	ndhB
+			gene_syn	ndh2
+			locus_tag	ArthCp086
+			db_xref	GeneID:4042815
+141485	142261	CDS
+142947	143708
+			product	NADH dehydrogenase subunit 2
+			transl_table	11
+			protein_id	ref|NP_051119.2|
+144293	144373	gene
+			gene	trnL
+			locus_tag	ArthCt118
+			db_xref	GeneID:4042811
+144293	144373	tRNA
+			product	tRNA-Leu
+152175	145291	gene
+			gene	ycf2
+			locus_tag	ArthCp083
+			db_xref	GeneID:1466248
+152175	145291	CDS
+			product	Ycf2
+			transl_table	11
+			protein_id	ref|NP_051121.1|
+			note	hypothetical protein RF2
+152264	152337	gene
+			gene	trnI
+			locus_tag	ArthCt111
+			db_xref	GeneID:1466274
+152264	152337	tRNA
+			product	tRNA-Ile
+			note	CAU; C in the first position of the anticodon assumed to be post-transcriptionally modified to lysidine, which pairs with A rather than G tRNA with a methionine anticodonpost-transcriptionally modified to have tRNA isoleucine activity
+152506	152787	gene
+			gene	rpl23
+			locus_tag	ArthCp084
+			db_xref	GeneID:1466247
+152506	152787	CDS
+			product	ribosomal protein L23
+			prot_desc	50S ribosomal protein L23
+			transl_table	11
+			protein_id	ref|NP_051122.1|
+152806	154312	gene
+			gene	rpl2
+			locus_tag	ArthCp085
+			db_xref	GeneID:1466246
+152806	153195	CDS
+153878	154312
+			product	ribosomal protein L2
+			prot_desc	50S ribosomal protein L2
+			transl_table	11
+			protein_id	ref|NP_051123.1|
+

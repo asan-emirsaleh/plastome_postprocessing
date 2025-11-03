@@ -1,0 +1,5 @@
+     1 ERROR:   SEQ_INST.BadProteinStart
+    11 WARNING: SEQ_FEAT.CollidingGeneNames
+     1 WARNING: SEQ_FEAT.MissingGeneXref
+    14 WARNING: SEQ_FEAT.UndesiredProteinName
+    11 INFO:    SEQ_FEAT.ReplicatedGeneSequence

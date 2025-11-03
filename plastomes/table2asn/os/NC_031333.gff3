@@ -1,0 +1,372 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_031333.1 1 134502
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4530
+NC_031333.1	RefSeq	region	1	134502	.	+	.	ID=NC_031333.1:1..134502;Dbxref=taxon:4530;Is_circular=true;Name=Pltd;cultivar=TN1;gbkey=Src;genome=chloroplast;mol_type=genomic DNA
+NC_031333.1	RefSeq	gene	82	1143	.	-	.	ID=gene-AKK66_gp001;Dbxref=GeneID:29141328;Name=psbA;gbkey=Gene;gene=psbA;gene_biotype=protein_coding;locus_tag=AKK66_gp001
+NC_031333.1	RefSeq	CDS	82	1143	.	-	0	ID=cds-YP_009305284.1;Parent=gene-AKK66_gp001;Dbxref=GenBank:YP_009305284.1,GeneID:29141328;Name=YP_009305284.1;gbkey=CDS;gene=psbA;locus_tag=AKK66_gp001;product=PsbA;protein_id=YP_009305284.1;transl_table=11
+NC_031333.1	RefSeq	gene	1373	3931	.	-	.	ID=gene-AKK66_gt001;Dbxref=GeneID:29141329;Name=trnK-UUU;gbkey=Gene;gene=trnK-UUU;gene_biotype=tRNA;locus_tag=AKK66_gt001
+NC_031333.1	RefSeq	tRNA	1373	3931	.	-	.	ID=rna-AKK66_gt001;Parent=gene-AKK66_gt001;Dbxref=GeneID:29141329;gbkey=tRNA;gene=trnK-UUU;locus_tag=AKK66_gt001;product=tRNA-Lys
+NC_031333.1	RefSeq	exon	3895	3931	.	-	.	ID=exon-AKK66_gt001-1;Parent=rna-AKK66_gt001;Dbxref=GeneID:29141329;gbkey=tRNA;gene=trnK-UUU;locus_tag=AKK66_gt001;product=tRNA-Lys
+NC_031333.1	RefSeq	exon	1373	1407	.	-	.	ID=exon-AKK66_gt001-2;Parent=rna-AKK66_gt001;Dbxref=GeneID:29141329;gbkey=tRNA;gene=trnK-UUU;locus_tag=AKK66_gt001;product=tRNA-Lys
+NC_031333.1	RefSeq	gene	1668	3203	.	-	.	ID=gene-AKK66_gp100;Dbxref=GeneID:29141330;Name=matK;gbkey=Gene;gene=matK;gene_biotype=protein_coding;locus_tag=AKK66_gp100
+NC_031333.1	RefSeq	CDS	1668	3203	.	-	0	ID=cds-YP_009305285.1;Parent=gene-AKK66_gp100;Dbxref=GenBank:YP_009305285.1,GeneID:29141330;Name=YP_009305285.1;gbkey=CDS;gene=matK;locus_tag=AKK66_gp100;product=maturase K;protein_id=YP_009305285.1;transl_table=11
+NC_031333.1	RefSeq	gene	4487	5561	.	-	.	ID=gene-AKK66_gp099;Dbxref=GeneID:29141331;Name=rps16;gbkey=Gene;gene=rps16;gene_biotype=protein_coding;locus_tag=AKK66_gp099
+NC_031333.1	RefSeq	CDS	5522	5561	.	-	0	ID=cds-YP_009305286.1;Parent=gene-AKK66_gp099;Dbxref=GenBank:YP_009305286.1,GeneID:29141331;Name=YP_009305286.1;gbkey=CDS;gene=rps16;locus_tag=AKK66_gp099;product=ribosomal protein S16;protein_id=YP_009305286.1;transl_table=11
+NC_031333.1	RefSeq	CDS	4487	4635	.	-	2	ID=cds-YP_009305286.1;Parent=gene-AKK66_gp099;Dbxref=GenBank:YP_009305286.1,GeneID:29141331;Name=YP_009305286.1;gbkey=CDS;gene=rps16;locus_tag=AKK66_gp099;product=ribosomal protein S16;protein_id=YP_009305286.1;transl_table=11
+NC_031333.1	RefSeq	gene	6622	6694	.	-	.	ID=gene-AKK66_gt002;Dbxref=GeneID:29141332;Name=trnQ-UUG;gbkey=Gene;gene=trnQ-UUG;gene_biotype=tRNA;locus_tag=AKK66_gt002
+NC_031333.1	RefSeq	tRNA	6622	6694	.	-	.	ID=rna-AKK66_gt002;Parent=gene-AKK66_gt002;Dbxref=GeneID:29141332;gbkey=tRNA;gene=trnQ-UUG;locus_tag=AKK66_gt002;product=tRNA-Gln
+NC_031333.1	RefSeq	exon	6622	6694	.	-	.	ID=exon-AKK66_gt002-1;Parent=rna-AKK66_gt002;Dbxref=GeneID:29141332;gbkey=tRNA;gene=trnQ-UUG;locus_tag=AKK66_gt002;product=tRNA-Gln
+NC_031333.1	RefSeq	gene	7040	7225	.	+	.	ID=gene-AKK66_gp098;Dbxref=GeneID:29141333;Name=psbK;gbkey=Gene;gene=psbK;gene_biotype=protein_coding;locus_tag=AKK66_gp098
+NC_031333.1	RefSeq	CDS	7040	7225	.	+	0	ID=cds-YP_009305287.1;Parent=gene-AKK66_gp098;Dbxref=GenBank:YP_009305287.1,GeneID:29141333;Name=YP_009305287.1;gbkey=CDS;gene=psbK;locus_tag=AKK66_gp098;product=PsbK;protein_id=YP_009305287.1;transl_table=11
+NC_031333.1	RefSeq	gene	7615	7725	.	+	.	ID=gene-AKK66_gp097;Dbxref=GeneID:29141334;Name=psbI;gbkey=Gene;gene=psbI;gene_biotype=protein_coding;locus_tag=AKK66_gp097
+NC_031333.1	RefSeq	CDS	7615	7725	.	+	0	ID=cds-YP_009305288.1;Parent=gene-AKK66_gp097;Dbxref=GenBank:YP_009305288.1,GeneID:29141334;Name=YP_009305288.1;gbkey=CDS;gene=psbI;locus_tag=AKK66_gp097;product=PsbI;protein_id=YP_009305288.1;transl_table=11
+NC_031333.1	RefSeq	gene	7836	7923	.	-	.	ID=gene-AKK66_gt003;Dbxref=GeneID:29141335;Name=trnS-GCU;gbkey=Gene;gene=trnS-GCU;gene_biotype=tRNA;locus_tag=AKK66_gt003
+NC_031333.1	RefSeq	tRNA	7836	7923	.	-	.	ID=rna-AKK66_gt003;Parent=gene-AKK66_gt003;Dbxref=GeneID:29141335;gbkey=tRNA;gene=trnS-GCU;locus_tag=AKK66_gt003;product=tRNA-Ser
+NC_031333.1	RefSeq	exon	7836	7923	.	-	.	ID=exon-AKK66_gt003-1;Parent=rna-AKK66_gt003;Dbxref=GeneID:29141335;gbkey=tRNA;gene=trnS-GCU;locus_tag=AKK66_gt003;product=tRNA-Ser
+NC_031333.1	RefSeq	gene	8839	9900	.	+	.	ID=gene-AKK66_gp096;Dbxref=GeneID:29141336;Name=psbD;gbkey=Gene;gene=psbD;gene_biotype=protein_coding;locus_tag=AKK66_gp096
+NC_031333.1	RefSeq	CDS	8839	9900	.	+	0	ID=cds-YP_009305289.1;Parent=gene-AKK66_gp096;Dbxref=GenBank:YP_009305289.1,GeneID:29141336;Name=YP_009305289.1;gbkey=CDS;gene=psbD;locus_tag=AKK66_gp096;product=PsbD;protein_id=YP_009305289.1;transl_table=11
+NC_031333.1	RefSeq	gene	9848	11269	.	+	.	ID=gene-AKK66_gp095;Dbxref=GeneID:29141337;Name=psbC;gbkey=Gene;gene=psbC;gene_biotype=protein_coding;locus_tag=AKK66_gp095
+NC_031333.1	RefSeq	CDS	9848	11269	.	+	0	ID=cds-YP_009305290.1;Parent=gene-AKK66_gp095;Dbxref=GenBank:YP_009305290.1,GeneID:29141337;Name=YP_009305290.1;gbkey=CDS;gene=psbC;locus_tag=AKK66_gp095;product=PsbC;protein_id=YP_009305290.1;transl_table=11
+NC_031333.1	RefSeq	gene	11442	11529	.	-	.	ID=gene-AKK66_gt004;Dbxref=GeneID:29141338;Name=trnS-UGA;gbkey=Gene;gene=trnS-UGA;gene_biotype=tRNA;locus_tag=AKK66_gt004
+NC_031333.1	RefSeq	tRNA	11442	11529	.	-	.	ID=rna-AKK66_gt004;Parent=gene-AKK66_gt004;Dbxref=GeneID:29141338;gbkey=tRNA;gene=trnS-UGA;locus_tag=AKK66_gt004;product=tRNA-Ser
+NC_031333.1	RefSeq	exon	11442	11529	.	-	.	ID=exon-AKK66_gt004-1;Parent=rna-AKK66_gt004;Dbxref=GeneID:29141338;gbkey=tRNA;gene=trnS-UGA;locus_tag=AKK66_gt004;product=tRNA-Ser
+NC_031333.1	RefSeq	gene	11876	12064	.	+	.	ID=gene-AKK66_gp094;Dbxref=GeneID:29141339;Name=psbZ;gbkey=Gene;gene=psbZ;gene_biotype=protein_coding;locus_tag=AKK66_gp094
+NC_031333.1	RefSeq	CDS	11876	12064	.	+	0	ID=cds-YP_009305291.1;Parent=gene-AKK66_gp094;Dbxref=GenBank:YP_009305291.1,GeneID:29141339;Name=YP_009305291.1;gbkey=CDS;gene=psbZ;locus_tag=AKK66_gp094;product=PsbZ;protein_id=YP_009305291.1;transl_table=11
+NC_031333.1	RefSeq	gene	12270	12340	.	+	.	ID=gene-AKK66_gt005;Dbxref=GeneID:29141340;Name=trnG-GCC;gbkey=Gene;gene=trnG-GCC;gene_biotype=tRNA;locus_tag=AKK66_gt005
+NC_031333.1	RefSeq	tRNA	12270	12340	.	+	.	ID=rna-AKK66_gt005;Parent=gene-AKK66_gt005;Dbxref=GeneID:29141340;gbkey=tRNA;gene=trnG-GCC;locus_tag=AKK66_gt005;product=tRNA-Gly
+NC_031333.1	RefSeq	exon	12270	12340	.	+	.	ID=exon-AKK66_gt005-1;Parent=rna-AKK66_gt005;Dbxref=GeneID:29141340;gbkey=tRNA;gene=trnG-GCC;locus_tag=AKK66_gt005;product=tRNA-Gly
+NC_031333.1	RefSeq	gene	12774	12847	.	-	.	ID=gene-AKK66_gt006;Dbxref=GeneID:29141341;Name=trnfM-CAU;gbkey=Gene;gene=trnfM-CAU;gene_biotype=tRNA;locus_tag=AKK66_gt006
+NC_031333.1	RefSeq	tRNA	12774	12847	.	-	.	ID=rna-AKK66_gt006;Parent=gene-AKK66_gt006;Dbxref=GeneID:29141341;gbkey=tRNA;gene=trnfM-CAU;locus_tag=AKK66_gt006;product=tRNA-Met
+NC_031333.1	RefSeq	exon	12774	12847	.	-	.	ID=exon-AKK66_gt006-1;Parent=rna-AKK66_gt006;Dbxref=GeneID:29141341;gbkey=tRNA;gene=trnfM-CAU;locus_tag=AKK66_gt006;product=tRNA-Met
+NC_031333.1	RefSeq	gene	14994	15065	.	+	.	ID=gene-AKK66_gt007;Dbxref=GeneID:29141342;Name=trnT-GGU;gbkey=Gene;gene=trnT-GGU;gene_biotype=tRNA;locus_tag=AKK66_gt007
+NC_031333.1	RefSeq	tRNA	14994	15065	.	+	.	ID=rna-AKK66_gt007;Parent=gene-AKK66_gt007;Dbxref=GeneID:29141342;gbkey=tRNA;gene=trnT-GGU;locus_tag=AKK66_gt007;product=tRNA-Thr
+NC_031333.1	RefSeq	exon	14994	15065	.	+	.	ID=exon-AKK66_gt007-1;Parent=rna-AKK66_gt007;Dbxref=GeneID:29141342;gbkey=tRNA;gene=trnT-GGU;locus_tag=AKK66_gt007;product=tRNA-Thr
+NC_031333.1	RefSeq	gene	15000	15058	.	+	.	ID=gene-AKK66_gt008;Dbxref=GeneID:29141343;Name=trnM-CAU;gbkey=Gene;gene=trnM-CAU;gene_biotype=tRNA;locus_tag=AKK66_gt008
+NC_031333.1	RefSeq	tRNA	15000	15058	.	+	.	ID=rna-AKK66_gt008;Parent=gene-AKK66_gt008;Dbxref=GeneID:29141343;gbkey=tRNA;gene=trnM-CAU;locus_tag=AKK66_gt008;product=tRNA-Met
+NC_031333.1	RefSeq	exon	15000	15058	.	+	.	ID=exon-AKK66_gt008-1;Parent=rna-AKK66_gt008;Dbxref=GeneID:29141343;gbkey=tRNA;gene=trnM-CAU;locus_tag=AKK66_gt008;product=tRNA-Met
+NC_031333.1	RefSeq	gene	15067	15130	.	+	.	ID=gene-AKK66_gt009;Dbxref=GeneID:29141344;Name=trnT-GGU;gbkey=Gene;gene=trnT-GGU;gene_biotype=tRNA;locus_tag=AKK66_gt009
+NC_031333.1	RefSeq	tRNA	15067	15130	.	+	.	ID=rna-AKK66_gt009;Parent=gene-AKK66_gt009;Dbxref=GeneID:29141344;gbkey=tRNA;gene=trnT-GGU;locus_tag=AKK66_gt009;product=tRNA-Thr
+NC_031333.1	RefSeq	exon	15067	15130	.	+	.	ID=exon-AKK66_gt009-1;Parent=rna-AKK66_gt009;Dbxref=GeneID:29141344;gbkey=tRNA;gene=trnT-GGU;locus_tag=AKK66_gt009;product=tRNA-Thr
+NC_031333.1	RefSeq	gene	15584	15656	.	+	.	ID=gene-AKK66_gt010;Dbxref=GeneID:29141345;Name=trnE-UUC;gbkey=Gene;gene=trnE-UUC;gene_biotype=tRNA;locus_tag=AKK66_gt010
+NC_031333.1	RefSeq	tRNA	15584	15656	.	+	.	ID=rna-AKK66_gt010;Parent=gene-AKK66_gt010;Dbxref=GeneID:29141345;gbkey=tRNA;gene=trnE-UUC;locus_tag=AKK66_gt010;product=tRNA-Glu
+NC_031333.1	RefSeq	exon	15584	15656	.	+	.	ID=exon-AKK66_gt010-1;Parent=rna-AKK66_gt010;Dbxref=GeneID:29141345;gbkey=tRNA;gene=trnE-UUC;locus_tag=AKK66_gt010;product=tRNA-Glu
+NC_031333.1	RefSeq	gene	15718	15801	.	+	.	ID=gene-AKK66_gt011;Dbxref=GeneID:29141346;Name=trnY-GUA;gbkey=Gene;gene=trnY-GUA;gene_biotype=tRNA;locus_tag=AKK66_gt011
+NC_031333.1	RefSeq	tRNA	15718	15801	.	+	.	ID=rna-AKK66_gt011;Parent=gene-AKK66_gt011;Dbxref=GeneID:29141346;gbkey=tRNA;gene=trnY-GUA;locus_tag=AKK66_gt011;product=tRNA-Tyr
+NC_031333.1	RefSeq	exon	15718	15801	.	+	.	ID=exon-AKK66_gt011-1;Parent=rna-AKK66_gt011;Dbxref=GeneID:29141346;gbkey=tRNA;gene=trnY-GUA;locus_tag=AKK66_gt011;product=tRNA-Tyr
+NC_031333.1	RefSeq	gene	16165	16238	.	+	.	ID=gene-AKK66_gt012;Dbxref=GeneID:29141347;Name=trnD-GUC;gbkey=Gene;gene=trnD-GUC;gene_biotype=tRNA;locus_tag=AKK66_gt012
+NC_031333.1	RefSeq	tRNA	16165	16238	.	+	.	ID=rna-AKK66_gt012;Parent=gene-AKK66_gt012;Dbxref=GeneID:29141347;gbkey=tRNA;gene=trnD-GUC;locus_tag=AKK66_gt012;product=tRNA-Asp
+NC_031333.1	RefSeq	exon	16165	16238	.	+	.	ID=exon-AKK66_gt012-1;Parent=rna-AKK66_gt012;Dbxref=GeneID:29141347;gbkey=tRNA;gene=trnD-GUC;locus_tag=AKK66_gt012;product=tRNA-Asp
+NC_031333.1	RefSeq	gene	16620	16724	.	+	.	ID=gene-AKK66_gp093;Dbxref=GeneID:29141348;Name=psbM;gbkey=Gene;gene=psbM;gene_biotype=protein_coding;locus_tag=AKK66_gp093
+NC_031333.1	RefSeq	CDS	16620	16724	.	+	0	ID=cds-YP_009305292.1;Parent=gene-AKK66_gp093;Dbxref=GenBank:YP_009305292.1,GeneID:29141348;Name=YP_009305292.1;gbkey=CDS;gene=psbM;locus_tag=AKK66_gp093;product=PsbM;protein_id=YP_009305292.1;transl_table=11
+NC_031333.1	RefSeq	gene	17485	17574	.	-	.	ID=gene-AKK66_gp092;Dbxref=GeneID:29141349;Name=petN;gbkey=Gene;gene=petN;gene_biotype=protein_coding;locus_tag=AKK66_gp092
+NC_031333.1	RefSeq	CDS	17485	17574	.	-	0	ID=cds-YP_009305293.1;Parent=gene-AKK66_gp092;Dbxref=GenBank:YP_009305293.1,GeneID:29141349;Name=YP_009305293.1;gbkey=CDS;gene=petN;locus_tag=AKK66_gp092;product=PetN;protein_id=YP_009305293.1;transl_table=11
+NC_031333.1	RefSeq	gene	18020	18090	.	-	.	ID=gene-AKK66_gt013;Dbxref=GeneID:29141350;Name=trnC-GCA;gbkey=Gene;gene=trnC-GCA;gene_biotype=tRNA;locus_tag=AKK66_gt013
+NC_031333.1	RefSeq	tRNA	18020	18090	.	-	.	ID=rna-AKK66_gt013;Parent=gene-AKK66_gt013;Dbxref=GeneID:29141350;gbkey=tRNA;gene=trnC-GCA;locus_tag=AKK66_gt013;product=tRNA-Cys
+NC_031333.1	RefSeq	exon	18020	18090	.	-	.	ID=exon-AKK66_gt013-1;Parent=rna-AKK66_gt013;Dbxref=GeneID:29141350;gbkey=tRNA;gene=trnC-GCA;locus_tag=AKK66_gt013;product=tRNA-Cys
+NC_031333.1	RefSeq	gene	19174	22401	.	+	.	ID=gene-AKK66_gp091;Dbxref=GeneID:29141351;Name=rpoB;gbkey=Gene;gene=rpoB;gene_biotype=protein_coding;locus_tag=AKK66_gp091
+NC_031333.1	RefSeq	CDS	19174	22401	.	+	0	ID=cds-YP_009305294.1;Parent=gene-AKK66_gp091;Dbxref=GenBank:YP_009305294.1,GeneID:29141351;Name=YP_009305294.1;gbkey=CDS;gene=rpoB;locus_tag=AKK66_gp091;product=RpoB;protein_id=YP_009305294.1;transl_table=11
+NC_031333.1	RefSeq	gene	22439	24487	.	+	.	ID=gene-AKK66_gp090;Dbxref=GeneID:29141352;Name=rpoC1;gbkey=Gene;gene=rpoC1;gene_biotype=protein_coding;locus_tag=AKK66_gp090
+NC_031333.1	RefSeq	CDS	22439	24487	.	+	0	ID=cds-YP_009305295.1;Parent=gene-AKK66_gp090;Dbxref=GenBank:YP_009305295.1,GeneID:29141352;Name=YP_009305295.1;gbkey=CDS;gene=rpoC1;locus_tag=AKK66_gp090;product=RpoC1;protein_id=YP_009305295.1;transl_table=11
+NC_031333.1	RefSeq	gene	24687	29228	.	+	.	ID=gene-AKK66_gp089;Dbxref=GeneID:29141353;Name=rpoC2;gbkey=Gene;gene=rpoC2;gene_biotype=protein_coding;locus_tag=AKK66_gp089
+NC_031333.1	RefSeq	CDS	24687	29228	.	+	0	ID=cds-YP_009305296.1;Parent=gene-AKK66_gp089;Dbxref=GenBank:YP_009305296.1,GeneID:29141353;Name=YP_009305296.1;gbkey=CDS;gene=rpoC2;locus_tag=AKK66_gp089;product=RpoC2;protein_id=YP_009305296.1;transl_table=11
+NC_031333.1	RefSeq	gene	29500	30210	.	+	.	ID=gene-AKK66_gp088;Dbxref=GeneID:29141354;Name=rps2;gbkey=Gene;gene=rps2;gene_biotype=protein_coding;locus_tag=AKK66_gp088
+NC_031333.1	RefSeq	CDS	29500	30210	.	+	0	ID=cds-YP_009305297.1;Parent=gene-AKK66_gp088;Dbxref=GenBank:YP_009305297.1,GeneID:29141354;Name=YP_009305297.1;gbkey=CDS;gene=rps2;locus_tag=AKK66_gp088;product=ribosomal protein S2;protein_id=YP_009305297.1;transl_table=11
+NC_031333.1	RefSeq	gene	30461	31204	.	+	.	ID=gene-AKK66_gp087;Dbxref=GeneID:29141355;Name=atpI;gbkey=Gene;gene=atpI;gene_biotype=protein_coding;locus_tag=AKK66_gp087
+NC_031333.1	RefSeq	CDS	30461	31204	.	+	0	ID=cds-YP_009305298.1;Parent=gene-AKK66_gp087;Dbxref=GenBank:YP_009305298.1,GeneID:29141355;Name=YP_009305298.1;gbkey=CDS;gene=atpI;locus_tag=AKK66_gp087;product=AtpI;protein_id=YP_009305298.1;transl_table=11
+NC_031333.1	RefSeq	gene	31999	32244	.	+	.	ID=gene-AKK66_gp086;Dbxref=GeneID:29141356;Name=atpH;gbkey=Gene;gene=atpH;gene_biotype=protein_coding;locus_tag=AKK66_gp086
+NC_031333.1	RefSeq	CDS	31999	32244	.	+	0	ID=cds-YP_009305299.1;Parent=gene-AKK66_gp086;Dbxref=GenBank:YP_009305299.1,GeneID:29141356;Name=YP_009305299.1;gbkey=CDS;gene=atpH;locus_tag=AKK66_gp086;product=AtpH;protein_id=YP_009305299.1;transl_table=11
+NC_031333.1	RefSeq	gene	32700	34079	.	+	.	ID=gene-AKK66_gp085;Dbxref=GeneID:29141357;Name=atpF;gbkey=Gene;gene=atpF;gene_biotype=protein_coding;locus_tag=AKK66_gp085
+NC_031333.1	RefSeq	CDS	32700	32844	.	+	0	ID=cds-YP_009305300.1;Parent=gene-AKK66_gp085;Dbxref=GenBank:YP_009305300.1,GeneID:29141357;Name=YP_009305300.1;gbkey=CDS;gene=atpF;locus_tag=AKK66_gp085;product=AtpF;protein_id=YP_009305300.1;transl_table=11
+NC_031333.1	RefSeq	CDS	33673	34079	.	+	2	ID=cds-YP_009305300.1;Parent=gene-AKK66_gp085;Dbxref=GenBank:YP_009305300.1,GeneID:29141357;Name=YP_009305300.1;gbkey=CDS;gene=atpF;locus_tag=AKK66_gp085;product=AtpF;protein_id=YP_009305300.1;transl_table=11
+NC_031333.1	RefSeq	gene	34170	35693	.	+	.	ID=gene-AKK66_gp084;Dbxref=GeneID:29141358;Name=atpA;gbkey=Gene;gene=atpA;gene_biotype=protein_coding;locus_tag=AKK66_gp084
+NC_031333.1	RefSeq	CDS	34170	35693	.	+	0	ID=cds-YP_009305301.1;Parent=gene-AKK66_gp084;Dbxref=GenBank:YP_009305301.1,GeneID:29141358;Name=YP_009305301.1;gbkey=CDS;gene=atpA;locus_tag=AKK66_gp084;product=AtpA;protein_id=YP_009305301.1;transl_table=11
+NC_031333.1	RefSeq	gene	35826	35897	.	-	.	ID=gene-AKK66_gt014;Dbxref=GeneID:29141359;Name=trnR-UCU;gbkey=Gene;gene=trnR-UCU;gene_biotype=tRNA;locus_tag=AKK66_gt014
+NC_031333.1	RefSeq	tRNA	35826	35897	.	-	.	ID=rna-AKK66_gt014;Parent=gene-AKK66_gt014;Dbxref=GeneID:29141359;gbkey=tRNA;gene=trnR-UCU;locus_tag=AKK66_gt014;product=tRNA-Arg
+NC_031333.1	RefSeq	exon	35826	35897	.	-	.	ID=exon-AKK66_gt014-1;Parent=rna-AKK66_gt014;Dbxref=GeneID:29141359;gbkey=tRNA;gene=trnR-UCU;locus_tag=AKK66_gt014;product=tRNA-Arg
+NC_031333.1	RefSeq	gene	36044	36100	.	-	.	ID=gene-AKK66_gt015;Dbxref=GeneID:29141360;Name=trnfM-CAU;gbkey=Gene;gene=trnfM-CAU;gene_biotype=tRNA;locus_tag=AKK66_gt015
+NC_031333.1	RefSeq	tRNA	36044	36100	.	-	.	ID=rna-AKK66_gt015;Parent=gene-AKK66_gt015;Dbxref=GeneID:29141360;gbkey=tRNA;gene=trnfM-CAU;locus_tag=AKK66_gt015;product=tRNA-Met
+NC_031333.1	RefSeq	exon	36044	36100	.	-	.	ID=exon-AKK66_gt015-1;Parent=rna-AKK66_gt015;Dbxref=GeneID:29141360;gbkey=tRNA;gene=trnfM-CAU;locus_tag=AKK66_gt015;product=tRNA-Met
+NC_031333.1	RefSeq	gene	36269	36580	.	-	.	ID=gene-AKK66_gp083;Dbxref=GeneID:29141361;Name=rps14;gbkey=Gene;gene=rps14;gene_biotype=protein_coding;locus_tag=AKK66_gp083
+NC_031333.1	RefSeq	CDS	36269	36580	.	-	0	ID=cds-YP_009305302.1;Parent=gene-AKK66_gp083;Dbxref=GenBank:YP_009305302.1,GeneID:29141361;Name=YP_009305302.1;gbkey=CDS;gene=rps14;locus_tag=AKK66_gp083;product=ribosomal protein S14;protein_id=YP_009305302.1;transl_table=11
+NC_031333.1	RefSeq	gene	36728	38932	.	-	.	ID=gene-AKK66_gp082;Dbxref=GeneID:29141362;Name=psaB;gbkey=Gene;gene=psaB;gene_biotype=protein_coding;locus_tag=AKK66_gp082
+NC_031333.1	RefSeq	CDS	36728	38932	.	-	0	ID=cds-YP_009305303.1;Parent=gene-AKK66_gp082;Dbxref=GenBank:YP_009305303.1,GeneID:29141362;Name=YP_009305303.1;gbkey=CDS;gene=psaB;locus_tag=AKK66_gp082;product=PsaB;protein_id=YP_009305303.1;transl_table=11
+NC_031333.1	RefSeq	gene	38958	41210	.	-	.	ID=gene-AKK66_gp081;Dbxref=GeneID:29141363;Name=psaA;gbkey=Gene;gene=psaA;gene_biotype=protein_coding;locus_tag=AKK66_gp081
+NC_031333.1	RefSeq	CDS	38958	41210	.	-	0	ID=cds-YP_009305304.1;Parent=gene-AKK66_gp081;Dbxref=GenBank:YP_009305304.1,GeneID:29141363;Name=YP_009305304.1;gbkey=CDS;gene=psaA;locus_tag=AKK66_gp081;product=PsaA;protein_id=YP_009305304.1;transl_table=11
+NC_031333.1	RefSeq	gene	41811	43789	.	-	.	ID=gene-AKK66_gp080;Dbxref=GeneID:29141364;Name=ycf3;gbkey=Gene;gene=ycf3;gene_biotype=protein_coding;locus_tag=AKK66_gp080
+NC_031333.1	RefSeq	CDS	43658	43789	.	-	0	ID=cds-YP_009305305.1;Parent=gene-AKK66_gp080;Dbxref=GenBank:YP_009305305.1,GeneID:29141364;Name=YP_009305305.1;gbkey=CDS;gene=ycf3;locus_tag=AKK66_gp080;product=Ycf3;protein_id=YP_009305305.1;transl_table=11
+NC_031333.1	RefSeq	CDS	42694	42921	.	-	0	ID=cds-YP_009305305.1;Parent=gene-AKK66_gp080;Dbxref=GenBank:YP_009305305.1,GeneID:29141364;Name=YP_009305305.1;gbkey=CDS;gene=ycf3;locus_tag=AKK66_gp080;product=Ycf3;protein_id=YP_009305305.1;transl_table=11
+NC_031333.1	RefSeq	CDS	41811	41969	.	-	0	ID=cds-YP_009305305.1;Parent=gene-AKK66_gp080;Dbxref=GenBank:YP_009305305.1,GeneID:29141364;Name=YP_009305305.1;gbkey=CDS;gene=ycf3;locus_tag=AKK66_gp080;product=Ycf3;protein_id=YP_009305305.1;transl_table=11
+NC_031333.1	RefSeq	gene	44389	44475	.	+	.	ID=gene-AKK66_gt016;Dbxref=GeneID:29141365;Name=trnS-GGA;gbkey=Gene;gene=trnS-GGA;gene_biotype=tRNA;locus_tag=AKK66_gt016
+NC_031333.1	RefSeq	tRNA	44389	44475	.	+	.	ID=rna-AKK66_gt016;Parent=gene-AKK66_gt016;Dbxref=GeneID:29141365;gbkey=tRNA;gene=trnS-GGA;locus_tag=AKK66_gt016;product=tRNA-Ser
+NC_031333.1	RefSeq	exon	44389	44475	.	+	.	ID=exon-AKK66_gt016-1;Parent=rna-AKK66_gt016;Dbxref=GeneID:29141365;gbkey=tRNA;gene=trnS-GGA;locus_tag=AKK66_gt016;product=tRNA-Ser
+NC_031333.1	RefSeq	gene	44761	45366	.	-	.	ID=gene-AKK66_gp079;Dbxref=GeneID:29141366;Name=rps4;gbkey=Gene;gene=rps4;gene_biotype=protein_coding;locus_tag=AKK66_gp079
+NC_031333.1	RefSeq	CDS	44761	45366	.	-	0	ID=cds-YP_009305306.1;Parent=gene-AKK66_gp079;Dbxref=GenBank:YP_009305306.1,GeneID:29141366;Name=YP_009305306.1;gbkey=CDS;gene=rps4;locus_tag=AKK66_gp079;product=ribosomal protein S4;protein_id=YP_009305306.1;transl_table=11
+NC_031333.1	RefSeq	gene	45666	45738	.	-	.	ID=gene-AKK66_gt017;Dbxref=GeneID:29141367;Name=trnT-UGU;gbkey=Gene;gene=trnT-UGU;gene_biotype=tRNA;locus_tag=AKK66_gt017
+NC_031333.1	RefSeq	tRNA	45666	45738	.	-	.	ID=rna-AKK66_gt017;Parent=gene-AKK66_gt017;Dbxref=GeneID:29141367;gbkey=tRNA;gene=trnT-UGU;locus_tag=AKK66_gt017;product=tRNA-Thr
+NC_031333.1	RefSeq	exon	45666	45738	.	-	.	ID=exon-AKK66_gt017-1;Parent=rna-AKK66_gt017;Dbxref=GeneID:29141367;gbkey=tRNA;gene=trnT-UGU;locus_tag=AKK66_gt017;product=tRNA-Thr
+NC_031333.1	RefSeq	gene	46496	47121	.	+	.	ID=gene-AKK66_gt018;Dbxref=GeneID:29141368;Name=trnL-UAA;gbkey=Gene;gene=trnL-UAA;gene_biotype=tRNA;locus_tag=AKK66_gt018
+NC_031333.1	RefSeq	tRNA	46496	47121	.	+	.	ID=rna-AKK66_gt018;Parent=gene-AKK66_gt018;Dbxref=GeneID:29141368;gbkey=tRNA;gene=trnL-UAA;locus_tag=AKK66_gt018;product=tRNA-Leu
+NC_031333.1	RefSeq	exon	46496	46530	.	+	.	ID=exon-AKK66_gt018-1;Parent=rna-AKK66_gt018;Dbxref=GeneID:29141368;gbkey=tRNA;gene=trnL-UAA;locus_tag=AKK66_gt018;product=tRNA-Leu
+NC_031333.1	RefSeq	exon	47072	47121	.	+	.	ID=exon-AKK66_gt018-2;Parent=rna-AKK66_gt018;Dbxref=GeneID:29141368;gbkey=tRNA;gene=trnL-UAA;locus_tag=AKK66_gt018;product=tRNA-Leu
+NC_031333.1	RefSeq	gene	47366	47438	.	+	.	ID=gene-AKK66_gt019;Dbxref=GeneID:29141369;Name=trnF-GAA;gbkey=Gene;gene=trnF-GAA;gene_biotype=tRNA;locus_tag=AKK66_gt019
+NC_031333.1	RefSeq	tRNA	47366	47438	.	+	.	ID=rna-AKK66_gt019;Parent=gene-AKK66_gt019;Dbxref=GeneID:29141369;gbkey=tRNA;gene=trnF-GAA;locus_tag=AKK66_gt019;product=tRNA-Phe
+NC_031333.1	RefSeq	exon	47366	47438	.	+	.	ID=exon-AKK66_gt019-1;Parent=rna-AKK66_gt019;Dbxref=GeneID:29141369;gbkey=tRNA;gene=trnF-GAA;locus_tag=AKK66_gt019;product=tRNA-Phe
+NC_031333.1	RefSeq	gene	47933	48412	.	-	.	ID=gene-AKK66_gp078;Dbxref=GeneID:29141370;Name=ndhJ;gbkey=Gene;gene=ndhJ;gene_biotype=protein_coding;locus_tag=AKK66_gp078
+NC_031333.1	RefSeq	CDS	47933	48412	.	-	0	ID=cds-YP_009305307.1;Parent=gene-AKK66_gp078;Dbxref=GenBank:YP_009305307.1,GeneID:29141370;Name=YP_009305307.1;gbkey=CDS;gene=ndhJ;locus_tag=AKK66_gp078;product=NdhJ;protein_id=YP_009305307.1;transl_table=11
+NC_031333.1	RefSeq	gene	48510	49361	.	-	.	ID=gene-AKK66_gp077;Dbxref=GeneID:29141371;Name=ndhK;gbkey=Gene;gene=ndhK;gene_biotype=protein_coding;locus_tag=AKK66_gp077
+NC_031333.1	RefSeq	CDS	48510	49361	.	-	0	ID=cds-YP_009305308.1;Parent=gene-AKK66_gp077;Dbxref=GenBank:YP_009305308.1,GeneID:29141371;Name=YP_009305308.1;gbkey=CDS;gene=ndhK;locus_tag=AKK66_gp077;product=NdhK;protein_id=YP_009305308.1;transl_table=11
+NC_031333.1	RefSeq	gene	49241	49603	.	-	.	ID=gene-AKK66_gp076;Dbxref=GeneID:29141372;Name=ndhC;gbkey=Gene;gene=ndhC;gene_biotype=protein_coding;locus_tag=AKK66_gp076
+NC_031333.1	RefSeq	CDS	49241	49603	.	-	0	ID=cds-YP_009305309.1;Parent=gene-AKK66_gp076;Dbxref=GenBank:YP_009305309.1,GeneID:29141372;Name=YP_009305309.1;gbkey=CDS;gene=ndhC;locus_tag=AKK66_gp076;product=NdhC;protein_id=YP_009305309.1;transl_table=11
+NC_031333.1	RefSeq	gene	50320	50980	.	-	.	ID=gene-AKK66_gt020;Dbxref=GeneID:29141373;Name=trnV-UAC;gbkey=Gene;gene=trnV-UAC;gene_biotype=tRNA;locus_tag=AKK66_gt020
+NC_031333.1	RefSeq	tRNA	50320	50980	.	-	.	ID=rna-AKK66_gt020;Parent=gene-AKK66_gt020;Dbxref=GeneID:29141373;gbkey=tRNA;gene=trnV-UAC;locus_tag=AKK66_gt020;product=tRNA-Val
+NC_031333.1	RefSeq	exon	50942	50980	.	-	.	ID=exon-AKK66_gt020-1;Parent=rna-AKK66_gt020;Dbxref=GeneID:29141373;gbkey=tRNA;gene=trnV-UAC;locus_tag=AKK66_gt020;product=tRNA-Val
+NC_031333.1	RefSeq	exon	50320	50356	.	-	.	ID=exon-AKK66_gt020-2;Parent=rna-AKK66_gt020;Dbxref=GeneID:29141373;gbkey=tRNA;gene=trnV-UAC;locus_tag=AKK66_gt020;product=tRNA-Val
+NC_031333.1	RefSeq	gene	51162	51234	.	+	.	ID=gene-AKK66_gt021;Dbxref=GeneID:29141374;Name=trnM-CAU;gbkey=Gene;gene=trnM-CAU;gene_biotype=tRNA;locus_tag=AKK66_gt021
+NC_031333.1	RefSeq	tRNA	51162	51234	.	+	.	ID=rna-AKK66_gt021;Parent=gene-AKK66_gt021;Dbxref=GeneID:29141374;gbkey=tRNA;gene=trnM-CAU;locus_tag=AKK66_gt021;product=tRNA-Met
+NC_031333.1	RefSeq	exon	51162	51234	.	+	.	ID=exon-AKK66_gt021-1;Parent=rna-AKK66_gt021;Dbxref=GeneID:29141374;gbkey=tRNA;gene=trnM-CAU;locus_tag=AKK66_gt021;product=tRNA-Met
+NC_031333.1	RefSeq	gene	51168	51226	.	+	.	ID=gene-AKK66_gt022;Dbxref=GeneID:29141375;Name=trnT-GGU;gbkey=Gene;gene=trnT-GGU;gene_biotype=tRNA;locus_tag=AKK66_gt022
+NC_031333.1	RefSeq	tRNA	51168	51226	.	+	.	ID=rna-AKK66_gt022;Parent=gene-AKK66_gt022;Dbxref=GeneID:29141375;gbkey=tRNA;gene=trnT-GGU;locus_tag=AKK66_gt022;product=tRNA-Thr
+NC_031333.1	RefSeq	exon	51168	51226	.	+	.	ID=exon-AKK66_gt022-1;Parent=rna-AKK66_gt022;Dbxref=GeneID:29141375;gbkey=tRNA;gene=trnT-GGU;locus_tag=AKK66_gt022;product=tRNA-Thr
+NC_031333.1	RefSeq	gene	51347	51760	.	-	.	ID=gene-AKK66_gp075;Dbxref=GeneID:29141376;Name=atpE;gbkey=Gene;gene=atpE;gene_biotype=protein_coding;locus_tag=AKK66_gp075
+NC_031333.1	RefSeq	CDS	51347	51760	.	-	0	ID=cds-YP_009305310.1;Parent=gene-AKK66_gp075;Dbxref=GenBank:YP_009305310.1,GeneID:29141376;Name=YP_009305310.1;gbkey=CDS;gene=atpE;locus_tag=AKK66_gp075;product=AtpE;protein_id=YP_009305310.1;transl_table=11
+NC_031333.1	RefSeq	gene	51757	53253	.	-	.	ID=gene-AKK66_gp074;Dbxref=GeneID:29141377;Name=atpB;gbkey=Gene;gene=atpB;gene_biotype=protein_coding;locus_tag=AKK66_gp074
+NC_031333.1	RefSeq	CDS	51757	53253	.	-	0	ID=cds-YP_009305311.1;Parent=gene-AKK66_gp074;Dbxref=GenBank:YP_009305311.1,GeneID:29141377;Name=YP_009305311.1;gbkey=CDS;gene=atpB;locus_tag=AKK66_gp074;product=AtpB;protein_id=YP_009305311.1;transl_table=11
+NC_031333.1	RefSeq	gene	54051	55484	.	+	.	ID=gene-AKK66_gp073;Dbxref=GeneID:29141378;Name=rbcL;gbkey=Gene;gene=rbcL;gene_biotype=protein_coding;locus_tag=AKK66_gp073
+NC_031333.1	RefSeq	CDS	54051	55484	.	+	0	ID=cds-YP_009305312.1;Parent=gene-AKK66_gp073;Dbxref=GenBank:YP_009305312.1,GeneID:29141378;Name=YP_009305312.1;gbkey=CDS;gene=rbcL;locus_tag=AKK66_gp073;product=ribulose-1%2C5-bisphosphate carboxylase/oxygenase large subunit;protein_id=YP_009305312.1;transl_table=11
+NC_031333.1	RefSeq	gene	56510	56830	.	+	.	ID=gene-AKK66_gp072;Dbxref=GeneID:29141379;Name=accD;gbkey=Gene;gene=accD;gene_biotype=protein_coding;locus_tag=AKK66_gp072
+NC_031333.1	RefSeq	CDS	56510	56830	.	+	0	ID=cds-YP_009305313.1;Parent=gene-AKK66_gp072;Dbxref=GenBank:YP_009305313.1,GeneID:29141379;Name=YP_009305313.1;gbkey=CDS;gene=accD;locus_tag=AKK66_gp072;product=AccD;protein_id=YP_009305313.1;transl_table=11
+NC_031333.1	RefSeq	gene	57167	57277	.	+	.	ID=gene-AKK66_gp071;Dbxref=GeneID:29141380;Name=psaI;gbkey=Gene;gene=psaI;gene_biotype=protein_coding;locus_tag=AKK66_gp071
+NC_031333.1	RefSeq	CDS	57167	57277	.	+	0	ID=cds-YP_009305314.1;Parent=gene-AKK66_gp071;Dbxref=GenBank:YP_009305314.1,GeneID:29141380;Name=YP_009305314.1;gbkey=CDS;gene=psaI;locus_tag=AKK66_gp071;product=PsaI;protein_id=YP_009305314.1;transl_table=11
+NC_031333.1	RefSeq	gene	57652	58209	.	+	.	ID=gene-AKK66_gp070;Dbxref=GeneID:29141381;Name=ycf4;gbkey=Gene;gene=ycf4;gene_biotype=protein_coding;locus_tag=AKK66_gp070
+NC_031333.1	RefSeq	CDS	57652	58209	.	+	0	ID=cds-YP_009305315.1;Parent=gene-AKK66_gp070;Dbxref=GenBank:YP_009305315.1,GeneID:29141381;Name=YP_009305315.1;gbkey=CDS;gene=ycf4;locus_tag=AKK66_gp070;product=Ycf4;protein_id=YP_009305315.1;transl_table=11
+NC_031333.1	RefSeq	gene	58629	59321	.	+	.	ID=gene-AKK66_gp069;Dbxref=GeneID:29141382;Name=cemA;gbkey=Gene;gene=cemA;gene_biotype=protein_coding;locus_tag=AKK66_gp069
+NC_031333.1	RefSeq	CDS	58629	59321	.	+	0	ID=cds-YP_009305316.1;Parent=gene-AKK66_gp069;Dbxref=GenBank:YP_009305316.1,GeneID:29141382;Name=YP_009305316.1;gbkey=CDS;gene=cemA;locus_tag=AKK66_gp069;product=CemA;protein_id=YP_009305316.1;transl_table=11
+NC_031333.1	RefSeq	gene	59551	60513	.	+	.	ID=gene-AKK66_gp068;Dbxref=GeneID:29141383;Name=petA;gbkey=Gene;gene=petA;gene_biotype=protein_coding;locus_tag=AKK66_gp068
+NC_031333.1	RefSeq	CDS	59551	60513	.	+	0	ID=cds-YP_009305317.1;Parent=gene-AKK66_gp068;Dbxref=GenBank:YP_009305317.1,GeneID:29141383;Name=YP_009305317.1;gbkey=CDS;gene=petA;locus_tag=AKK66_gp068;product=PetA;protein_id=YP_009305317.1;transl_table=11
+NC_031333.1	RefSeq	gene	61519	61641	.	-	.	ID=gene-AKK66_gp067;Dbxref=GeneID:29141384;Name=psbJ;gbkey=Gene;gene=psbJ;gene_biotype=protein_coding;locus_tag=AKK66_gp067
+NC_031333.1	RefSeq	CDS	61519	61641	.	-	0	ID=cds-YP_009305318.1;Parent=gene-AKK66_gp067;Dbxref=GenBank:YP_009305318.1,GeneID:29141384;Name=YP_009305318.1;gbkey=CDS;gene=psbJ;locus_tag=AKK66_gp067;product=PsbJ;protein_id=YP_009305318.1;transl_table=11
+NC_031333.1	RefSeq	gene	61768	61884	.	-	.	ID=gene-AKK66_gp066;Dbxref=GeneID:29141385;Name=psbL;gbkey=Gene;gene=psbL;gene_biotype=protein_coding;locus_tag=AKK66_gp066
+NC_031333.1	RefSeq	CDS	61768	61884	.	-	0	ID=cds-YP_009305319.1;Parent=gene-AKK66_gp066;Dbxref=GenBank:YP_009305319.1,GeneID:29141385;Name=YP_009305319.1;gbkey=CDS;gene=psbL;locus_tag=AKK66_gp066;product=PsbL;protein_id=YP_009305319.1;transl_table=11
+NC_031333.1	RefSeq	gene	61907	62026	.	-	.	ID=gene-AKK66_gp065;Dbxref=GeneID:29141386;Name=psbF;gbkey=Gene;gene=psbF;gene_biotype=protein_coding;locus_tag=AKK66_gp065
+NC_031333.1	RefSeq	CDS	61907	62026	.	-	0	ID=cds-YP_009305320.1;Parent=gene-AKK66_gp065;Dbxref=GenBank:YP_009305320.1,GeneID:29141386;Name=YP_009305320.1;gbkey=CDS;gene=psbF;locus_tag=AKK66_gp065;product=PsbF;protein_id=YP_009305320.1;transl_table=11
+NC_031333.1	RefSeq	gene	62037	62288	.	-	.	ID=gene-AKK66_gp064;Dbxref=GeneID:29141387;Name=psbE;gbkey=Gene;gene=psbE;gene_biotype=protein_coding;locus_tag=AKK66_gp064
+NC_031333.1	RefSeq	CDS	62037	62288	.	-	0	ID=cds-YP_009305321.1;Parent=gene-AKK66_gp064;Dbxref=GenBank:YP_009305321.1,GeneID:29141387;Name=YP_009305321.1;gbkey=CDS;gene=psbE;locus_tag=AKK66_gp064;product=PsbE;protein_id=YP_009305321.1;transl_table=11
+NC_031333.1	RefSeq	gene	63485	63580	.	+	.	ID=gene-AKK66_gp063;Dbxref=GeneID:29141388;Name=petL;gbkey=Gene;gene=petL;gene_biotype=protein_coding;locus_tag=AKK66_gp063
+NC_031333.1	RefSeq	CDS	63485	63580	.	+	0	ID=cds-YP_009305322.1;Parent=gene-AKK66_gp063;Dbxref=GenBank:YP_009305322.1,GeneID:29141388;Name=YP_009305322.1;gbkey=CDS;gene=petL;locus_tag=AKK66_gp063;product=PetL;protein_id=YP_009305322.1;transl_table=11
+NC_031333.1	RefSeq	gene	63753	63866	.	+	.	ID=gene-AKK66_gp062;Dbxref=GeneID:29141389;Name=petG;gbkey=Gene;gene=petG;gene_biotype=protein_coding;locus_tag=AKK66_gp062
+NC_031333.1	RefSeq	CDS	63753	63866	.	+	0	ID=cds-YP_009305323.1;Parent=gene-AKK66_gp062;Dbxref=GenBank:YP_009305323.1,GeneID:29141389;Name=YP_009305323.1;gbkey=CDS;gene=petG;locus_tag=AKK66_gp062;product=PetG;protein_id=YP_009305323.1;transl_table=11
+NC_031333.1	RefSeq	gene	63983	64056	.	-	.	ID=gene-AKK66_gt023;Dbxref=GeneID:29141390;Name=trnW-CCA;gbkey=Gene;gene=trnW-CCA;gene_biotype=tRNA;locus_tag=AKK66_gt023
+NC_031333.1	RefSeq	tRNA	63983	64056	.	-	.	ID=rna-AKK66_gt023;Parent=gene-AKK66_gt023;Dbxref=GeneID:29141390;gbkey=tRNA;gene=trnW-CCA;locus_tag=AKK66_gt023;product=tRNA-Trp
+NC_031333.1	RefSeq	exon	63983	64056	.	-	.	ID=exon-AKK66_gt023-1;Parent=rna-AKK66_gt023;Dbxref=GeneID:29141390;gbkey=tRNA;gene=trnW-CCA;locus_tag=AKK66_gt023;product=tRNA-Trp
+NC_031333.1	RefSeq	gene	64183	64257	.	-	.	ID=gene-AKK66_gt024;Dbxref=GeneID:29141391;Name=trnP-UGG;gbkey=Gene;gene=trnP-UGG;gene_biotype=tRNA;locus_tag=AKK66_gt024
+NC_031333.1	RefSeq	tRNA	64183	64257	.	-	.	ID=rna-AKK66_gt024;Parent=gene-AKK66_gt024;Dbxref=GeneID:29141391;gbkey=tRNA;gene=trnP-UGG;locus_tag=AKK66_gt024;product=tRNA-Pro
+NC_031333.1	RefSeq	exon	64183	64257	.	-	.	ID=exon-AKK66_gt024-1;Parent=rna-AKK66_gt024;Dbxref=GeneID:29141391;gbkey=tRNA;gene=trnP-UGG;locus_tag=AKK66_gt024;product=tRNA-Pro
+NC_031333.1	RefSeq	gene	64576	64710	.	+	.	ID=gene-AKK66_gp061;Dbxref=GeneID:29141392;Name=psaJ;gbkey=Gene;gene=psaJ;gene_biotype=protein_coding;locus_tag=AKK66_gp061
+NC_031333.1	RefSeq	CDS	64576	64710	.	+	0	ID=cds-YP_009305324.1;Parent=gene-AKK66_gp061;Dbxref=GenBank:YP_009305324.1,GeneID:29141392;Name=YP_009305324.1;gbkey=CDS;gene=psaJ;locus_tag=AKK66_gp061;product=PsaJ;protein_id=YP_009305324.1;transl_table=11
+NC_031333.1	RefSeq	gene	65152	65352	.	+	.	ID=gene-AKK66_gp060;Dbxref=GeneID:29141393;Name=rpl33;gbkey=Gene;gene=rpl33;gene_biotype=protein_coding;locus_tag=AKK66_gp060
+NC_031333.1	RefSeq	CDS	65152	65352	.	+	0	ID=cds-YP_009305325.1;Parent=gene-AKK66_gp060;Dbxref=GenBank:YP_009305325.1,GeneID:29141393;Name=YP_009305325.1;gbkey=CDS;gene=rpl33;locus_tag=AKK66_gp060;product=ribosomal protein L33;protein_id=YP_009305325.1;transl_table=11
+NC_031333.1	RefSeq	gene	65593	66084	.	+	.	ID=gene-AKK66_gp059;Dbxref=GeneID:29141394;Name=rps18;gbkey=Gene;gene=rps18;gene_biotype=protein_coding;locus_tag=AKK66_gp059
+NC_031333.1	RefSeq	CDS	65593	66084	.	+	0	ID=cds-YP_009305326.1;Parent=gene-AKK66_gp059;Dbxref=GenBank:YP_009305326.1,GeneID:29141394;Name=YP_009305326.1;gbkey=CDS;gene=rps18;locus_tag=AKK66_gp059;product=ribosomal protein S18;protein_id=YP_009305326.1;transl_table=11
+NC_031333.1	RefSeq	gene	66307	66666	.	-	.	ID=gene-AKK66_gp058;Dbxref=GeneID:29141395;Name=rpl20;gbkey=Gene;gene=rpl20;gene_biotype=protein_coding;locus_tag=AKK66_gp058
+NC_031333.1	RefSeq	CDS	66307	66666	.	-	0	ID=cds-YP_009305327.1;Parent=gene-AKK66_gp058;Dbxref=GenBank:YP_009305327.1,GeneID:29141395;Name=YP_009305327.1;gbkey=CDS;gene=rpl20;locus_tag=AKK66_gp058;product=ribosomal protein L20;protein_id=YP_009305327.1;transl_table=11
+NC_031333.1	RefSeq	gene	67589	68239	.	-	.	ID=gene-AKK66_gp056;Dbxref=GeneID:29141396;Name=clpP;gbkey=Gene;gene=clpP;gene_biotype=protein_coding;locus_tag=AKK66_gp056
+NC_031333.1	RefSeq	CDS	67589	68239	.	-	0	ID=cds-YP_009305328.1;Parent=gene-AKK66_gp056;Dbxref=GenBank:YP_009305328.1,GeneID:29141396;Name=YP_009305328.1;gbkey=CDS;gene=clpP;locus_tag=AKK66_gp056;product=ClpP;protein_id=YP_009305328.1;transl_table=11
+NC_031333.1	RefSeq	gene	68751	70277	.	+	.	ID=gene-AKK66_gp055;Dbxref=GeneID:29141397;Name=psbB;gbkey=Gene;gene=psbB;gene_biotype=protein_coding;locus_tag=AKK66_gp055
+NC_031333.1	RefSeq	CDS	68751	70277	.	+	0	ID=cds-YP_009305329.1;Parent=gene-AKK66_gp055;Dbxref=GenBank:YP_009305329.1,GeneID:29141397;Name=YP_009305329.1;gbkey=CDS;gene=psbB;locus_tag=AKK66_gp055;product=PsbB;protein_id=YP_009305329.1;transl_table=11
+NC_031333.1	RefSeq	gene	70433	70549	.	+	.	ID=gene-AKK66_gp054;Dbxref=GeneID:29141398;Name=psbT;gbkey=Gene;gene=psbT;gene_biotype=protein_coding;locus_tag=AKK66_gp054
+NC_031333.1	RefSeq	CDS	70433	70549	.	+	0	ID=cds-YP_009305330.1;Parent=gene-AKK66_gp054;Dbxref=GenBank:YP_009305330.1,GeneID:29141398;Name=YP_009305330.1;gbkey=CDS;gene=psbT;locus_tag=AKK66_gp054;product=PsbT;protein_id=YP_009305330.1;transl_table=11
+NC_031333.1	RefSeq	gene	70598	70729	.	-	.	ID=gene-AKK66_gp053;Dbxref=GeneID:29141399;Name=psbN;gbkey=Gene;gene=psbN;gene_biotype=protein_coding;locus_tag=AKK66_gp053
+NC_031333.1	RefSeq	CDS	70598	70729	.	-	0	ID=cds-YP_009305331.1;Parent=gene-AKK66_gp053;Dbxref=GenBank:YP_009305331.1,GeneID:29141399;Name=YP_009305331.1;gbkey=CDS;gene=psbN;locus_tag=AKK66_gp053;product=PsbN;protein_id=YP_009305331.1;transl_table=11
+NC_031333.1	RefSeq	gene	70833	71054	.	+	.	ID=gene-AKK66_gp052;Dbxref=GeneID:29141400;Name=psbH;gbkey=Gene;gene=psbH;gene_biotype=protein_coding;locus_tag=AKK66_gp052
+NC_031333.1	RefSeq	CDS	70833	71054	.	+	0	ID=cds-YP_009305332.1;Parent=gene-AKK66_gp052;Dbxref=GenBank:YP_009305332.1,GeneID:29141400;Name=YP_009305332.1;gbkey=CDS;gene=psbH;locus_tag=AKK66_gp052;product=PsbH;protein_id=YP_009305332.1;transl_table=11
+NC_031333.1	RefSeq	gene	71184	72644	.	+	.	ID=gene-AKK66_gp051;Dbxref=GeneID:29141401;Name=petB;gbkey=Gene;gene=petB;gene_biotype=protein_coding;locus_tag=AKK66_gp051
+NC_031333.1	RefSeq	CDS	71184	71189	.	+	0	ID=cds-YP_009305333.1;Parent=gene-AKK66_gp051;Dbxref=GenBank:YP_009305333.1,GeneID:29141401;Name=YP_009305333.1;gbkey=CDS;gene=petB;locus_tag=AKK66_gp051;product=PetB;protein_id=YP_009305333.1;transl_table=11
+NC_031333.1	RefSeq	CDS	72003	72644	.	+	0	ID=cds-YP_009305333.1;Parent=gene-AKK66_gp051;Dbxref=GenBank:YP_009305333.1,GeneID:29141401;Name=YP_009305333.1;gbkey=CDS;gene=petB;locus_tag=AKK66_gp051;product=PetB;protein_id=YP_009305333.1;transl_table=11
+NC_031333.1	RefSeq	gene	72836	74066	.	+	.	ID=gene-AKK66_gp050;Dbxref=GeneID:29141402;Name=petD;gbkey=Gene;gene=petD;gene_biotype=protein_coding;locus_tag=AKK66_gp050
+NC_031333.1	RefSeq	CDS	72836	72845	.	+	0	ID=cds-YP_009305334.1;Parent=gene-AKK66_gp050;Dbxref=GenBank:YP_009305334.1,GeneID:29141402;Name=YP_009305334.1;gbkey=CDS;gene=petD;locus_tag=AKK66_gp050;product=PetD;protein_id=YP_009305334.1;transl_table=11
+NC_031333.1	RefSeq	CDS	73594	74066	.	+	2	ID=cds-YP_009305334.1;Parent=gene-AKK66_gp050;Dbxref=GenBank:YP_009305334.1,GeneID:29141402;Name=YP_009305334.1;gbkey=CDS;gene=petD;locus_tag=AKK66_gp050;product=PetD;protein_id=YP_009305334.1;transl_table=11
+NC_031333.1	RefSeq	gene	74286	75299	.	-	.	ID=gene-AKK66_gp049;Dbxref=GeneID:29141403;Name=rpoA;gbkey=Gene;gene=rpoA;gene_biotype=protein_coding;locus_tag=AKK66_gp049
+NC_031333.1	RefSeq	CDS	74286	75299	.	-	0	ID=cds-YP_009305335.1;Parent=gene-AKK66_gp049;Dbxref=GenBank:YP_009305335.1,GeneID:29141403;Name=YP_009305335.1;gbkey=CDS;gene=rpoA;locus_tag=AKK66_gp049;product=RpoA;protein_id=YP_009305335.1;transl_table=11
+NC_031333.1	RefSeq	gene	75363	75794	.	-	.	ID=gene-AKK66_gp048;Dbxref=GeneID:29141404;Name=rps11;gbkey=Gene;gene=rps11;gene_biotype=protein_coding;locus_tag=AKK66_gp048
+NC_031333.1	RefSeq	CDS	75363	75794	.	-	0	ID=cds-YP_009305336.1;Parent=gene-AKK66_gp048;Dbxref=GenBank:YP_009305336.1,GeneID:29141404;Name=YP_009305336.1;gbkey=CDS;gene=rps11;locus_tag=AKK66_gp048;product=ribosomal protein S11;protein_id=YP_009305336.1;transl_table=11
+NC_031333.1	RefSeq	gene	75968	76081	.	-	.	ID=gene-AKK66_gp047;Dbxref=GeneID:29141405;Name=rpl36;gbkey=Gene;gene=rpl36;gene_biotype=protein_coding;locus_tag=AKK66_gp047
+NC_031333.1	RefSeq	CDS	75968	76081	.	-	0	ID=cds-YP_009305337.1;Parent=gene-AKK66_gp047;Dbxref=GenBank:YP_009305337.1,GeneID:29141405;Name=YP_009305337.1;gbkey=CDS;gene=rpl36;locus_tag=AKK66_gp047;product=ribosomal protein L36;protein_id=YP_009305337.1;transl_table=11
+NC_031333.1	RefSeq	gene	76192	76515	.	-	.	ID=gene-AKK66_gp046;Dbxref=GeneID:29141406;Name=infA;gbkey=Gene;gene=infA;gene_biotype=protein_coding;locus_tag=AKK66_gp046
+NC_031333.1	RefSeq	CDS	76192	76515	.	-	0	ID=cds-YP_009305338.1;Parent=gene-AKK66_gp046;Dbxref=GenBank:YP_009305338.1,GeneID:29141406;Name=YP_009305338.1;gbkey=CDS;gene=infA;locus_tag=AKK66_gp046;product=InfA;protein_id=YP_009305338.1;transl_table=11
+NC_031333.1	RefSeq	gene	76652	77062	.	-	.	ID=gene-AKK66_gp045;Dbxref=GeneID:29141407;Name=rps8;gbkey=Gene;gene=rps8;gene_biotype=protein_coding;locus_tag=AKK66_gp045
+NC_031333.1	RefSeq	CDS	76652	77062	.	-	0	ID=cds-YP_009305339.1;Parent=gene-AKK66_gp045;Dbxref=GenBank:YP_009305339.1,GeneID:29141407;Name=YP_009305339.1;gbkey=CDS;gene=rps8;locus_tag=AKK66_gp045;product=ribosomal protein S8;protein_id=YP_009305339.1;transl_table=11
+NC_031333.1	RefSeq	gene	77202	77573	.	-	.	ID=gene-AKK66_gp044;Dbxref=GeneID:29141408;Name=rpl14;gbkey=Gene;gene=rpl14;gene_biotype=protein_coding;locus_tag=AKK66_gp044
+NC_031333.1	RefSeq	CDS	77202	77573	.	-	0	ID=cds-YP_009305340.1;Parent=gene-AKK66_gp044;Dbxref=GenBank:YP_009305340.1,GeneID:29141408;Name=YP_009305340.1;gbkey=CDS;gene=rpl14;locus_tag=AKK66_gp044;product=ribosomal protein L14;protein_id=YP_009305340.1;transl_table=11
+NC_031333.1	RefSeq	gene	77686	79154	.	-	.	ID=gene-AKK66_gp043;Dbxref=GeneID:29141409;Name=rpl16;gbkey=Gene;gene=rpl16;gene_biotype=protein_coding;locus_tag=AKK66_gp043
+NC_031333.1	RefSeq	CDS	79146	79154	.	-	0	ID=cds-YP_009305341.1;Parent=gene-AKK66_gp043;Dbxref=GenBank:YP_009305341.1,GeneID:29141409;Name=YP_009305341.1;gbkey=CDS;gene=rpl16;locus_tag=AKK66_gp043;product=ribosomal protein L16;protein_id=YP_009305341.1;transl_table=11
+NC_031333.1	RefSeq	CDS	77686	78087	.	-	0	ID=cds-YP_009305341.1;Parent=gene-AKK66_gp043;Dbxref=GenBank:YP_009305341.1,GeneID:29141409;Name=YP_009305341.1;gbkey=CDS;gene=rpl16;locus_tag=AKK66_gp043;product=ribosomal protein L16;protein_id=YP_009305341.1;transl_table=11
+NC_031333.1	RefSeq	gene	79300	80019	.	-	.	ID=gene-AKK66_gp042;Dbxref=GeneID:29141410;Name=rps3;gbkey=Gene;gene=rps3;gene_biotype=protein_coding;locus_tag=AKK66_gp042
+NC_031333.1	RefSeq	CDS	79300	80019	.	-	0	ID=cds-YP_009305342.1;Parent=gene-AKK66_gp042;Dbxref=GenBank:YP_009305342.1,GeneID:29141410;Name=YP_009305342.1;gbkey=CDS;gene=rps3;locus_tag=AKK66_gp042;product=ribosomal protein S3;protein_id=YP_009305342.1;transl_table=11
+NC_031333.1	RefSeq	gene	80074	80523	.	-	.	ID=gene-AKK66_gp041;Dbxref=GeneID:29141411;Name=rpl22;gbkey=Gene;gene=rpl22;gene_biotype=protein_coding;locus_tag=AKK66_gp041
+NC_031333.1	RefSeq	CDS	80074	80523	.	-	0	ID=cds-YP_009305343.1;Parent=gene-AKK66_gp041;Dbxref=GenBank:YP_009305343.1,GeneID:29141411;Name=YP_009305343.1;gbkey=CDS;gene=rpl22;locus_tag=AKK66_gp041;product=ribosomal protein L22;protein_id=YP_009305343.1;transl_table=11
+NC_031333.1	RefSeq	gene	80594	80875	.	-	.	ID=gene-AKK66_gp040;Dbxref=GeneID:29141412;Name=rps19;gbkey=Gene;gene=rps19;gene_biotype=protein_coding;locus_tag=AKK66_gp040
+NC_031333.1	RefSeq	CDS	80594	80875	.	-	0	ID=cds-YP_009305344.1;Parent=gene-AKK66_gp040;Dbxref=GenBank:YP_009305344.1,GeneID:29141412;Name=YP_009305344.1;gbkey=CDS;gene=rps19;locus_tag=AKK66_gp040;product=ribosomal protein S19;protein_id=YP_009305344.1;transl_table=11
+NC_031333.1	RefSeq	gene	81007	81081	.	+	.	ID=gene-AKK66_gt025;Dbxref=GeneID:29141413;Name=trnH-GUG;gbkey=Gene;gene=trnH-GUG;gene_biotype=tRNA;locus_tag=AKK66_gt025
+NC_031333.1	RefSeq	tRNA	81007	81081	.	+	.	ID=rna-AKK66_gt025;Parent=gene-AKK66_gt025;Dbxref=GeneID:29141413;gbkey=tRNA;gene=trnH-GUG;locus_tag=AKK66_gt025;product=tRNA-His
+NC_031333.1	RefSeq	exon	81007	81081	.	+	.	ID=exon-AKK66_gt025-1;Parent=rna-AKK66_gt025;Dbxref=GeneID:29141413;gbkey=tRNA;gene=trnH-GUG;locus_tag=AKK66_gt025;product=tRNA-His
+NC_031333.1	RefSeq	gene	81149	82621	.	-	.	ID=gene-AKK66_gp039;Dbxref=GeneID:29141414;Name=rpl2;gbkey=Gene;gene=rpl2;gene_biotype=protein_coding;locus_tag=AKK66_gp039
+NC_031333.1	RefSeq	CDS	82229	82621	.	-	0	ID=cds-YP_009305345.1;Parent=gene-AKK66_gp039;Dbxref=GenBank:YP_009305345.1,GeneID:29141414;Name=YP_009305345.1;exception=RNA Editing;gbkey=CDS;gene=rpl2;locus_tag=AKK66_gp039;product=ribosomal protein L2;protein_id=YP_009305345.1;transl_table=11
+NC_031333.1	RefSeq	CDS	81149	81568	.	-	0	ID=cds-YP_009305345.1;Parent=gene-AKK66_gp039;Dbxref=GenBank:YP_009305345.1,GeneID:29141414;Name=YP_009305345.1;exception=RNA Editing;gbkey=CDS;gene=rpl2;locus_tag=AKK66_gp039;product=ribosomal protein L2;protein_id=YP_009305345.1;transl_table=11
+NC_031333.1	RefSeq	gene	82640	82921	.	-	.	ID=gene-AKK66_gp038;Dbxref=GeneID:29141415;Name=rpl23;gbkey=Gene;gene=rpl23;gene_biotype=protein_coding;locus_tag=AKK66_gp038
+NC_031333.1	RefSeq	CDS	82640	82921	.	-	0	ID=cds-YP_009305346.1;Parent=gene-AKK66_gp038;Dbxref=GenBank:YP_009305346.1,GeneID:29141415;Name=YP_009305346.1;gbkey=CDS;gene=rpl23;locus_tag=AKK66_gp038;product=ribosomal protein L23;protein_id=YP_009305346.1;transl_table=11
+NC_031333.1	RefSeq	gene	83096	83169	.	-	.	ID=gene-AKK66_gt026;Dbxref=GeneID:29141416;Name=trnI-CAU;gbkey=Gene;gene=trnI-CAU;gene_biotype=tRNA;locus_tag=AKK66_gt026
+NC_031333.1	RefSeq	tRNA	83096	83169	.	-	.	ID=rna-AKK66_gt026;Parent=gene-AKK66_gt026;Dbxref=GeneID:29141416;gbkey=tRNA;gene=trnI-CAU;locus_tag=AKK66_gt026;product=tRNA-Ile
+NC_031333.1	RefSeq	exon	83096	83169	.	-	.	ID=exon-AKK66_gt026-1;Parent=rna-AKK66_gt026;Dbxref=GeneID:29141416;gbkey=tRNA;gene=trnI-CAU;locus_tag=AKK66_gt026;product=tRNA-Ile
+NC_031333.1	RefSeq	gene	83234	83374	.	+	.	ID=gene-AKK66_gp037;Dbxref=GeneID:29141417;Name=orf46;gbkey=Gene;gene=orf46;gene_biotype=protein_coding;locus_tag=AKK66_gp037
+NC_031333.1	RefSeq	CDS	83234	83374	.	+	0	ID=cds-YP_009305347.1;Parent=gene-AKK66_gp037;Dbxref=GenBank:YP_009305347.1,GeneID:29141417;Name=YP_009305347.1;gbkey=CDS;gene=orf46;locus_tag=AKK66_gp037;product=orf46;protein_id=YP_009305347.1;transl_table=11
+NC_031333.1	RefSeq	gene	83356	83460	.	+	.	ID=gene-AKK66_gp036;Dbxref=GeneID:29141418;Name=orf34;gbkey=Gene;gene=orf34;gene_biotype=protein_coding;locus_tag=AKK66_gp036
+NC_031333.1	RefSeq	CDS	83356	83460	.	+	0	ID=cds-YP_009305348.1;Parent=gene-AKK66_gp036;Dbxref=GenBank:YP_009305348.1,GeneID:29141418;Name=YP_009305348.1;gbkey=CDS;gene=orf34;locus_tag=AKK66_gp036;product=orf34;protein_id=YP_009305348.1;transl_table=11
+NC_031333.1	RefSeq	gene	83491	83577	.	+	.	ID=gene-AKK66_gp035;Dbxref=GeneID:29141419;Name=orf28;gbkey=Gene;gene=orf28;gene_biotype=protein_coding;locus_tag=AKK66_gp035
+NC_031333.1	RefSeq	CDS	83491	83577	.	+	0	ID=cds-YP_009305349.1;Parent=gene-AKK66_gp035;Dbxref=GenBank:YP_009305349.1,GeneID:29141419;Name=YP_009305349.1;gbkey=CDS;gene=orf28;locus_tag=AKK66_gp035;product=orf28;protein_id=YP_009305349.1;transl_table=11
+NC_031333.1	RefSeq	gene	83642	83836	.	+	.	ID=gene-AKK66_gp034;Dbxref=GeneID:29141420;Name=orf64;gbkey=Gene;gene=orf64;gene_biotype=protein_coding;locus_tag=AKK66_gp034
+NC_031333.1	RefSeq	CDS	83642	83836	.	+	0	ID=cds-YP_009305350.1;Parent=gene-AKK66_gp034;Dbxref=GenBank:YP_009305350.1,GeneID:29141420;Name=YP_009305350.1;gbkey=CDS;gene=orf64;locus_tag=AKK66_gp034;product=orf64;protein_id=YP_009305350.1;transl_table=11
+NC_031333.1	RefSeq	gene	84035	84703	.	+	.	ID=gene-AKK66_gp033;Dbxref=GeneID:29141421;Name=orf222;gbkey=Gene;gene=orf222;gene_biotype=protein_coding;locus_tag=AKK66_gp033
+NC_031333.1	RefSeq	CDS	84035	84703	.	+	0	ID=cds-YP_009305351.1;Parent=gene-AKK66_gp033;Dbxref=GenBank:YP_009305351.1,GeneID:29141421;Name=YP_009305351.1;gbkey=CDS;gene=orf222;locus_tag=AKK66_gp033;product=orf222;protein_id=YP_009305351.1;transl_table=11
+NC_031333.1	RefSeq	gene	84668	84748	.	-	.	ID=gene-AKK66_gt027;Dbxref=GeneID:29141422;Name=trnL-CAA;gbkey=Gene;gene=trnL-CAA;gene_biotype=tRNA;locus_tag=AKK66_gt027
+NC_031333.1	RefSeq	tRNA	84668	84748	.	-	.	ID=rna-AKK66_gt027;Parent=gene-AKK66_gt027;Dbxref=GeneID:29141422;gbkey=tRNA;gene=trnL-CAA;locus_tag=AKK66_gt027;product=tRNA-Leu
+NC_031333.1	RefSeq	exon	84668	84748	.	-	.	ID=exon-AKK66_gt027-1;Parent=rna-AKK66_gt027;Dbxref=GeneID:29141422;gbkey=tRNA;gene=trnL-CAA;locus_tag=AKK66_gt027;product=tRNA-Leu
+NC_031333.1	RefSeq	gene	85352	87596	.	-	.	ID=gene-AKK66_gp032;Dbxref=GeneID:29141423;Name=ndhB;gbkey=Gene;gene=ndhB;gene_biotype=protein_coding;locus_tag=AKK66_gp032
+NC_031333.1	RefSeq	CDS	86820	87596	.	-	0	ID=cds-YP_009305352.1;Parent=gene-AKK66_gp032;Dbxref=GenBank:YP_009305352.1,GeneID:29141423;Name=YP_009305352.1;gbkey=CDS;gene=ndhB;locus_tag=AKK66_gp032;product=NdhB;protein_id=YP_009305352.1;transl_table=11
+NC_031333.1	RefSeq	CDS	85352	86107	.	-	0	ID=cds-YP_009305352.1;Parent=gene-AKK66_gp032;Dbxref=GenBank:YP_009305352.1,GeneID:29141423;Name=YP_009305352.1;gbkey=CDS;gene=ndhB;locus_tag=AKK66_gp032;product=NdhB;protein_id=YP_009305352.1;transl_table=11
+NC_031333.1	RefSeq	gene	87896	88366	.	-	.	ID=gene-AKK66_gp031;Dbxref=GeneID:29141424;Name=rps7;gbkey=Gene;gene=rps7;gene_biotype=protein_coding;locus_tag=AKK66_gp031
+NC_031333.1	RefSeq	CDS	87896	88366	.	-	0	ID=cds-YP_009305353.1;Parent=gene-AKK66_gp031;Dbxref=GenBank:YP_009305353.1,GeneID:29141424;Name=YP_009305353.1;gbkey=CDS;gene=rps7;locus_tag=AKK66_gp031;product=ribosomal protein S7;protein_id=YP_009305353.1;transl_table=11
+NC_031333.1	RefSeq	gene	67353	67454	.	-	.	ID=gene-AKK66_gp057;Dbxref=GeneID:29141467;Name=rps12;exception=trans-splicing;gbkey=Gene;gene=rps12;gene_biotype=protein_coding;locus_tag=AKK66_gp057;part=1
+NC_031333.1	RefSeq	gene	88425	89225	.	-	.	ID=gene-AKK66_gp057;Dbxref=GeneID:29141467;Name=rps12;exception=trans-splicing;gbkey=Gene;gene=rps12;gene_biotype=protein_coding;locus_tag=AKK66_gp057;part=2
+NC_031333.1	RefSeq	CDS	67353	67454	.	-	0	ID=cds-YP_009305283.1;Parent=gene-AKK66_gp057;Dbxref=GenBank:YP_009305283.1,GeneID:29141467;Name=YP_009305283.1;exception=trans-splicing;gbkey=CDS;gene=rps12;locus_tag=AKK66_gp057;part=1;product=ribosomal protein S12;protein_id=YP_009305283.1;transl_table=11
+NC_031333.1	RefSeq	CDS	88994	89225	.	-	0	ID=cds-YP_009305283.1;Parent=gene-AKK66_gp057;Dbxref=GenBank:YP_009305283.1,GeneID:29141467;Name=YP_009305283.1;exception=trans-splicing;gbkey=CDS;gene=rps12;locus_tag=AKK66_gp057;part=2;product=ribosomal protein S12;protein_id=YP_009305283.1;transl_table=11
+NC_031333.1	RefSeq	CDS	88425	88453	.	-	2	ID=cds-YP_009305283.1;Parent=gene-AKK66_gp057;Dbxref=GenBank:YP_009305283.1,GeneID:29141467;Name=YP_009305283.1;exception=trans-splicing;gbkey=CDS;gene=rps12;locus_tag=AKK66_gp057;part=3;product=ribosomal protein S12;protein_id=YP_009305283.1;transl_table=11
+NC_031333.1	RefSeq	gene	90949	91020	.	+	.	ID=gene-AKK66_gt028;Dbxref=GeneID:29141425;Name=trnV-GAC;gbkey=Gene;gene=trnV-GAC;gene_biotype=tRNA;locus_tag=AKK66_gt028
+NC_031333.1	RefSeq	tRNA	90949	91020	.	+	.	ID=rna-AKK66_gt028;Parent=gene-AKK66_gt028;Dbxref=GeneID:29141425;gbkey=tRNA;gene=trnV-GAC;locus_tag=AKK66_gt028;product=tRNA-Val
+NC_031333.1	RefSeq	exon	90949	91020	.	+	.	ID=exon-AKK66_gt028-1;Parent=rna-AKK66_gt028;Dbxref=GeneID:29141425;gbkey=tRNA;gene=trnV-GAC;locus_tag=AKK66_gt028;product=tRNA-Val
+NC_031333.1	RefSeq	gene	91252	92742	.	+	.	ID=gene-AKK66_gr008;Dbxref=GeneID:29141426;Name=AKK66_gr008;gbkey=Gene;gene_biotype=rRNA;locus_tag=AKK66_gr008
+NC_031333.1	RefSeq	rRNA	91252	92742	.	+	.	ID=rna-AKK66_gr008;Parent=gene-AKK66_gr008;Dbxref=GeneID:29141426;gbkey=rRNA;locus_tag=AKK66_gr008;product=16S ribosomal RNA
+NC_031333.1	RefSeq	exon	91252	92742	.	+	.	ID=exon-AKK66_gr008-1;Parent=rna-AKK66_gr008;Dbxref=GeneID:29141426;gbkey=rRNA;locus_tag=AKK66_gr008;product=16S ribosomal RNA
+NC_031333.1	RefSeq	gene	94136	95019	.	+	.	ID=gene-AKK66_gt029;Dbxref=GeneID:29141468;Name=trnA-UGC;gbkey=Gene;gene=trnA-UGC;gene_biotype=tRNA;locus_tag=AKK66_gt029
+NC_031333.1	RefSeq	tRNA	94136	95019	.	+	.	ID=rna-AKK66_gt029;Parent=gene-AKK66_gt029;Dbxref=GeneID:29141468;gbkey=tRNA;gene=trnA-UGC;locus_tag=AKK66_gt029;product=tRNA-Ala
+NC_031333.1	RefSeq	exon	94136	94173	.	+	.	ID=exon-AKK66_gt029-1;Parent=rna-AKK66_gt029;Dbxref=GeneID:29141468;gbkey=tRNA;gene=trnA-UGC;locus_tag=AKK66_gt029;product=tRNA-Ala
+NC_031333.1	RefSeq	exon	94985	95019	.	+	.	ID=exon-AKK66_gt029-2;Parent=rna-AKK66_gt029;Dbxref=GeneID:29141468;gbkey=tRNA;gene=trnA-UGC;locus_tag=AKK66_gt029;product=tRNA-Ala
+NC_031333.1	RefSeq	gene	95165	98052	.	+	.	ID=gene-AKK66_gr007;Dbxref=GeneID:29141427;Name=AKK66_gr007;gbkey=Gene;gene_biotype=rRNA;locus_tag=AKK66_gr007
+NC_031333.1	RefSeq	rRNA	95165	98052	.	+	.	ID=rna-AKK66_gr007;Parent=gene-AKK66_gr007;Dbxref=GeneID:29141427;gbkey=rRNA;locus_tag=AKK66_gr007;product=23S ribosomal RNA
+NC_031333.1	RefSeq	exon	95165	98052	.	+	.	ID=exon-AKK66_gr007-1;Parent=rna-AKK66_gr007;Dbxref=GeneID:29141427;gbkey=rRNA;locus_tag=AKK66_gr007;product=23S ribosomal RNA
+NC_031333.1	RefSeq	gene	98148	98242	.	+	.	ID=gene-AKK66_gr006;Dbxref=GeneID:29141469;Name=AKK66_gr006;gbkey=Gene;gene_biotype=rRNA;locus_tag=AKK66_gr006
+NC_031333.1	RefSeq	rRNA	98148	98242	.	+	.	ID=rna-AKK66_gr006;Parent=gene-AKK66_gr006;Dbxref=GeneID:29141469;gbkey=rRNA;locus_tag=AKK66_gr006;product=4.5S ribosomal RNA
+NC_031333.1	RefSeq	exon	98148	98242	.	+	.	ID=exon-AKK66_gr006-1;Parent=rna-AKK66_gr006;Dbxref=GeneID:29141469;gbkey=rRNA;locus_tag=AKK66_gr006;product=4.5S ribosomal RNA
+NC_031333.1	RefSeq	gene	98470	98590	.	+	.	ID=gene-AKK66_gr005;Dbxref=GeneID:29141470;Name=AKK66_gr005;gbkey=Gene;gene_biotype=rRNA;locus_tag=AKK66_gr005
+NC_031333.1	RefSeq	rRNA	98470	98590	.	+	.	ID=rna-AKK66_gr005;Parent=gene-AKK66_gr005;Dbxref=GeneID:29141470;gbkey=rRNA;locus_tag=AKK66_gr005;product=5S ribosomal RNA
+NC_031333.1	RefSeq	exon	98470	98590	.	+	.	ID=exon-AKK66_gr005-1;Parent=rna-AKK66_gr005;Dbxref=GeneID:29141470;gbkey=rRNA;locus_tag=AKK66_gr005;product=5S ribosomal RNA
+NC_031333.1	RefSeq	gene	98849	98922	.	+	.	ID=gene-AKK66_gt030;Dbxref=GeneID:29141471;Name=trnR-ACG;gbkey=Gene;gene=trnR-ACG;gene_biotype=tRNA;locus_tag=AKK66_gt030
+NC_031333.1	RefSeq	tRNA	98849	98922	.	+	.	ID=rna-AKK66_gt030;Parent=gene-AKK66_gt030;Dbxref=GeneID:29141471;gbkey=tRNA;gene=trnR-ACG;locus_tag=AKK66_gt030;product=tRNA-Arg
+NC_031333.1	RefSeq	exon	98849	98922	.	+	.	ID=exon-AKK66_gt030-1;Parent=rna-AKK66_gt030;Dbxref=GeneID:29141471;gbkey=tRNA;gene=trnR-ACG;locus_tag=AKK66_gt030;product=tRNA-Arg
+NC_031333.1	RefSeq	gene	98975	99046	.	+	.	ID=gene-AKK66_gp030;Dbxref=GeneID:29141428;Name=orf23;gbkey=Gene;gene=orf23;gene_biotype=protein_coding;locus_tag=AKK66_gp030
+NC_031333.1	RefSeq	CDS	98975	99046	.	+	0	ID=cds-YP_009305354.1;Parent=gene-AKK66_gp030;Dbxref=GenBank:YP_009305354.1,GeneID:29141428;Name=YP_009305354.1;gbkey=CDS;gene=orf23;locus_tag=AKK66_gp030;product=orf23;protein_id=YP_009305354.1;transl_table=11
+NC_031333.1	RefSeq	gene	99175	99246	.	-	.	ID=gene-AKK66_gt031;Dbxref=GeneID:29141429;Name=trnN-GUU;gbkey=Gene;gene=trnN-GUU;gene_biotype=tRNA;locus_tag=AKK66_gt031
+NC_031333.1	RefSeq	tRNA	99175	99246	.	-	.	ID=rna-AKK66_gt031;Parent=gene-AKK66_gt031;Dbxref=GeneID:29141429;gbkey=tRNA;gene=trnN-GUU;locus_tag=AKK66_gt031;product=tRNA-Asn
+NC_031333.1	RefSeq	exon	99175	99246	.	-	.	ID=exon-AKK66_gt031-1;Parent=rna-AKK66_gt031;Dbxref=GeneID:29141429;gbkey=tRNA;gene=trnN-GUU;locus_tag=AKK66_gt031;product=tRNA-Asn
+NC_031333.1	RefSeq	gene	99582	99701	.	+	.	ID=gene-AKK66_gp029;Dbxref=GeneID:29141430;Name=orf39;gbkey=Gene;gene=orf39;gene_biotype=protein_coding;locus_tag=AKK66_gp029
+NC_031333.1	RefSeq	CDS	99582	99701	.	+	0	ID=cds-YP_009305355.1;Parent=gene-AKK66_gp029;Dbxref=GenBank:YP_009305355.1,GeneID:29141430;Name=YP_009305355.1;gbkey=CDS;gene=orf39;locus_tag=AKK66_gp029;product=orf39;protein_id=YP_009305355.1;transl_table=11
+NC_031333.1	RefSeq	gene	100166	100357	.	+	.	ID=gene-AKK66_gp028;Dbxref=GeneID:29141431;Name=orf63;gbkey=Gene;gene=orf63;gene_biotype=protein_coding;locus_tag=AKK66_gp028
+NC_031333.1	RefSeq	CDS	100166	100357	.	+	0	ID=cds-YP_009305356.1;Parent=gene-AKK66_gp028;Dbxref=GenBank:YP_009305356.1,GeneID:29141431;Name=YP_009305356.1;gbkey=CDS;gene=orf63;locus_tag=AKK66_gp028;product=orf63;protein_id=YP_009305356.1;transl_table=11
+NC_031333.1	RefSeq	gene	100778	101050	.	+	.	ID=gene-AKK66_gp027;Dbxref=GeneID:29141432;Name=rps15;gbkey=Gene;gene=rps15;gene_biotype=protein_coding;locus_tag=AKK66_gp027
+NC_031333.1	RefSeq	CDS	100778	101050	.	+	0	ID=cds-YP_009305357.1;Parent=gene-AKK66_gp027;Dbxref=GenBank:YP_009305357.1,GeneID:29141432;Name=YP_009305357.1;gbkey=CDS;gene=rps15;locus_tag=AKK66_gp027;product=ribosomal protein S15;protein_id=YP_009305357.1;transl_table=11
+NC_031333.1	RefSeq	gene	101189	101359	.	+	.	ID=gene-AKK66_gp026;Dbxref=GeneID:29141433;Name=ndhH;gbkey=Gene;gene=ndhH;gene_biotype=protein_coding;locus_tag=AKK66_gp026
+NC_031333.1	RefSeq	CDS	101189	101359	.	+	0	ID=cds-YP_009305358.1;Parent=gene-AKK66_gp026;Dbxref=GenBank:YP_009305358.1,GeneID:29141433;Name=YP_009305358.1;gbkey=CDS;gene=ndhH;locus_tag=AKK66_gp026;product=NdhH;protein_id=YP_009305358.1;transl_table=11
+NC_031333.1	RefSeq	gene	101393	103597	.	-	.	ID=gene-AKK66_gp025;Dbxref=GeneID:29141434;Name=ndhF;gbkey=Gene;gene=ndhF;gene_biotype=protein_coding;locus_tag=AKK66_gp025
+NC_031333.1	RefSeq	CDS	101393	103597	.	-	0	ID=cds-YP_009305359.1;Parent=gene-AKK66_gp025;Dbxref=GenBank:YP_009305359.1,GeneID:29141434;Name=YP_009305359.1;gbkey=CDS;gene=ndhF;locus_tag=AKK66_gp025;product=NdhF;protein_id=YP_009305359.1;transl_table=11
+NC_031333.1	RefSeq	gene	104313	104492	.	+	.	ID=gene-AKK66_gp024;Dbxref=GeneID:29141435;Name=rpl32;gbkey=Gene;gene=rpl32;gene_biotype=protein_coding;locus_tag=AKK66_gp024
+NC_031333.1	RefSeq	CDS	104313	104492	.	+	0	ID=cds-YP_009305360.1;Parent=gene-AKK66_gp024;Dbxref=GenBank:YP_009305360.1,GeneID:29141435;Name=YP_009305360.1;gbkey=CDS;gene=rpl32;locus_tag=AKK66_gp024;product=ribosomal protein L32;protein_id=YP_009305360.1;transl_table=11
+NC_031333.1	RefSeq	gene	105039	105118	.	+	.	ID=gene-AKK66_gt032;Dbxref=GeneID:29141436;Name=trnL-UAG;gbkey=Gene;gene=trnL-UAG;gene_biotype=tRNA;locus_tag=AKK66_gt032
+NC_031333.1	RefSeq	tRNA	105039	105118	.	+	.	ID=rna-AKK66_gt032;Parent=gene-AKK66_gt032;Dbxref=GeneID:29141436;gbkey=tRNA;gene=trnL-UAG;locus_tag=AKK66_gt032;product=tRNA-Leu
+NC_031333.1	RefSeq	exon	105039	105118	.	+	.	ID=exon-AKK66_gt032-1;Parent=rna-AKK66_gt032;Dbxref=GeneID:29141436;gbkey=tRNA;gene=trnL-UAG;locus_tag=AKK66_gt032;product=tRNA-Leu
+NC_031333.1	RefSeq	gene	105201	106166	.	+	.	ID=gene-AKK66_gp023;Dbxref=GeneID:29141437;Name=ccsA;gbkey=Gene;gene=ccsA;gene_biotype=protein_coding;locus_tag=AKK66_gp023
+NC_031333.1	RefSeq	CDS	105201	106166	.	+	0	ID=cds-YP_009305361.1;Parent=gene-AKK66_gp023;Dbxref=GenBank:YP_009305361.1,GeneID:29141437;Name=YP_009305361.1;gbkey=CDS;gene=ccsA;locus_tag=AKK66_gp023;product=CcsA;protein_id=YP_009305361.1;transl_table=11
+NC_031333.1	RefSeq	gene	106363	107865	.	-	.	ID=gene-AKK66_gp022;Dbxref=GeneID:29141438;Name=ndhD;gbkey=Gene;gene=ndhD;gene_biotype=protein_coding;locus_tag=AKK66_gp022
+NC_031333.1	RefSeq	CDS	106363	107865	.	-	0	ID=cds-YP_009305362.1;Parent=gene-AKK66_gp022;Dbxref=GenBank:YP_009305362.1,GeneID:29141438;Name=YP_009305362.1;gbkey=CDS;gene=ndhD;locus_tag=AKK66_gp022;product=NdhD;protein_id=YP_009305362.1;transl_table=11
+NC_031333.1	RefSeq	gene	107985	108230	.	-	.	ID=gene-AKK66_gp021;Dbxref=GeneID:29141439;Name=psaC;gbkey=Gene;gene=psaC;gene_biotype=protein_coding;locus_tag=AKK66_gp021
+NC_031333.1	RefSeq	CDS	107985	108230	.	-	0	ID=cds-YP_009305363.1;Parent=gene-AKK66_gp021;Dbxref=GenBank:YP_009305363.1,GeneID:29141439;Name=YP_009305363.1;gbkey=CDS;gene=psaC;locus_tag=AKK66_gp021;product=PsaC;protein_id=YP_009305363.1;transl_table=11
+NC_031333.1	RefSeq	gene	108677	108982	.	-	.	ID=gene-AKK66_gp020;Dbxref=GeneID:29141440;Name=ndhE;gbkey=Gene;gene=ndhE;gene_biotype=protein_coding;locus_tag=AKK66_gp020
+NC_031333.1	RefSeq	CDS	108677	108982	.	-	0	ID=cds-YP_009305364.1;Parent=gene-AKK66_gp020;Dbxref=GenBank:YP_009305364.1,GeneID:29141440;Name=YP_009305364.1;gbkey=CDS;gene=ndhE;locus_tag=AKK66_gp020;product=NdhE;protein_id=YP_009305364.1;transl_table=11
+NC_031333.1	RefSeq	gene	109192	109722	.	-	.	ID=gene-AKK66_gp019;Dbxref=GeneID:29141441;Name=ndhG;gbkey=Gene;gene=ndhG;gene_biotype=protein_coding;locus_tag=AKK66_gp019
+NC_031333.1	RefSeq	CDS	109192	109722	.	-	0	ID=cds-YP_009305365.1;Parent=gene-AKK66_gp019;Dbxref=GenBank:YP_009305365.1,GeneID:29141441;Name=YP_009305365.1;gbkey=CDS;gene=ndhG;locus_tag=AKK66_gp019;product=NdhG;protein_id=YP_009305365.1;transl_table=11
+NC_031333.1	RefSeq	gene	109965	110507	.	-	.	ID=gene-AKK66_gp018;Dbxref=GeneID:29141442;Name=ndhI;gbkey=Gene;gene=ndhI;gene_biotype=protein_coding;locus_tag=AKK66_gp018
+NC_031333.1	RefSeq	CDS	109965	110507	.	-	0	ID=cds-YP_009305366.1;Parent=gene-AKK66_gp018;Dbxref=GenBank:YP_009305366.1,GeneID:29141442;Name=YP_009305366.1;gbkey=CDS;gene=ndhI;locus_tag=AKK66_gp018;product=NdhI;protein_id=YP_009305366.1;transl_table=11
+NC_031333.1	RefSeq	gene	110602	112678	.	-	.	ID=gene-AKK66_gp017;Dbxref=GeneID:29141443;Name=ndhA;gbkey=Gene;gene=ndhA;gene_biotype=protein_coding;locus_tag=AKK66_gp017
+NC_031333.1	RefSeq	CDS	112129	112678	.	-	0	ID=cds-YP_009305367.1;Parent=gene-AKK66_gp017;Dbxref=GenBank:YP_009305367.1,GeneID:29141443;Name=YP_009305367.1;gbkey=CDS;gene=ndhA;locus_tag=AKK66_gp017;product=NdhA;protein_id=YP_009305367.1;transl_table=11
+NC_031333.1	RefSeq	CDS	110602	111140	.	-	2	ID=cds-YP_009305367.1;Parent=gene-AKK66_gp017;Dbxref=GenBank:YP_009305367.1,GeneID:29141443;Name=YP_009305367.1;gbkey=CDS;gene=ndhA;locus_tag=AKK66_gp017;product=NdhA;protein_id=YP_009305367.1;transl_table=11
+NC_031333.1	RefSeq	gene	112680	113861	.	-	.	ID=gene-AKK66_gp016;Dbxref=GeneID:29141444;Name=ndhH;gbkey=Gene;gene=ndhH;gene_biotype=protein_coding;locus_tag=AKK66_gp016
+NC_031333.1	RefSeq	CDS	112680	113861	.	-	0	ID=cds-YP_009305368.1;Parent=gene-AKK66_gp016;Dbxref=GenBank:YP_009305368.1,GeneID:29141444;Name=YP_009305368.1;gbkey=CDS;gene=ndhH;locus_tag=AKK66_gp016;product=NdhH;protein_id=YP_009305368.1;transl_table=11
+NC_031333.1	RefSeq	gene	114000	114272	.	-	.	ID=gene-AKK66_gp015;Dbxref=GeneID:29141445;Name=rps15;gbkey=Gene;gene=rps15;gene_biotype=protein_coding;locus_tag=AKK66_gp015
+NC_031333.1	RefSeq	CDS	114000	114272	.	-	0	ID=cds-YP_009305369.1;Parent=gene-AKK66_gp015;Dbxref=GenBank:YP_009305369.1,GeneID:29141445;Name=YP_009305369.1;gbkey=CDS;gene=rps15;locus_tag=AKK66_gp015;product=ribosomal protein S15;protein_id=YP_009305369.1;transl_table=11
+NC_031333.1	RefSeq	gene	114693	114884	.	-	.	ID=gene-AKK66_gp014;Dbxref=GeneID:29141446;Name=orf63;gbkey=Gene;gene=orf63;gene_biotype=protein_coding;locus_tag=AKK66_gp014
+NC_031333.1	RefSeq	CDS	114693	114884	.	-	0	ID=cds-YP_009305370.1;Parent=gene-AKK66_gp014;Dbxref=GenBank:YP_009305370.1,GeneID:29141446;Name=YP_009305370.1;gbkey=CDS;gene=orf63;locus_tag=AKK66_gp014;product=orf63;protein_id=YP_009305370.1;transl_table=11
+NC_031333.1	RefSeq	gene	115349	115468	.	-	.	ID=gene-AKK66_gp013;Dbxref=GeneID:29141447;Name=orf39;gbkey=Gene;gene=orf39;gene_biotype=protein_coding;locus_tag=AKK66_gp013
+NC_031333.1	RefSeq	CDS	115349	115468	.	-	0	ID=cds-YP_009305371.1;Parent=gene-AKK66_gp013;Dbxref=GenBank:YP_009305371.1,GeneID:29141447;Name=YP_009305371.1;gbkey=CDS;gene=orf39;locus_tag=AKK66_gp013;product=orf39;protein_id=YP_009305371.1;transl_table=11
+NC_031333.1	RefSeq	gene	115804	115875	.	+	.	ID=gene-AKK66_gt033;Dbxref=GeneID:29141448;Name=trnN-GUU;gbkey=Gene;gene=trnN-GUU;gene_biotype=tRNA;locus_tag=AKK66_gt033
+NC_031333.1	RefSeq	tRNA	115804	115875	.	+	.	ID=rna-AKK66_gt033;Parent=gene-AKK66_gt033;Dbxref=GeneID:29141448;gbkey=tRNA;gene=trnN-GUU;locus_tag=AKK66_gt033;product=tRNA-Asn
+NC_031333.1	RefSeq	exon	115804	115875	.	+	.	ID=exon-AKK66_gt033-1;Parent=rna-AKK66_gt033;Dbxref=GeneID:29141448;gbkey=tRNA;gene=trnN-GUU;locus_tag=AKK66_gt033;product=tRNA-Asn
+NC_031333.1	RefSeq	gene	116004	116075	.	-	.	ID=gene-AKK66_gp012;Dbxref=GeneID:29141449;Name=orf23;gbkey=Gene;gene=orf23;gene_biotype=protein_coding;locus_tag=AKK66_gp012
+NC_031333.1	RefSeq	CDS	116004	116075	.	-	0	ID=cds-YP_009305372.1;Parent=gene-AKK66_gp012;Dbxref=GenBank:YP_009305372.1,GeneID:29141449;Name=YP_009305372.1;gbkey=CDS;gene=orf23;locus_tag=AKK66_gp012;product=orf23;protein_id=YP_009305372.1;transl_table=11
+NC_031333.1	RefSeq	gene	116128	116201	.	-	.	ID=gene-AKK66_gt034;Dbxref=GeneID:29141450;Name=trnR-ACG;gbkey=Gene;gene=trnR-ACG;gene_biotype=tRNA;locus_tag=AKK66_gt034
+NC_031333.1	RefSeq	tRNA	116128	116201	.	-	.	ID=rna-AKK66_gt034;Parent=gene-AKK66_gt034;Dbxref=GeneID:29141450;gbkey=tRNA;gene=trnR-ACG;locus_tag=AKK66_gt034;product=tRNA-Arg
+NC_031333.1	RefSeq	exon	116128	116201	.	-	.	ID=exon-AKK66_gt034-1;Parent=rna-AKK66_gt034;Dbxref=GeneID:29141450;gbkey=tRNA;gene=trnR-ACG;locus_tag=AKK66_gt034;product=tRNA-Arg
+NC_031333.1	RefSeq	gene	116460	116580	.	-	.	ID=gene-AKK66_gr004;Dbxref=GeneID:29141451;Name=AKK66_gr004;gbkey=Gene;gene_biotype=rRNA;locus_tag=AKK66_gr004
+NC_031333.1	RefSeq	rRNA	116460	116580	.	-	.	ID=rna-AKK66_gr004;Parent=gene-AKK66_gr004;Dbxref=GeneID:29141451;gbkey=rRNA;locus_tag=AKK66_gr004;product=5S ribosomal RNA
+NC_031333.1	RefSeq	exon	116460	116580	.	-	.	ID=exon-AKK66_gr004-1;Parent=rna-AKK66_gr004;Dbxref=GeneID:29141451;gbkey=rRNA;locus_tag=AKK66_gr004;product=5S ribosomal RNA
+NC_031333.1	RefSeq	gene	116808	116902	.	-	.	ID=gene-AKK66_gr003;Dbxref=GeneID:29141472;Name=AKK66_gr003;gbkey=Gene;gene_biotype=rRNA;locus_tag=AKK66_gr003
+NC_031333.1	RefSeq	rRNA	116808	116902	.	-	.	ID=rna-AKK66_gr003;Parent=gene-AKK66_gr003;Dbxref=GeneID:29141472;gbkey=rRNA;locus_tag=AKK66_gr003;product=4.5S ribosomal RNA
+NC_031333.1	RefSeq	exon	116808	116902	.	-	.	ID=exon-AKK66_gr003-1;Parent=rna-AKK66_gr003;Dbxref=GeneID:29141472;gbkey=rRNA;locus_tag=AKK66_gr003;product=4.5S ribosomal RNA
+NC_031333.1	RefSeq	gene	116998	119885	.	-	.	ID=gene-AKK66_gr002;Dbxref=GeneID:29141473;Name=AKK66_gr002;gbkey=Gene;gene_biotype=rRNA;locus_tag=AKK66_gr002
+NC_031333.1	RefSeq	rRNA	116998	119885	.	-	.	ID=rna-AKK66_gr002;Parent=gene-AKK66_gr002;Dbxref=GeneID:29141473;gbkey=rRNA;locus_tag=AKK66_gr002;product=23S ribosomal RNA
+NC_031333.1	RefSeq	exon	116998	119885	.	-	.	ID=exon-AKK66_gr002-1;Parent=rna-AKK66_gr002;Dbxref=GeneID:29141473;gbkey=rRNA;locus_tag=AKK66_gr002;product=23S ribosomal RNA
+NC_031333.1	RefSeq	gene	120031	120914	.	-	.	ID=gene-AKK66_gt035;Dbxref=GeneID:29141474;Name=trnA-UGC;gbkey=Gene;gene=trnA-UGC;gene_biotype=tRNA;locus_tag=AKK66_gt035
+NC_031333.1	RefSeq	tRNA	120031	120914	.	-	.	ID=rna-AKK66_gt035;Parent=gene-AKK66_gt035;Dbxref=GeneID:29141474;gbkey=tRNA;gene=trnA-UGC;locus_tag=AKK66_gt035;product=tRNA-Ala
+NC_031333.1	RefSeq	exon	120877	120914	.	-	.	ID=exon-AKK66_gt035-1;Parent=rna-AKK66_gt035;Dbxref=GeneID:29141474;gbkey=tRNA;gene=trnA-UGC;locus_tag=AKK66_gt035;product=tRNA-Ala
+NC_031333.1	RefSeq	exon	120031	120065	.	-	.	ID=exon-AKK66_gt035-2;Parent=rna-AKK66_gt035;Dbxref=GeneID:29141474;gbkey=tRNA;gene=trnA-UGC;locus_tag=AKK66_gt035;product=tRNA-Ala
+NC_031333.1	RefSeq	gene	120979	121997	.	-	.	ID=gene-AKK66_gt036;Dbxref=GeneID:29141452;Name=trnI-GAU;gbkey=Gene;gene=trnI-GAU;gene_biotype=tRNA;locus_tag=AKK66_gt036
+NC_031333.1	RefSeq	tRNA	120979	121997	.	-	.	ID=rna-AKK66_gt036;Parent=gene-AKK66_gt036;Dbxref=GeneID:29141452;gbkey=tRNA;gene=trnI-GAU;locus_tag=AKK66_gt036;product=tRNA-Ile
+NC_031333.1	RefSeq	exon	121956	121997	.	-	.	ID=exon-AKK66_gt036-1;Parent=rna-AKK66_gt036;Dbxref=GeneID:29141452;gbkey=tRNA;gene=trnI-GAU;locus_tag=AKK66_gt036;product=tRNA-Ile
+NC_031333.1	RefSeq	exon	120979	121013	.	-	.	ID=exon-AKK66_gt036-2;Parent=rna-AKK66_gt036;Dbxref=GeneID:29141452;gbkey=tRNA;gene=trnI-GAU;locus_tag=AKK66_gt036;product=tRNA-Ile
+NC_031333.1	RefSeq	gene	122308	123798	.	-	.	ID=gene-AKK66_gr001;Dbxref=GeneID:29141453;Name=AKK66_gr001;gbkey=Gene;gene_biotype=rRNA;locus_tag=AKK66_gr001
+NC_031333.1	RefSeq	rRNA	122308	123798	.	-	.	ID=rna-AKK66_gr001;Parent=gene-AKK66_gr001;Dbxref=GeneID:29141453;gbkey=rRNA;locus_tag=AKK66_gr001;product=16S ribosomal RNA
+NC_031333.1	RefSeq	exon	122308	123798	.	-	.	ID=exon-AKK66_gr001-1;Parent=rna-AKK66_gr001;Dbxref=GeneID:29141453;gbkey=rRNA;locus_tag=AKK66_gr001;product=16S ribosomal RNA
+NC_031333.1	RefSeq	gene	124030	124101	.	-	.	ID=gene-AKK66_gt037;Dbxref=GeneID:29141475;Name=trnV-GAC;gbkey=Gene;gene=trnV-GAC;gene_biotype=tRNA;locus_tag=AKK66_gt037
+NC_031333.1	RefSeq	tRNA	124030	124101	.	-	.	ID=rna-AKK66_gt037;Parent=gene-AKK66_gt037;Dbxref=GeneID:29141475;gbkey=tRNA;gene=trnV-GAC;locus_tag=AKK66_gt037;product=tRNA-Val
+NC_031333.1	RefSeq	exon	124030	124101	.	-	.	ID=exon-AKK66_gt037-1;Parent=rna-AKK66_gt037;Dbxref=GeneID:29141475;gbkey=tRNA;gene=trnV-GAC;locus_tag=AKK66_gt037;product=tRNA-Val
+NC_031333.1	RefSeq	gene	126684	127154	.	+	.	ID=gene-AKK66_gp011;Dbxref=GeneID:29141454;Name=rps7;gbkey=Gene;gene=rps7;gene_biotype=protein_coding;locus_tag=AKK66_gp011
+NC_031333.1	RefSeq	CDS	126684	127154	.	+	0	ID=cds-YP_009305373.1;Parent=gene-AKK66_gp011;Dbxref=GenBank:YP_009305373.1,GeneID:29141454;Name=YP_009305373.1;gbkey=CDS;gene=rps7;locus_tag=AKK66_gp011;product=ribosomal protein S7;protein_id=YP_009305373.1;transl_table=11
+NC_031333.1	RefSeq	gene	127454	129698	.	+	.	ID=gene-AKK66_gp010;Dbxref=GeneID:29141455;Name=ndhB;gbkey=Gene;gene=ndhB;gene_biotype=protein_coding;locus_tag=AKK66_gp010
+NC_031333.1	RefSeq	CDS	127454	128230	.	+	0	ID=cds-YP_009305374.1;Parent=gene-AKK66_gp010;Dbxref=GenBank:YP_009305374.1,GeneID:29141455;Name=YP_009305374.1;gbkey=CDS;gene=ndhB;locus_tag=AKK66_gp010;product=NdhB;protein_id=YP_009305374.1;transl_table=11
+NC_031333.1	RefSeq	CDS	128943	129698	.	+	0	ID=cds-YP_009305374.1;Parent=gene-AKK66_gp010;Dbxref=GenBank:YP_009305374.1,GeneID:29141455;Name=YP_009305374.1;gbkey=CDS;gene=ndhB;locus_tag=AKK66_gp010;product=NdhB;protein_id=YP_009305374.1;transl_table=11
+NC_031333.1	RefSeq	gene	130302	130382	.	+	.	ID=gene-AKK66_gt038;Dbxref=GeneID:29141456;Name=trnL-CAA;gbkey=Gene;gene=trnL-CAA;gene_biotype=tRNA;locus_tag=AKK66_gt038
+NC_031333.1	RefSeq	tRNA	130302	130382	.	+	.	ID=rna-AKK66_gt038;Parent=gene-AKK66_gt038;Dbxref=GeneID:29141456;gbkey=tRNA;gene=trnL-CAA;locus_tag=AKK66_gt038;product=tRNA-Leu
+NC_031333.1	RefSeq	exon	130302	130382	.	+	.	ID=exon-AKK66_gt038-1;Parent=rna-AKK66_gt038;Dbxref=GeneID:29141456;gbkey=tRNA;gene=trnL-CAA;locus_tag=AKK66_gt038;product=tRNA-Leu
+NC_031333.1	RefSeq	gene	130347	131015	.	-	.	ID=gene-AKK66_gp009;Dbxref=GeneID:29141457;Name=orf222;gbkey=Gene;gene=orf222;gene_biotype=protein_coding;locus_tag=AKK66_gp009
+NC_031333.1	RefSeq	CDS	130347	131015	.	-	0	ID=cds-YP_009305375.1;Parent=gene-AKK66_gp009;Dbxref=GenBank:YP_009305375.1,GeneID:29141457;Name=YP_009305375.1;gbkey=CDS;gene=orf222;locus_tag=AKK66_gp009;product=orf222;protein_id=YP_009305375.1;transl_table=11
+NC_031333.1	RefSeq	gene	131214	131408	.	-	.	ID=gene-AKK66_gp008;Dbxref=GeneID:29141458;Name=orf64;gbkey=Gene;gene=orf64;gene_biotype=protein_coding;locus_tag=AKK66_gp008
+NC_031333.1	RefSeq	CDS	131214	131408	.	-	0	ID=cds-YP_009305376.1;Parent=gene-AKK66_gp008;Dbxref=GenBank:YP_009305376.1,GeneID:29141458;Name=YP_009305376.1;gbkey=CDS;gene=orf64;locus_tag=AKK66_gp008;product=orf64;protein_id=YP_009305376.1;transl_table=11
+NC_031333.1	RefSeq	gene	131473	131559	.	-	.	ID=gene-AKK66_gp007;Dbxref=GeneID:29141459;Name=orf28;gbkey=Gene;gene=orf28;gene_biotype=protein_coding;locus_tag=AKK66_gp007
+NC_031333.1	RefSeq	CDS	131473	131559	.	-	0	ID=cds-YP_009305377.1;Parent=gene-AKK66_gp007;Dbxref=GenBank:YP_009305377.1,GeneID:29141459;Name=YP_009305377.1;gbkey=CDS;gene=orf28;locus_tag=AKK66_gp007;product=orf28;protein_id=YP_009305377.1;transl_table=11
+NC_031333.1	RefSeq	gene	131590	131694	.	-	.	ID=gene-AKK66_gp006;Dbxref=GeneID:29141460;Name=orf34;gbkey=Gene;gene=orf34;gene_biotype=protein_coding;locus_tag=AKK66_gp006
+NC_031333.1	RefSeq	CDS	131590	131694	.	-	0	ID=cds-YP_009305378.1;Parent=gene-AKK66_gp006;Dbxref=GenBank:YP_009305378.1,GeneID:29141460;Name=YP_009305378.1;gbkey=CDS;gene=orf34;locus_tag=AKK66_gp006;product=orf34;protein_id=YP_009305378.1;transl_table=11
+NC_031333.1	RefSeq	gene	131676	131816	.	-	.	ID=gene-AKK66_gp005;Dbxref=GeneID:29141461;Name=orf46;gbkey=Gene;gene=orf46;gene_biotype=protein_coding;locus_tag=AKK66_gp005
+NC_031333.1	RefSeq	CDS	131676	131816	.	-	0	ID=cds-YP_009305379.1;Parent=gene-AKK66_gp005;Dbxref=GenBank:YP_009305379.1,GeneID:29141461;Name=YP_009305379.1;gbkey=CDS;gene=orf46;locus_tag=AKK66_gp005;product=orf46;protein_id=YP_009305379.1;transl_table=11
+NC_031333.1	RefSeq	gene	131881	131954	.	+	.	ID=gene-AKK66_gt039;Dbxref=GeneID:29141462;Name=trnI-CAU;gbkey=Gene;gene=trnI-CAU;gene_biotype=tRNA;locus_tag=AKK66_gt039
+NC_031333.1	RefSeq	tRNA	131881	131954	.	+	.	ID=rna-AKK66_gt039;Parent=gene-AKK66_gt039;Dbxref=GeneID:29141462;gbkey=tRNA;gene=trnI-CAU;locus_tag=AKK66_gt039;product=tRNA-Ile
+NC_031333.1	RefSeq	exon	131881	131954	.	+	.	ID=exon-AKK66_gt039-1;Parent=rna-AKK66_gt039;Dbxref=GeneID:29141462;gbkey=tRNA;gene=trnI-CAU;locus_tag=AKK66_gt039;product=tRNA-Ile
+NC_031333.1	RefSeq	gene	132129	132410	.	+	.	ID=gene-AKK66_gp004;Dbxref=GeneID:29141463;Name=rpl23;gbkey=Gene;gene=rpl23;gene_biotype=protein_coding;locus_tag=AKK66_gp004
+NC_031333.1	RefSeq	CDS	132129	132410	.	+	0	ID=cds-YP_009305380.1;Parent=gene-AKK66_gp004;Dbxref=GenBank:YP_009305380.1,GeneID:29141463;Name=YP_009305380.1;gbkey=CDS;gene=rpl23;locus_tag=AKK66_gp004;product=ribosomal protein L23;protein_id=YP_009305380.1;transl_table=11
+NC_031333.1	RefSeq	gene	132429	133913	.	+	.	ID=gene-AKK66_gp003;Dbxref=GeneID:29141464;Name=rpl2;gbkey=Gene;gene=rpl2;gene_biotype=protein_coding;locus_tag=AKK66_gp003
+NC_031333.1	RefSeq	CDS	132429	132821	.	+	0	ID=cds-YP_009305381.1;Parent=gene-AKK66_gp003;Dbxref=GenBank:YP_009305381.1,GeneID:29141464;Name=YP_009305381.1;exception=RNA Editing;gbkey=CDS;gene=rpl2;locus_tag=AKK66_gp003;product=ribosomal protein L2;protein_id=YP_009305381.1;transl_table=11
+NC_031333.1	RefSeq	CDS	133482	133913	.	+	0	ID=cds-YP_009305381.1;Parent=gene-AKK66_gp003;Dbxref=GenBank:YP_009305381.1,GeneID:29141464;Name=YP_009305381.1;exception=RNA Editing;gbkey=CDS;gene=rpl2;locus_tag=AKK66_gp003;product=ribosomal protein L2;protein_id=YP_009305381.1;transl_table=11
+NC_031333.1	RefSeq	gene	133969	134043	.	-	.	ID=gene-AKK66_gt040;Dbxref=GeneID:29141465;Name=trnH-GUG;gbkey=Gene;gene=trnH-GUG;gene_biotype=tRNA;locus_tag=AKK66_gt040
+NC_031333.1	RefSeq	tRNA	133969	134043	.	-	.	ID=rna-AKK66_gt040;Parent=gene-AKK66_gt040;Dbxref=GeneID:29141465;gbkey=tRNA;gene=trnH-GUG;locus_tag=AKK66_gt040;product=tRNA-His
+NC_031333.1	RefSeq	exon	133969	134043	.	-	.	ID=exon-AKK66_gt040-1;Parent=rna-AKK66_gt040;Dbxref=GeneID:29141465;gbkey=tRNA;gene=trnH-GUG;locus_tag=AKK66_gt040;product=tRNA-His
+NC_031333.1	RefSeq	gene	134175	134456	.	+	.	ID=gene-AKK66_gp002;Dbxref=GeneID:29141466;Name=rps19;gbkey=Gene;gene=rps19;gene_biotype=protein_coding;locus_tag=AKK66_gp002
+NC_031333.1	RefSeq	CDS	134175	134456	.	+	0	ID=cds-YP_009305382.1;Parent=gene-AKK66_gp002;Dbxref=GenBank:YP_009305382.1,GeneID:29141466;Name=YP_009305382.1;gbkey=CDS;gene=rps19;locus_tag=AKK66_gp002;product=ribosomal protein S19;protein_id=YP_009305382.1;transl_table=11
+

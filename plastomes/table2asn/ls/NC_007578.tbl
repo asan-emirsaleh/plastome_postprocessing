@@ -1,0 +1,1415 @@
+>Feature NC_007578
+69705	69592	gene
+98040	97798
+			db_xref	GeneID:3772827
+			trans_splicing	
+			gene	rps12
+			locus_tag	LasaCp046
+69705	69592	CDS
+98040	97798
+			note	trans splicing 5'rps12 and 3'rps12 in IRB
+			codon_start	1
+			db_xref	GeneID:3772827
+			trans_splicing	
+			product	ribosomal protein S12
+			protein_id	YP_398307.1
+			gene	rps12
+			locus_tag	LasaCp046
+84	14	gene
+			db_xref	GeneID:3772808
+			gene	trnH
+			locus_tag	LasaCt001
+84	14	tRNA
+			db_xref	GeneID:3772808
+			product	tRNA-His
+			gene	trnH
+			locus_tag	LasaCt001
+1540	479	gene
+			db_xref	GeneID:3772788
+			gene	psbA
+			locus_tag	LasaCp001
+1540	479	CDS
+			codon_start	1
+			db_xref	GeneID:3772788
+			product	photosystem II protein D1
+			protein_id	YP_398309.1
+			gene	psbA
+			locus_tag	LasaCp001
+4373	1766	gene
+			db_xref	GeneID:3772873
+			gene	trnK
+			locus_tag	LasaCt002
+4373	1766	tRNA
+			db_xref	GeneID:3772873
+			product	tRNA-Lys
+			gene	trnK
+			locus_tag	LasaCt002
+3603	2083	gene
+			db_xref	GeneID:3772834
+			gene	matK
+			locus_tag	LasaCp002
+3603	2083	CDS
+			codon_start	1
+			db_xref	GeneID:3772834
+			product	maturase K
+			protein_id	YP_398310.1
+			gene	matK
+			locus_tag	LasaCp002
+6302	5188	gene
+			db_xref	GeneID:3772849
+			gene	rps16
+			locus_tag	LasaCp003
+6302	6263	CDS
+5414	5188
+			codon_start	1
+			db_xref	GeneID:3772849
+			product	ribosomal protein S16
+			protein_id	YP_398311.1
+			gene	rps16
+			locus_tag	LasaCp003
+7333	7261	gene
+			db_xref	GeneID:3772885
+			gene	trnQ
+			locus_tag	LasaCt003
+7333	7261	tRNA
+			db_xref	GeneID:3772885
+			product	tRNA-Gln
+			gene	trnQ
+			locus_tag	LasaCt003
+7699	7878	gene
+			db_xref	GeneID:3772791
+			gene	psbK
+			locus_tag	LasaCp004
+7699	7878	CDS
+			note	PSII K protein
+			codon_start	1
+			db_xref	GeneID:3772791
+			product	photosystem II protein K
+			protein_id	YP_398312.1
+			gene	psbK
+			locus_tag	LasaCp004
+8283	8393	gene
+			db_xref	GeneID:3772843
+			gene	psbI
+			locus_tag	LasaCp005
+8283	8393	CDS
+			codon_start	1
+			db_xref	GeneID:3772843
+			product	photosystem II protein I
+			protein_id	YP_398313.1
+			gene	psbI
+			locus_tag	LasaCp005
+8636	8548	gene
+			db_xref	GeneID:3772869
+			gene	trnS
+			locus_tag	LasaCt004
+8636	8548	tRNA
+			db_xref	GeneID:3772869
+			product	tRNA-Ser
+			gene	trnS
+			locus_tag	LasaCt004
+9388	9458	gene
+			db_xref	GeneID:3772802
+			gene	trnC
+			locus_tag	LasaCt005
+9388	9458	tRNA
+			db_xref	GeneID:3772802
+			product	tRNA-Cys
+			gene	trnC
+			locus_tag	LasaCt005
+10290	10379	gene
+			db_xref	GeneID:3772841
+			gene	petN
+			gene_synonym	ycf6
+			locus_tag	LasaCp006
+10290	10379	CDS
+			note	cytochrome b6/f complex subunit N
+			codon_start	1
+			db_xref	GeneID:3772841
+			product	cytochrome b6/f complex subunit VIII
+			protein_id	YP_398314.1
+			gene	petN
+			gene_synonym	ycf6
+			locus_tag	LasaCp006
+10976	10872	gene
+			db_xref	GeneID:3772828
+			gene	psbM
+			locus_tag	LasaCp007
+10976	10872	CDS
+			codon_start	1
+			db_xref	GeneID:3772828
+			product	photosystem II protein M
+			protein_id	YP_398315.1
+			gene	psbM
+			locus_tag	LasaCp007
+11715	11641	gene
+			db_xref	GeneID:3772803
+			gene	trnD
+			locus_tag	LasaCt006
+11715	11641	tRNA
+			db_xref	GeneID:3772803
+			product	tRNA-Asp
+			gene	trnD
+			locus_tag	LasaCt006
+11912	11829	gene
+			db_xref	GeneID:3772782
+			gene	trnY
+			locus_tag	LasaCt007
+11912	11829	tRNA
+			db_xref	GeneID:3772782
+			product	tRNA-Tyr
+			gene	trnY
+			locus_tag	LasaCt007
+12087	12016	gene
+			db_xref	GeneID:3772804
+			gene	trnE
+			locus_tag	LasaCt008
+12087	12016	tRNA
+			db_xref	GeneID:3772804
+			product	tRNA-Glu
+			gene	trnE
+			locus_tag	LasaCt008
+13019	16201	gene
+			db_xref	GeneID:3772845
+			gene	rpoB
+			locus_tag	LasaCp008
+13019	16201	CDS
+			note	RNA polymerase beta chain; one of four subunits of the minimal PEP RNA polymerase catalytic core
+			codon_start	1
+			db_xref	GeneID:3772845
+			product	RNA polymerase beta subunit
+			protein_id	YP_398316.1
+			gene	rpoB
+			locus_tag	LasaCp008
+16228	19030	gene
+			db_xref	GeneID:3772823
+			gene	rpoC1
+			locus_tag	LasaCp009
+16228	16656	CDS
+17390	19030
+			note	RNA polymerase beta' chain
+			codon_start	1
+			db_xref	GeneID:3772823
+			product	RNA polymerase beta' subunit
+			protein_id	YP_398317.1
+			gene	rpoC1
+			locus_tag	LasaCp009
+19132	23277	gene
+			db_xref	GeneID:3772824
+			gene	rpoC2
+			locus_tag	LasaCp010
+19132	23277	CDS
+			note	RNA polymerase beta'' chain; one of four subunits of the minimal PEP RNA polymerase catalytic core
+			codon_start	1
+			db_xref	GeneID:3772824
+			product	RNA polymerase beta'' subunit
+			protein_id	YP_398318.1
+			gene	rpoC2
+			locus_tag	LasaCp010
+23519	24229	gene
+			db_xref	GeneID:3772825
+			gene	rps2
+			locus_tag	LasaCp011
+23519	24229	CDS
+			note	30S ribosomal protein S2
+			codon_start	1
+			db_xref	GeneID:3772825
+			product	ribosomal protein S2
+			protein_id	YP_398319.1
+			gene	rps2
+			locus_tag	LasaCp011
+24446	25189	gene
+			db_xref	GeneID:3772794
+			gene	atpI
+			locus_tag	LasaCp012
+24446	25189	CDS
+			note	ATPase IV subunit; ATP synthase CF0 A chain
+			codon_start	1
+			db_xref	GeneID:3772794
+			product	ATP synthase CF0 A subunit
+			protein_id	YP_398320.1
+			gene	atpI
+			locus_tag	LasaCp012
+26326	26571	gene
+			db_xref	GeneID:3772898
+			gene	atpH
+			locus_tag	LasaCp013
+26326	26571	CDS
+			note	ATPase III subunit; ATP synthase CF0 C chain
+			codon_start	1
+			db_xref	GeneID:3772898
+			product	ATP synthase CF0 C subunit
+			protein_id	YP_398321.1
+			gene	atpH
+			locus_tag	LasaCp013
+26946	28217	gene
+			db_xref	GeneID:3772897
+			gene	atpF
+			locus_tag	LasaCp014
+26946	27089	CDS
+27807	28217
+			note	ATPase subunit I
+			codon_start	1
+			db_xref	GeneID:3772897
+			product	ATP synthase CF0 B subunit
+			protein_id	YP_398322.1
+			gene	atpF
+			locus_tag	LasaCp014
+28282	29808	gene
+			db_xref	GeneID:3772896
+			gene	atpA
+			locus_tag	LasaCp015
+28282	29808	CDS
+			note	ATP synthase CF1 alpha chain; ATPase alpha subunit
+			codon_start	1
+			db_xref	GeneID:3772896
+			product	ATP synthase CF1 alpha subunit
+			protein_id	YP_398323.1
+			gene	atpA
+			locus_tag	LasaCp015
+30006	29935	gene
+			db_xref	GeneID:3772888
+			gene	trnR
+			locus_tag	LasaCt009
+30006	29935	tRNA
+			db_xref	GeneID:3772888
+			product	tRNA-Arg
+			gene	trnR
+			locus_tag	LasaCt009
+30989	30210	gene
+			db_xref	GeneID:3772807
+			gene	trnG
+			locus_tag	LasaCt010
+30989	30967	tRNA
+30256	30210
+			db_xref	GeneID:3772807
+			product	tRNA-Gly
+			gene	trnG
+			locus_tag	LasaCt010
+31158	31229	gene
+			db_xref	GeneID:3772776
+			gene	trnT
+			locus_tag	LasaCt011
+31158	31229	tRNA
+			db_xref	GeneID:3772776
+			product	tRNA-Thr
+			gene	trnT
+			locus_tag	LasaCt011
+32456	33517	gene
+			db_xref	GeneID:3772893
+			gene	psbD
+			locus_tag	LasaCp016
+32456	33517	CDS
+			codon_start	1
+			db_xref	GeneID:3772893
+			product	photosystem II protein D2
+			protein_id	YP_398324.2
+			gene	psbD
+			locus_tag	LasaCp016
+33465	34886	gene
+			db_xref	GeneID:3772837
+			gene	psbC
+			locus_tag	LasaCp017
+33465	34886	CDS
+			note	PSII 43 kDa protein; CP43
+			codon_start	1
+			db_xref	GeneID:3772837
+			product	photosystem II 44 kDa protein
+			protein_id	YP_398325.1
+			gene	psbC
+			locus_tag	LasaCp017
+35202	35120	gene
+			db_xref	GeneID:3772870
+			gene	trnS
+			locus_tag	LasaCt012
+35202	35120	tRNA
+			db_xref	GeneID:3772870
+			product	tRNA-Ser
+			gene	trnS
+			locus_tag	LasaCt012
+35540	35728	gene
+			db_xref	GeneID:3772836
+			gene	psbZ
+			locus_tag	LasaCp018
+35540	35728	CDS
+			note	photosystem II reaction center Z protein; YCF9
+			codon_start	1
+			db_xref	GeneID:3772836
+			product	photosystem II protein Z
+			protein_id	YP_398326.1
+			gene	psbZ
+			locus_tag	LasaCp018
+36036	36106	gene
+			db_xref	GeneID:3772806
+			gene	trnG
+			locus_tag	LasaCt013
+36036	36106	tRNA
+			db_xref	GeneID:3772806
+			product	tRNA-Gly
+			gene	trnG
+			locus_tag	LasaCt013
+36380	36307	gene
+			db_xref	GeneID:3772880
+			gene	trnM
+			locus_tag	LasaCt014
+36380	36307	tRNA
+			db_xref	GeneID:3772880
+			product	tRNA-Met
+			gene	trnM
+			locus_tag	LasaCt014
+36837	36535	gene
+			db_xref	GeneID:3772787
+			gene	rps14
+			locus_tag	LasaCp019
+36837	36535	CDS
+			note	30S ribosomal protein S14
+			codon_start	1
+			db_xref	GeneID:3772787
+			product	ribosomal protein S14
+			protein_id	YP_398327.1
+			gene	rps14
+			locus_tag	LasaCp019
+39175	36971	gene
+			db_xref	GeneID:3772789
+			gene	psaB
+			locus_tag	LasaCp020
+39175	36971	CDS
+			note	PSI P700 apoprotein A2; PsaB
+			codon_start	1
+			db_xref	GeneID:3772789
+			product	photosystem I P700 chlorophyll a apoprotein A2
+			protein_id	YP_398328.1
+			gene	psaB
+			locus_tag	LasaCp020
+41453	39201	gene
+			db_xref	GeneID:3772830
+			gene	psaA
+			locus_tag	LasaCp021
+41453	39201	CDS
+			note	PSI P700 apoprotein A1; PsaA
+			codon_start	1
+			db_xref	GeneID:3772830
+			product	photosystem I P700 chlorophyll a apoprotein A1
+			protein_id	YP_398329.1
+			gene	psaA
+			locus_tag	LasaCp021
+43301	43053	gene
+			db_xref	GeneID:3772829
+			gene	ycf3
+			locus_tag	LasaCp022
+43301	43053	CDS
+			codon_start	1
+			db_xref	GeneID:3772829
+			product	photosystem I assembly protein Ycf3
+			protein_id	YP_398330.1
+			gene	ycf3
+			locus_tag	LasaCp022
+45004	45090	gene
+			db_xref	GeneID:3772889
+			gene	trnS
+			locus_tag	LasaCt015
+45004	45090	tRNA
+			db_xref	GeneID:3772889
+			product	tRNA-Ser
+			gene	trnS
+			locus_tag	LasaCt015
+46027	45422	gene
+			db_xref	GeneID:3772785
+			gene	rps4
+			locus_tag	LasaCp023
+46027	45422	CDS
+			codon_start	1
+			db_xref	GeneID:3772785
+			product	ribosomal protein S4
+			protein_id	YP_398331.1
+			gene	rps4
+			locus_tag	LasaCp023
+46443	46371	gene
+			db_xref	GeneID:3772777
+			gene	trnT
+			locus_tag	LasaCt016
+46443	46371	tRNA
+			db_xref	GeneID:3772777
+			product	tRNA-Thr
+			gene	trnT
+			locus_tag	LasaCt016
+47000	47526	gene
+			db_xref	GeneID:3772874
+			gene	trnL
+			locus_tag	LasaCt017
+47000	47034	tRNA
+47477	47526
+			db_xref	GeneID:3772874
+			product	tRNA-Leu
+			gene	trnL
+			locus_tag	LasaCt017
+47867	47939	gene
+			db_xref	GeneID:3772805
+			gene	trnF
+			locus_tag	LasaCt018
+47867	47939	tRNA
+			db_xref	GeneID:3772805
+			product	tRNA-Phe
+			gene	trnF
+			locus_tag	LasaCt018
+49062	48586	gene
+			db_xref	GeneID:3772796
+			gene	ndhJ
+			locus_tag	LasaCp024
+49062	48586	CDS
+			note	NADH dehydrogenase 30 kDa subunit
+			codon_start	1
+			db_xref	GeneID:3772796
+			product	NADH dehydrogenase subunit J
+			protein_id	YP_398332.1
+			gene	ndhJ
+			locus_tag	LasaCp024
+49842	49165	gene
+			db_xref	GeneID:3772860
+			gene	ndhK
+			locus_tag	LasaCp025
+49842	49165	CDS
+			note	NADH dehydrogenase 27 kDa subunit
+			codon_start	1
+			db_xref	GeneID:3772860
+			product	NADH dehydrogenase subunit K
+			protein_id	YP_398333.1
+			gene	ndhK
+			locus_tag	LasaCp025
+50256	49894	gene
+			db_xref	GeneID:3772861
+			gene	ndhC
+			gene_synonym	ndh3
+			locus_tag	LasaCp026
+50256	49894	CDS
+			codon_start	1
+			db_xref	GeneID:3772861
+			product	NADH dehydrogenase subunit 3
+			protein_id	YP_398334.1
+			gene	ndhC
+			gene_synonym	ndh3
+			locus_tag	LasaCp026
+51941	51289	gene
+			db_xref	GeneID:3772779
+			gene	trnV
+			locus_tag	LasaCt019
+51941	51904	tRNA
+51323	51289
+			db_xref	GeneID:3772779
+			product	tRNA-Val
+			gene	trnV
+			locus_tag	LasaCt019
+52117	52189	gene
+			db_xref	GeneID:3772878
+			gene	trnM
+			locus_tag	LasaCt020
+52117	52189	tRNA
+			db_xref	GeneID:3772878
+			product	tRNA-Met
+			gene	trnM
+			locus_tag	LasaCt020
+52803	52402	gene
+			db_xref	GeneID:3772853
+			gene	atpE
+			locus_tag	LasaCp027
+52803	52402	CDS
+			note	ATP synthase epsilon chain
+			codon_start	1
+			db_xref	GeneID:3772853
+			product	ATP synthase CF1 epsilon subunit
+			protein_id	YP_398335.1
+			gene	atpE
+			locus_tag	LasaCp027
+54296	52800	gene
+			db_xref	GeneID:3772895
+			gene	atpB
+			locus_tag	LasaCp028
+54296	52800	CDS
+			note	ATPase beta chain
+			codon_start	1
+			db_xref	GeneID:3772895
+			product	ATP synthase CF1 beta subunit
+			protein_id	YP_398336.1
+			gene	atpB
+			locus_tag	LasaCp028
+55064	56497	gene
+			db_xref	GeneID:3772894
+			gene	rbcL
+			locus_tag	LasaCp029
+55064	56497	CDS
+			note	RuBisCO large subunit
+			codon_start	1
+			db_xref	GeneID:3772894
+			product	ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit
+			protein_id	YP_398337.1
+			gene	rbcL
+			locus_tag	LasaCp029
+56978	58570	gene
+			db_xref	GeneID:3772810
+			gene	accD
+			locus_tag	LasaCp030
+56978	58570	CDS
+			codon_start	1
+			db_xref	GeneID:3772810
+			product	acetyl-CoA carboxylase beta subunit
+			protein_id	YP_398338.1
+			gene	accD
+			locus_tag	LasaCp030
+59261	59371	gene
+			db_xref	GeneID:3772892
+			gene	psaI
+			locus_tag	LasaCp031
+59261	59371	CDS
+			codon_start	1
+			db_xref	GeneID:3772892
+			product	photosystem I subunit VIII
+			protein_id	YP_398339.1
+			gene	psaI
+			locus_tag	LasaCp031
+59772	60326	gene
+			db_xref	GeneID:3772832
+			gene	ycf4
+			locus_tag	LasaCp032
+59772	60326	CDS
+			codon_start	1
+			db_xref	GeneID:3772832
+			product	photosystem I assembly protein Ycf4
+			protein_id	YP_398340.1
+			gene	ycf4
+			locus_tag	LasaCp032
+61129	61818	gene
+			db_xref	GeneID:3772786
+			gene	cemA
+			gene_synonym	ycf10
+			locus_tag	LasaCp033
+61129	61818	CDS
+			note	heme-binding protein
+			codon_start	1
+			db_xref	GeneID:3772786
+			product	envelope membrane protein
+			protein_id	YP_398341.1
+			gene	cemA
+			gene_synonym	ycf10
+			locus_tag	LasaCp033
+62045	63007	gene
+			db_xref	GeneID:3772900
+			gene	petA
+			locus_tag	LasaCp034
+62045	63007	CDS
+			note	apocytochrome f precursor; component of cytochrome b6/f complex
+			codon_start	1
+			db_xref	GeneID:3772900
+			product	cytochrome f
+			protein_id	YP_398342.1
+			gene	petA
+			locus_tag	LasaCp034
+63905	63783	gene
+			db_xref	GeneID:3772862
+			gene	psbJ
+			locus_tag	LasaCp035
+63905	63783	CDS
+			note	photosystem II reaction center subunit X
+			codon_start	1
+			db_xref	GeneID:3772862
+			product	photosystem II protein J
+			protein_id	YP_398343.1
+			gene	psbJ
+			locus_tag	LasaCp035
+64170	64054	gene
+			db_xref	GeneID:3772842
+			gene	psbL
+			locus_tag	LasaCp036
+64170	64054	CDS
+			exception	RNA editing
+			note	PSII reaction center subunit XII
+			codon_start	1
+			db_xref	GeneID:3772842
+			product	photosystem II protein L
+			protein_id	YP_398344.1
+			gene	psbL
+			locus_tag	LasaCp036
+64312	64193	gene
+			db_xref	GeneID:3772844
+			gene	psbF
+			locus_tag	LasaCp037
+64312	64193	CDS
+			note	photosystem II reaction center subunit VI
+			codon_start	1
+			db_xref	GeneID:3772844
+			product	photosystem II protein VI
+			protein_id	YP_398345.1
+			gene	psbF
+			locus_tag	LasaCp037
+64573	64322	gene
+			db_xref	GeneID:3772839
+			gene	psbE
+			locus_tag	LasaCp038
+64573	64322	CDS
+			note	cytochrome b559 alpha subunit
+			codon_start	1
+			db_xref	GeneID:3772839
+			product	photosystem II protein V
+			protein_id	YP_398346.1
+			gene	psbE
+			locus_tag	LasaCp038
+65822	65917	gene
+			db_xref	GeneID:3772838
+			gene	petL
+			locus_tag	LasaCp039
+65822	65917	CDS
+			note	cytochrome b6/f complex 6
+			codon_start	1
+			db_xref	GeneID:3772838
+			product	cytochrome b6/f complex subunit VI
+			protein_id	YP_398347.1
+			gene	petL
+			locus_tag	LasaCp039
+66083	66196	gene
+			db_xref	GeneID:3772866
+			gene	petG
+			locus_tag	LasaCp040
+66083	66196	CDS
+			note	cytochrome B6-F complex subunit 5; required for the either the stability or assembly of the cytochrome b6/f complex
+			codon_start	1
+			db_xref	GeneID:3772866
+			product	cytochrome b6/f complex subunit V
+			protein_id	YP_398348.1
+			gene	petG
+			locus_tag	LasaCp040
+66392	66319	gene
+			db_xref	GeneID:3772781
+			gene	trnW
+			locus_tag	LasaCt021
+66392	66319	tRNA
+			db_xref	GeneID:3772781
+			product	tRNA-Trp
+			gene	trnW
+			locus_tag	LasaCt021
+66631	66558	gene
+			db_xref	GeneID:3772884
+			gene	trnP
+			locus_tag	LasaCt022
+66631	66558	tRNA
+			db_xref	GeneID:3772884
+			product	tRNA-Pro
+			gene	trnP
+			locus_tag	LasaCt022
+66941	67075	gene
+			db_xref	GeneID:3772865
+			gene	psaJ
+			locus_tag	LasaCp041
+66941	67075	CDS
+			note	photosystem I protein J
+			codon_start	1
+			db_xref	GeneID:3772865
+			product	photosystem I subunit IX
+			protein_id	YP_398349.1
+			gene	psaJ
+			locus_tag	LasaCp041
+67521	67727	gene
+			db_xref	GeneID:3772833
+			gene	rpl33
+			locus_tag	LasaCp042
+67521	67727	CDS
+			codon_start	1
+			db_xref	GeneID:3772833
+			product	ribosomal protein L33
+			protein_id	YP_398350.1
+			gene	rpl33
+			locus_tag	LasaCp042
+67909	68214	gene
+			db_xref	GeneID:3772820
+			gene	rps18
+			locus_tag	LasaCp043
+67909	68214	CDS
+			note	30S ribosomal protein S18
+			codon_start	1
+			db_xref	GeneID:3772820
+			product	ribosomal protein S18
+			protein_id	YP_398351.1
+			gene	rps18
+			locus_tag	LasaCp043
+68843	68463	gene
+			db_xref	GeneID:3772792
+			gene	rpl20
+			locus_tag	LasaCp044
+68843	68463	CDS
+			note	50S ribosomal protein L20
+			codon_start	1
+			db_xref	GeneID:3772792
+			product	ribosomal protein L20
+			protein_id	YP_398352.1
+			gene	rpl20
+			locus_tag	LasaCp044
+69705	69592	gene
+138829	139071
+			db_xref	GeneID:3772815
+			trans_splicing	
+			gene	rps12
+			locus_tag	LasaCp045
+69705	69592	CDS
+138829	139071
+			note	trans splicing 5'rps12 and 3'rps12 in IRA
+			codon_start	1
+			db_xref	GeneID:3772815
+			trans_splicing	
+			product	ribosomal protein S12
+			protein_id	YP_398308.1
+			gene	rps12
+			locus_tag	LasaCp045
+71903	69872	gene
+			db_xref	GeneID:3772847
+			gene	clpP
+			locus_tag	LasaCp047
+71903	71833	CDS
+71024	70733
+70099	69872
+			codon_start	1
+			db_xref	GeneID:3772847
+			product	ATP-dependent Clp protease proteolytic subunit
+			protein_id	YP_398353.1
+			gene	clpP
+			locus_tag	LasaCp047
+72372	73898	gene
+			db_xref	GeneID:3772835
+			gene	psbB
+			locus_tag	LasaCp048
+72372	73898	CDS
+			note	photosystem II P680 chlorophyll A apoprotein; PSII 47 kDa protein
+			codon_start	1
+			db_xref	GeneID:3772835
+			product	photosystem II 47 kDa protein
+			protein_id	YP_398354.1
+			gene	psbB
+			locus_tag	LasaCp048
+74081	74182	gene
+			db_xref	GeneID:3772809
+			gene	psbT
+			locus_tag	LasaCp049
+74081	74182	CDS
+			codon_start	1
+			db_xref	GeneID:3772809
+			product	photosystem II protein T
+			protein_id	YP_398355.1
+			gene	psbT
+			locus_tag	LasaCp049
+74388	74257	gene
+			db_xref	GeneID:3772846
+			gene	psbN
+			locus_tag	LasaCp050
+74388	74257	CDS
+			note	photosystem II reaction center N protein
+			codon_start	1
+			db_xref	GeneID:3772846
+			product	photosystem II protein N
+			protein_id	YP_398356.1
+			gene	psbN
+			locus_tag	LasaCp050
+74491	74712	gene
+			db_xref	GeneID:3772840
+			gene	psbH
+			locus_tag	LasaCp051
+74491	74712	CDS
+			note	photosystem II reaction center protein H; photosystem II phosphoprotein
+			codon_start	1
+			db_xref	GeneID:3772840
+			product	photosystem II protein H
+			protein_id	YP_398357.1
+			gene	psbH
+			locus_tag	LasaCp051
+74837	76254	gene
+			db_xref	GeneID:3772863
+			gene	petB
+			locus_tag	LasaCp052
+74837	74842	CDS
+75613	76254
+			codon_start	1
+			db_xref	GeneID:3772863
+			product	cytochrome b6
+			protein_id	YP_398358.1
+			gene	petB
+			locus_tag	LasaCp052
+77153	77635	gene
+			db_xref	GeneID:3772864
+			gene	petD
+			locus_tag	LasaCp053
+77153	77635	CDS
+			note	cytochrome b6/f complex subunit 4
+			codon_start	1
+			db_xref	GeneID:3772864
+			product	cytochrome b6/f complex subunit IV
+			protein_id	YP_398359.2
+			gene	petD
+			locus_tag	LasaCp053
+78841	77834	gene
+			db_xref	GeneID:3772822
+			gene	rpoA
+			locus_tag	LasaCp054
+78841	77834	CDS
+			note	RNA polymerase alpha chain
+			codon_start	1
+			db_xref	GeneID:3772822
+			product	RNA polymerase alpha subunit
+			protein_id	YP_398360.1
+			gene	rpoA
+			locus_tag	LasaCp054
+79346	78936	gene
+			db_xref	GeneID:3772826
+			gene	rps11
+			locus_tag	LasaCp055
+79346	78936	CDS
+			note	30S ribosomal protein S11
+			codon_start	1
+			db_xref	GeneID:3772826
+			product	ribosomal protein S11
+			protein_id	YP_398361.1
+			gene	rps11
+			locus_tag	LasaCp055
+79564	79451	gene
+			db_xref	GeneID:3772821
+			gene	rpl36
+			gene_synonym	secX
+			locus_tag	LasaCp056
+79564	79451	CDS
+			note	50S ribosomal protein L36
+			codon_start	1
+			db_xref	GeneID:3772821
+			product	ribosomal protein L36
+			protein_id	YP_398362.1
+			gene	rpl36
+			gene_synonym	secX
+			locus_tag	LasaCp056
+79913	79680	gene
+			db_xref	GeneID:3772848
+			gene	infA
+			locus_tag	LasaCp057
+79913	79680	CDS
+			codon_start	1
+			db_xref	GeneID:3772848
+			product	translation initiation factor 1
+			protein_id	YP_398363.1
+			gene	infA
+			locus_tag	LasaCp057
+80439	80035	gene
+			db_xref	GeneID:3772799
+			gene	rps8
+			locus_tag	LasaCp058
+80439	80035	CDS
+			note	30S ribosomal protein S8
+			codon_start	1
+			db_xref	GeneID:3772799
+			product	ribosomal protein S8
+			protein_id	YP_398364.1
+			gene	rps8
+			locus_tag	LasaCp058
+81003	80635	gene
+			db_xref	GeneID:3772811
+			gene	rpl14
+			locus_tag	LasaCp059
+81003	80635	CDS
+			note	50S ribosomal protein L14
+			codon_start	1
+			db_xref	GeneID:3772811
+			product	ribosomal protein L14
+			protein_id	YP_398365.1
+			gene	rpl14
+			locus_tag	LasaCp059
+82549	81120	gene
+			db_xref	GeneID:3772812
+			gene	rpl16
+			locus_tag	LasaCp060
+82549	82541	CDS
+81518	81120
+			codon_start	1
+			db_xref	GeneID:3772812
+			product	ribosomal protein L16
+			protein_id	YP_398366.1
+			gene	rpl16
+			locus_tag	LasaCp060
+83360	82704	gene
+			db_xref	GeneID:3772795
+			gene	rps3
+			locus_tag	LasaCp061
+83360	82704	CDS
+			note	30S ribosomal protein S3
+			codon_start	1
+			db_xref	GeneID:3772795
+			product	ribosomal protein S3
+			protein_id	YP_398367.1
+			gene	rps3
+			locus_tag	LasaCp061
+83818	83345	gene
+			db_xref	GeneID:3772816
+			gene	rpl22
+			locus_tag	LasaCp062
+83818	83345	CDS
+			codon_start	1
+			db_xref	GeneID:3772816
+			product	ribosomal protein L22
+			protein_id	YP_398368.1
+			gene	rpl22
+			locus_tag	LasaCp062
+84163	83885	gene
+			db_xref	GeneID:3772793
+			gene	rps19
+			locus_tag	LasaCp063
+84163	83885	CDS
+			note	30S ribosomal protein S19
+			codon_start	1
+			db_xref	GeneID:3772793
+			product	ribosomal protein S19
+			protein_id	YP_398369.1
+			gene	rps19
+			locus_tag	LasaCp063
+85710	84221	gene
+			db_xref	GeneID:3772814
+			gene	rpl2
+			locus_tag	LasaCp064
+85710	85321	CDS
+84655	84221
+			note	50S ribosomal protein L2
+			codon_start	1
+			db_xref	GeneID:3772814
+			product	ribosomal protein L2
+			protein_id	YP_398370.1
+			gene	rpl2
+			locus_tag	LasaCp064
+86010	85729	gene
+			db_xref	GeneID:3772818
+			gene	rpl23
+			locus_tag	LasaCp065
+86010	85729	CDS
+			note	50S ribosomal protein L23
+			codon_start	1
+			db_xref	GeneID:3772818
+			product	ribosomal protein L23
+			protein_id	YP_398371.1
+			gene	rpl23
+			locus_tag	LasaCp065
+86249	86176	gene
+			db_xref	GeneID:3772881
+			gene	trnM
+			locus_tag	LasaCt023
+86249	86176	tRNA
+			db_xref	GeneID:3772881
+			product	tRNA-Met
+			gene	trnM
+			locus_tag	LasaCt023
+86361	93155	gene
+			db_xref	GeneID:3772783
+			gene	ycf2
+			locus_tag	LasaCp066
+86361	93155	CDS
+			note	hypothetical protein RF2
+			codon_start	1
+			db_xref	GeneID:3772783
+			product	Ycf2
+			protein_id	YP_398372.1
+			gene	ycf2
+			locus_tag	LasaCp066
+93640	93559	gene
+			db_xref	GeneID:3772877
+			gene	trnL
+			locus_tag	LasaCt024
+93640	93559	tRNA
+			db_xref	GeneID:3772877
+			product	tRNA-Leu
+			gene	trnL
+			locus_tag	LasaCt024
+96437	94236	gene
+			db_xref	GeneID:3772852
+			gene	ndhB
+			gene_synonym	ndh2
+			locus_tag	LasaCp067
+96437	95661	CDS
+94991	94236
+			codon_start	1
+			db_xref	GeneID:3772852
+			product	NADH dehydrogenase subunit 2
+			protein_id	YP_398373.1
+			gene	ndhB
+			gene_synonym	ndh2
+			locus_tag	LasaCp067
+97194	96727	gene
+			db_xref	GeneID:3772798
+			gene	rps7
+			locus_tag	LasaCp068
+97194	96727	CDS
+			note	30S ribosomal protein S7
+			codon_start	1
+			db_xref	GeneID:3772798
+			product	ribosomal protein S7
+			protein_id	YP_398374.1
+			gene	rps7
+			locus_tag	LasaCp068
+99896	99967	gene
+			db_xref	GeneID:3772778
+			gene	trnV
+			locus_tag	LasaCt025
+99896	99967	tRNA
+			db_xref	GeneID:3772778
+			product	tRNA-Val
+			gene	trnV
+			locus_tag	LasaCt025
+100195	101685	gene
+			db_xref	GeneID:3772901
+			locus_tag	LasaCr001
+100195	101685	rRNA
+			db_xref	GeneID:3772901
+			product	16S ribosomal RNA
+			locus_tag	LasaCr001
+101979	102998	gene
+			db_xref	GeneID:3772871
+			gene	trnI
+			locus_tag	LasaCt026
+101979	102016	tRNA
+102964	102998
+			db_xref	GeneID:3772871
+			product	tRNA-Ile
+			gene	trnI
+			locus_tag	LasaCt026
+103063	103949	gene
+			db_xref	GeneID:3772800
+			gene	trnA
+			locus_tag	LasaCt027
+103063	103100	tRNA
+103915	103949
+			db_xref	GeneID:3772800
+			product	tRNA-Ala
+			gene	trnA
+			locus_tag	LasaCt027
+104102	106911	gene
+			db_xref	GeneID:3772902
+			locus_tag	LasaCr002
+104102	106911	rRNA
+			db_xref	GeneID:3772902
+			product	23S ribosomal RNA
+			locus_tag	LasaCr002
+107010	107112	gene
+			db_xref	GeneID:3772903
+			locus_tag	LasaCr003
+107010	107112	rRNA
+			db_xref	GeneID:3772903
+			product	4.5S ribosomal RNA
+			locus_tag	LasaCr003
+107355	107475	gene
+			db_xref	GeneID:3772867
+			locus_tag	LasaCr004
+107355	107475	rRNA
+			db_xref	GeneID:3772867
+			product	5S ribosomal RNA
+			locus_tag	LasaCr004
+107733	107806	gene
+			db_xref	GeneID:3772886
+			gene	trnR
+			locus_tag	LasaCt028
+107733	107806	tRNA
+			db_xref	GeneID:3772886
+			product	tRNA-Arg
+			gene	trnR
+			locus_tag	LasaCt028
+108342	108271	gene
+			db_xref	GeneID:3772883
+			gene	trnN
+			locus_tag	LasaCt029
+108342	108271	tRNA
+			db_xref	GeneID:3772883
+			product	tRNA-Asn
+			gene	trnN
+			locus_tag	LasaCt029
+111369	109141	gene
+			db_xref	GeneID:3772856
+			gene	ndhF
+			gene_synonym	ndh5
+			locus_tag	LasaCp069
+111369	109141	CDS
+			codon_start	1
+			db_xref	GeneID:3772856
+			product	NADH dehydrogenase subunit 5
+			protein_id	YP_398375.1
+			gene	ndhF
+			gene_synonym	ndh5
+			locus_tag	LasaCp069
+112420	112584	gene
+			db_xref	GeneID:3772819
+			gene	rpl32
+			locus_tag	LasaCp070
+112420	112584	CDS
+			codon_start	1
+			db_xref	GeneID:3772819
+			product	ribosomal protein L32
+			protein_id	YP_398376.1
+			gene	rpl32
+			locus_tag	LasaCp070
+113415	113494	gene
+			db_xref	GeneID:3772875
+			gene	trnL
+			locus_tag	LasaCt030
+113415	113494	tRNA
+			db_xref	GeneID:3772875
+			product	tRNA-Leu
+			gene	trnL
+			locus_tag	LasaCt030
+113611	114579	gene
+			db_xref	GeneID:3772899
+			gene	ccsA
+			gene_synonym	ycf5
+			locus_tag	LasaCp071
+113611	114579	CDS
+			codon_start	1
+			db_xref	GeneID:3772899
+			product	cytochrome c biogenesis protein
+			protein_id	YP_398377.1
+			gene	ccsA
+			gene_synonym	ycf5
+			locus_tag	LasaCp071
+116370	114868	gene
+			db_xref	GeneID:3772854
+			gene	ndhD
+			gene_synonym	ndh4
+			locus_tag	LasaCp072
+116370	114868	CDS
+			exception	RNA editing
+			codon_start	1
+			db_xref	GeneID:3772854
+			product	NADH dehydrogenase subunit 4
+			protein_id	YP_398378.2
+			gene	ndhD
+			gene_synonym	ndh4
+			locus_tag	LasaCp072
+116733	116488	gene
+			db_xref	GeneID:3772831
+			gene	psaC
+			locus_tag	LasaCp073
+116733	116488	CDS
+			note	photosystem I iron-sulfur center; 9 kDa protein
+			codon_start	1
+			db_xref	GeneID:3772831
+			product	photosystem I subunit VII
+			protein_id	YP_398379.1
+			gene	psaC
+			locus_tag	LasaCp073
+117282	116977	gene
+			db_xref	GeneID:3772855
+			gene	ndhE
+			gene_synonym	ndh4L
+			locus_tag	LasaCp074
+117282	116977	CDS
+			codon_start	1
+			db_xref	GeneID:3772855
+			product	NADH dehydrogenase subunit 4L
+			protein_id	YP_398380.1
+			gene	ndhE
+			gene_synonym	ndh4L
+			locus_tag	LasaCp074
+118032	117502	gene
+			db_xref	GeneID:3772857
+			gene	ndhG
+			locus_tag	LasaCp075
+118032	117502	CDS
+			codon_start	1
+			db_xref	GeneID:3772857
+			product	NADH dehydrogenase subunit 6
+			protein_id	YP_398381.1
+			gene	ndhG
+			locus_tag	LasaCp075
+118852	118352	gene
+			db_xref	GeneID:3772859
+			gene	ndhI
+			gene_synonym	frxB
+			locus_tag	LasaCp076
+118852	118352	CDS
+			note	NADH dehydrogenase 18 kDa subunit
+			codon_start	1
+			db_xref	GeneID:3772859
+			product	NADH dehydrogenase subunit I
+			protein_id	YP_398382.1
+			gene	ndhI
+			gene_synonym	frxB
+			locus_tag	LasaCp076
+121081	118937	gene
+			db_xref	GeneID:3772850
+			gene	ndhA
+			gene_synonym	ndh1
+			locus_tag	LasaCp077
+121081	120529	CDS
+119475	118937
+			codon_start	1
+			db_xref	GeneID:3772850
+			product	NADH dehydrogenase subunit 1
+			protein_id	YP_398383.1
+			gene	ndhA
+			gene_synonym	ndh1
+			locus_tag	LasaCp077
+122264	121083	gene
+			db_xref	GeneID:3772858
+			gene	ndhH
+			locus_tag	LasaCp078
+122264	121083	CDS
+			note	NADH dehydrogenase 49 kDa subunit
+			codon_start	1
+			db_xref	GeneID:3772858
+			product	NADH dehydrogenase subunit 7
+			protein_id	YP_398384.1
+			gene	ndhH
+			locus_tag	LasaCp078
+122633	122355	gene
+			db_xref	GeneID:3772790
+			gene	rps15
+			locus_tag	LasaCp079
+122633	122355	CDS
+			codon_start	1
+			db_xref	GeneID:3772790
+			product	ribosomal protein S15
+			protein_id	YP_398385.1
+			gene	rps15
+			locus_tag	LasaCp079
+128527	128598	gene
+			db_xref	GeneID:3772882
+			gene	trnN
+			locus_tag	LasaCt031
+128527	128598	tRNA
+			db_xref	GeneID:3772882
+			product	tRNA-Asn
+			gene	trnN
+			locus_tag	LasaCt031
+129063	129136	gene
+			db_xref	GeneID:3772887
+			gene	trnR
+			locus_tag	LasaCt032
+129063	129136	tRNA
+			db_xref	GeneID:3772887
+			product	tRNA-Arg
+			gene	trnR
+			locus_tag	LasaCt032
+129514	129394	gene
+			db_xref	GeneID:3772868
+			locus_tag	LasaCr005
+129514	129394	rRNA
+			db_xref	GeneID:3772868
+			product	5S ribosomal RNA
+			locus_tag	LasaCr005
+129859	129597	gene
+			db_xref	GeneID:3772890
+			locus_tag	LasaCr006
+129859	129597	rRNA
+			db_xref	GeneID:3772890
+			product	4.5S ribosomal RNA
+			locus_tag	LasaCr006
+133806	132920	gene
+			db_xref	GeneID:3772801
+			gene	trnA
+			locus_tag	LasaCt033
+133806	133769	tRNA
+132954	132920
+			db_xref	GeneID:3772801
+			product	tRNA-Ala
+			gene	trnA
+			locus_tag	LasaCt033
+134890	133871	gene
+			db_xref	GeneID:3772872
+			gene	trnI
+			locus_tag	LasaCt034
+134890	134853	tRNA
+133905	133871
+			db_xref	GeneID:3772872
+			product	tRNA-Ile
+			gene	trnI
+			locus_tag	LasaCt034
+136674	135184	gene
+			db_xref	GeneID:3772891
+			locus_tag	LasaCr007
+136674	135184	rRNA
+			db_xref	GeneID:3772891
+			product	16S ribosomal RNA
+			locus_tag	LasaCr007
+136973	136902	gene
+			db_xref	GeneID:3772780
+			gene	trnV
+			locus_tag	LasaCt035
+136973	136902	tRNA
+			db_xref	GeneID:3772780
+			product	tRNA-Val
+			gene	trnV
+			locus_tag	LasaCt035
+139675	140142	gene
+			db_xref	GeneID:3772797
+			gene	rps7
+			locus_tag	LasaCp080
+139675	140142	CDS
+			note	30S ribosomal protein S7
+			codon_start	1
+			db_xref	GeneID:3772797
+			product	ribosomal protein S7
+			protein_id	YP_398386.1
+			gene	rps7
+			locus_tag	LasaCp080
+140432	142633	gene
+			db_xref	GeneID:3772851
+			gene	ndhB
+			gene_synonym	ndh2
+			locus_tag	LasaCp081
+140432	141208	CDS
+141878	142633
+			codon_start	1
+			db_xref	GeneID:3772851
+			product	NADH dehydrogenase subunit 2
+			protein_id	YP_398387.1
+			gene	ndhB
+			gene_synonym	ndh2
+			locus_tag	LasaCp081
+143229	143309	gene
+			db_xref	GeneID:3772876
+			gene	trnL
+			locus_tag	LasaCt036
+143229	143309	tRNA
+			db_xref	GeneID:3772876
+			product	tRNA-Leu
+			gene	trnL
+			locus_tag	LasaCt036
+150508	143714	gene
+			db_xref	GeneID:3772784
+			gene	ycf2
+			locus_tag	LasaCp082
+150508	143714	CDS
+			note	hypothetical protein RF2
+			codon_start	1
+			db_xref	GeneID:3772784
+			product	Ycf2
+			protein_id	YP_398388.1
+			gene	ycf2
+			locus_tag	LasaCp082
+150620	150693	gene
+			db_xref	GeneID:3772879
+			gene	trnM
+			locus_tag	LasaCt037
+150620	150693	tRNA
+			db_xref	GeneID:3772879
+			product	tRNA-Met
+			gene	trnM
+			locus_tag	LasaCt037
+150859	151140	gene
+			db_xref	GeneID:3772817
+			gene	rpl23
+			locus_tag	LasaCp083
+150859	151140	CDS
+			note	50S ribosomal protein L23
+			codon_start	1
+			db_xref	GeneID:3772817
+			product	ribosomal protein L23
+			protein_id	YP_398389.1
+			gene	rpl23
+			locus_tag	LasaCp083
+151159	152648	gene
+			db_xref	GeneID:3772813
+			gene	rpl2
+			locus_tag	LasaCp084
+151159	151549	CDS
+152215	152648
+			note	50S ribosomal protein L2
+			codon_start	1
+			db_xref	GeneID:3772813
+			product	ribosomal protein L2
+			protein_id	YP_398390.1
+			gene	rpl2
+			locus_tag	LasaCp084

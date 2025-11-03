@@ -1,0 +1,746 @@
+>Feature gb|PP999684.1|
+69705	69592	gene
+98040	97248
+			gene	rps12
+			trans_splicing
+			exception	trans-splicing
+69705	69592	CDS
+98040	97809
+97273	97248
+			product	ribosomal protein S12
+			transl_table	11
+			protein_id	gb|XDF89933.1|
+			trans_splicing
+			exception	trans-splicing
+87	14	gene
+			gene	trnH-GUG
+87	14	tRNA
+			product	tRNA-His
+1540	479	gene
+			gene	psbA
+1540	479	CDS
+			product	photosystem II protein D1
+			transl_table	11
+			protein_id	gb|XDF89866.1|
+4373	1766	gene
+			gene	trnK-UUU
+4373	4337	tRNA
+1800	1766
+			product	tRNA-Lys
+3603	2083	gene
+			gene	matK
+3603	2083	CDS
+			product	maturase K
+			transl_table	11
+			protein_id	gb|XDF89867.1|
+6302	5188	gene
+			gene	rps16
+6302	6263	CDS
+5414	5188
+			product	ribosomal protein S16
+			transl_table	11
+			protein_id	gb|XDF89868.1|
+7333	7262	gene
+			gene	trnQ-UUG
+7333	7262	tRNA
+			product	tRNA-Gln
+7699	7878	gene
+			gene	psbK
+7699	7878	CDS
+			product	photosystem II protein K
+			transl_table	11
+			protein_id	gb|XDF89869.1|
+8283	8393	gene
+			gene	psbI
+8283	8393	CDS
+			product	photosystem II protein I
+			transl_table	11
+			protein_id	gb|XDF89870.1|
+8636	8549	gene
+			gene	trnS-GCU
+8636	8549	tRNA
+			product	tRNA-Ser
+9388	9458	gene
+			gene	trnC-GCA
+9388	9458	tRNA
+			product	tRNA-Cys
+10290	10379	gene
+			gene	petN
+10290	10379	CDS
+			product	cytochrome b6/f complex subunit VIII
+			transl_table	11
+			protein_id	gb|XDF89871.1|
+10976	10872	gene
+			gene	psbM
+10976	10872	CDS
+			product	photosystem II protein M
+			transl_table	11
+			protein_id	gb|XDF89872.1|
+11715	11642	gene
+			gene	trnD-GUC
+11715	11642	tRNA
+			product	tRNA-Asp
+11912	11829	gene
+			gene	trnY-GUA
+11912	11829	tRNA
+			product	tRNA-Tyr
+12087	12016	gene
+			gene	trnE-UUC
+12087	12016	tRNA
+			product	tRNA-Glu
+13019	16201	gene
+			gene	rpoB
+13019	16201	CDS
+			product	RNA polymerase beta subunit
+			transl_table	11
+			protein_id	gb|XDF89873.1|
+16228	19030	gene
+			gene	rpoC1
+16228	16659	CDS
+17393	19030
+			product	RNA polymerase beta' subunit
+			transl_table	11
+			protein_id	gb|XDF89874.1|
+19132	23277	gene
+			gene	rpoC2
+19132	23277	CDS
+			product	RNA polymerase beta'' subunit
+			transl_table	11
+			protein_id	gb|XDF89875.1|
+23519	24229	gene
+			gene	rps2
+23519	24229	CDS
+			product	ribosomal protein S2
+			transl_table	11
+			protein_id	gb|XDF89876.1|
+24446	25189	gene
+			gene	atpI
+24446	25189	CDS
+			product	ATP synthase CF0 subunit IV
+			transl_table	11
+			protein_id	gb|XDF89877.1|
+26326	26571	gene
+			gene	atpH
+26326	26571	CDS
+			product	ATP synthase CF0 subunit III
+			transl_table	11
+			protein_id	gb|XDF89878.1|
+26946	28217	gene
+			gene	atpF
+26946	27090	CDS
+27808	28217
+			product	ATP synthase CF0 subunit I
+			transl_table	11
+			protein_id	gb|XDF89879.1|
+28282	29808	gene
+			gene	atpA
+28282	29808	CDS
+			product	ATP synthase CF1 alpha subunit
+			transl_table	11
+			protein_id	gb|XDF89880.1|
+30006	29935	gene
+			gene	trnR-UCU
+30006	29935	tRNA
+			product	tRNA-Arg
+30989	30210	gene
+			gene	trnG-UCC
+30989	30967	tRNA
+30256	30210
+			product	tRNA-Gly
+31153	31229	gene
+			gene	trnT
+31153	31229	tRNA
+			product	tRNA-Thr
+32456	33517	gene
+			gene	psbD
+32456	33517	CDS
+			product	photosystem II protein D2
+			transl_table	11
+			protein_id	gb|XDF89881.1|
+33465	34886	gene
+			gene	psbC
+33465	34886	CDS
+			product	photosystem II CP43 chlorophyll apoprotein
+			transl_table	11
+			protein_id	gb|XDF89882.1|
+35202	35120	gene
+			gene	trnS
+35202	35120	tRNA
+			product	tRNA-Ser
+35540	35728	gene
+			gene	psbZ
+35540	35728	CDS
+			product	photosystem II protein Z
+			transl_table	11
+			protein_id	gb|XDF89883.1|
+36036	36106	gene
+			gene	trnG
+36036	36106	tRNA
+			product	tRNA-Gly
+36380	36307	gene
+			gene	trnfM
+36380	36307	tRNA
+			product	tRNA-Met
+			product	tRNA-fMet
+36837	36535	gene
+			gene	rps14
+36837	36535	CDS
+			product	ribosomal protein S14
+			transl_table	11
+			protein_id	gb|XDF89884.1|
+39175	36971	gene
+			gene	psaB
+39175	36971	CDS
+			product	photosystem I P700 apoprotein A2
+			transl_table	11
+			protein_id	gb|XDF89885.1|
+41453	39201	gene
+			gene	psaA
+41453	39201	CDS
+			product	photosystem I P700 apoprotein A1
+			transl_table	11
+			protein_id	gb|XDF89886.1|
+44118	42184	gene
+			gene	ycf3
+44118	43995	CDS
+43303	43074
+42336	42184
+			product	hypothetical chloroplast RF34
+			transl_table	11
+			protein_id	gb|XDF89887.1|
+45004	45090	gene
+			gene	trnS
+45004	45090	tRNA
+			product	tRNA-Ser
+46027	45422	gene
+			gene	rps4
+46027	45422	CDS
+			product	ribosomal protein S4
+			transl_table	11
+			protein_id	gb|XDF89888.1|
+46443	46371	gene
+			gene	trnT
+46443	46371	tRNA
+			product	tRNA-Thr
+47000	47526	gene
+			gene	trnL
+47000	47034	tRNA
+47477	47526
+			product	tRNA-Leu
+47870	47939	gene
+			gene	trnF
+47870	47939	tRNA
+			product	tRNA-Phe
+49062	48586	gene
+			gene	ndhJ
+49062	48586	CDS
+			product	NADH-plastoquinone oxidoreductase subunit J
+			transl_table	11
+			protein_id	gb|XDF89889.1|
+49842	49165	gene
+			gene	ndhK
+49842	49165	CDS
+			product	NADH-plastoquinone oxidoreductase subunit K
+			transl_table	11
+			protein_id	gb|XDF89890.1|
+50256	49894	gene
+			gene	ndhC
+50256	49894	CDS
+			product	NADH-plastoquinone oxidoreductase subunit 3
+			transl_table	11
+			protein_id	gb|XDF89891.1|
+51941	51289	gene
+			gene	trnV-UAC
+51941	51904	tRNA
+51326	51289
+			product	tRNA-Val
+52117	52189	gene
+			gene	trnM
+52117	52189	tRNA
+			product	tRNA-Met
+52803	52402	gene
+			gene	atpE
+52803	52402	CDS
+			product	ATP synthase CF1 epsilon subunit
+			transl_table	11
+			protein_id	gb|XDF89892.1|
+54296	52800	gene
+			gene	atpB
+54296	52800	CDS
+			product	ATP synthase CF1 beta subunit
+			transl_table	11
+			protein_id	gb|XDF89893.1|
+55064	56497	gene
+			gene	rbcL
+55064	56497	CDS
+			product	ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit
+			transl_table	11
+			protein_id	gb|XDF89894.1|
+56978	58570	gene
+			gene	accD
+56978	58570	CDS
+			product	acetyl-CoA carboxylase carboxyltransferase beta subunit
+			transl_table	11
+			protein_id	gb|XDF89895.1|
+59261	59371	gene
+			gene	psaI
+59261	59371	CDS
+			product	photosystem I subunit VIII
+			transl_table	11
+			protein_id	gb|XDF89896.1|
+59772	60326	gene
+			gene	ycf4
+59772	60326	CDS
+			product	hypothetical protein
+			transl_table	11
+			protein_id	gb|XDF89897.1|
+61129	61818	gene
+			gene	cemA
+61129	61818	CDS
+			product	chloroplast envelope membrane protein
+			transl_table	11
+			protein_id	gb|XDF89898.1|
+62045	63007	gene
+			gene	petA
+62045	63007	CDS
+			product	cytochrome f
+			transl_table	11
+			protein_id	gb|XDF89899.1|
+63905	63783	gene
+			gene	psbJ
+63905	63783	CDS
+			product	photosystem II protein J
+			transl_table	11
+			protein_id	gb|XDF89900.1|
+64170	64054	gene
+			gene	psbL
+64170	64054	CDS
+			product	photosystem II protein L
+			transl_table	11
+			protein_id	gb|XDF89901.1|
+			exception	RNA editing
+64312	64193	gene
+			gene	psbF
+64312	64193	CDS
+			product	photosystem II cytochrome b559 beta subunit
+			transl_table	11
+			protein_id	gb|XDF89902.1|
+64573	64322	gene
+			gene	psbE
+64573	64322	CDS
+			product	photosystem II cytochrome b559 alpha subunit
+			transl_table	11
+			protein_id	gb|XDF89903.1|
+65822	65917	gene
+			gene	petL
+65822	65917	CDS
+			product	cytochrome b6/f complex subunit VI
+			transl_table	11
+			protein_id	gb|XDF89904.1|
+66083	66196	gene
+			gene	petG
+66083	66196	CDS
+			product	cytochrome b6/f complex subunit V
+			transl_table	11
+			protein_id	gb|XDF89905.1|
+66392	66319	gene
+			gene	trnW
+66392	66319	tRNA
+			product	tRNA-Trp
+66631	66558	gene
+			gene	trnP
+66631	66558	tRNA
+			product	tRNA-Pro
+66941	67075	gene
+			gene	psaJ
+66941	67075	CDS
+			product	photosystem I subunit IX
+			transl_table	11
+			protein_id	gb|XDF89906.1|
+67521	67727	gene
+			gene	rpl33
+67521	67727	CDS
+			product	ribosomal protein L33
+			transl_table	11
+			protein_id	gb|XDF89907.1|
+67909	68214	gene
+			gene	rps18
+67909	68214	CDS
+			product	ribosomal protein S18
+			transl_table	11
+			protein_id	gb|XDF89908.1|
+68843	68463	gene
+			gene	rpl20
+68843	68463	CDS
+			product	ribosomal protein L20
+			transl_table	11
+			protein_id	gb|XDF89909.1|
+69705	69592	gene
+138829	139621
+			gene	rps12
+			trans_splicing
+			exception	trans-splicing
+69705	69592	CDS
+138829	139060
+139596	139621
+			product	ribosomal protein S12
+			transl_table	11
+			protein_id	gb|XDF89910.1|
+			trans_splicing
+			exception	trans-splicing
+71903	69872	gene
+			gene	clpP
+71903	71833	CDS
+71024	70734
+70100	69872
+			product	ATP-dependent Clp protease proteolytic subunit
+			transl_table	11
+			protein_id	gb|XDF89911.1|
+72372	73898	gene
+			gene	psbB
+72372	73898	CDS
+			product	photosystem II CP47 chlorophyll apoprotein
+			transl_table	11
+			protein_id	gb|XDF89912.1|
+74081	74182	gene
+			gene	psbT
+74081	74182	CDS
+			product	photosystem II protein T
+			transl_table	11
+			protein_id	gb|XDF89913.1|
+74388	74257	gene
+			gene	psbN
+74388	74257	CDS
+			product	photosystem II protein N
+			transl_table	11
+			protein_id	gb|XDF89914.1|
+74491	74712	gene
+			gene	psbH
+74491	74712	CDS
+			product	photosystem II phosphoprotein
+			transl_table	11
+			protein_id	gb|XDF89915.1|
+74837	76254	gene
+			gene	petB
+74837	74842	CDS
+75613	76254
+			product	cytochrome b6
+			transl_table	11
+			protein_id	gb|XDF89916.1|
+76443	77635	gene
+			gene	petD
+76443	76450	CDS
+77161	77635
+			product	cytochrome b6/f complex subunit IV
+			transl_table	11
+			protein_id	gb|XDF89917.1|
+78847	77834	gene
+			gene	rpoA
+78847	77834	CDS
+			product	RNA polymerase alpha subunit
+			transl_table	11
+			protein_id	gb|XDF89918.1|
+79346	78936	gene
+			gene	rps11
+79346	78936	CDS
+			product	ribosomal protein S11
+			transl_table	11
+			protein_id	gb|XDF89919.1|
+79564	79451	gene
+			gene	rpl36
+79564	79451	CDS
+			product	ribosomal protein L36
+			transl_table	11
+			protein_id	gb|XDF89920.1|
+79913	79680	gene
+			gene	infA
+79913	79680	CDS
+			product	translational initiation factor 1
+			transl_table	11
+			protein_id	gb|XDF89921.1|
+80439	80035	gene
+			gene	rps8
+80439	80035	CDS
+			product	ribosomal protein S8
+			transl_table	11
+			protein_id	gb|XDF89922.1|
+81003	80635	gene
+			gene	rpl14
+81003	80635	CDS
+			product	ribosomal protein L14
+			transl_table	11
+			protein_id	gb|XDF89923.1|
+82549	81120	gene
+			gene	rpl16
+82549	82541	CDS
+81518	81120
+			product	ribosomal protein L16
+			transl_table	11
+			protein_id	gb|XDF89924.1|
+83360	82704	gene
+			gene	rps3
+83360	82704	CDS
+			product	ribosomal protein S3
+			transl_table	11
+			protein_id	gb|XDF89925.1|
+83818	83345	gene
+			gene	rpl22
+83818	83345	CDS
+			product	ribosomal protein L22
+			transl_table	11
+			protein_id	gb|XDF89926.1|
+84163	83885	gene
+			gene	rps19
+84163	83885	CDS
+			product	ribosomal protein S19
+			transl_table	11
+			protein_id	gb|XDF89927.1|
+85710	84221	gene
+			gene	rpl2
+85710	85320	CDS
+84654	84221
+			product	ribosomal protein L2
+			transl_table	11
+			protein_id	gb|XDF89928.1|
+86010	85729	gene
+			gene	rpl23
+86010	85729	CDS
+			product	ribosomal protein L23
+			transl_table	11
+			protein_id	gb|XDF89929.1|
+86249	86176	gene
+			gene	trnM
+86249	86176	tRNA
+			product	tRNA-Met
+86361	93155	gene
+			gene	ycf2
+86361	93155	CDS
+			product	hypothetical chloroplast RF21
+			transl_table	11
+			protein_id	gb|XDF89930.1|
+93640	93560	gene
+			gene	trnL
+93640	93560	tRNA
+			product	tRNA-Leu
+96437	94236	gene
+			gene	ndhB
+96437	95661	CDS
+94991	94236
+			product	NADH-plastoquinone oxidoreductase subunit 2
+			transl_table	11
+			protein_id	gb|XDF89931.1|
+97194	96727	gene
+			gene	rps7
+97194	96727	CDS
+			product	ribosomal protein S7
+			transl_table	11
+			protein_id	gb|XDF89932.1|
+99208	99017	gene
+			gene	ycf15
+99208	99017	CDS
+			product	hypothetical protein
+			transl_table	11
+			protein_id	gb|XDF89934.1|
+99896	99967	gene
+			gene	trnV
+99896	99967	tRNA
+			product	tRNA-Val
+100195	101684	gene
+			gene	rrn16
+100195	101684	rRNA
+			product	16S ribosomal RNA
+101979	102998	gene
+			gene	trnI
+101979	102021	tRNA
+102964	102998
+			product	tRNA-Ile
+103063	103949	gene
+			gene	trnA-UGC
+103063	103100	tRNA
+103915	103949
+			product	tRNA-Ala
+104102	106911	gene
+			gene	rrn23
+104102	106911	rRNA
+			product	23S ribosomal RNA
+107010	107112	gene
+			gene	rrn4.5
+107010	107112	rRNA
+			product	4.5S ribosomal RNA
+107355	107475	gene
+			gene	rrn5
+107355	107475	rRNA
+			product	5S ribosomal RNA
+107733	107806	gene
+			gene	trnR
+107733	107806	tRNA
+			product	tRNA-Arg
+108342	108271	gene
+			gene	trnN
+108342	108271	tRNA
+			product	tRNA-Asn
+108665	109159	gene
+			gene	ycf1
+			pseudo
+111369	109141	gene
+			gene	ndhF
+111369	109141	CDS
+			product	NADH-plastoquinone oxidoreductase subunit 5
+			transl_table	11
+			protein_id	gb|XDF89935.1|
+112420	112584	gene
+			gene	rpl32
+112420	112584	CDS
+			product	ribosomal protein L32
+			transl_table	11
+			protein_id	gb|XDF89936.1|
+113415	113494	gene
+			gene	trnL
+113415	113494	tRNA
+			product	tRNA-Leu
+113611	114579	gene
+			gene	ccsA
+113611	114579	CDS
+			product	cytochrome c heme attachment protein
+			transl_table	11
+			protein_id	gb|XDF89937.1|
+116388	114868	gene
+			gene	ndhD
+116388	114868	CDS
+			product	NADH-plastoquinone oxidoreductase subunit 4
+			transl_table	11
+			protein_id	gb|XDF89938.1|
+116733	116488	gene
+			gene	psaC
+116733	116488	CDS
+			product	photosystem I subunit VII
+			transl_table	11
+			protein_id	gb|XDF89939.1|
+117282	116977	gene
+			gene	ndhE
+117282	116977	CDS
+			product	NADH-plastoquinone oxidoreductase subunit 4L
+			transl_table	11
+			protein_id	gb|XDF89940.1|
+118032	117502	gene
+			gene	ndhG
+118032	117502	CDS
+			product	NADH-plastoquinone oxidoreductase subunit 6
+			transl_table	11
+			protein_id	gb|XDF89941.1|
+118852	118352	gene
+			gene	ndhI
+118852	118352	CDS
+			product	NADH-plastoquinone oxidoreductase subunit I
+			transl_table	11
+			protein_id	gb|XDF89942.1|
+121081	118937	gene
+			gene	ndhA
+121081	120529	CDS
+119475	118937
+			product	NADH-plastoquinone oxidoreductase subunit 1
+			transl_table	11
+			protein_id	gb|XDF89943.1|
+122264	121083	gene
+			gene	ndhH
+122264	121083	CDS
+			product	NADH-plastoquinone oxidoreductase subunit 7
+			transl_table	11
+			protein_id	gb|XDF89944.1|
+122633	122355	gene
+			gene	rps15
+122633	122355	CDS
+			product	ribosomal protein S15
+			transl_table	11
+			protein_id	gb|XDF89945.1|
+128204	123024	gene
+			gene	ycf1
+128204	123024	CDS
+			product	hypothetical chloroplast RF19
+			transl_table	11
+			protein_id	gb|XDF89946.1|
+128527	128598	gene
+			gene	trnN
+128527	128598	tRNA
+			product	tRNA-Asn
+129136	129063	gene
+			gene	trnR-ACG
+129136	129063	tRNA
+			product	tRNA-Arg
+129514	129394	gene
+			gene	rrn5
+129514	129394	rRNA
+			product	5S ribosomal RNA
+129859	129757	gene
+			gene	rrn4.5
+129859	129757	rRNA
+			product	4.5S ribosomal RNA
+132767	129958	gene
+			gene	rrn23
+132767	129958	rRNA
+			product	23S ribosomal RNA
+133806	132920	gene
+			gene	trnA-UGC
+133806	133769	tRNA
+132954	132920
+			product	tRNA-Ala
+134890	133871	gene
+			gene	trnI-GAU
+134890	134848	tRNA
+133905	133871
+			product	tRNA-Ile
+136674	135185	gene
+			gene	rrn16
+136674	135185	rRNA
+			product	16S ribosomal RNA
+136973	136902	gene
+			gene	trnV
+136973	136902	tRNA
+			product	tRNA-Val
+137661	137852	gene
+			gene	ycf15
+137661	137852	CDS
+			product	hypothetical protein
+			transl_table	11
+			protein_id	gb|XDF89947.1|
+139675	140142	gene
+			gene	rps7
+139675	140142	CDS
+			product	ribosomal protein S7
+			transl_table	11
+			protein_id	gb|XDF89948.1|
+140432	142633	gene
+			gene	ndhB
+140432	141208	CDS
+141878	142633
+			product	NADH-plastoquinone oxidoreductase subunit 2
+			transl_table	11
+			protein_id	gb|XDF89949.1|
+143229	143309	gene
+			gene	trnL
+143229	143309	tRNA
+			product	tRNA-Leu
+150508	143714	gene
+			gene	ycf2
+150508	143714	CDS
+			product	hypothetical chloroplast RF21
+			transl_table	11
+			protein_id	gb|XDF89950.1|
+150620	150693	gene
+			gene	trnM
+150620	150693	tRNA
+			product	tRNA-Met
+150859	151140	gene
+			gene	rpl23
+150859	151140	CDS
+			product	ribosomal protein L23
+			transl_table	11
+			protein_id	gb|XDF89951.1|
+151159	152648	gene
+			gene	rpl2
+151159	151549	CDS
+152215	152648
+			product	ribosomal protein L2
+			transl_table	11
+			protein_id	gb|XDF89952.1|
+
