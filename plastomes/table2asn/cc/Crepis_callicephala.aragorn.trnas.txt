@@ -1,0 +1,1709 @@
+------------------------------
+ARAGORN v1.2.41   Dean Laslett
+------------------------------
+
+Please reference the following paper if you use this
+program as part of any published research.
+
+Laslett, D. and Canback, B. (2004) ARAGORN, a
+program for the detection of transfer RNA and
+transfer-messenger RNA genes in nucleotide sequences.
+Nucleic Acids Research, 32;11-16.
+
+
+Searching for tRNA genes with introns in anticodon loop
+Intron length from 0 to 3000 bases
+Searching for tmRNA genes
+Assuming circular topology, search wraps around ends
+Searching both strands
+Using bacterial/plant chloroplast genetic code
+
+
+Crepis_callicephala ' '.
+149980 nucleotides in sequence
+Mean G+C content = 37.7%
+ 
+1.
+ 
+ 
+                c
+               c
+             g-c
+             c-g
+             g-c
+             g+t
+             a-t
+             t+g
+             g-c     tt
+            t   tgccc  a
+    tgaa   a    +!!!!  a
+   g    ccg     gcggg  c
+   g    !!!    c     tt
+   a    ggc     g
+    tcaa   a     t
+            g-cca
+            t-a
+            g-c
+            g-c
+            a-t
+           t   a
+           t   a
+            gtg
+ 
+ 
+ 
+    tRNA-His(gtg)
+    75 bases, %GC = 57.3
+    Sequence c[3,77]
+    Score = 115.233
+
+
+    Match with annotated tRNA-His c(3,77)
+
+ 
+2.
+ 
+ 
+ 
+               t
+             t-a
+             g-c
+             g-c
+             g-c
+             t-a
+             t-a
+             g-c
+             c-g     ta
+            t   ggccc  a
+     aa    a    !!!!!  g
+    c  ctca     ccggg  c
+    g  !!!!    t     tt
+    g  gagt     t
+     ta    a     g
+            c cta
+            t-a
+            c-g
+            g-c
+            g-c
+           c   a
+           t   a
+            ttt
+ 
+ 
+    tRNA-Lys(ttt)
+    74 bases, %GC = 52.7
+    Sequence c[1759,4358]
+    Score = 103.307
+
+
+    Not annotated
+    Overlap with annotated tRNA-Lys c(1759,1794)
+    Overlap with annotated maturase K c(2080,3591)
+
+Intron from tRNA-Lys(ttt)
+1   .   10    .   20    .   30    .   40    .   50
+gtgcggctaggatcttttacacattagatgaagcgagggattcgtccata
+ccatcggtaaagtttggaagaccacgactgatcctgaaagggaatgaatg
+gaaaaaatagcatgtcgtatcaattaagagttctgagaataacttattcc
+ggctcggtacaacaccttcttaaaattagtgaaagggagcaaaccgaagt
+caatttcaagttgggtcgaattaataaatggatagggccccgcggcttca
+attaatttcattttggattatagggaaagaacaagcaacgagcttccgtt
+cttaatttgaacgattacccgatctaattagacgttaaaaaaagattagt
+gcccaatacgggaaggctttctcccaggaatgtattctttattttttaat
+taatcctaaatattaccattctccactccataatggagatgtgtgtgtat
+aagaaacagtatattgataaaaaatttccaaaatcaaaagagcgattggg
+ttgaaaaaaagtaaaggatttctaatcatcttattatcctataatgaaaa
+cgaacataaatatttcaattgaaatggaaaaagagaggatagagaatccg
+tttataagtttatctgtatccgaggtatctattcggtttatactataata
+ccttgttttgactgtatcgcactatgtatcatttgataacccccaaaatc
+ctctacctttcatttaaatagaatttcaaatggagaaattccaaagctat
+ttagggctagatagatctcaacaacactacttcttatatccacttatctt
+tcaggagtatatttatgtacttgctcatgatcatggtttaaatagatcca
+ttttgttggaaaatgcagcttatgacaataaatccagtttactaattgtg
+aaacgtttaatcaatcgaatgtatcaacagaattatttgattctttcagt
+taacaattctaaacagactccatttttggggcacaacaataatttttatt
+cgcaagtaatgtcagaggtatcttcaatcattatggaaatgccattgtct
+ctgcgattaatatcttctctagaaaggaaacgggtagtcaaatccgataa
+tttacgatcaattcattcaatattttcttttttagaggacagcttttcac
+atttaaattatgtattagatatactaataccttacccagcccatctggaa
+atcttagttcaggctcttcgctattggataaaagatgcttcctctttgca
+tttattaagattctttctccatgagtgtcataattgggatagtcttatta
+cttcaaattcaaagaaagccagttcttctttttcaaaaagaaatcacaga
+ctattcttcttcctatatacttttcatgtatgtgaatatgaatctggctt
+cctctttctccgtaaccaatcttctcacttacgatcaacatcttctcgag
+ctcttattgaacgaatatatttctatggaaaaatggagcatcttgcagaa
+agggcttttcaagcgaaattctggttgttcaaagacccttttatgcatta
+tgttaggtatcaaggaaaatcaattcttgcctcaaaaggcacgtttcttt
+tgatgaataaatggaaatattactttgtcaatttttggaaatcctatttt
+tacctgtggtctcaaccaggaaggatttatttaaaccaattagccaagca
+ttcccttgactttctgggttatcattcaagtgtgcggctaaagccttcaa
+tggtacgcagtcaaatgctagaaaatgcatttctaattgaaaatgttatt
+aagaagtttgagactgttgttccaattatgcctcttattggatcattggc
+taaatctaaattttgtaacgcattggggcatcctattggtaaggccattt
+ggaccgatttatcggattcttatattattgaccgctttgggcgtatatac
+agaaatctttctcattatcatagtgggtcttcaaaaaagaagagtttgta
+tagagtaaagtatatacttcgactttcttgtgctagaactttagctcgta
+agcataaaagtactgtacgtgcttttttgaaaagattcggctcggaatta
+ttggaagaattctttacggaagaagaacaggttttttccttgacctttcc
+aagagtttcttccatttctcgaaggttatctagaaggcggatttggtatt
+tggatattatttgtatcaacaatttggccaattatgaatgattcgttatg
+aaaccttgtaaatataaatttcatcactaaaaaatctaataaacaatgtc
+aataatgaagagctaaaaaaacaaataaacaattatttatctctattctg
+aaatgttgatgtagtatgtagtaaggatgaaatcaactgagtattcaacc
+ttttcttgtctaatgaaggaactgagttttagatgtatacagagggaaag
+ccgtgtgcaatgaaaaatgcaagcacggcttggggagggatttttactta
+tttaacaaggaaattatctactccat
+
+Intron Length: 2526
+Intron Insertion Position(38-39): tttaa-Intron-ccgac
+
+ 
+3.
+ 
+ 
+ 
+               g
+             t-a
+             g-c
+             g-c
+             g-c
+             g+t
+             c-g
+             g-c     ca
+            t   cttcc  a
+     gaa   a    !+!!!  g
+    t   ccg     ggagg  c
+    g   !!!     c    tt
+    g   ggc     t
+     taa        t
+            a-ta
+            a c
+            c-g
+            g-c
+            g-c
+            g-c
+           t   t
+           t   a
+            ttg
+ 
+ 
+    tRNA-Gln(ttg)
+    72 bases, %GC = 58.3
+    Sequence c[7245,7316]
+    Score = 116.786
+
+
+    Match with annotated tRNA-??? c(7244,7316) * amino acceptor mismatch
+
+ 
+4.
+ 
+ 
+ 
+               g
+             g-c
+             g-c
+             a-t
+             g+t
+             a-t
+             g-c
+             a-t     ta
+            t   ctccc  a
+    tgag   g    !!!!!  g
+   g    tcg     gaggg  c
+   g    !!!          tt
+   a    agc     c
+    cgaa       g-c
+            g+t t-a
+            g+t  a-t
+            c-g   c-g
+            g-c    g-c
+            g-c     a-t
+            a-t     g   t
+           t   a      tta
+           t   a
+            gct
+ 
+ 
+    tRNA-Ser(gct)
+    88 bases, %GC = 53.4
+    Sequence c[8490,8577]
+    Score = 123.247
+
+
+    Match with annotated tRNA-??? c(8490,8577) * amino acceptor mismatch
+
+ 
+5.
+ 
+ 
+                c
+               t
+             g-c
+             g-c
+             c-g
+             g-c
+             g-c
+             c-g
+             a-t     ta
+            t   gggcc  a
+     gag   g    !!! !  a
+    t   ccg     cccag  c
+    g   !!!     c    tt
+    g   ggc    t
+     taa       t
+            g+t
+            g+t
+            g+t
+            g-c
+            g-c
+            a-t
+           c   a
+           t   a
+            gca
+ 
+ 
+    tRNA-Cys(gca)
+    72 bases, %GC = 62.5
+    Sequence [9331,9402]
+    Score = 116.002
+
+
+    Match with annotated tRNA-Cys  (9331,9402)
+
+ 
+6.
+ 
+ 
+                c
+               a
+             t+g
+             g-c
+             g-c
+             g-c
+             a-t
+             t+g
+             t-a
+             g-c     cg
+            t   tgccc  a
+    taa    a    +!!!!  g
+   a   cttg     gcggg  c
+   g   !!+!    t     tt
+   g   gagc     t
+    caa    a     g
+            c-gac
+            c-g
+            g-c
+            c-g
+            c-g
+           c   a
+           t   a
+            gtc
+ 
+ 
+    tRNA-Asp(gtc)
+    77 bases, %GC = 61.0
+    Sequence c[11545,11621]
+    Score = 117.885
+
+
+    Match with annotated tRNA-Asp c(11547,11620)
+
+ 
+7.
+ 
+ 
+                c
+               a
+             t-a
+             g-c
+             g-c
+             g-c
+             t+g
+             c-g
+             g-c
+             a-t     ta
+            t   cgacc  a
+    tga    g    !!!!!  a
+   g   gccc    cgctgg  c
+   g   +!!!    a     tt
+   t   tggg     t
+    taa        g-c
+            g+t a-t
+            a-t  c-g
+            c-g  a   t
+            g-c    ata
+            g+t
+            a-t
+           c   a
+           t   a
+            gta
+ 
+    tRNA-Tyr(gta)
+    87 bases, %GC = 51.7
+    Sequence c[11732,11818]
+    Score = 117.555
+
+
+    Match with annotated tRNA-??? c(11734,11817) * amino acceptor mismatch
+
+ 
+8.
+ 
+ 
+ 
+               t
+             t-a
+             g+t
+             c-g
+             c-g
+             c-g
+             c-g
+             t-a
+             a-t     tg
+            t   ctccc  a
+     ga    g    !!!!!  a
+    t  cctg     gaggg  c
+   g    !!!     c    tt
+   g   cgac     a
+    tta    c    a
+            t-aa
+            c-g
+            t-a
+            c-g
+            t+g
+           c   c
+           t   a
+            ttc
+ 
+ 
+    tRNA-Glu(ttc)
+    74 bases, %GC = 52.7
+    Sequence c[11920,11993]
+    Score = 115.411
+
+
+    Match with annotated tRNA-??? c(11921,11992) * amino acceptor mismatch
+
+ 
+9.
+ 
+ 
+ 
+               a
+             g-c
+             c-g
+             g-c
+             t-a
+             c-g
+             c-g
+             a-t     ta
+            t   tatcc  a
+     aa    t    !!!!!  a
+    t  tctg     atagg  c
+   g   +!!!     t    tt
+   g   ggac    g
+    ata        g
+            a-t
+            g+t
+            a-t
+            g-c
+            g-c
+            t-a
+           c   a
+           t   a
+            tct
+ 
+ 
+    tRNA-Arg(tct)
+    72 bases, %GC = 43.1
+    Sequence c[29818,29889]
+    Score = 117.452
+
+
+    Match with annotated tRNA-??? c(29818,29889) * amino acceptor mismatch
+
+ 
+10.
+ 
+ 
+                c
+               t
+             g-c
+             c-g
+             g-c
+             g-c
+             g-c
+             t-a
+             a-t     tt
+            t   cgccc  a
+     ga    a    !!!!!  g
+    t  tttg     gcggg  c
+   g   !!++      t   tt
+   g   aagt       a
+    taa            g
+            g-cc    c
+            t-a c    a
+            g.a  c    a
+            a-t   t    t
+            t-a    a    c
+           t   t    g   g
+           t   c     c   a
+            cga       c   a
+                       t  c
+                        tc
+ 
+    tRNA-Ser(cga)
+    91 bases, %GC = 50.5
+    Sequence c[30094,30875]
+    Score = 101.783
+
+
+    Not annotated
+    Overlap with annotated tRNA-Gly c(30095,30142)
+
+Intron from tRNA-Ser(cga)
+1   .   10    .   20    .   30    .   40    .   50
+cgttctattaacccccttaatagttaaggggtctttcggtttgattcata
+ttccgattaaaaactctatttcattaaaaggattcaatcctttacctttc
+aatgacatattcaaggaataatatcaattttcgggatttttatccaaagg
+tgaattaaaaaatgaaaacttggattatgaaattgcgaaacaaaatttga
+aaataaaattggatccatacttccaattgaatgagtatgaataaagactc
+catggatgaagatagaaaagtatatttctaatttctaatcgtaactaaat
+cttcaatttttgtttggatttgtagcgactaaattgaagcaaaatagcta
+ttaaagaatatctttagtttactagagacatcgccatattattttagctc
+ggtggaaataaaatccttttccttaggaccctctcaaatagaaatagaga
+acgaagtaactagaaagattgttagaattgccttcttctagagggatcat
+ctagaaagcgagtcgttttgaattgaatatattcaaacaaaaagctgaca
+tagatgttatgggtatcgtttttttttagttggttcacatctgaaatcta
+gcaaattctccattttccataaaggagccgaatgaaaccaaagtttcatg
+ttcggttttgaattagagacgttaaaaatgatgaatcgacg
+
+Intron Length: 691
+Intron Insertion Position(31-32): tgatt-Intron-tcgac
+
+ 
+11.
+ 
+ 
+ 
+               t
+             g-c
+             g-c
+             a-t
+             g-c
+             a-t
+             g-c
+             a-t     ta
+            t   ctccc  a
+    tgag   g    !!!!!  g
+   g    tcg     gaggg  c
+   g    !!!          tt
+   t    agc     c
+    tgaa       a-t
+            c t t-a
+            c-g  a-t
+            c-g   g-c
+            g-c   t   a
+            g-c     tt
+            t-a
+           c   a
+           t   a
+            tga
+ 
+ 
+    tRNA-Ser(tga)
+    83 bases, %GC = 50.6
+    Sequence c[34947,35029]
+    Score = 121.044
+
+
+    Match with annotated tRNA-??? c(34947,35029) * amino acceptor mismatch
+
+ 
+12.
+ 
+ 
+                c
+               c
+             g-c
+             c-g
+             g-c
+             g-c
+             a-t
+             t-a
+             a-t     tt
+            t   cgccc  a
+     aag   a    !!!!!  g
+    t   ctg     gcggg  c
+    g    !+     c    tt
+    g   aat    a
+     taa       g
+            t-a
+            t-a
+            c-g
+            t-a
+            c-g
+            t+g
+           t   a
+           t   a
+            gcc
+ 
+ 
+    tRNA-Gly(gcc)
+    72 bases, %GC = 51.4
+    Sequence [35855,35926]
+    Score = 114.476
+
+
+    Match with annotated tRNA-Gly  (35855,35925)
+
+ 
+13.
+ 
+ 
+ 
+               a
+             c a
+             g-c
+             c-g
+             g-c
+             g-c
+             g+t
+             g-c     ta
+            t   tgtcc  a
+    tga    a    !!+!!  a
+   t   cgag     acggg  c
+   t   !!!!    c     tt
+   g   gctc     t
+    gta    g     g
+            c-gag
+            a-t
+            a-t
+            g-c
+            g-c
+           c   a
+           t   a
+            cat
+ 
+ 
+ 
+    tRNA-Met(cat)
+    74 bases, %GC = 55.4
+    Sequence c[36112,36185]
+    Score = 118.102
+
+
+    Match with annotated tRNA-Met c(36112,36185)
+
+ 
+14.
+ 
+ 
+ 
+               g
+             g-c
+             g-c
+             a-t
+             g+t
+             a-t
+             g-c
+             a-t     ta
+            t   ctccc  a
+    tgag   g    !!!!!  g
+   g    ccg     gaggg  c
+   g    !!!          tt
+   t    ggc     c
+    tgaa       g-c
+            g+t t-a
+            t-a  a-t
+            a-t   g+t
+            g-c    g-c
+            c-g     c-g
+            a-t     t   t
+           t   c      tt
+           t   a
+            gga
+ 
+ 
+    tRNA-Ser(gga)
+    87 bases, %GC = 52.9
+    Sequence [44778,44864]
+    Score = 121.845
+
+
+    Match with annotated tRNA-???  (44778,44864) * amino acceptor mismatch
+
+ 
+15.
+ 
+ 
+ 
+               t
+             a-t
+             g-c
+             c-g
+             c-g
+             t c
+             g+t
+             c-g
+             t-a     tt
+            t   tagcc  a
+     ga    a    !!!!!  g
+    a  ctcg     atcgg  c
+   g   !!!!     c    tt
+   g   gagc     t
+    tta         g
+            a-tg
+            t-a
+            c-g
+            g-c
+            c-g
+            a-t
+           t   a
+           t   a
+            tgt
+ 
+    tRNA-Thr(tgt)
+    75 bases, %GC = 49.3
+    Sequence c[46145,46219]
+    Score = 122.683
+
+
+    Match with annotated tRNA-Thr c(46146,46218)
+
+ 
+16.
+ 
+ 
+ 
+               a
+             g-c
+             g-c
+             g-c
+             g-c
+             a-t
+             t-a
+             a-t     tg
+            t   ctccc  a
+    taaa   g    !!!!!  a
+   c    gcg     gaggg  c
+   g    !!!      t   tt
+   g    cgc       g
+    taga   t       c
+            a-tc    t
+            c-g g    a
+            g-c  a   a
+            g-c   t   a
+            a-t    t  a
+           c   a    t a
+           t   a     c
+            taa
+ 
+ 
+ 
+    tRNA-Leu(taa)
+    85 bases, %GC = 48.2
+    Sequence [46770,47293]
+    Score = 111.808
+
+
+    Not annotated
+    Overlap with annotated tRNA-Leu  (46770,46806)
+
+Intron from tRNA-Leu(taa)
+1   .   10    .   20    .   30    .   40    .   50
+aattggattgagccttggtatggaaacttactaagtgataactttcaaat
+tcagagaaaccctggaattaataaaaatgggcaatcctgagccaaatcac
+gttttccgaaaacaaacaaagattcagaaagcgaaaatcaaaaaggatag
+gtgcagagactcgatggaagctgttctaacgaatggagttgattgtctta
+cgttagtaaaggaatccttctattgaaacttcataaaaaatgaaggataa
+acctttatacatacataataaagaagaattgttgtcaatcaatattaaaa
+aaaatcaaatattaattgatgaaaccattcactccataatctgatagatc
+ttttgaagaacggattaatcggatgagaataaagatagagtcccgttcta
+catgtcaatactgacaaaaatgaaatttatagtaagagg
+
+Intron Length: 439
+Intron Insertion Position(35-36): gactt-Intron-aaaat
+
+ 
+17.
+ 
+ 
+                c
+               a
+             g-c
+             t-a
+             t+g
+             g+t
+             g-c
+             g-c
+             a-t     ta
+            t   tggtc  a
+     ga    a    !!!!!  a
+    t  ctcg     accag  c
+   t   !!!!    c     tt
+   g   gagc     t
+    gta    a     g
+            g-cgt
+            a-t
+            g-c
+            g-c
+            a-t
+           c   a
+           t   a
+            gaa
+ 
+ 
+ 
+    tRNA-Phe(gaa)
+    74 bases, %GC = 48.6
+    Sequence [47609,47682]
+    Score = 115.774
+
+
+    Match with annotated tRNA-Phe  (47612,47681)
+
+ 
+18.
+ 
+ 
+ 
+               a
+             a-t
+             g-c
+             g-c
+             g-c
+             c-g
+             t-a
+             a-t     tg
+            t   atgcc  a
+     ga    a    !!!!!  g
+    t  ctcg     tacgg  c
+   t   !!!!    c     tt
+   g   gagc     t
+    gta    a     g
+            c aaa
+            c-g
+            t-a
+            c-g
+            g-c
+           t   c
+           t   a
+            tac
+ 
+ 
+ 
+    tRNA-Val(tac)
+    73 bases, %GC = 50.7
+    Sequence c[51085,51727]
+    Score = 111.087
+
+
+    Not annotated
+    Overlap with annotated tRNA-Val c(51085,51121)
+
+Intron from tRNA-Val(tac)
+1   .   10    .   20    .   30    .   40    .   50
+gcgcgccgatgtttttcaggggagtccatcatggaatcaaaaaatttgat
+cttattgacaaatcgatgtcttactccataactttgagggaagaagagaa
+caatagcctgacaagggttccgtccttttaggtgtcccaattaggtgcca
+aacagaccccatcattgatttgatatattgataaggtgaatacctagtct
+attcaatgctaggctgagcataagggcctcaaaaaaatctcttttcgtcc
+tatgaactttaaggtgtatgaagtttcatatttgatttttaagtagagcg
+atagagacttcatttcacttaggttaatctaggccaaaggcagacctacg
+tcaagataacctcccttgaaaaactttggtagtgttcctgaatccacata
+atgactcagagcacatggagccatctccttatttttcggtcaaaaataaa
+aatggcggactagctgatatttatatcagttaatgaaagagcccaatgca
+caaaaaatgcatgttgggtctttgaaacagttcagatcattttgataata
+aaaagtttgatctgttttac
+
+Intron Length: 570
+Intron Insertion Position(38-39): tacac-Intron-cgaga
+
+ 
+19.
+ 
+ 
+ 
+               a
+             a-t
+             c-g
+             c-g
+             t-a
+             a-t
+             c-g
+             t-a     ta
+            t   taacc  a
+     ga    a    !!!!!  a
+    c  ctca     attgg  c
+   g   !!!!    c     tt
+   g   gagt     t
+    tta    a     g
+            t+gga
+            t+g
+            g-c
+            c-g
+            t+g
+           t   c
+           t   a
+            cat
+ 
+ 
+ 
+    tRNA-Met(cat)
+    73 bases, %GC = 42.5
+    Sequence [51914,51986]
+    Score = 111.705
+
+
+    Match with annotated tRNA-Met  (51914,51986)
+
+ 
+20.
+ 
+ 
+ 
+               g
+             g+t
+             c-g
+             g-c
+             c-g
+             t-a
+             c-g
+             t-a     ta
+            t   catcc  a
+    tga    a    !!!!!  a
+   t   cttg     gtagg  c
+   c   !!!!    c     tt
+   g   gaac     t
+    gta    g     g
+            t+gat
+            g-c
+            g-c
+            g-c
+            t-a
+           c   a
+           t   a
+            cca
+ 
+ 
+ 
+    tRNA-Trp(cca)
+    74 bases, %GC = 51.4
+    Sequence c[64142,64215]
+    Score = 116.997
+
+
+    Match with annotated tRNA-Trp c(64142,64215)
+
+ 
+21.
+ 
+                 c
+                c
+               a
+             a-t
+             g-c
+             g-c
+             g-c
+             a-t
+             t-a
+             g-c     ta
+            t   tgtcc  a
+    cga    a    !!!!!  g
+   t   cgcg     acagg  c
+   t   !!!!    c     tt
+   g   gcgc     t
+    gta    g     g
+            t-aat
+            t-a
+            t-a
+            g-c
+            t-a
+           t   t
+           t   g
+            tgg
+ 
+ 
+ 
+    tRNA-Pro(tgg)
+    76 bases, %GC = 50.0
+    Sequence c[64379,64454]
+    Score = 119.886
+
+
+    Match with annotated tRNA-Pro c(64381,64455)
+
+ 
+22.
+ 
+ 
+                c
+               a
+             g-c
+             c-g
+             a-t
+             t-a
+             c-g
+             c-g
+             a-t     tt
+            t   catcc  a
+    taag   g    !!!!!  a
+    g   tcg     gtagg  c
+    g   !!!     c    tt
+    t   agc      t
+     taa   a     t
+            c cg a
+            c-g a
+            c-g
+            a-t
+            a-t
+           c   a
+           t   a
+            cat
+ 
+ 
+ 
+    tRNA-Met(cat)
+    75 bases, %GC = 45.3
+    Sequence c[83887,83961]
+    Score = 108.809
+
+
+    Match with annotated tRNA-Met c(83888,83961)
+
+ 
+23.
+ 
+ 
+ 
+               t
+             t-a
+             g-c
+             c-g
+             c-g
+             t-a
+             t-a
+             g-c
+             g+t     tg
+            t   tctcc  a
+    taaa   g    +!!!!  g
+    g   gtg     ggagg  c
+    g   !!!      t   tt
+    t   cac       g
+     aga           c
+            g+tg   g
+            c-g c   a
+            g-c  t  t
+            a-t   a a
+            g-c    a
+            a-t
+           c   a
+           t   a
+            caa
+ 
+    tRNA-Leu(caa)
+    83 bases, %GC = 49.4
+    Sequence c[91329,91411]
+    Score = 118.842
+
+
+    Match with annotated tRNA-Leu c(91330,91410)
+
+ 
+24.
+ 
+ 
+ 
+               a
+             a-t
+             g-c
+             g-c
+             g-c
+             a-t
+             t-a
+             a-t     cg
+            t   tagtc  a
+     ga    a    !!!!!  g
+    c  ctca     atcag  c
+    g  !!!!    c     tt
+    g  gagt     t
+     ta    g     g
+            t+gaa
+            c-g
+            a-t
+            c-g
+            c-g
+           t   t
+           t   g
+            gac
+ 
+ 
+ 
+    tRNA-Val(gac)
+    72 bases, %GC = 48.6
+    Sequence [97644,97715]
+    Score = 113.371
+
+
+    Match with annotated tRNA-Val  (97644,97715)
+
+ 
+25.
+ 
+ 
+ 
+               a
+             g-c
+             g-c
+             g-c
+             c-g
+             t+g
+             a-t
+             t-a     tg
+            t   ggacc  a
+     ga    a    +!!!!  a
+    t  ctcg     tctgg  c
+   g   !!!!    c     tt
+   g   gagc     t
+    gta    g     g
+            c-gag
+            g-c
+            c-g
+            c-g
+            c-g
+           c   c
+           t   a
+            ttc
+ 
+ 
+ 
+    tRNA-Glu(ttc)
+    73 bases, %GC = 61.6
+    Sequence [99728,100561]
+    Score = 112.908
+
+
+    Not annotated
+    Overlap with annotated tRNA-Ile  (99728,99770)
+
+Intron from tRNA-Glu(ttc)
+1   .   10    .   20    .   30    .   40    .   50
+gataattgcgtcgttgtgcctgggctgtgagggctctcagccacatggat
+agttcaatgtgctcatcggcgcctgaccctgagatgtggatcatccaagg
+cacattagcatggcgtactcctcctgttcgaaccggggtttgaaaccaaa
+cttctcctcaggaggatagatggggcgattcaggtgagatccaatgtaga
+tccaactttcgattcactcgtgggatccgggcggtccgggggggaccacc
+atggctcctctcttctcgagaatccatacatcccttatcagtgtatggac
+agctatctctcgagcacaggtttaggttcggcctcaatgggaaaataaaa
+tggagcacctaacaacgcatcttcacagaccaagaactacgagatcaccc
+ctttcattctggggtgacggagggatcataccattcgagccttttttttt
+ttttttcatgcttttccccgaggtctggagaaagctgaaatcaacttgac
+tcgaaatgggagcaggtttgaaaaaggatcttagagtgtctagggttggg
+ccaggagggtctcttaacgccttcttttttcttctcatcggagttatttc
+acaaagacttgacatggtaaggaagaaggggggaacaggcacacttggag
+agcgcagtacaacggagagttgtatgctgcgttcgggaaggatgaatcgc
+tcccgaaaaggaatctattgattctctcccaattggttggaccgtaggtg
+cgatgatttac
+
+Intron Length: 761
+Intron Insertion Position(33-34): cccct-Intron-ttcac
+
+ 
+26.
+ 
+ 
+ 
+               a
+             g-c
+             g-c
+             g+t
+             g-c
+             a-t
+             t-a
+             a-t     tg
+            t   tcgcc  a
+     ga    a    !!!!!  g
+    t  ctcg     agcgg  c
+   t   !!!!    c     tt
+   g   gagc     t
+    gta    t     g
+            c-gat
+            c-g
+            g-c
+            c-g
+            t+g
+           c   c
+           t   a
+            tgc
+ 
+ 
+ 
+    tRNA-Ala(tgc)
+    73 bases, %GC = 57.5
+    Sequence [100626,101518]
+    Score = 111.011
+
+
+    Not annotated
+    Overlap with annotated tRNA-Ala  (100626,100663)
+
+Intron from tRNA-Ala(tgc)
+1   .   10    .   20    .   30    .   40    .   50
+attgggtcgttgcgattacgggttggatgtctaattgtccaggcggtaat
+gatagtatcttgtacctgaaccggtggctcactttttctaagtaatgggg
+aagaggaccgaaacatgccactgaaagactctactgagacaaagatgggc
+tgtcaagaacgtcaagaacgtagagtaggtaggatgggcagttggtcaga
+tctagtatggatcgtacatggacggtagttggagtcggcggctctcctag
+ggttcccttattggggatccctggggaagaggatcaagttggcccttgcg
+aacagcttgatgcactatctcccttcaaccctttgagcgaaatgcggcaa
+aaggaaggaaaatccatggaccgaccccatcatctccaccccgtaggaac
+tacgagattaccccaaggacgccttcggcatccaggggtcacggaccgac
+catagaaccctgttcaataagtggaacgcattagctgtccgctctctggt
+tgggcagtaagggtcggagaagggcaatcactcattcttaaaaccagcgt
+tcttaaggccaaagagtcggcggaaaaggggggaaagctctccgttcctg
+gtttcctgtagctggatcctccggaaccacaagaatccttagttagaatt
+agaatgggattccaactcaacaccttttgagtgagattttgagaagagtt
+gctctttggagagcacagtacgatgaaagttgtaagctgtgttcgggggg
+gagttattgtctatcgttggcctctatggtagaatcagtcgggggacctg
+agaggcggtggtttaccctg
+
+Intron Length: 820
+Intron Insertion Position(37-38): ttgca-Intron-cggcg
+
+ 
+27.
+ 
+ 
+                c
+               a
+             g-c
+             g-c
+             g-c
+             c-g
+             c c
+             t.t
+             g-c     ta
+            t   ctccc  a
+    aga    a    !+!!!  g
+   g   ctcg     ggggg  c
+   g   !!!!    c     tt
+   a   gagc     t
+    tta    a     g
+            c-ggt
+            g-c
+            t-a
+            g-c
+            g-c
+           c   a
+           t   a
+            acg
+ 
+ 
+ 
+    tRNA-Arg(acg)
+    75 bases, %GC = 62.7
+    Sequence [105301,105375]
+    Score = 115.882
+
+
+    Match with annotated tRNA-Arg  (105301,105374)
+
+ 
+28.
+ 
+ 
+ 
+               a
+             t+g
+             t-a
+             c-g
+             c-g
+             t-a
+             c-g
+             a-t
+             g+t     ta
+            t   catcc  a
+     ga    a    !!!!!  g
+    t  ctcg     gtagg  c
+    g  !!!!     c    tt
+    g  gagc     t
+     ta         g
+            g+tg
+            g+t
+            t-a
+            c-g
+            g-c
+            g-c
+           c   a
+           t   a
+            gtt
+ 
+    tRNA-Asn(gtt)
+    74 bases, %GC = 51.4
+    Sequence c[105868,105941]
+    Score = 123.398
+
+
+    Match with annotated tRNA-Asn c(105869,105940)
+
+ 
+29.
+ 
+ 
+ 
+               a
+             g-c
+             c-g
+             c-g
+             g-c
+             c-g
+             t+g
+             a-t     tg
+            t   gagcc  a
+    taaa   g    !!!!!  g
+   c    gtg     ctcgg  c
+   g    !!!      t   tt
+   g    cac       a
+    taga          c
+            g+tg   g
+            c-g c  a
+            t-a  t g
+            g-c   a
+            c-g
+            t-a
+           c   a
+           t   g
+            tag
+ 
+ 
+    tRNA-Leu(tag)
+    80 bases, %GC = 57.5
+    Sequence [110967,111046]
+    Score = 120.595
+
+
+    Match with annotated tRNA-???  (110967,111046) * amino acceptor mismatch
+
+ 
+30.
+ 
+ 
+ 
+               a
+             t+g
+             t-a
+             c-g
+             c-g
+             t-a
+             c-g
+             a-t
+             g+t     ta
+            t   catcc  a
+     ga    a    !!!!!  g
+    t  ctcg     gtagg  c
+    g  !!!!     c    tt
+    g  gagc     t
+     ta         g
+            g+tg
+            g+t
+            t-a
+            c-g
+            g-c
+            g-c
+           c   a
+           t   a
+            gtt
+ 
+    tRNA-Asn(gtt)
+    74 bases, %GC = 51.4
+    Sequence [125854,125927]
+    Score = 123.398
+
+
+    Match with annotated tRNA-Asn  (125855,125926)
+
+ 
+31.
+ 
+ 
+                c
+               a
+             g-c
+             g-c
+             g-c
+             c-g
+             c c
+             t.t
+             g-c     ta
+            t   ctccc  a
+    aga    a    !+!!!  g
+   g   ctcg     ggggg  c
+   g   !!!!    c     tt
+   a   gagc     t
+    tta    a     g
+            c-ggt
+            g-c
+            t-a
+            g-c
+            g-c
+           c   a
+           t   a
+            acg
+ 
+ 
+ 
+    tRNA-Arg(acg)
+    75 bases, %GC = 62.7
+    Sequence c[126420,126494]
+    Score = 115.882
+
+
+    Match with annotated tRNA-Arg c(126421,126494)
+
+ 
+32.
+ 
+ 
+ 
+               a
+             g-c
+             g-c
+             g+t
+             g-c
+             a-t
+             t-a
+             a-t     tg
+            t   tcgcc  a
+     ga    a    !!!!!  g
+    t  ctcg     agcgg  c
+   t   !!!!    c     tt
+   g   gagc     t
+    gta    t     g
+            c-gat
+            c-g
+            g-c
+            c-g
+            t+g
+           c   c
+           t   a
+            tgc
+ 
+ 
+ 
+    tRNA-Ala(tgc)
+    73 bases, %GC = 57.5
+    Sequence c[130277,131169]
+    Score = 111.011
+
+
+    Not annotated
+    Overlap with annotated tRNA-Ala c(130277,130311)
+
+Intron from tRNA-Ala(tgc)
+1   .   10    .   20    .   30    .   40    .   50
+attgggtcgttgcgattacgggttggatgtctaattgtccaggcggtaat
+gatagtatcttgtacctgaaccggtggctcactttttctaagtaatgggg
+aagaggaccgaaacatgccactgaaagactctactgagacaaagatgggc
+tgtcaagaacgtcaagaacgtagagtaggtaggatgggcagttggtcaga
+tctagtatggatcgtacatggacggtagttggagtcggcggctctcctag
+ggttcccttattggggatccctggggaagaggatcaagttggcccttgcg
+aacagcttgatgcactatctcccttcaaccctttgagcgaaatgcggcaa
+aaggaaggaaaatccatggaccgaccccatcatctccaccccgtaggaac
+tacgagattaccccaaggacgccttcggcatccaggggtcacggaccgac
+catagaaccctgttcaataagtggaacgcattagctgtccgctctctggt
+tgggcagtaagggtcggagaagggcaatcactcattcttaaaaccagcgt
+tcttaaggccaaagagtcggcggaaaaggggggaaagctctccgttcctg
+gtttcctgtagctggatcctccggaaccacaagaatccttagttagaatt
+agaatgggattccaactcaacaccttttgagtgagattttgagaagagtt
+gctctttggagagcacagtacgatgaaagttgtaagctgtgttcgggggg
+gagttattgtctatcgttggcctctatggtagaatcagtcgggggacctg
+agaggcggtggtttaccctg
+
+Intron Length: 820
+Intron Insertion Position(37-38): ttgca-Intron-cggcg
+
+ 
+33.
+ 
+ 
+ 
+               a
+             g-c
+             g-c
+             g-c
+             c-g
+             t+g
+             a-t
+             t-a     tg
+            t   ggacc  a
+     ga    a    +!!!!  a
+    t  ctcg     tctgg  c
+   g   !!!!    c     tt
+   g   gagc     t
+    gta    g     g
+            c-gag
+            g-c
+            c-g
+            c-g
+            c-g
+           c   c
+           t   a
+            ttc
+ 
+ 
+ 
+    tRNA-Glu(ttc)
+    73 bases, %GC = 61.6
+    Sequence c[131234,132067]
+    Score = 112.908
+
+
+    Not annotated
+    Overlap with annotated tRNA-??? c(131234,131268)
+
+Intron from tRNA-Glu(ttc)
+1   .   10    .   20    .   30    .   40    .   50
+gataattgcgtcgttgtgcctgggctgtgagggctctcagccacatggat
+agttcaatgtgctcatcggcgcctgaccctgagatgtggatcatccaagg
+cacattagcatggcgtactcctcctgttcgaaccggggtttgaaaccaaa
+cttctcctcaggaggatagatggggcgattcaggtgagatccaatgtaga
+tccaactttcgattcactcgtgggatccgggcggtccgggggggaccacc
+atggctcctctcttctcgagaatccatacatcccttatcagtgtatggac
+agctatctctcgagcacaggtttaggttcggcctcaatgggaaaataaaa
+tggagcacctaacaacgcatcttcacagaccaagaactacgagatcaccc
+ctttcattctggggtgacggagggatcataccattcgagccttttttttt
+ttttttcatgcttttccccgaggtctggagaaagctgaaatcaacttgac
+tcgaaatgggagcaggtttgaaaaaggatcttagagtgtctagggttggg
+ccaggagggtctcttaacgccttcttttttcttctcatcggagttatttc
+acaaagacttgacatggtaaggaagaaggggggaacaggcacacttggag
+agcgcagtacaacggagagttgtatgctgcgttcgggaaggatgaatcgc
+tcccgaaaaggaatctattgattctctcccaattggttggaccgtaggtg
+cgatgatttac
+
+Intron Length: 761
+Intron Insertion Position(33-34): cccct-Intron-ttcac
+
+ 
+34.
+ 
+ 
+ 
+               a
+             a-t
+             g-c
+             g-c
+             g-c
+             a-t
+             t-a
+             a-t     cg
+            t   tagtc  a
+     ga    a    !!!!!  g
+    c  ctca     atcag  c
+    g  !!!!    c     tt
+    g  gagt     t
+     ta    g     g
+            t+gaa
+            c-g
+            a-t
+            c-g
+            c-g
+           t   t
+           t   g
+            gac
+ 
+ 
+ 
+    tRNA-Val(gac)
+    72 bases, %GC = 48.6
+    Sequence c[134080,134151]
+    Score = 113.371
+
+
+    Match with annotated tRNA-Val c(134080,134152)
+
+ 
+35.
+ 
+ 
+ 
+               t
+             t-a
+             g-c
+             c-g
+             c-g
+             t-a
+             t-a
+             g-c
+             g+t     tg
+            t   tctcc  a
+    taaa   g    +!!!!  g
+    g   gtg     ggagg  c
+    g   !!!      t   tt
+    t   cac       g
+     aga           c
+            g+tg   g
+            c-g c   a
+            g-c  t  t
+            a-t   a a
+            g-c    a
+            a-t
+           c   a
+           t   a
+            caa
+ 
+    tRNA-Leu(caa)
+    83 bases, %GC = 49.4
+    Sequence [140384,140466]
+    Score = 118.842
+
+
+    Match with annotated tRNA-Leu  (140385,140465)
+
+ 
+36.
+ 
+ 
+                c
+               a
+             g-c
+             c-g
+             a-t
+             t-a
+             c-g
+             c-g
+             a-t     tt
+            t   catcc  a
+    taag   g    !!!!!  a
+    g   tcg     gtagg  c
+    g   !!!     c    tt
+    t   agc      t
+     taa   a     t
+            c cg a
+            c-g a
+            c-g
+            a-t
+            a-t
+           c   a
+           t   a
+            cat
+ 
+ 
+ 
+    tRNA-Met(cat)
+    75 bases, %GC = 45.3
+    Sequence [147834,147908]
+    Score = 108.809
+
+
+    Match with annotated tRNA-Met  (147834,147908)
+
+
+
+tRNA anticodon frequency
+AAA Phe       AGA Ser       ATA Tyr       ACA Cys       
+GAA Phe  1    GGA Ser  1    GTA Tyr  1    GCA Cys  1    
+TAA Leu  1    TGA Ser  1    TTA Stop      TCA SeC       
+CAA Leu  2    CGA Ser  1    CTA Pyl       CCA Trp  1    
+
+AAG Leu       AGG Pro       ATG His       ACG Arg  2    
+GAG Leu       GGG Pro       GTG His  1    GCG Arg       
+TAG Leu  1    TGG Pro  1    TTG Gln  1    TCG Arg       
+CAG Leu       CGG Pro       CTG Gln       CCG Arg       
+
+AAT Ile       AGT Thr       ATT Asn       ACT Ser       
+GAT Ile       GGT Thr       GTT Asn  2    GCT Ser  1    
+TAT Ile       TGT Thr  1    TTT Lys  1    TCT Arg  1    
+CAT Met  4    CGT Thr       CTT Lys       CCT Arg       
+
+AAC Val       AGC Ala       ATC Asp       ACC Gly       
+GAC Val  2    GGC Ala       GTC Asp  1    GCC Gly  1    
+TAC Val  1    TGC Ala  2    TTC Glu  3    TCC Gly       
+CAC Val       CGC Ala       CTC Glu       CCC Gly       
+
+tRNA codon frequency
+TTT Phe       TCT Ser       TAT Tyr       TGT Cys       
+TTC Phe  1    TCC Ser  1    TAC Tyr  1    TGC Cys  1    
+TTA Leu  1    TCA Ser  1    TAA Stop      TGA SeC       
+TTG Leu  2    TCG Ser  1    TAG Pyl       TGG Trp  1    
+
+CTT Leu       CCT Pro       CAT His       CGT Arg  2    
+CTC Leu       CCC Pro       CAC His  1    CGC Arg       
+CTA Leu  1    CCA Pro  1    CAA Gln  1    CGA Arg       
+CTG Leu       CCG Pro       CAG Gln       CGG Arg       
+
+ATT Ile       ACT Thr       AAT Asn       AGT Ser       
+ATC Ile       ACC Thr       AAC Asn  2    AGC Ser  1    
+ATA Ile       ACA Thr  1    AAA Lys  1    AGA Arg  1    
+ATG Met  4    ACG Thr       AAG Lys       AGG Arg       
+
+GTT Val       GCT Ala       GAT Asp       GGT Gly       
+GTC Val  2    GCC Ala       GAC Asp  1    GGC Gly  1    
+GTA Val  1    GCA Ala  2    GAA Glu  3    GGA Gly       
+GTG Val       GCG Ala       GAG Glu       GGG Gly       
+
+Number of tRNA genes with no introns = 28
+Number of tRNA genes with C-loop introns = 8
+tRNA GC range = 42.5% to 62.7%
+Number of tmRNA genes = 0
+
+
+
+Crepis_callicephala ' '.
+149980 nucleotides in sequence
+Mean G+C content = 37.7%
+
+GenBank to Aragorn comparison
+
+37 annotated tRNA genes
+36 detected tRNA genes
+0 annotated tmRNA genes
+0 detected tmRNA genes
+
+  GenBank                                      Aragorn
+  tRNA-His   c(3,77)                           tRNA-His(gtg) c[3,77] 115.233
+* tRNA-Lys   c(1759,1794)                      tRNA-Lys(ttt) c[1759,4358] 103.307 sequence length mismatch
+* tRNA-???   c(7244,7316)                      tRNA-Gln(ttg) c[7245,7316] 116.786 amino acceptor mismatch
+* tRNA-???   c(8490,8577)                      tRNA-Ser(gct) c[8490,8577] 123.247 amino acceptor mismatch
+  tRNA-Cys    (9331,9402)                      tRNA-Cys(gca)  [9331,9402] 116.002
+  tRNA-Asp   c(11547,11620)                    tRNA-Asp(gtc) c[11545,11621] 117.885
+* tRNA-???   c(11734,11817)                    tRNA-Tyr(gta) c[11732,11818] 117.555 amino acceptor mismatch
+* tRNA-???   c(11921,11992)                    tRNA-Glu(ttc) c[11920,11993] 115.411 amino acceptor mismatch
+* tRNA-???   c(29818,29889)                    tRNA-Arg(tct) c[29818,29889] 117.452 amino acceptor mismatch
+* tRNA-Gly   c(30095,30142)                    tRNA-Ser(cga) c[30094,30875] 101.783 amino acceptor and sequence length mismatch
+* tRNA-Thr    (31011,31082)                    Not detected
+* tRNA-???   c(34947,35029)                    tRNA-Ser(tga) c[34947,35029] 121.044 amino acceptor mismatch
+  tRNA-Gly    (35855,35925)                    tRNA-Gly(gcc)  [35855,35926] 114.476
+  tRNA-Met   c(36112,36185)                    tRNA-Met(cat) c[36112,36185] 118.102
+* tRNA-???    (44778,44864)                    tRNA-Ser(gga)  [44778,44864] 121.845 amino acceptor mismatch
+  tRNA-Thr   c(46146,46218)                    tRNA-Thr(tgt) c[46145,46219] 122.683
+* tRNA-Leu    (46770,46806)                    tRNA-Leu(taa)  [46770,47293] 111.808 sequence length mismatch
+  tRNA-Phe    (47612,47681)                    tRNA-Phe(gaa)  [47609,47682] 115.774
+* tRNA-Val   c(51085,51121)                    tRNA-Val(tac) c[51085,51727] 111.087 sequence length mismatch
+  tRNA-Met    (51914,51986)                    tRNA-Met(cat)  [51914,51986] 111.705
+  tRNA-Trp   c(64142,64215)                    tRNA-Trp(cca) c[64142,64215] 116.997
+  tRNA-Pro   c(64381,64455)                    tRNA-Pro(tgg) c[64379,64454] 119.886
+  tRNA-Met   c(83888,83961)                    tRNA-Met(cat) c[83887,83961] 108.809
+  tRNA-Leu   c(91330,91410)                    tRNA-Leu(caa) c[91329,91411] 118.842
+  tRNA-Val    (97644,97715)                    tRNA-Val(gac)  [97644,97715] 113.371
+* tRNA-Ile    (99728,99770)                    tRNA-Glu(ttc)  [99728,100561] 112.908 amino acceptor and sequence length mismatch
+* tRNA-Ala    (100626,100663)                  tRNA-Ala(tgc)  [100626,101518] 111.011 sequence length mismatch
+  tRNA-Arg    (105301,105374)                  tRNA-Arg(acg)  [105301,105375] 115.882
+  tRNA-Asn   c(105869,105940)                  tRNA-Asn(gtt) c[105868,105941] 123.398
+* tRNA-???    (110967,111046)                  tRNA-Leu(tag)  [110967,111046] 120.595 amino acceptor mismatch
+  tRNA-Asn    (125855,125926)                  tRNA-Asn(gtt)  [125854,125927] 123.398
+  tRNA-Arg   c(126421,126494)                  tRNA-Arg(acg) c[126420,126494] 115.882
+* tRNA-Ala   c(130277,130311)                  tRNA-Ala(tgc) c[130277,131169] 111.011 sequence length mismatch
+* tRNA-???   c(131234,131268)                  tRNA-Glu(ttc) c[131234,132067] 112.908 amino acceptor and sequence length mismatch
+  tRNA-Val   c(134080,134152)                  tRNA-Val(gac) c[134080,134151] 113.371
+  tRNA-Leu    (140385,140465)                  tRNA-Leu(caa)  [140384,140466] 118.842
+  tRNA-Met    (147834,147908)                  tRNA-Met(cat)  [147834,147908] 108.809
+
+Number of annotated tRNA genes not detected = 1
+Number of unannotated tRNA genes detected = 0
+Number of annotated tmRNA genes not detected = 0
+Number of unannotated tmRNA genes detected = 0
+
+
+Configuration: aragorn -v -e -gcbact -c -i -o plastomes/table2asn/cc/Crepis_callicephala.aragorn.trnas.txt plastomes/table2asn/cc/Crepis_callicephala.gbf 
