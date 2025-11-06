@@ -1,0 +1,60 @@
+Application: tRNAscan-SE
+User: asan
+Host: asan-nsk
+
+Start Time: Fri Nov  7 00:06:38 2025
+
+Status: Phase I: Searching for tRNAs with HMM-enabled Infernal
+Scanned seqs: 0 (at Crepis_callicephala)
+/home/asan/miniconda3/envs/trnascan-env/bin/cmsearch -g --mid --notrunc -T 10 /home/asan/miniconda3/envs/trnascan-env/lib/tRNAscan-SE/models/TRNAinf-bact.cm /tmp/tscan5418.fa > /tmp/tscan5418_fp_cm_Domain.out
+/home/asan/miniconda3/envs/trnascan-env/bin/cmsearch -g --mid --notrunc -T 10 /home/asan/miniconda3/envs/trnascan-env/lib/tRNAscan-SE/models/TRNAinf-bact-SeC.cm /tmp/tscan5418.fa > /tmp/tscan5418_fp_cm_SeC.out
+
+1 seqs scanned, 1 seqs had at least one hit.
+35 total tRNAs predicted in first pass scans
+Status: Phase II: Infernal verification of candidate tRNAs detected with first-pass scan
+Scanning Crepis_callicephala
+/home/asan/miniconda3/envs/trnascan-env/bin/cmsearch -g --nohmm --toponly --notrunc /home/asan/miniconda3/envs/trnascan-env/lib/tRNAscan-SE/models/TRNAinf-bact.cm /tmp/tscan5418.trna > /tmp/tscan5418_cm_Domain.out
+/home/asan/miniconda3/envs/trnascan-env/bin/cmsearch -g --nohmm --toponly --notrunc /home/asan/miniconda3/envs/trnascan-env/lib/tRNAscan-SE/models/TRNAinf-bact-SeC.cm /tmp/tscan5418.trna > /tmp/tscan5418_cm_SeC.out
+/home/asan/miniconda3/envs/trnascan-env/bin/cmsearch -g --max --toponly --notrunc --notextw -T 0 /home/asan/miniconda3/envs/trnascan-env/lib/tRNAscan-SE/models/TRNAinf-bact.cm /tmp/tscan5418.trna > /tmp/tscan5418_cm_rescore.out
+/home/asan/miniconda3/envs/trnascan-env/bin/cmsearch -g --max --toponly --notrunc --notextw -T 0 /home/asan/miniconda3/envs/trnascan-env/lib/tRNAscan-SE/models/TRNAinf-bact-ns.cm /tmp/tscan5418.trna > /tmp/tscan5418_cm_hmm.out
+/home/asan/miniconda3/envs/trnascan-env/bin/cmsearch -g --max --toponly --notrunc --notextw -T 0 /home/asan/miniconda3/envs/trnascan-env/lib/tRNAscan-SE/models/TRNAinf-bact-ns.cm /tmp/tscan5418.trna > /tmp/tscan5418_cm_hmm.out
+Low cmsearch score for Crepis_callicephala.t8.8: 14.4
+Low cmsearch score for Crepis_callicephala.t9.9: 15.0
+Low cmsearch score for Crepis_callicephala.t16.16: 14.4
+Low cmsearch score for Crepis_callicephala.t17.17: 15.0
+Low cmsearch score for Crepis_callicephala.t24.24: 13.6
+Low cmsearch score for Crepis_callicephala.t28.28: 16.0
+/home/asan/miniconda3/envs/trnascan-env/bin/cmsearch -g --max --toponly --notrunc --notextw -T 0 /home/asan/miniconda3/envs/trnascan-env/lib/tRNAscan-SE/models/TRNAinf-bact-ns.cm /tmp/tscan5418.trna > /tmp/tscan5418_cm_hmm.out
+/home/asan/miniconda3/envs/trnascan-env/bin/cmsearch -g --toponly --notextw /home/asan/miniconda3/envs/trnascan-env/lib/tRNAscan-SE/models/TRNAinf-bact.cm /tmp/tscan5418.trna > /tmp/tscan5418_trunc_cm_Domain.out
+/home/asan/miniconda3/envs/trnascan-env/bin/cmscan -g --mid --toponly --notrunc --fmt 2 --tblout /tmp/tscan5418_iso_cm.tab -o /tmp/tscan5418_iso_cm.out /home/asan/miniconda3/envs/trnascan-env/lib/tRNAscan-SE/models/TRNAinf-bact-iso /tmp/tscan5418.trna
+Crepis_callicephala.tRNA1-CysGCA:  Infernal type= Cys	 Score= 59.5
+Crepis_callicephala.tRNA2-ThrGGT:  Infernal type= Thr	 Score= 20.0
+Crepis_callicephala.tRNA3-GlyGCC:  Infernal type= Gly	 Score= 57.3
+Crepis_callicephala.tRNA4-SerGGA:  Infernal type= Ser	 Score= 67.7
+Crepis_callicephala.tRNA5-PheGAA:  Infernal type= Phe	 Score= 61.7
+Crepis_callicephala.tRNA6-MetCAT:  Infernal type= Met	 Score= 52.1
+Crepis_callicephala.tRNA7-ValGAC:  Infernal type= Val	 Score= 56.4
+Crepis_callicephala.tRNA8-ArgACG:  Infernal type= Arg	 Score= 57.5
+Crepis_callicephala.tRNA9-LeuTAG:  Infernal type= Leu	 Score= 55.7
+Crepis_callicephala.tRNA10-AsnGTT:  Infernal type= Asn	 Score= 75.9
+Crepis_callicephala.tRNA11-LeuCAA:  Infernal type= Leu	 Score= 58.8
+Crepis_callicephala.tRNA12-MetCAT:  Infernal type= Ile2	 Score= 60.6
+Crepis_callicephala.tRNA13-ValGAC:  Infernal type= Val	 Score= 56.4
+Crepis_callicephala.tRNA14-ArgACG:  Infernal type= Arg	 Score= 57.5
+Crepis_callicephala.tRNA15-AsnGTT:  Infernal type= Asn	 Score= 75.9
+Crepis_callicephala.tRNA16-LeuCAA:  Infernal type= Leu	 Score= 58.8
+Crepis_callicephala.tRNA17-MetCAT:  Infernal type= Ile2	 Score= 60.6
+Crepis_callicephala.tRNA18-ProTGG:  Infernal type= Pro	 Score= 69.5
+Crepis_callicephala.tRNA19-TrpCCA:  Infernal type= Trp	 Score= 67.5
+Crepis_callicephala.tRNA20-ThrTGT:  Infernal type= Thr	 Score= 64.6
+Crepis_callicephala.tRNA21-MetCAT:  Infernal type= fMet	 Score= 67.5
+Crepis_callicephala.tRNA22-SerTGA:  Infernal type= Ser	 Score= 79.6
+Crepis_callicephala.tRNA23-ArgTCT:  Infernal type= Arg	 Score= 62.5
+Crepis_callicephala.tRNA24-GluTTC:  Infernal type= Glu	 Score= 50.8
+Crepis_callicephala.tRNA25-TyrGTA:  Infernal type= Tyr	 Score= 57.8
+Crepis_callicephala.tRNA26-AspGTC:  Infernal type= Asp	 Score= 62.8
+Crepis_callicephala.tRNA27-SerGCT:  Infernal type= Ser	 Score= 75.3
+Crepis_callicephala.tRNA28-GlnTTG:  Infernal type= Gln	 Score= 58.1
+Crepis_callicephala.tRNA29-HisGTG:  Infernal type= His	 Score= 62.3
+
+End Time: Fri Nov  7 00:06:46 2025

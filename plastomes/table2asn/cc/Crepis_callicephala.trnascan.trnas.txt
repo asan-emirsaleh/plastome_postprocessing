@@ -1,0 +1,32 @@
+Sequence            		tRNA  	Bounds	tRNA	Anti	Intron Bounds	Inf	Isotype	Isotype	      
+Name                	tRNA #	Begin 	End   	Type	Codon	Begin	End	Score	CM	Score	Note
+--------            	------	----- 	------	----	-----	-----	----	------	-------	-------	------
+Crepis_callicephala 	1	9331  	9401  	Cys	GCA	0	0	59.5	Cys	81.1	
+Crepis_callicephala 	2	31016 	31080 	Thr	GGT	0	0	20.0	Lys	22.8	IPD:-10.60
+Crepis_callicephala 	3	35855 	35925 	Gly	GCC	0	0	57.3	Gly	64.7	
+Crepis_callicephala 	4	44778 	44864 	Ser	GGA	0	0	67.7	Ser	91.8	
+Crepis_callicephala 	5	47609 	47681 	Phe	GAA	0	0	61.7	Phe	80.5	
+Crepis_callicephala 	6	51914 	51986 	Met	CAT	0	0	52.1	Met	63.9	
+Crepis_callicephala 	7	97644 	97715 	Val	GAC	0	0	56.4	Val	68.1	
+Crepis_callicephala 	8	105301	105374	Arg	ACG	0	0	57.5	Pro	67.4	IPD:-1.70
+Crepis_callicephala 	9	110967	111046	Leu	TAG	0	0	55.7	Leu	77.3	
+Crepis_callicephala 	10	125855	125926	Asn	GTT	0	0	75.9	Asn	99.6	
+Crepis_callicephala 	11	140385	140465	Leu	CAA	0	0	58.8	Leu	87.8	
+Crepis_callicephala 	12	147834	147907	Ile2	CAT	0	0	60.6	Ile2	60.3	
+Crepis_callicephala 	13	134151	134080	Val	GAC	0	0	56.4	Val	68.1	
+Crepis_callicephala 	14	126494	126421	Arg	ACG	0	0	57.5	Pro	67.4	IPD:-1.70
+Crepis_callicephala 	15	105940	105869	Asn	GTT	0	0	75.9	Asn	99.6	
+Crepis_callicephala 	16	91410 	91330 	Leu	CAA	0	0	58.8	Leu	87.8	
+Crepis_callicephala 	17	83961 	83888 	Ile2	CAT	0	0	60.6	Ile2	60.3	
+Crepis_callicephala 	18	64454 	64381 	Pro	TGG	0	0	69.5	Pro	93.1	
+Crepis_callicephala 	19	64215 	64142 	Trp	CCA	0	0	67.5	Arg	71.0	IPD:-4.30
+Crepis_callicephala 	20	46218 	46146 	Thr	TGT	0	0	64.6	Thr	78.0	
+Crepis_callicephala 	21	36185 	36112 	fMet	CAT	0	0	67.5	fMet	95.1	
+Crepis_callicephala 	22	35029 	34947 	Ser	TGA	0	0	79.6	Ser	105.0	
+Crepis_callicephala 	23	29889 	29818 	Arg	TCT	0	0	62.5	Arg	60.8	
+Crepis_callicephala 	24	11992 	11921 	Glu	TTC	0	0	50.8	Glu	60.1	
+Crepis_callicephala 	25	11817 	11734 	Tyr	GTA	0	0	57.8	Tyr	84.3	
+Crepis_callicephala 	26	11620 	11547 	Asp	GTC	0	0	62.8	Arg	72.3	IPD:-4.70
+Crepis_callicephala 	27	8577  	8490  	Ser	GCT	0	0	75.3	Ser	95.7	
+Crepis_callicephala 	28	7316  	7245  	Gln	TTG	0	0	58.1	Gln	80.0	
+Crepis_callicephala 	29	77    	4     	His	GTG	0	0	62.3	His	65.6	

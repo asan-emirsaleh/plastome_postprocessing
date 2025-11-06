@@ -1,0 +1,86 @@
+
+tRNAscan-SE v.2.0.12 (Nov 2022) scan results (on host asan-nsk)
+Started: Пт 07 ноя 2025 00:06:38 +07
+
+------------------------------------------------------------
+Sequence file(s) to search:        plastomes/table2asn/cc/Crepis_callicephala.fsa
+Search Mode:                       Bacterial
+Results written to:                plastomes/table2asn/cc/Crepis_callicephala.trnascan.trnas.txt
+Output format:                     Tabular
+Searching with:                    Infernal First Pass->Infernal
+Isotype-specific model scan:       Yes
+Covariance model:                  /home/asan/miniconda3/envs/trnascan-env/lib/tRNAscan-SE/models/TRNAinf-bact.cm
+                                   /home/asan/miniconda3/envs/trnascan-env/lib/tRNAscan-SE/models/TRNAinf-bact-SeC.cm
+Infernal first pass cutoff score:  10
+
+Temporary directory:               /tmp
+Search log saved in:               plastomes/table2asn/cc/Crepis_callicephala.trnascan.log.txt
+Search statistics saved in:        plastomes/table2asn/cc/Crepis_callicephala.trnascan.stat.txt
+------------------------------------------------------------
+
+First-pass Stats:
+---------------
+Sequences read:         1
+Seqs w/at least 1 hit:  1
+Bases read:             149980 (x2 for both strands)
+Bases in tRNAs:         2819
+tRNAs predicted:        35
+Av. tRNA length:        80
+Script CPU time:        0.02 s
+Scan CPU time:          1.40 s
+Scan speed:             214.3 Kbp/sec
+
+First pass search(es) ended: Пт 07 ноя 2025 00:06:39 +07
+
+Infernal Stats:
+-----------
+Candidate tRNAs read:     35
+Infernal-confirmed tRNAs:     29
+Bases scanned by Infernal:  3513
+% seq scanned by Infernal:  1.2 %
+Script CPU time:          0.10 s
+Infernal CPU time:            10.58 s
+Scan speed:               332.0 bp/sec
+
+Infernal analysis of tRNAs ended: Пт 07 ноя 2025 00:06:46 +07
+
+Overall scan speed: 24790.1 bp/sec
+
+tRNAs decoding Standard 20 AA:              24
+Selenocysteine tRNAs (TCA):                 0
+Possible suppressor tRNAs (CTA,TTA,TCA):    0
+tRNAs with undetermined/unknown isotypes:   0
+tRNAs with mismatch isotypes:               5
+Predicted pseudogenes:                      0
+                                            -------
+Total tRNAs:                                29
+
+tRNAs with introns:     	0
+
+|
+
+Isotype / Anticodon Counts:
+
+Ala     : 0 (0)	  AGC:         GGC:         CGC:         TGC:       
+Gly     : 1 (1)	  ACC:         GCC: 1       CCC:         TCC:       
+Pro     : 1 (3)	  AGG:         GGG:         CGG:         TGG: 1     
+Thr     : 2 (1)	  AGT:         GGT: 1       CGT:         TGT: 1     
+Val     : 2 (2)	  AAC:         GAC: 2       CAC:         TAC:       
+Ser     : 3 (3)	  AGA:         GGA: 1       CGA:         TGA: 1       ACT:         GCT: 1     
+Arg     : 3 (3)	  ACG: 2       GCG:         CCG:         TCG:         CCT:         TCT: 1     
+Leu     : 3 (3)	  AAG:         GAG:         CAG:         TAG: 1       CAA: 2       TAA:       
+Phe     : 1 (1)	  AAA:         GAA: 1                               
+Asn     : 2 (2)	  ATT:         GTT: 2                               
+Lys     : 0 (1)	                            CTT:         TTT:       
+Asp     : 1 (0)	  ATC:         GTC: 1                               
+Glu     : 1 (1)	                            CTC:         TTC: 1     
+His     : 1 (1)	  ATG:         GTG: 1                               
+Gln     : 1 (1)	                            CTG:         TTG: 1     
+Ile     : 2 (2)	  AAT:         GAT:         CAT: 2       TAT:       
+Met/fMet: 2 (2)	                            CAT: 2                  
+Tyr     : 1 (1)	  ATA:         GTA: 1                               
+Supres  : 0 (0)	               CTA:         TTA:         TCA:       
+Cys     : 1 (1)	  ACA:         GCA: 1                               
+Trp     : 1 (0)	                            CCA: 1                  
+SelCys  : 0 (0)	                                         TCA:       
+
