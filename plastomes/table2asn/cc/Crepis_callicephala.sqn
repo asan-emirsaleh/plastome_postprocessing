@@ -71,26 +71,17 @@ Seq-submit ::= {
       },
       date std {
         year 2025,
-        month 10,
-        day 31
+        month 11,
+        day 6
       }
     },
     subtype new,
-    tool "table2asn 1.28.1094"
+    tool "table2asn 1.29.324"
   },
   data entrys {
     set {
       class nuc-prot,
       descr {
-        source {
-          genome chloroplast,
-          org {
-            taxname "Crepis callicephala",
-            orgname {
-              gcode 11
-            }
-          }
-        },
         pub {
           pub {
             gen {
@@ -141,8 +132,8 @@ Seq-submit ::= {
         },
         create-date std {
           year 2025,
-          month 10,
-          day 31
+          month 11,
+          day 6
         }
       },
       seq-set {
@@ -151,10 +142,8 @@ Seq-submit ::= {
             local str "Crepis_callicephala"
           },
           descr {
-            title "' '",
             molinfo {
-              biomol genomic,
-              completeness complete
+              biomol genomic
             },
             user {
               type str "Submission",
@@ -179,7 +168,6 @@ Seq-submit ::= {
             repr raw,
             mol dna,
             length 149980,
-            topology circular,
             seq-data ncbi2na 'FA98186A0F815993AE8F44351E5F8D47E9C4D655DC73CDCB
 3F733FF53C1380000000224CF3F7F7CFDE0340B000EC0030800F34FFFCCFF22603D4FA03407D30
 04F28028CC005D80F0C40880138C360501CC00B5FBCFFC0807232A40C75C0C000A24306577E300
@@ -5986,8 +5974,7 @@ BCE057B214D44EAAEB82A2A550FAC8000544157EABCD791FA0020B2002830332E30FE3DF6D96CB
             local str "Crepis_callicephala_1"
           },
           descr {
-            title "photosystem II protein D1 (chloroplast) [Crepis
- callicephala]",
+            title "photosystem II protein D1",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6027,7 +6014,7 @@ IWFTALGISTMAFNLNGFNFNQSVVDSQGRVINTWADIINRANLGMEVMHERNAHNFPLDLAAIEAPSTNG"
             local str "Crepis_callicephala_2"
           },
           descr {
-            title "maturase K (chloroplast) [Crepis callicephala]",
+            title "maturase K",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6069,7 +6056,7 @@ ARKHKSTVRAFLKRFGSELLEEFFTEEEQVFSLTFPRVSSISRRLSRRRIWYLDIICINNLANYE"
             local str "Crepis_callicephala_3"
           },
           descr {
-            title "ribosomal protein S16 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein S16",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6106,7 +6093,7 @@ NVPAILYFLEKGAQPTGTVQDILKKAEVFKELCPNQTKFN"
             local str "Crepis_callicephala_4"
           },
           descr {
-            title "photosystem II subunit K (chloroplast) [Crepis callicephala]",
+            title "photosystem II subunit K",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6143,7 +6130,7 @@ AFVWQAAVSFR"
             local str "Crepis_callicephala_5"
           },
           descr {
-            title "photosystem II subunit I (chloroplast) [Crepis callicephala]",
+            title "photosystem II subunit I",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6179,8 +6166,7 @@ AFVWQAAVSFR"
             local str "Crepis_callicephala_6"
           },
           descr {
-            title "cytochrome b6/f subunit N (chloroplast) [Crepis
- callicephala]",
+            title "cytochrome b6/f subunit N",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6216,7 +6202,7 @@ AFVWQAAVSFR"
             local str "Crepis_callicephala_7"
           },
           descr {
-            title "photosystem II subunit M (chloroplast) [Crepis callicephala]",
+            title "photosystem II subunit M",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6252,8 +6238,7 @@ AFVWQAAVSFR"
             local str "Crepis_callicephala_8"
           },
           descr {
-            title "RNA polymerase subunit beta (chloroplast) [Crepis
- callicephala]",
+            title "RNA polymerase subunit beta",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6302,8 +6287,7 @@ GFGVAYILQEMLTYKSDHIRARQEVLGTIIFGGRIPTPEDAPESFRLFVRELRSLALELNHFLVSEKTFQLNRKEA"
             local str "Crepis_callicephala_9"
           },
           descr {
-            title "RNA polymerase subunit beta' (chloroplast) [Crepis
- callicephala]",
+            title "RNA polymerase subunit beta'",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6348,8 +6332,7 @@ FWQGCCNSMLPTGIRVSPG"
             local str "Crepis_callicephala_10"
           },
           descr {
-            title "RNA polymerase subunit beta'' (chloroplast) [Crepis
- callicephala]",
+            title "RNA polymerase subunit beta''",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6402,7 +6385,7 @@ DWLKGLKENVVLGGMIPVGSGFKTPSSEPNNIPNNIAFELQKRNLLEGEMKDILFYHRKLFDSCLSNNFHDTQEQSFF"
             local str "Crepis_callicephala_11"
           },
           descr {
-            title "ribosomal protein S2 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein S2",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6441,7 +6424,7 @@ PANDDAISSIRLILNKLVFAICEGRSGYIRNP"
             local str "Crepis_callicephala_12"
           },
           descr {
-            title "CF0 subunit IV (chloroplast) [Crepis callicephala]",
+            title "CF0 subunit IV",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6480,7 +6463,7 @@ VSLVPSVVPIPVMFLGLFTSGIQALIFATLAAAYIGESMEGHH"
             local str "Crepis_callicephala_13"
           },
           descr {
-            title "CF0 subunit III (chloroplast) [Crepis callicephala]",
+            title "CF0 subunit III",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6517,7 +6500,7 @@ IRGTLLLSLAFMEALTIYGLVVALALLFANPFV"
             local str "Crepis_callicephala_14"
           },
           descr {
-            title "CF0 subunit I (chloroplast) [Crepis callicephala]",
+            title "CF0 subunit I",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6555,7 +6538,7 @@ ETINFEQQKASNQVRQRVFQQALQGALGTLSSCLNSELHLRTISANIGILGAMKEITD"
             local str "Crepis_callicephala_15"
           },
           descr {
-            title "CF1 subunit alpha (chloroplast) [Crepis callicephala]",
+            title "CF1 subunit alpha",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6597,8 +6580,7 @@ YTGTNGYLDSLEIGQVRKFLVELRTYLKTNKPQFQEIISSTKTFTEEAEAILKEAIQEQRERFILQEQAA"
             local str "Crepis_callicephala_16"
           },
           descr {
-            title "photosystem II protein D2 (chloroplast) [Crepis
- callicephala]",
+            title "photosystem II protein D2",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6638,8 +6620,7 @@ SALGVVGLALNLRAYDFVSQEIRAAEDPEFETFYTKNILLNEGIRAWMAAQDQPHENLIFPEEVLPRGNAL"
             local str "Crepis_callicephala_17"
           },
           descr {
-            title "photosystem II 43 kDa protein (chloroplast) [Crepis
- callicephala]",
+            title "photosystem II 43 kDa protein",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6681,7 +6662,7 @@ VGHLWHAGRARAAAAGFEKGIDRDFEPVLSMTPLN"
             local str "Crepis_callicephala_18"
           },
           descr {
-            title "photosystem II subunit Z (chloroplast) [Crepis callicephala]",
+            title "photosystem II subunit Z",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6718,7 +6699,7 @@ GLVFLVGILNSLIS"
             local str "Crepis_callicephala_19"
           },
           descr {
-            title "ribosomal protein S14 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein S14",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6755,8 +6736,7 @@ SPPRNSAPTRLHRRCFSTGRPRANYRDFGLSGHILREMVHACLLPGATRSSW"
             local str "Crepis_callicephala_20"
           },
           descr {
-            title "photosystem I P700 apoprotein A2 (chloroplast) [Crepis
- callicephala]",
+            title "photosystem I P700 apoprotein A2",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6801,8 +6781,7 @@ ELIETLAWAHERTPLANLIRWRDKPVALSIVQARLVGLAHFSVGYIFTYAAFLIASTSGKFG"
             local str "Crepis_callicephala_21"
           },
           descr {
-            title "photosystem I P700 apoprotein A1 (chloroplast) [Crepis
- callicephala]",
+            title "photosystem I P700 apoprotein A1",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6847,8 +6826,7 @@ GAHFVWAFSLMFLFSGRGYWQELIESIVWAHNKLKVAPATQPRALSIVQGRAVGVTHYLLGGIATTWAFFLARIIAVG"
             local str "Crepis_callicephala_22"
           },
           descr {
-            title "photosystem I assembly factor I (chloroplast) [Crepis
- callicephala]",
+            title "photosystem I assembly factor I",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6886,7 +6864,7 @@ GDSEIAEAWFDQAAEYWKQAIALTPGNYIEAHNWLKITRRFE"
             local str "Crepis_callicephala_23"
           },
           descr {
-            title "ribosomal protein S4 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein S4",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6924,8 +6902,7 @@ SYRCKPRDTIAARDEQKSKALIQNSLDSSPHEELPNHLTLQPFQYKGLVNQIIDSKWVGLKINELLVVEYYSRQT"
             local str "Crepis_callicephala_24"
           },
           descr {
-            title "NADH dehydrogenase subunit J (chloroplast) [Crepis
- callicephala]",
+            title "NADH dehydrogenase subunit J",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -6963,8 +6940,7 @@ RLKRILMPESWIGWPLRKDYIAPNFYEIQDAH"
             local str "Crepis_callicephala_25"
           },
           descr {
-            title "NADH dehydrogenase subunit K (chloroplast) [Crepis
- callicephala]",
+            title "NADH dehydrogenase subunit K",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7003,8 +6979,7 @@ EIPPETFFKYKSSVSSPELVN"
             local str "Crepis_callicephala_26"
           },
           descr {
-            title "NADH dehydrogenase subunit C (chloroplast) [Crepis
- callicephala]",
+            title "NADH dehydrogenase subunit C",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7041,7 +7016,7 @@ EPIGDAWLQFRIRYYMFALVFVVFDVETVFLYPWAMSFDVLGVSVFVEALIFVLILIVGLVYAWRKGALEWS"
             local str "Crepis_callicephala_27"
           },
           descr {
-            title "CF1 subunit epsilon (chloroplast) [Crepis callicephala]",
+            title "CF1 subunit epsilon",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7079,7 +7054,7 @@ EAINAIS"
             local str "Crepis_callicephala_28"
           },
           descr {
-            title "CF1 subunit beta (chloroplast) [Crepis callicephala]",
+            title "CF1 subunit beta",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7122,7 +7097,7 @@ EVFTGSPGKYVGLAETIRGFQLILSGELDGLPEQAFYLVGNIDEATAKAINLEMESNLKK"
           },
           descr {
             title "ribulose-1,5-bisphosphate carboxylase/oxygenase large
- subunit (chloroplast) [Crepis callicephala]",
+ subunit",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7165,7 +7140,7 @@ TEGNQIIREATKWSPELAAACEVWKEIKFEFEAMDTI"
             local str "Crepis_callicephala_30"
           },
           descr {
-            title "photosystem I subunit I (chloroplast) [Crepis callicephala]",
+            title "photosystem I subunit I",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7201,8 +7176,7 @@ TEGNQIIREATKWSPELAAACEVWKEIKFEFEAMDTI"
             local str "Crepis_callicephala_31"
           },
           descr {
-            title "photosystem I assembly factor II (chloroplast) [Crepis
- callicephala]",
+            title "photosystem I assembly factor II",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7240,8 +7214,7 @@ SVRIEVKEGIYARRVLYMDIRGQGAIPLTRTDENFTPREMEQKAAELAYFLRVPIEVF"
             local str "Crepis_callicephala_32"
           },
           descr {
-            title "envelope membrane carbon uptake protein (chloroplast)
- [Crepis callicephala]",
+            title "envelope membrane carbon uptake protein",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7280,7 +7253,7 @@ FKYWIFRYLNRVSPSLVVIYHSMND"
             local str "Crepis_callicephala_33"
           },
           descr {
-            title "cytochrome f (chloroplast) [Crepis callicephala]",
+            title "cytochrome f",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7320,7 +7293,7 @@ PLRVQGLLFFLASVILAQIFLVLKKKQFEKVQLSEMNF"
             local str "Crepis_callicephala_34"
           },
           descr {
-            title "photosystem II subunit J (chloroplast) [Crepis callicephala]",
+            title "photosystem II subunit J",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7356,7 +7329,7 @@ PLRVQGLLFFLASVILAQIFLVLKKKQFEKVQLSEMNF"
             local str "Crepis_callicephala_35"
           },
           descr {
-            title "photosystem II subunit L (chloroplast) [Crepis callicephala]",
+            title "photosystem II subunit L",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7392,8 +7365,7 @@ PLRVQGLLFFLASVILAQIFLVLKKKQFEKVQLSEMNF"
             local str "Crepis_callicephala_36"
           },
           descr {
-            title "cytochrome b559 subunit beta (chloroplast) [Crepis
- callicephala]",
+            title "cytochrome b559 subunit beta",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7429,8 +7401,7 @@ PLRVQGLLFFLASVILAQIFLVLKKKQFEKVQLSEMNF"
             local str "Crepis_callicephala_37"
           },
           descr {
-            title "cytochrome b559 subunit alpha (chloroplast) [Crepis
- callicephala]",
+            title "cytochrome b559 subunit alpha",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7467,8 +7438,7 @@ SPRPNEYFTENRQGIPLITGRFDSLEQLDEFSRSF"
             local str "Crepis_callicephala_38"
           },
           descr {
-            title "cytochrome b6/f subunit L (chloroplast) [Crepis
- callicephala]",
+            title "cytochrome b6/f subunit L",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7504,8 +7474,7 @@ SPRPNEYFTENRQGIPLITGRFDSLEQLDEFSRSF"
             local str "Crepis_callicephala_39"
           },
           descr {
-            title "cytochrome b6/f subunit G (chloroplast) [Crepis
- callicephala]",
+            title "cytochrome b6/f subunit G",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7541,7 +7510,7 @@ SPRPNEYFTENRQGIPLITGRFDSLEQLDEFSRSF"
             local str "Crepis_callicephala_40"
           },
           descr {
-            title "photosystem I subunit J (chloroplast) [Crepis callicephala]",
+            title "photosystem I subunit J",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7577,7 +7546,7 @@ SPRPNEYFTENRQGIPLITGRFDSLEQLDEFSRSF"
             local str "Crepis_callicephala_41"
           },
           descr {
-            title "ribosomal protein L33 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein L33",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7614,7 +7583,7 @@ ELRKFCPYCYKHTIHGEVKK"
             local str "Crepis_callicephala_42"
           },
           descr {
-            title "ribosomal protein S18 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein S18",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7651,7 +7620,7 @@ RRVNRLTLKQQRLITIAIKQARILSLLPFLNNEKQFERTESTTRPPSLRARKR"
             local str "Crepis_callicephala_43"
           },
           descr {
-            title "ribosomal protein L20 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein L20",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7688,7 +7657,7 @@ DRDRQKINFRRLWITRINAAIRERGVCYSYSRLINGLYKRQLLLNRKILAQIAISNRNCLYMISNEIIKEVSWKESTG"
             local str "Crepis_callicephala_44"
           },
           descr {
-            title "ribosomal protein S12 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein S12",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7725,8 +7694,7 @@ LRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHIVRGTLDAVGVKDRQQGRSQYGVKKPK"
             local str "Crepis_callicephala_45"
           },
           descr {
-            title "ATP-dependent Clp protease proteolytic subunit 1
- (chloroplast) [Crepis callicephala]",
+            title "ATP-dependent Clp protease proteolytic subunit 1",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7764,8 +7732,7 @@ QPAGSFSEVATGEFILEVGELLKLRETLTRVYVQRTGKPLWVVSEDMERDVFMSATEAQAYGIVDLVAVE"
             local str "Crepis_callicephala_46"
           },
           descr {
-            title "photosystem II 47 kDa protein (chloroplast) [Crepis
- callicephala]",
+            title "photosystem II 47 kDa protein",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7807,7 +7774,7 @@ SDGVFRSSPRGWFTFGHASFALLFFFGHIWHGARTLFRDVFAGIDPDLDAQVEFGAFQKLGDPTTRRQIG"
             local str "Crepis_callicephala_47"
           },
           descr {
-            title "photosystem II subunit T (chloroplast) [Crepis callicephala]",
+            title "photosystem II subunit T",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7843,8 +7810,7 @@ SDGVFRSSPRGWFTFGHASFALLFFFGHIWHGARTLFRDVFAGIDPDLDAQVEFGAFQKLGDPTTRRQIG"
             local str "Crepis_callicephala_48"
           },
           descr {
-            title "photosystem biogenesis factor 1 (chloroplast) [Crepis
- callicephala]",
+            title "photosystem biogenesis factor 1",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7880,7 +7846,7 @@ SDGVFRSSPRGWFTFGHASFALLFFFGHIWHGARTLFRDVFAGIDPDLDAQVEFGAFQKLGDPTTRRQIG"
             local str "Crepis_callicephala_49"
           },
           descr {
-            title "photosystem II subunit H (chloroplast) [Crepis callicephala]",
+            title "photosystem II subunit H",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7917,7 +7883,7 @@ LFAVFLSIILEIYNSSVLLDGISMN"
             local str "Crepis_callicephala_50"
           },
           descr {
-            title "cytochrome b6 (chloroplast) [Crepis callicephala]",
+            title "cytochrome b6",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7956,8 +7922,7 @@ MIRKQGISGPL"
             local str "Crepis_callicephala_51"
           },
           descr {
-            title "cytochrome b6/f subunit IV (chloroplast) [Crepis
- callicephala]",
+            title "cytochrome b6/f subunit IV",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -7995,8 +7960,7 @@ FLENVNKFQNPFRRPVATTVFLIGTAVALWLGIGATLPIDKSLTLGLF"
             local str "Crepis_callicephala_52"
           },
           descr {
-            title "RNA polymerase subunit alpha (chloroplast) [Crepis
- callicephala]",
+            title "RNA polymerase subunit alpha",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8036,7 +8000,7 @@ NCLKRSNIYTLLDLLNNSQEDLMKMEHFRIEDVKQILGILEKNFVIDLPKKKF"
             local str "Crepis_callicephala_53"
           },
           descr {
-            title "ribosomal protein S11 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein S11",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8074,7 +8038,7 @@ GCRPPKKRRV"
             local str "Crepis_callicephala_54"
           },
           descr {
-            title "ribosomal protein L36 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein L36",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8110,8 +8074,7 @@ GCRPPKKRRV"
             local str "Crepis_callicephala_55"
           },
           descr {
-            title "translational initiation factor 1 (chloroplast) [Crepis
- callicephala]",
+            title "translational initiation factor 1",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8148,7 +8111,7 @@ GDRVKIEVSRYDSTRGRIIYRLRNKDSKD"
             local str "Crepis_callicephala_56"
           },
           descr {
-            title "ribosomal protein S8 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein S8",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8186,7 +8149,7 @@ GEILCYIW"
             local str "Crepis_callicephala_57"
           },
           descr {
-            title "ribosomal protein L14 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein L14",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8223,7 +8186,7 @@ NMPLERSEVVRAVIVRTCKELKRDNGMIIRYDDNAAVVIDQEGNPKGTRVFGAIARELRQFNFTKIVSLAPEVL"
             local str "Crepis_callicephala_58"
           },
           descr {
-            title "ribosomal protein L16 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein L16",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8261,7 +8224,7 @@ IRAQFIISG"
             local str "Crepis_callicephala_59"
           },
           descr {
-            title "ribosomal protein S3 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein S3",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8300,7 +8263,7 @@ GVLGIKIWIFIDGES"
             local str "Crepis_callicephala_60"
           },
           descr {
-            title "ribosomal protein L22 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein L22",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8338,7 +8301,7 @@ ITWSQKKKKHTTMSYYDMYSNGGTWDKK"
             local str "Crepis_callicephala_61"
           },
           descr {
-            title "ribosomal protein S19 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein S19",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8375,7 +8338,7 @@ IAIHNGKEHLPIYITDRMVGHKLGEFAPTLNFRGHAKSDNRSRR"
             local str "Crepis_callicephala_62"
           },
           descr {
-            title "ribosomal protein L2 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein L2",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8414,7 +8377,7 @@ RAGSKRWLGKRPVVRGVVMNPVDHPHGGGEGRAPIGRKKPTTPWGYPALGKRSRKRNKYSDNLILRRRSK"
             local str "Crepis_callicephala_63"
           },
           descr {
-            title "ribosomal protein L23 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein L23",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8451,7 +8414,7 @@ AMNSQRLRGKARRMGPIMGQTMHYRRMIITLQPGYSIPPLRKKRT"
             local str "Crepis_callicephala_64"
           },
           descr {
-            title "Ycf2 protein (chloroplast) [Crepis callicephala]",
+            title "Ycf2 protein",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8516,8 +8479,7 @@ YLSNLFLSNGTLLDQMTKALLRKRWLFPDEMQIGFMEQEKDLPFLSRKDMWP"
             local str "Crepis_callicephala_65"
           },
           descr {
-            title "NADH dehydrogenase subunit B (chloroplast) [Crepis
- callicephala]",
+            title "NADH dehydrogenase subunit B",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8559,7 +8521,7 @@ TSVVSIYYYLKIIKLLMTGRNQEITPHVRNYRRSPLRSNNSIELSMIVCVIASTIPGISMNPIIAIAQDTLF"
             local str "Crepis_callicephala_66"
           },
           descr {
-            title "ribosomal protein S7 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein S7",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8597,7 +8559,7 @@ AAKGSGDAIRKREETHRMAEANRAFAHFR"
             local str "Crepis_callicephala_67"
           },
           descr {
-            title "ribosomal protein S12 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein S12",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8634,7 +8596,7 @@ LRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHIVRGTLDAVGVKDRQQGRSQYGVKKPK"
             local str "Crepis_callicephala_68"
           },
           descr {
-            title "Ycf15 protein (chloroplast) [Crepis callicephala]",
+            title "Ycf15 protein",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8671,8 +8633,7 @@ PTVHHGRKDSLSRDH"
             local str "Crepis_callicephala_69"
           },
           descr {
-            title "NADH dehydrogenase subunit F (chloroplast) [Crepis
- callicephala]",
+            title "NADH dehydrogenase subunit F",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8717,7 +8678,7 @@ RFLTAGIRKLADFAHFFDRRIIDAIPNGVGLMSFFVAEVIKSVGGGRISSYLFFYFSYVAIFLVIYYLL"
             local str "Crepis_callicephala_70"
           },
           descr {
-            title "ribosomal protein L32 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein L32",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8754,8 +8715,7 @@ RQTNKS"
             local str "Crepis_callicephala_71"
           },
           descr {
-            title "cytochrome c biogenesis protein (chloroplast) [Crepis
- callicephala]",
+            title "cytochrome c biogenesis protein",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8795,8 +8755,7 @@ GASSAIVATLGFLIIWICYFGVNLLGIGLHSYGSFTVTSS"
             local str "Crepis_callicephala_72"
           },
           descr {
-            title "NADH dehydrogenase subunit D (chloroplast) [Crepis
- callicephala]",
+            title "NADH dehydrogenase subunit D",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8838,7 +8797,7 @@ QMFYGYKLFNTPNSYVFDSGPRELFVSISIFLPVIGIGMYPDFVLSLSVDKVEGILSNYFYR"
             local str "Crepis_callicephala_73"
           },
           descr {
-            title "photosystem I subunit C (chloroplast) [Crepis callicephala]",
+            title "photosystem I subunit C",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8875,8 +8834,7 @@ VGCKRCESACPTDFLSVRVYLWHETTRSMGIAY"
             local str "Crepis_callicephala_74"
           },
           descr {
-            title "NADH dehydrogenase subunit E (chloroplast) [Crepis
- callicephala]",
+            title "NADH dehydrogenase subunit E",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8913,8 +8871,7 @@ SDFFDSRQLKGAIFSIFVIAIAAAEAAIGLAIVSSIYRNRKSTRINQSNLLNK"
             local str "Crepis_callicephala_75"
           },
           descr {
-            title "NADH dehydrogenase subunit G (chloroplast) [Crepis
- callicephala]",
+            title "NADH dehydrogenase subunit G",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8952,8 +8909,7 @@ TKANQIIEQDLISNSQQIGIHLSTDFFLPFEFISIILLVALIGAIAVARQ"
             local str "Crepis_callicephala_76"
           },
           descr {
-            title "NADH dehydrogenase subunit I (chloroplast) [Crepis
- callicephala]",
+            title "NADH dehydrogenase subunit I",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -8991,8 +8947,7 @@ LSTYDRHELNYNQIALGRLPMSVIDDYTIRTIFNLPEIKT"
             local str "Crepis_callicephala_77"
           },
           descr {
-            title "NADH dehydrogenase subunit A (chloroplast) [Crepis
- callicephala]",
+            title "NADH dehydrogenase subunit A",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -9033,8 +8988,7 @@ LSL"
             local str "Crepis_callicephala_78"
           },
           descr {
-            title "NADH dehydrogenase subunit H (chloroplast) [Crepis
- callicephala]",
+            title "NADH dehydrogenase subunit H",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -9075,7 +9029,7 @@ NLQILPQLVKRMKLADIMTILGSIDIIMGEVDR"
             local str "Crepis_callicephala_79"
           },
           descr {
-            title "ribosomal protein S15 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein S15",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -9112,7 +9066,7 @@ YLSQRGLRIILGKRQRLLAYLSNKNRARYKELIGRLDIRERKTR"
             local str "Crepis_callicephala_80"
           },
           descr {
-            title "Ycf15 protein (chloroplast) [Crepis callicephala]",
+            title "Ycf15 protein",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -9149,7 +9103,7 @@ PTVHHGRKDSLSRDH"
             local str "Crepis_callicephala_81"
           },
           descr {
-            title "ribosomal protein S7 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein S7",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -9187,8 +9141,7 @@ AAKGSGDAIRKREETHRMAEANRAFAHFR"
             local str "Crepis_callicephala_82"
           },
           descr {
-            title "NADH dehydrogenase subunit B (chloroplast) [Crepis
- callicephala]",
+            title "NADH dehydrogenase subunit B",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -9230,7 +9183,7 @@ TSVVSIYYYLKIIKLLMTGRNQEITPHVRNYRRSPLRSNNSIELSMIVCVIASTIPGISMNPIIAIAQDTLF"
             local str "Crepis_callicephala_83"
           },
           descr {
-            title "Ycf2 protein (chloroplast) [Crepis callicephala]",
+            title "Ycf2 protein",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -9295,7 +9248,7 @@ YLSNLFLSNGTLLDQMTKALLRKRWLFPDEMQIGFMEQEKDLPFLSRKDMWP"
             local str "Crepis_callicephala_84"
           },
           descr {
-            title "ribosomal protein L23 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein L23",
             molinfo {
               biomol peptide,
               tech concept-trans
@@ -9332,7 +9285,7 @@ AMNSQRLRGKARRMGPIMGQTMHYRRMIITLQPGYSIPPLRKKRT"
             local str "Crepis_callicephala_85"
           },
           descr {
-            title "ribosomal protein L2 (chloroplast) [Crepis callicephala]",
+            title "ribosomal protein L2",
             molinfo {
               biomol peptide,
               tech concept-trans

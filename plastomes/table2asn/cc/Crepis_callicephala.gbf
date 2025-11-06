@@ -1,10 +1,10 @@
-LOCUS       Crepis_callicephala   149980 bp    DNA     circular     31-OCT-2025
-DEFINITION  ' '.
+LOCUS       Crepis_callicephala   149980 bp    DNA     linear       06-NOV-2025
+DEFINITION  .
 ACCESSION   
 VERSION
 KEYWORDS    .
-SOURCE      chloroplast Crepis callicephala
-  ORGANISM  Crepis callicephala
+SOURCE      Unknown.
+  ORGANISM  Unknown.
             Unclassified.
 REFERENCE   1  (bases 1 to 149980)
   AUTHORS   Emirsaliev,A.O., Afonnikov,D.A., Mitrofanova,I.V., Salina,E.A. and
@@ -16,12 +16,11 @@ REFERENCE   2  (bases 1 to 149980)
   AUTHORS   Emirsaliev,A.O., Afonnikov,D.A., Mitrofanova,I.V., Salina,E.A. and
             Kochetov,A.V.
   TITLE     Direct Submission
-  JOURNAL   Submitted (31-OCT-2025) Department of Plant Molecular Genetics,
+  JOURNAL   Submitted (06-NOV-2025) Department of Plant Molecular Genetics,
             IC&G SB RAS, 10, Ac. Lavrentieva ave., Novosibirsk 630090, Russia
 FEATURES             Location/Qualifiers
      source          1..149980
-                     /organism="Crepis callicephala"
-                     /organelle="plastid:chloroplast"
+                     /organism="unknown"
                      /mol_type="genomic DNA"
      gene            complement(join(95001..95793,67369..67482))
                      /gene="rps12"

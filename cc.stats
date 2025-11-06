@@ -1,17 +1,22 @@
-Total messages:		43
+Total messages:		102
 
 =================================================================
-39 WARNING-level messages exist
+97 WARNING-level messages exist
 
+SEQ_DESCR.BioSourceMissing:	1
+GENERIC.BadDate:	1
 SEQ_FEAT.CDSgeneRange:	7
 SEQ_FEAT.GeneXrefWithoutGene:	16
 SEQ_FEAT.MissingTrnaAA:	9
+SEQ_FEAT.NotSpliceConsensusDonor:	16
+SEQ_FEAT.NotSpliceConsensusAcceptor:	40
 SEQ_FEAT.GeneXrefStrandProblem:	7
 
 =================================================================
-4 ERROR-level messages exist
+5 ERROR-level messages exist
 
 SEQ_INST.BadProteinStart:	2
+SEQ_DESCR.NoSourceDescriptor:	1
 SEQ_FEAT.StartCodon:	2
 
 =================================================================
