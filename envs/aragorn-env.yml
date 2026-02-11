@@ -1,0 +1,12 @@
+name: aragorn-env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1
+  - _openmp_mutex=4.5
+  - aragorn=1.2.41
+  - libgcc=15.2.0
+  - libgomp=15.2.0
+prefix: /home/asan/miniconda3/envs/aragorn-env

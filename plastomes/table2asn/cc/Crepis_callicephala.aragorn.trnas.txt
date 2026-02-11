@@ -19,7 +19,7 @@ Searching both strands
 Using bacterial/plant chloroplast genetic code
 
 
-Crepis_callicephala ' '.
+Crepis_callicephala .
 149980 nucleotides in sequence
 Mean G+C content = 37.7%
  
@@ -1650,7 +1650,7 @@ Number of tmRNA genes = 0
 
 
 
-Crepis_callicephala ' '.
+Crepis_callicephala .
 149980 nucleotides in sequence
 Mean G+C content = 37.7%
 

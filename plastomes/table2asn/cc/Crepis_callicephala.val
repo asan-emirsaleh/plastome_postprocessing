@@ -99,4 +99,3 @@ Warning: valid [SEQ_FEAT.GeneXrefStrandProblem] Gene cross-reference is not on e
 Warning: valid [SEQ_FEAT.GeneXrefStrandProblem] Gene cross-reference is not on expected strand FEATURE: CDS: ribosomal protein L2 <163>  [(lcl|Crepis_callicephala:148373-148763, 149429-149862)] [lcl|Crepis_callicephala: raw, dna len= 149980] -> [lcl|Crepis_callicephala_85]
 Warning: valid [SEQ_FEAT.NotSpliceConsensusAcceptor] Splice acceptor consensus (AG) not found before exon starting at position 149429 of lcl|Crepis_callicephala FEATURE: CDS: ribosomal protein L2 <163>  [(lcl|Crepis_callicephala:148373-148763, 149429-149862)] [lcl|Crepis_callicephala: raw, dna len= 149980] -> [lcl|Crepis_callicephala_85]
 Error: valid [SEQ_DESCR.NoSourceDescriptor] No source information included on this record. BIOSEQ-SET: nuc-prot: lcl|Crepis_callicephala
-Warning: valid [GENERIC.BadDate] Submission citation date is in the future BIOSEQ-SET: nuc-prot: lcl|Crepis_callicephala
