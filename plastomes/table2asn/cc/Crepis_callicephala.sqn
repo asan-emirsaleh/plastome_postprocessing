@@ -72,7 +72,7 @@ Seq-submit ::= {
       date std {
         year 2026,
         month 2,
-        day 11
+        day 12
       }
     },
     subtype new,
@@ -133,7 +133,7 @@ Seq-submit ::= {
         create-date std {
           year 2026,
           month 2,
-          day 11
+          day 12
         }
       },
       seq-set {

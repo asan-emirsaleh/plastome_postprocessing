@@ -1,4 +1,4 @@
-LOCUS       Crepis_callicephala   149980 bp    DNA     linear       11-FEB-2026
+LOCUS       Crepis_callicephala   149980 bp    DNA     linear       12-FEB-2026
 DEFINITION  .
 ACCESSION   
 VERSION
@@ -16,7 +16,7 @@ REFERENCE   2  (bases 1 to 149980)
   AUTHORS   Emirsaliev,A.O., Afonnikov,D.A., Mitrofanova,I.V., Salina,E.A. and
             Kochetov,A.V.
   TITLE     Direct Submission
-  JOURNAL   Submitted (11-FEB-2026) Department of Plant Molecular Genetics,
+  JOURNAL   Submitted (12-FEB-2026) Department of Plant Molecular Genetics,
             IC&G SB RAS, 10, Ac. Lavrentieva ave., Novosibirsk 630090, Russia
 FEATURES             Location/Qualifiers
      source          1..149980
