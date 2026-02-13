@@ -60,6 +60,13 @@ Mean G+C content = 37.7%
 
     Match with annotated tRNA-His c(3,77)
 
+
+Primary sequence for tRNA-His(gtg)
+1   .   10    .   20    .   30    .   40    .   50
+gcggatgtagccaagtggatcaaggcagtggattgtgaatccaccatgcg
+cgggttcaattcccgtcgttcgccc
+
+
  
 2.
  
@@ -99,6 +106,63 @@ Mean G+C content = 37.7%
     Not annotated
     Overlap with annotated tRNA-Lys c(1759,1794)
     Overlap with annotated maturase K c(2080,3591)
+
+
+Primary sequence for tRNA-Lys(ttt)
+1   .   10    .   20    .   30    .   40    .   50
+tgggttgctaactcaacggtagagtactcggcttttaagtgcggctagga
+tcttttacacattagatgaagcgagggattcgtccataccatcggtaaag
+tttggaagaccacgactgatcctgaaagggaatgaatggaaaaaatagca
+tgtcgtatcaattaagagttctgagaataacttattccggctcggtacaa
+caccttcttaaaattagtgaaagggagcaaaccgaagtcaatttcaagtt
+gggtcgaattaataaatggatagggccccgcggcttcaattaatttcatt
+ttggattatagggaaagaacaagcaacgagcttccgttcttaatttgaac
+gattacccgatctaattagacgttaaaaaaagattagtgcccaatacggg
+aaggctttctcccaggaatgtattctttattttttaattaatcctaaata
+ttaccattctccactccataatggagatgtgtgtgtataagaaacagtat
+attgataaaaaatttccaaaatcaaaagagcgattgggttgaaaaaaagt
+aaaggatttctaatcatcttattatcctataatgaaaacgaacataaata
+tttcaattgaaatggaaaaagagaggatagagaatccgtttataagttta
+tctgtatccgaggtatctattcggtttatactataataccttgttttgac
+tgtatcgcactatgtatcatttgataacccccaaaatcctctacctttca
+tttaaatagaatttcaaatggagaaattccaaagctatttagggctagat
+agatctcaacaacactacttcttatatccacttatctttcaggagtatat
+ttatgtacttgctcatgatcatggtttaaatagatccattttgttggaaa
+atgcagcttatgacaataaatccagtttactaattgtgaaacgtttaatc
+aatcgaatgtatcaacagaattatttgattctttcagttaacaattctaa
+acagactccatttttggggcacaacaataatttttattcgcaagtaatgt
+cagaggtatcttcaatcattatggaaatgccattgtctctgcgattaata
+tcttctctagaaaggaaacgggtagtcaaatccgataatttacgatcaat
+tcattcaatattttcttttttagaggacagcttttcacatttaaattatg
+tattagatatactaataccttacccagcccatctggaaatcttagttcag
+gctcttcgctattggataaaagatgcttcctctttgcatttattaagatt
+ctttctccatgagtgtcataattgggatagtcttattacttcaaattcaa
+agaaagccagttcttctttttcaaaaagaaatcacagactattcttcttc
+ctatatacttttcatgtatgtgaatatgaatctggcttcctctttctccg
+taaccaatcttctcacttacgatcaacatcttctcgagctcttattgaac
+gaatatatttctatggaaaaatggagcatcttgcagaaagggcttttcaa
+gcgaaattctggttgttcaaagacccttttatgcattatgttaggtatca
+aggaaaatcaattcttgcctcaaaaggcacgtttcttttgatgaataaat
+ggaaatattactttgtcaatttttggaaatcctatttttacctgtggtct
+caaccaggaaggatttatttaaaccaattagccaagcattcccttgactt
+tctgggttatcattcaagtgtgcggctaaagccttcaatggtacgcagtc
+aaatgctagaaaatgcatttctaattgaaaatgttattaagaagtttgag
+actgttgttccaattatgcctcttattggatcattggctaaatctaaatt
+ttgtaacgcattggggcatcctattggtaaggccatttggaccgatttat
+cggattcttatattattgaccgctttgggcgtatatacagaaatctttct
+cattatcatagtgggtcttcaaaaaagaagagtttgtatagagtaaagta
+tatacttcgactttcttgtgctagaactttagctcgtaagcataaaagta
+ctgtacgtgcttttttgaaaagattcggctcggaattattggaagaattc
+tttacggaagaagaacaggttttttccttgacctttccaagagtttcttc
+catttctcgaaggttatctagaaggcggatttggtatttggatattattt
+gtatcaacaatttggccaattatgaatgattcgttatgaaaccttgtaaa
+tataaatttcatcactaaaaaatctaataaacaatgtcaataatgaagag
+ctaaaaaaacaaataaacaattatttatctctattctgaaatgttgatgt
+agtatgtagtaaggatgaaatcaactgagtattcaaccttttcttgtcta
+atgaaggaactgagttttagatgtatacagagggaaagccgtgtgcaatg
+aaaaatgcaagcacggcttggggagggatttttacttatttaacaaggaa
+attatctactccatccgactagttccgggttcgaatcccgggcaacccat
+
 
 Intron from tRNA-Lys(ttt)
 1   .   10    .   20    .   30    .   40    .   50
@@ -195,6 +259,13 @@ Intron Insertion Position(38-39): tttaa-Intron-ccgac
 
     Match with annotated tRNA-??? c(7244,7316) * amino acceptor mismatch
 
+
+Primary sequence for tRNA-Gln(ttg)
+1   .   10    .   20    .   30    .   40    .   50
+tggggcgtagccaagtggtaaggcaacgggttttgatcccgctattcgga
+ggttcgaacccttccgtcccag
+
+
  
 4.
  
@@ -232,6 +303,13 @@ Intron Insertion Position(38-39): tttaa-Intron-ccgac
 
 
     Match with annotated tRNA-??? c(8490,8577) * amino acceptor mismatch
+
+
+Primary sequence for tRNA-Ser(gct)
+1   .   10    .   20    .   30    .   40    .   50
+ggagagatggctgagtggacgaaagcggcggattgctaatccgttgtacg
+agttattcgtaccgagggttcgaatccctctctttccg
+
 
  
 5.
@@ -271,6 +349,13 @@ Intron Insertion Position(38-39): tttaa-Intron-ccgac
 
     Match with annotated tRNA-Cys  (9331,9402)
 
+
+Primary sequence for tRNA-Cys(gca)
+1   .   10    .   20    .   30    .   40    .   50
+ggcggcatggccgagtggtaaggcgggggactgcaaatcctttttcccca
+gttcaaatccgggtgccgcctc
+
+
  
 6.
  
@@ -308,6 +393,13 @@ Intron Insertion Position(38-39): tttaa-Intron-ccgac
 
 
     Match with annotated tRNA-Asp c(11547,11620)
+
+
+Primary sequence for tRNA-Asp(gtc)
+1   .   10    .   20    .   30    .   40    .   50
+tgggattgtagttcaataggcaagagcaccgccctgtcaaggcggacgtt
+gcgggttcgagccccgtcagtcccgac
+
 
  
 7.
@@ -347,6 +439,13 @@ Intron Insertion Position(38-39): tttaa-Intron-ccgac
 
     Match with annotated tRNA-??? c(11734,11817) * amino acceptor mismatch
 
+
+Primary sequence for tRNA-Tyr(gta)
+1   .   10    .   20    .   30    .   40    .   50
+tgggtcgatgcccgagtggttaatggggacggactgtaaattcgttgaca
+atatgtctacgctggttcaaatccagctcggcccaac
+
+
  
 8.
  
@@ -384,6 +483,13 @@ Intron Insertion Position(38-39): tttaa-Intron-ccgac
 
 
     Match with annotated tRNA-??? c(11921,11992) * amino acceptor mismatch
+
+
+Primary sequence for tRNA-Glu(ttc)
+1   .   10    .   20    .   30    .   40    .   50
+tgcccctatggtccagtggttacgacctctctctttcacggagaaaacga
+gggttcaagtccctctaggggtat
+
 
  
 9.
@@ -423,6 +529,13 @@ Intron Insertion Position(38-39): tttaa-Intron-ccgac
 
     Match with annotated tRNA-??? c(29818,29889) * amino acceptor mismatch
 
+
+Primary sequence for tRNA-Arg(tct)
+1   .   10    .   20    .   30    .   40    .   50
+gcgtccattgtctaatggataggacagaggtcttctaaacctttggtata
+ggttcaaatcctattggacgca
+
+
  
 10.
  
@@ -461,6 +574,27 @@ Intron Insertion Position(38-39): tttaa-Intron-ccgac
 
     Not annotated
     Overlap with annotated tRNA-Gly c(30095,30142)
+
+
+Primary sequence for tRNA-Ser(cga)
+1   .   10    .   20    .   30    .   40    .   50
+gcgggtatagtttagtggtaaaagtgtgattcgttctattaaccccctta
+atagttaaggggtctttcggtttgattcatattccgattaaaaactctat
+ttcattaaaaggattcaatcctttacctttcaatgacatattcaaggaat
+aatatcaattttcgggatttttatccaaaggtgaattaaaaaatgaaaac
+ttggattatgaaattgcgaaacaaaatttgaaaataaaattggatccata
+cttccaattgaatgagtatgaataaagactccatggatgaagatagaaaa
+gtatatttctaatttctaatcgtaactaaatcttcaatttttgtttggat
+ttgtagcgactaaattgaagcaaaatagctattaaagaatatctttagtt
+tactagagacatcgccatattattttagctcggtggaaataaaatccttt
+tccttaggaccctctcaaatagaaatagagaacgaagtaactagaaagat
+tgttagaattgccttcttctagagggatcatctagaaagcgagtcgtttt
+gaattgaatatattcaaacaaaaagctgacatagatgttatgggtatcgt
+ttttttttagttggttcacatctgaaatctagcaaattctccattttcca
+taaaggagccgaatgaaaccaaagtttcatgttcggttttgaattagaga
+cgttaaaaatgatgaatcgacgtcgactataacccctagccttccaagct
+aacgatgcgggttcgattcccgctacccgctc
+
 
 Intron from tRNA-Ser(cga)
 1   .   10    .   20    .   30    .   40    .   50
@@ -520,6 +654,13 @@ Intron Insertion Position(31-32): tgatt-Intron-tcgac
 
     Match with annotated tRNA-??? c(34947,35029) * amino acceptor mismatch
 
+
+Primary sequence for tRNA-Ser(tga)
+1   .   10    .   20    .   30    .   40    .   50
+ggagagatggctgagtggttgaaagccccggtcttgaaaaccggtatagt
+ttactatcgagggttcgaatccctctctctcct
+
+
  
 12.
  
@@ -557,6 +698,13 @@ Intron Insertion Position(31-32): tgatt-Intron-tcgac
 
 
     Match with annotated tRNA-Gly  (35855,35925)
+
+
+Primary sequence for tRNA-Gly(gcc)
+1   .   10    .   20    .   30    .   40    .   50
+gcggatatagtcgaatggtaaaatttctctttgccaaggagaagacgcgg
+gttcgattcccgctatccgccc
+
 
  
 13.
@@ -596,6 +744,13 @@ Intron Insertion Position(31-32): tgatt-Intron-tcgac
 
     Match with annotated tRNA-Met c(36112,36185)
 
+
+Primary sequence for tRNA-Met(cat)
+1   .   10    .   20    .   30    .   40    .   50
+cgcggggtagagcagtttggtagctcgcaaggctcataaccttgaggtca
+cgggttcaaatcctgtctccgcaa
+
+
  
 14.
  
@@ -633,6 +788,13 @@ Intron Insertion Position(31-32): tgatt-Intron-tcgac
 
 
     Match with annotated tRNA-???  (44778,44864) * amino acceptor mismatch
+
+
+Primary sequence for tRNA-Ser(gga)
+1   .   10    .   20    .   30    .   40    .   50
+ggagagatggccgagtggttgaaggcgtagcattggaactgctatgtagg
+cttttgcttaccgagggttcgaatccctctctttccg
+
 
  
 15.
@@ -672,6 +834,13 @@ Intron Insertion Position(31-32): tgatt-Intron-tcgac
 
     Match with annotated tRNA-Thr c(46146,46218)
 
+
+Primary sequence for tRNA-Thr(tgt)
+1   .   10    .   20    .   30    .   40    .   50
+agcctgcttagctcagaggttagagcatcgcatttgtaatgcgatggtca
+tcggttcgattccgatagtcggctt
+
+
  
 16.
  
@@ -710,6 +879,22 @@ Intron Insertion Position(31-32): tgatt-Intron-tcgac
 
     Not annotated
     Overlap with annotated tRNA-Leu  (46770,46806)
+
+
+Primary sequence for tRNA-Leu(taa)
+1   .   10    .   20    .   30    .   40    .   50
+ggggatatggcgaaatcggtagacgctacggacttaattggattgagcct
+tggtatggaaacttactaagtgataactttcaaattcagagaaaccctgg
+aattaataaaaatgggcaatcctgagccaaatcacgttttccgaaaacaa
+acaaagattcagaaagcgaaaatcaaaaaggataggtgcagagactcgat
+ggaagctgttctaacgaatggagttgattgtcttacgttagtaaaggaat
+ccttctattgaaacttcataaaaaatgaaggataaacctttatacataca
+taataaagaagaattgttgtcaatcaatattaaaaaaaatcaaatattaa
+ttgatgaaaccattcactccataatctgatagatcttttgaagaacggat
+taatcggatgagaataaagatagagtcccgttctacatgtcaatactgac
+aaaaatgaaatttatagtaagaggaaaatccgtcgatttcaaaaatcgtg
+agggttcaagtccctctatcccca
+
 
 Intron from tRNA-Leu(taa)
 1   .   10    .   20    .   30    .   40    .   50
@@ -764,6 +949,13 @@ Intron Insertion Position(35-36): gactt-Intron-aaaat
 
     Match with annotated tRNA-Phe  (47612,47681)
 
+
+Primary sequence for tRNA-Phe(gaa)
+1   .   10    .   20    .   30    .   40    .   50
+gttgggatagctcagttggtagagcagaggactgaaaatcctcgtgtcac
+cagttcaaatctggttcctgacac
+
+
  
 18.
  
@@ -802,6 +994,24 @@ Intron Insertion Position(35-36): gactt-Intron-aaaat
 
     Not annotated
     Overlap with annotated tRNA-Val c(51085,51121)
+
+
+Primary sequence for tRNA-Val(tac)
+1   .   10    .   20    .   30    .   40    .   50
+agggctatagctcagttggtagagcacctcgtttacacgcgcgccgatgt
+ttttcaggggagtccatcatggaatcaaaaaatttgatcttattgacaaa
+tcgatgtcttactccataactttgagggaagaagagaacaatagcctgac
+aagggttccgtccttttaggtgtcccaattaggtgccaaacagaccccat
+cattgatttgatatattgataaggtgaatacctagtctattcaatgctag
+gctgagcataagggcctcaaaaaaatctcttttcgtcctatgaactttaa
+ggtgtatgaagtttcatatttgatttttaagtagagcgatagagacttca
+tttcacttaggttaatctaggccaaaggcagacctacgtcaagataacct
+cccttgaaaaactttggtagtgttcctgaatccacataatgactcagagc
+acatggagccatctccttatttttcggtcaaaaataaaaatggcggacta
+gctgatatttatatcagttaatgaaagagcccaatgcacaaaaaatgcat
+gttgggtctttgaaacagttcagatcattttgataataaaaagtttgatc
+tgttttaccgagaaagtctacggttcgagtccgtatagcccta
+
 
 Intron from tRNA-Val(tac)
 1   .   10    .   20    .   30    .   40    .   50
@@ -859,6 +1069,13 @@ Intron Insertion Position(38-39): tacac-Intron-cgaga
 
     Match with annotated tRNA-Met  (51914,51986)
 
+
+Primary sequence for tRNA-Met(cat)
+1   .   10    .   20    .   30    .   40    .   50
+acctacttaactcagcggttagagtattgctttcatacggcgggagtcat
+tggttcaaatccaatagtaggta
+
+
  
 20.
  
@@ -896,6 +1113,13 @@ Intron Insertion Position(38-39): tacac-Intron-cgaga
 
 
     Match with annotated tRNA-Trp c(64142,64215)
+
+
+Primary sequence for tRNA-Trp(cca)
+1   .   10    .   20    .   30    .   40    .   50
+gcgctcttagttcagttcggtagaacgtgggtctccaaaacccgatgtcg
+taggttcaaatcctacagagcgtg
+
 
  
 21.
@@ -935,6 +1159,13 @@ Intron Insertion Position(38-39): tacac-Intron-cgaga
 
     Match with annotated tRNA-Pro c(64381,64455)
 
+
+Primary sequence for tRNA-Pro(tgg)
+1   .   10    .   20    .   30    .   40    .   50
+agggatgtagcgcagcttggtagcgcgtttgttttgggtacaaaatgtca
+caggttcgaatcctgtcatccctacc
+
+
  
 22.
  
@@ -972,6 +1203,13 @@ Intron Insertion Position(38-39): tacac-Intron-cgaga
 
 
     Match with annotated tRNA-Met c(83888,83961)
+
+
+Primary sequence for tRNA-Met(cat)
+1   .   10    .   20    .   30    .   40    .   50
+gcatccatggctgaatggttaaagcacccaactcataattggcgaattcg
+taggttcaattcctactggatgcac
+
 
  
 23.
@@ -1011,6 +1249,13 @@ Intron Insertion Position(38-39): tacac-Intron-cgaga
 
     Match with annotated tRNA-Leu c(91330,91410)
 
+
+Primary sequence for tRNA-Leu(caa)
+1   .   10    .   20    .   30    .   40    .   50
+tgccttggtggtgaaatggtagacacgcgagactcaaaatctcgtgctaa
+atagcgtggaggttcgagtcctcttcaaggcat
+
+
  
 24.
  
@@ -1048,6 +1293,13 @@ Intron Insertion Position(38-39): tacac-Intron-cgaga
 
 
     Match with annotated tRNA-Val  (97644,97715)
+
+
+Primary sequence for tRNA-Val(gac)
+1   .   10    .   20    .   30    .   40    .   50
+agggatataactcagcggtagagtgtcaccttgacgtggtggaagtcatc
+agttcgagcctgattatcccta
+
 
  
 25.
@@ -1087,6 +1339,28 @@ Intron Insertion Position(38-39): tacac-Intron-cgaga
 
     Not annotated
     Overlap with annotated tRNA-Ile  (99728,99770)
+
+
+Primary sequence for tRNA-Glu(ttc)
+1   .   10    .   20    .   30    .   40    .   50
+gggctattagctcagtgggtagagcgcgcccctgataattgcgtcgttgt
+gcctgggctgtgagggctctcagccacatggatagttcaatgtgctcatc
+ggcgcctgaccctgagatgtggatcatccaaggcacattagcatggcgta
+ctcctcctgttcgaaccggggtttgaaaccaaacttctcctcaggaggat
+agatggggcgattcaggtgagatccaatgtagatccaactttcgattcac
+tcgtgggatccgggcggtccgggggggaccaccatggctcctctcttctc
+gagaatccatacatcccttatcagtgtatggacagctatctctcgagcac
+aggtttaggttcggcctcaatgggaaaataaaatggagcacctaacaacg
+catcttcacagaccaagaactacgagatcacccctttcattctggggtga
+cggagggatcataccattcgagcctttttttttttttttcatgcttttcc
+ccgaggtctggagaaagctgaaatcaacttgactcgaaatgggagcaggt
+ttgaaaaaggatcttagagtgtctagggttgggccaggagggtctcttaa
+cgccttcttttttcttctcatcggagttatttcacaaagacttgacatgg
+taaggaagaaggggggaacaggcacacttggagagcgcagtacaacggag
+agttgtatgctgcgttcgggaaggatgaatcgctcccgaaaaggaatcta
+ttgattctctcccaattggttggaccgtaggtgcgatgatttacttcacg
+ggcgaggtctctggttcaagtccaggatggccca
+
 
 Intron from tRNA-Glu(ttc)
 1   .   10    .   20    .   30    .   40    .   50
@@ -1149,6 +1423,29 @@ Intron Insertion Position(33-34): cccct-Intron-ttcac
     Not annotated
     Overlap with annotated tRNA-Ala  (100626,100663)
 
+
+Primary sequence for tRNA-Ala(tgc)
+1   .   10    .   20    .   30    .   40    .   50
+ggggatatagctcagttggtagagctccgctcttgcaattgggtcgttgc
+gattacgggttggatgtctaattgtccaggcggtaatgatagtatcttgt
+acctgaaccggtggctcactttttctaagtaatggggaagaggaccgaaa
+catgccactgaaagactctactgagacaaagatgggctgtcaagaacgtc
+aagaacgtagagtaggtaggatgggcagttggtcagatctagtatggatc
+gtacatggacggtagttggagtcggcggctctcctagggttcccttattg
+gggatccctggggaagaggatcaagttggcccttgcgaacagcttgatgc
+actatctcccttcaaccctttgagcgaaatgcggcaaaaggaaggaaaat
+ccatggaccgaccccatcatctccaccccgtaggaactacgagattaccc
+caaggacgccttcggcatccaggggtcacggaccgaccatagaaccctgt
+tcaataagtggaacgcattagctgtccgctctctggttgggcagtaaggg
+tcggagaagggcaatcactcattcttaaaaccagcgttcttaaggccaaa
+gagtcggcggaaaaggggggaaagctctccgttcctggtttcctgtagct
+ggatcctccggaaccacaagaatccttagttagaattagaatgggattcc
+aactcaacaccttttgagtgagattttgagaagagttgctctttggagag
+cacagtacgatgaaagttgtaagctgtgttcgggggggagttattgtcta
+tcgttggcctctatggtagaatcagtcgggggacctgagaggcggtggtt
+taccctgcggcggatgtcagcggttcgagtccgcttatctcca
+
+
 Intron from tRNA-Ala(tgc)
 1   .   10    .   20    .   30    .   40    .   50
 attgggtcgttgcgattacgggttggatgtctaattgtccaggcggtaat
@@ -1210,6 +1507,13 @@ Intron Insertion Position(37-38): ttgca-Intron-cggcg
 
     Match with annotated tRNA-Arg  (105301,105374)
 
+
+Primary sequence for tRNA-Arg(acg)
+1   .   10    .   20    .   30    .   40    .   50
+gggcctgtagctcagaggattagagcacgtggctacgaaccacggtgtcg
+ggggttcgaatccctcctcgcccac
+
+
  
 28.
  
@@ -1247,6 +1551,13 @@ Intron Insertion Position(37-38): ttgca-Intron-cggcg
 
 
     Match with annotated tRNA-Asn c(105869,105940)
+
+
+Primary sequence for tRNA-Asn(gtt)
+1   .   10    .   20    .   30    .   40    .   50
+ttcctcagtagctcagtggtagagcggtcggctgttaaccgattggtcgt
+aggttcgaatcctacttgaggaga
+
 
  
 29.
@@ -1286,6 +1597,13 @@ Intron Insertion Position(37-38): ttgca-Intron-cggcg
 
     Match with annotated tRNA-???  (110967,111046) * amino acceptor mismatch
 
+
+Primary sequence for tRNA-Leu(tag)
+1   .   10    .   20    .   30    .   40    .   50
+gccgctatggtgaaatcggtagacacgctgctcttaggaagcagtgctag
+agcatctcggttcgagtccgagtggcggca
+
+
  
 30.
  
@@ -1323,6 +1641,13 @@ Intron Insertion Position(37-38): ttgca-Intron-cggcg
 
 
     Match with annotated tRNA-Asn  (125855,125926)
+
+
+Primary sequence for tRNA-Asn(gtt)
+1   .   10    .   20    .   30    .   40    .   50
+ttcctcagtagctcagtggtagagcggtcggctgttaaccgattggtcgt
+aggttcgaatcctacttgaggaga
+
 
  
 31.
@@ -1362,6 +1687,13 @@ Intron Insertion Position(37-38): ttgca-Intron-cggcg
 
     Match with annotated tRNA-Arg c(126421,126494)
 
+
+Primary sequence for tRNA-Arg(acg)
+1   .   10    .   20    .   30    .   40    .   50
+gggcctgtagctcagaggattagagcacgtggctacgaaccacggtgtcg
+ggggttcgaatccctcctcgcccac
+
+
  
 32.
  
@@ -1400,6 +1732,29 @@ Intron Insertion Position(37-38): ttgca-Intron-cggcg
 
     Not annotated
     Overlap with annotated tRNA-Ala c(130277,130311)
+
+
+Primary sequence for tRNA-Ala(tgc)
+1   .   10    .   20    .   30    .   40    .   50
+ggggatatagctcagttggtagagctccgctcttgcaattgggtcgttgc
+gattacgggttggatgtctaattgtccaggcggtaatgatagtatcttgt
+acctgaaccggtggctcactttttctaagtaatggggaagaggaccgaaa
+catgccactgaaagactctactgagacaaagatgggctgtcaagaacgtc
+aagaacgtagagtaggtaggatgggcagttggtcagatctagtatggatc
+gtacatggacggtagttggagtcggcggctctcctagggttcccttattg
+gggatccctggggaagaggatcaagttggcccttgcgaacagcttgatgc
+actatctcccttcaaccctttgagcgaaatgcggcaaaaggaaggaaaat
+ccatggaccgaccccatcatctccaccccgtaggaactacgagattaccc
+caaggacgccttcggcatccaggggtcacggaccgaccatagaaccctgt
+tcaataagtggaacgcattagctgtccgctctctggttgggcagtaaggg
+tcggagaagggcaatcactcattcttaaaaccagcgttcttaaggccaaa
+gagtcggcggaaaaggggggaaagctctccgttcctggtttcctgtagct
+ggatcctccggaaccacaagaatccttagttagaattagaatgggattcc
+aactcaacaccttttgagtgagattttgagaagagttgctctttggagag
+cacagtacgatgaaagttgtaagctgtgttcgggggggagttattgtcta
+tcgttggcctctatggtagaatcagtcgggggacctgagaggcggtggtt
+taccctgcggcggatgtcagcggttcgagtccgcttatctcca
+
 
 Intron from tRNA-Ala(tgc)
 1   .   10    .   20    .   30    .   40    .   50
@@ -1463,6 +1818,28 @@ Intron Insertion Position(37-38): ttgca-Intron-cggcg
     Not annotated
     Overlap with annotated tRNA-??? c(131234,131268)
 
+
+Primary sequence for tRNA-Glu(ttc)
+1   .   10    .   20    .   30    .   40    .   50
+gggctattagctcagtgggtagagcgcgcccctgataattgcgtcgttgt
+gcctgggctgtgagggctctcagccacatggatagttcaatgtgctcatc
+ggcgcctgaccctgagatgtggatcatccaaggcacattagcatggcgta
+ctcctcctgttcgaaccggggtttgaaaccaaacttctcctcaggaggat
+agatggggcgattcaggtgagatccaatgtagatccaactttcgattcac
+tcgtgggatccgggcggtccgggggggaccaccatggctcctctcttctc
+gagaatccatacatcccttatcagtgtatggacagctatctctcgagcac
+aggtttaggttcggcctcaatgggaaaataaaatggagcacctaacaacg
+catcttcacagaccaagaactacgagatcacccctttcattctggggtga
+cggagggatcataccattcgagcctttttttttttttttcatgcttttcc
+ccgaggtctggagaaagctgaaatcaacttgactcgaaatgggagcaggt
+ttgaaaaaggatcttagagtgtctagggttgggccaggagggtctcttaa
+cgccttcttttttcttctcatcggagttatttcacaaagacttgacatgg
+taaggaagaaggggggaacaggcacacttggagagcgcagtacaacggag
+agttgtatgctgcgttcgggaaggatgaatcgctcccgaaaaggaatcta
+ttgattctctcccaattggttggaccgtaggtgcgatgatttacttcacg
+ggcgaggtctctggttcaagtccaggatggccca
+
+
 Intron from tRNA-Glu(ttc)
 1   .   10    .   20    .   30    .   40    .   50
 gataattgcgtcgttgtgcctgggctgtgagggctctcagccacatggat
@@ -1523,6 +1900,13 @@ Intron Insertion Position(33-34): cccct-Intron-ttcac
 
     Match with annotated tRNA-Val c(134080,134152)
 
+
+Primary sequence for tRNA-Val(gac)
+1   .   10    .   20    .   30    .   40    .   50
+agggatataactcagcggtagagtgtcaccttgacgtggtggaagtcatc
+agttcgagcctgattatcccta
+
+
  
 35.
  
@@ -1561,6 +1945,13 @@ Intron Insertion Position(33-34): cccct-Intron-ttcac
 
     Match with annotated tRNA-Leu  (140385,140465)
 
+
+Primary sequence for tRNA-Leu(caa)
+1   .   10    .   20    .   30    .   40    .   50
+tgccttggtggtgaaatggtagacacgcgagactcaaaatctcgtgctaa
+atagcgtggaggttcgagtcctcttcaaggcat
+
+
  
 36.
  
@@ -1598,6 +1989,13 @@ Intron Insertion Position(33-34): cccct-Intron-ttcac
 
 
     Match with annotated tRNA-Met  (147834,147908)
+
+
+Primary sequence for tRNA-Met(cat)
+1   .   10    .   20    .   30    .   40    .   50
+gcatccatggctgaatggttaaagcacccaactcataattggcgaattcg
+taggttcaattcctactggatgcac
+
 
 
 
@@ -1706,4 +2104,4 @@ Number of annotated tmRNA genes not detected = 0
 Number of unannotated tmRNA genes detected = 0
 
 
-Configuration: aragorn -v -e -gcbact -c -i -o plastomes/table2asn/cc/Crepis_callicephala.aragorn.trnas.txt plastomes/table2asn/cc/Crepis_callicephala.gbf 
+Configuration: aragorn -v -e -gcbact -c -i -seq -o plastomes/table2asn/cc/Crepis_callicephala.aragorn.trnas.txt plastomes/table2asn/cc/Crepis_callicephala.gbf 
