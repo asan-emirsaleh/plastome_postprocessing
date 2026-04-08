@@ -1,0 +1,14 @@
+Total messages:		167
+
+=================================================================
+167 WARNING-level messages exist
+
+SEQ_FEAT.GenCodeMismatch:	85
+SEQ_FEAT.CDSgeneRange:	7
+SEQ_FEAT.GeneXrefWithoutGene:	6
+SEQ_FEAT.MissingTrnaAA:	4
+SEQ_FEAT.NotSpliceConsensusDonor:	18
+SEQ_FEAT.NotSpliceConsensusAcceptor:	40
+SEQ_FEAT.GeneXrefStrandProblem:	7
+
+=================================================================

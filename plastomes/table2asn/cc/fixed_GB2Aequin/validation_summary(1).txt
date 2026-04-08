@@ -1,0 +1,5 @@
+     7 WARNING: SEQ_FEAT.CollidingGeneNames
+     1 WARNING: SEQ_FEAT.GeneXrefNeeded
+     6 WARNING: SEQ_FEAT.GeneXrefWithoutGene
+     4 WARNING: SEQ_FEAT.MissingTrnaAA
+    14 INFO:    SEQ_FEAT.ReplicatedGeneSequence
