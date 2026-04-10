@@ -49,12 +49,13 @@ FEATURES             Location/Qualifiers
                      /transl_table=11
      gene            complement(1761..4360)
                      /gene="trnK-UUU"
-     tRNA            complement(join(1761..1796,4323..4360))
+     tRNA            complement(join(1761..1798,4325..4360))
                      /gene="trnK-UUU"
-     exon            complement(1761..1796)
+                     /product="tRNA-Lys"
+     exon            complement(1761..1798)
                      /gene="trnK-UUU"
                      /number=2
-     intron          complement(1797..4322)
+     intron          complement(1799..4324)
                      /gene="trnK-UUU"
                      /number=1
      gene            complement(2082..3593)
@@ -72,7 +73,7 @@ FEATURES             Location/Qualifiers
                      IDRFGRIYRNLSHYHSGSSKKKSLYRVKYILRLSCARTLARKHKSTVRAFLKRFGSELL
                      EEFFTEEEQVFSLTFPRVSSISRRLSRRRIWYLDIICINNLANYE"
                      /transl_table=11
-     exon            complement(4323..4360)
+     exon            complement(4325..4360)
                      /gene="trnK-UUU"
                      /number=1
      gene            complement(5152..6276)
@@ -116,10 +117,12 @@ FEATURES             Location/Qualifiers
                      /gene="trnS-GCU"
      tRNA            complement(8490..8577)
                      /gene="trnS-GCU"
+                     /product="tRNA-Ser"
      gene            9349..9420
                      /gene="trnC-GCA"
      tRNA            9349..9420
                      /gene="trnC-GCA"
+                     /product="tRNA-Cys"
      gene            10244..10333
                      /gene="petN"
      CDS             10244..10333
@@ -248,20 +251,19 @@ FEATURES             Location/Qualifiers
                      /gene="trnR-UCU"
      tRNA            complement(29854..29925)
                      /gene="trnR-UCU"
+                     /product="tRNA-Arg"
      gene            complement(30130..30911)
                      /gene="trnS-CGA"
-     tRNA            complement(join(30130..30189,30881..30911))
+     tRNA            complement(join(30130..30160,30852..30911))
                      /gene="trnS-CGA"
-     exon            complement(30130..30189)
+                     /product="tRNA-Ser"
+     exon            complement(30130..30160)
                      /gene="trnS-CGA"
                      /number=2
-     intron          complement(30179..30888)
-                     /gene="trnG-UCC"
-                     /number=1
-     intron          complement(30190..30880)
+     intron          complement(30161..30851)
                      /gene="trnS-CGA"
                      /number=1
-     exon            complement(30881..30911)
+     exon            complement(30852..30911)
                      /gene="trnS-CGA"
                      /number=1
      gene            31047..31118
@@ -300,6 +302,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnS-UGA"
      tRNA            complement(34983..35065)
                      /gene="trnS-UGA"
+                     /product="tRNA-Ser"
      gene            35403..35591
                      /gene="psbZ"
      CDS             35403..35591
@@ -312,10 +315,12 @@ FEATURES             Location/Qualifiers
                      /gene="trnG-GCC"
      tRNA            35891..35962
                      /gene="trnG-GCC"
+                     /product="tRNA-Gly"
      gene            complement(36148..36221)
                      /gene="trnM-CAU"
      tRNA            complement(36148..36221)
                      /gene="trnM-CAU"
+                     /product="tRNA-Met"
      gene            complement(36376..36678)
                      /gene="rps14"
      CDS             complement(36376..36678)
@@ -375,6 +380,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnS-GGA"
      tRNA            44813..44899
                      /gene="trnS-GGA"
+                     /product="tRNA-Ser"
      gene            complement(45211..45816)
                      /gene="rps4"
      CDS             complement(45211..45816)
@@ -394,6 +400,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnL-UAA"
      tRNA            join(46805..46839,47280..47329)
                      /gene="trnL-UAA"
+                     /product="tRNA-Leu"
      exon            46805..46839
                      /gene="trnL-UAA"
                      /number=1
@@ -407,6 +414,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnF-GAA"
      tRNA            47645..47718
                      /gene="trnF-GAA"
+                     product="tRNA-Phe"
      gene            complement(48363..48839)
                      /gene="ndhJ"
      CDS             complement(48363..48839)
@@ -441,22 +449,23 @@ FEATURES             Location/Qualifiers
                      /transl_table=11
      gene            complement(51120..51762)
                      /gene="trnV-UAC"
-     tRNA            complement(join(51120..51154,51725..51762))
+     tRNA            complement(join(51120..51157,51728..51762))
                      /gene="trnV-UAC"
                      /product="tRNA-Val"
-     exon            complement(51120..51154)
+     exon            complement(51120..51157)
                      /gene="trnV-UAC"
                      /number=2
-     intron          complement(51155..51724)
+     intron          complement(51158..51727)
                      /gene="trnV-UAC"
                      /number=1
-     exon            complement(51725..51762)
+     exon            complement(51728..51762)
                      /gene="trnV-UAC"
                      /number=1
      gene            51949..52021
                      /gene="trnM-CAU"
      tRNA            51949..52021
                      /gene="trnM-CAU"
+                     /product="tRNA-Met"
      gene            complement(52230..52631)
                      /gene="atpE"
      CDS             complement(52230..52631)
@@ -590,10 +599,12 @@ FEATURES             Location/Qualifiers
                      /gene="trnW-CCA"
      tRNA            complement(64168..64241)
                      /gene="trnW-CCA"
+                     /product="tRNA-Trp"
      gene            complement(64405..64480)
                      /gene="trnP-UGG"
      tRNA            complement(64405..64480)
                      /gene="trnP-UGG"
+                     /product="tRNA-Pro"
      gene            64788..64922
                      /gene="psaJ"
      CDS             64788..64922
@@ -903,6 +914,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnL-CAA"
      tRNA            complement(91343..91425)
                      /gene="trnL-CAA"
+                     /product="tRNA-Leu"
      gene            complement(92002..94203)
                      /gene="ndhB"
      CDS             complement(join(92002..92757,93427..94203))
@@ -977,6 +989,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnV-GAC"
      tRNA            97658..97729
                      /gene="trnV-GAC"
+                     /product="tRNA-Val"
      gene            97958..99447
                      /gene="rrn16"
      rRNA            97958..99447
@@ -986,6 +999,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnI-GAU"
      tRNA            join(99742..99774,100538..100577)
                      /gene="trnE-UUC"
+                     /product="tRNA-Glu"
      exon            99742..99774
                      /gene="trnE-UUC"
                      /number=1
@@ -999,6 +1013,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnA-UGC"
      tRNA            join(100642..100678,101499..101534)
                      /gene="trnA-UGC"
+                     /product="tRNA-Ala"
      exon            100642..100678
                      /gene="trnA-UGC"
                      /number=1
@@ -1026,6 +1041,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnR-ACG"
      tRNA            105317..105391
                      /gene="trnR-ACG"
+                     /product="tRNA-Arg"
      gene            complement(105890..105963)
                      /gene="trnN-GUU"
      tRNA            complement(105890..105963)
@@ -1068,6 +1084,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnL-UAG"
      tRNA            110984..111063
                      /gene="trnL-UAG"
+                     /product="tRNA-Leu"
      gene            111196..112164
                      /gene="ccsA"
      CDS             111196..112164
@@ -1209,28 +1226,30 @@ FEATURES             Location/Qualifiers
                      /product="23S ribosomal RNA (chloroplast)"
      gene            complement(130307..131199)
                      /gene="trnA-UGC"
-     tRNA            complement(join(130307..130342,131163..131199))
+     tRNA            complement(join(130307..130343,131164..131199))
                      /gene="trnA-UGC"
-     exon            complement(130307..130342)
+                     /product="tRNA-Ala"
+     exon            complement(130307..130343)
                      /gene="trnA-UGC"
                      /number=2
-     intron          complement(130343..131162)
+     intron          complement(130344..131163)
                      /gene="trnA-UGC"
                      /number=1
-     exon            complement(131163..131199)
+     exon            complement(131164..131199)
                      /gene="trnA-UGC"
                      /number=1
      gene            complement(131264..132099)
-                     /gene="trnI-GAU"
-     tRNA            complement(join(131264..131303,132067..132099))
                      /gene="trnE-UUC"
-     exon            complement(131264..131303)
+     tRNA            complement(join(131264..131296,132060..132099))
+                     /gene="trnE-UUC"
+                     /product="tRNA-Glu"
+     exon            complement(131264..131296)
                      /gene="trnE-UUC"
                      /number=2
-     intron          complement(131304..132066)
+     intron          complement(131297..132059)
                      /gene="trnE-UUC"
                      /number=1
-     exon            complement(132067..132099)
+     exon            complement(132060..132099)
                      /gene="trnE-UUC"
                      /number=1
      gene            complement(132395..133884)
@@ -1297,6 +1316,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnL-CAA"
      tRNA            140416..140498
                      /gene="trnL-CAA"
+                     /product="tRNA-Leu"
      gene            complement(140900..147754)
                      /gene="ycf2"
      CDS             complement(140900..147754)
@@ -1346,6 +1366,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnM-CAU"
      tRNA            147866..147940
                      /gene="trnM-CAU"
+                     /product="tRNA-Met"
      gene            148105..148386
                      /gene="rpl23"
      CDS             148105..148386
