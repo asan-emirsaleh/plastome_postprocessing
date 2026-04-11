@@ -1,0 +1,83 @@
+Discrepancy Report Results
+
+Summary
+COUNT_NUCLEOTIDES: 1 nucleotide Bioseq is present
+SOURCE_QUALS: taxname (all present, all unique)
+SOURCE_QUALS: location (all present, all unique)
+FEATURE_COUNT: CDS: 80 present
+FEATURE_COUNT: exon: 47 present
+FEATURE_COUNT: gene: 135 present
+FEATURE_COUNT: intron: 24 present
+FEATURE_COUNT: misc_feature: 2 present
+FEATURE_COUNT: rRNA: 8 present
+FEATURE_COUNT: repeat_region: 2 present
+FEATURE_COUNT: tRNA: 37 present
+SUSPECT_PRODUCT_NAMES: 1 product_name contains suspect phrase or character
+	May contain database identifier more appropriate in note; remove from product name
+		1 feature contain three or more numbers together that may be identifiers more appropriate in note
+RNA_NO_PRODUCT: 2 RNA features have no product and are not pseudo
+SHORT_PROT_SEQUENCES: 13 protein sequences are shorter than 50 aa.
+AUTODEF_USER_OBJECT: 1 nucleotide sequence has no autodef user objects
+DUP_DEFLINE: All deflines are unique
+SUPERFLUOUS_GENE: 21 gene features are not associated with any feature and are not pseudo.
+
+Detailed Report
+
+COUNT_NUCLEOTIDES: 1 nucleotide Bioseq is present
+output.sqn:Crepis_purpurea (length 150007)
+SOURCE_QUALS: taxname (all present, all unique)
+SOURCE_QUALS: location (all present, all unique)
+FEATURE_COUNT: CDS: 80 present
+FEATURE_COUNT: exon: 47 present
+FEATURE_COUNT: gene: 135 present
+FEATURE_COUNT: intron: 24 present
+FEATURE_COUNT: misc_feature: 2 present
+FEATURE_COUNT: rRNA: 8 present
+FEATURE_COUNT: repeat_region: 2 present
+FEATURE_COUNT: tRNA: 37 present
+SUSPECT_PRODUCT_NAMES: 1 product_name contains suspect phrase or character
+SUSPECT_PRODUCT_NAMES: May contain database identifier more appropriate in note; remove from product name
+SUSPECT_PRODUCT_NAMES: 1 feature contain three or more numbers together that may be identifiers more appropriate in note
+output.sqn:CDS	photosystem I P700 apoprotein A2	lcl|Crepis_purpurea:c39016-36812	
+RNA_NO_PRODUCT: 2 RNA features have no product and are not pseudo
+output.sqn:tRNA	tRNA	lcl|Crepis_purpurea:31047-31118	
+output.sqn:rRNA	rRNA	lcl|Crepis_purpurea:104942-105062	
+SHORT_PROT_SEQUENCES: 13 protein sequences are shorter than 50 aa.
+output.sqn:Crepis_purpurea_5 (length 36)
+output.sqn:Crepis_purpurea_6 (length 29)
+output.sqn:Crepis_purpurea_7 (length 34)
+output.sqn:Crepis_purpurea_27 (length 36)
+output.sqn:Crepis_purpurea_31 (length 40)
+output.sqn:Crepis_purpurea_32 (length 38)
+output.sqn:Crepis_purpurea_33 (length 39)
+output.sqn:Crepis_purpurea_35 (length 31)
+output.sqn:Crepis_purpurea_36 (length 37)
+output.sqn:Crepis_purpurea_37 (length 44)
+output.sqn:Crepis_purpurea_44 (length 33)
+output.sqn:Crepis_purpurea_45 (length 43)
+output.sqn:Crepis_purpurea_50 (length 37)
+AUTODEF_USER_OBJECT: 1 nucleotide sequence has no autodef user objects
+output.sqn:Crepis_purpurea (length 150007)
+DUP_DEFLINE: All deflines are unique
+SUPERFLUOUS_GENE: 21 gene features are not associated with any feature and are not pseudo.
+output.sqn:Gene	trnM-CAU	lcl|Crepis_purpurea:51949-52021	
+output.sqn:Gene	trnM-CAU	lcl|Crepis_purpurea:c83975-83901	
+output.sqn:Gene	rps12	[lcl|Crepis_purpurea:c67512-67399, c95807-95015]	
+output.sqn:Gene	trnI-GAU	lcl|Crepis_purpurea:99742-100577	
+output.sqn:Gene	trnN-GUU	lcl|Crepis_purpurea:125878-125951	
+output.sqn:Gene	trnR-ACG	lcl|Crepis_purpurea:c126524-126450	
+output.sqn:Gene	rrn5	lcl|Crepis_purpurea:c126899-126779	
+output.sqn:Gene	rrn4.5	lcl|Crepis_purpurea:c127246-127144	
+output.sqn:Gene	rrn23	lcl|Crepis_purpurea:c130154-127345	
+output.sqn:Gene	trnA-UGC	lcl|Crepis_purpurea:c131199-130307	
+output.sqn:Gene	trnE-UUC	lcl|Crepis_purpurea:c132099-131264	
+output.sqn:Gene	rrn16	lcl|Crepis_purpurea:c133884-132395	
+output.sqn:Gene	trnV-GAC	lcl|Crepis_purpurea:c134183-134112	
+output.sqn:Gene	ycf15	lcl|Crepis_purpurea:134868-135059	
+output.sqn:Gene	rps7	lcl|Crepis_purpurea:136880-137347	
+output.sqn:Gene	ndhB	lcl|Crepis_purpurea:137638-139839	
+output.sqn:Gene	trnL-CAA	lcl|Crepis_purpurea:140416-140498	
+output.sqn:Gene	ycf2	lcl|Crepis_purpurea:c147754-140900	
+output.sqn:Gene	trnM-CAU	lcl|Crepis_purpurea:147866-147940	
+output.sqn:Gene	rpl23	lcl|Crepis_purpurea:148105-148386	
+output.sqn:Gene	rpl2	lcl|Crepis_purpurea:148405-149894	

@@ -1,32 +1,40 @@
-LOCUS       Crepis_purpurea       150007 bp    DNA     circular PLN 18-DEC-2023
-DEFINITION  Crepis purpurea chloroplast.
-ACCESSION   Crepis_purpurea
-VERSION     Crepis_purpurea
+LOCUS       Crepis_purpurea       150007 bp    DNA     circular     10-APR-2026
+DEFINITION  Crepis purpurea chloroplast genome.
+ACCESSION   
+VERSION
 KEYWORDS    .
 SOURCE      chloroplast Crepis purpurea
   ORGANISM  Crepis purpurea
-            cellular organisms; Eukaryota; Viridiplantae; Streptophyta;
-            Streptophytina; Embryophyta; Tracheophyta; Euphyllophyta;
-            Spermatophyta; Magnoliopsida; Mesangiospermae; eudicotyledons;
-            Gunneridae; Pentapetalae; asterids; campanulids; Asterales;
-            Asteraceae; Cichorioideae; Cichorieae; Crepidinae; Crepis.
-REFERENCE   1
-  AUTHORS   Asan O. Emirsaliev, Dmitry A. Afonnikov, Irina V. Mitrofanova, Elena
-            A. Salina, Alex V. Kochetov
+            Unclassified.
+REFERENCE   1  (bases 1 to 150007)
+  AUTHORS   Emirsaliev,A.O., Afonnikov,D.A., Mitrofanova,I.V., Salina,E.A. and
+            Kochetov,A.V.
   TITLE     Phylogenetic analysis of rare Crepis species of Crimean flora (C.
             purpurea (Willd.) M. Bieb. and C. callicephala Juz.)
   JOURNAL   Unpublished
-REFERENCE   2
-  AUTHORS   Asan O. Emirsaliev, Dmitry A. Afonnikov, Irina V. Mitrofanova, Elena
-            A. Salina, Alex V. Kochetov
+REFERENCE   2  (bases 1 to 150007)
+  AUTHORS   Emirsaliev,A.O., Afonnikov,D.A., Mitrofanova,I.V., Salina,E.A. and
+            Kochetov,A.V.
   TITLE     Direct Submission
-  JOURNAL   Department of Plant Molecular Genetics, ICG SB RAS, IC&G SB RAS. 10,
-            Ac. Lavrentieva ave., Novosibirsk, 630090, Russia
+  JOURNAL   Submitted (10-APR-2026) Department of Plant Molecular Genetics,
+            IC&G SB RAS, 10, Ac. Lavrentieva ave., Novosibirsk 630090, Russia
 FEATURES             Location/Qualifiers
      source          1..150007
-                     /organism="c_pur__cor"
+                     /organism="Crepis purpurea"
                      /organelle="plastid:chloroplast"
                      /mol_type="genomic DNA"
+     gene            complement(join(95015..95807,67399..67512))
+                     /gene="rps12"
+                     /trans_splicing
+     CDS             complement(join(95015..95040,95576..95807,67399..67512))
+                     /gene="rps12"
+                     /trans_splicing
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein S12"
+                     /translation="MPTIKQLIRNTRQPIRNVTKSPALRGCPQRRGTCTRVYTITPKK
+                     PNSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHIVRGTL
+                     DAVGVKDRQQGRSKYGVKKPK"
      misc_feature    1..81833
                      /note="large single copy (LSC)"
      gene            complement(6..80)
@@ -38,15 +46,16 @@ FEATURES             Location/Qualifiers
                      /gene="psbA"
      CDS             complement(477..1538)
                      /gene="psbA"
-                     /product="photosystem II protein D1"
-                     /translation="MTAILERRESESLWGRFCNWITSTENRLYIGWFGVLMIPTLLTAT
-                     SVFIIAFIAAPPVDIDGIREPVSGSLLYGNNIISGAIIPTSAAIGLHFYPIWEAASVDE
-                     WLYNGGPYELIVLHFLLGVACYMGREWELSFRLGMRPWIAVAYSAPVAAATAVFLIYPI
-                     GQGSFSDGMPLGISGTFNFMIVFQAEHNILMHPFHMLGVAGVFGGSLFSAMHGSLVTSS
-                     LIRETTENESANEGYRFGQEEETYNIVAAHGYFGRLIFQYASFNNSRSLHFFLAAWPVV
-                     GIWFTALGISTMAFNLNGFNFNQSVVDSQGRVINTWADIINRANLGMEVMHERNAHNFP
-                     LDLAAIEAPSTNG"
+                     /codon_start=1
                      /transl_table=11
+                     /product="photosystem II protein D1"
+                     /translation="MTAILERRESESLWGRFCNWITSTENRLYIGWFGVLMIPTLLTA
+                     TSVFIIAFIAAPPVDIDGIREPVSGSLLYGNNIISGAIIPTSAAIGLHFYPIWEAASV
+                     DEWLYNGGPYELIVLHFLLGVACYMGREWELSFRLGMRPWIAVAYSAPVAAATAVFLI
+                     YPIGQGSFSDGMPLGISGTFNFMIVFQAEHNILMHPFHMLGVAGVFGGSLFSAMHGSL
+                     VTSSLIRETTENESANEGYRFGQEEETYNIVAAHGYFGRLIFQYASFNNSRSLHFFLA
+                     AWPVVGIWFTALGISTMAFNLNGFNFNQSVVDSQGRVINTWADIINRANLGMEVMHER
+                     NAHNFPLDLAAIEAPSTNG"
      gene            complement(1761..4360)
                      /gene="trnK-UUU"
      tRNA            complement(join(1761..1798,4325..4360))
@@ -62,17 +71,18 @@ FEATURES             Location/Qualifiers
                      /gene="matK"
      CDS             complement(2082..3593)
                      /gene="matK"
-                     /product="maturase K"
-                     /translation="MEKFQSYLGLDRSQQHYFLYPLIFQEYIYVLAHDHGLNRSILLEN
-                     AAYDNKSSLLIVKRLINRMYQQNYLILSVNNSKQTPFLGHNNNFYSQVMSEVSSIIMEM
-                     PLSLRLISSLERKRVVKSDNLRSIHSIFSFLEDSFSHLNYVLDILIPYPAHLEILVQAL
-                     RYWIKDASSLHLLRFFLHECHNWDSLITSNSKKASSSFSKRNHRLFFFLYTFHVCEYES
-                     GFLFLRNQSSHLRSTSSRALIERIYFYGKMEHLAERAFQAKFWLFKDPFMHYVRYQGKS
-                     ILASKGTFLLMNKWKYYFVNFWKSYFYLWSQPGRIYLNQLAKHSLDFLGYHSSVRLKPS
-                     MVRSQMLENAFLIENVIKKFETVVPIMPLIGSLAKSKFCNALGHPIGKAIWTDLSDSYI
-                     IDRFGRIYRNLSHYHSGSSKKKSLYRVKYILRLSCARTLARKHKSTVRAFLKRFGSELL
-                     EEFFTEEEQVFSLTFPRVSSISRRLSRRRIWYLDIICINNLANYE"
+                     /codon_start=1
                      /transl_table=11
+                     /product="maturase K"
+                     /translation="MEKFQSYLGLDRSQQHYFLYPLIFQEYIYVLAHDHGLNRSILLE
+                     NAAYDNKSSLLIVKRLINRMYQQNYLILSVNNSKQTPFLGHNNNFYSQVMSEVSSIIM
+                     EMPLSLRLISSLERKRVVKSDNLRSIHSIFSFLEDSFSHLNYVLDILIPYPAHLEILV
+                     QALRYWIKDASSLHLLRFFLHECHNWDSLITSNSKKASSSFSKRNHRLFFFLYTFHVC
+                     EYESGFLFLRNQSSHLRSTSSRALIERIYFYGKMEHLAERAFQAKFWLFKDPFMHYVR
+                     YQGKSILASKGTFLLMNKWKYYFVNFWKSYFYLWSQPGRIYLNQLAKHSLDFLGYHSS
+                     VRLKPSMVRSQMLENAFLIENVIKKFETVVPIMPLIGSLAKSKFCNALGHPIGKAIWT
+                     DLSDSYIIDRFGRIYRNLSHYHSGSSKKKSLYRVKYILRLSCARTLARKHKSTVRAFL
+                     KRFGSELLEEFFTEEEQVFSLTFPRVSSISRRLSRRRIWYLDIICINNLANYE"
      exon            complement(4325..4360)
                      /gene="trnK-UUU"
                      /number=1
@@ -80,10 +90,11 @@ FEATURES             Location/Qualifiers
                      /gene="rps16"
      CDS             complement(join(5152..5378,6237..6276))
                      /gene="rps16"
-                     /product="ribosomal protein S16"
-                     /translation="MVKLRLKRCGRKQRAVYRIVAIDVRSRREGRDLRKVGFYDPIKNQ
-                     TYLNVPAILYFLEKGAQPTGTVQDILKKAEVFKELCPNQTKFN"
+                     /codon_start=1
                      /transl_table=11
+                     /product="ribosomal protein S16"
+                     /translation="MVKLRLKRCGRKQRAVYRIVAIDVRSRREGRDLRKVGFYDPIKN
+                     QTYLNVPAILYFLEKGAQPTGTVQDILKKAEVFKELCPNQTKFN"
      exon            complement(5152..5378)
                      /gene="rps16"
                      /number=2
@@ -102,17 +113,19 @@ FEATURES             Location/Qualifiers
                      /gene="psbK"
      CDS             7693..7872
                      /gene="psbK"
-                     /product="photosystem II subunit K"
-                     /translation="MLNIFSLICLNSALYPSSLFFAKLPEAYSFLNPIVDVMPVIPLFF
-                     FLLAFVWQAAVSFR"
+                     /codon_start=1
                      /transl_table=11
+                     /product="photosystem II subunit K"
+                     /translation="MLNIFSLICLNSALYPSSLFFAKLPEAYSFLNPIVDVMPVIPLF
+                     FFLLAFVWQAAVSFR"
      gene            8274..8384
                      /gene="psbI"
      CDS             8274..8384
                      /gene="psbI"
+                     /codon_start=1
+                     /transl_table=11
                      /product="photosystem II subunit I"
                      /translation="MLTLKLFVYTVVIFFVSLFIFGFLSNDPGRNPGREE"
-                     /transl_table=11
      gene            complement(8490..8577)
                      /gene="trnS-GCU"
      tRNA            complement(8490..8577)
@@ -127,16 +140,18 @@ FEATURES             Location/Qualifiers
                      /gene="petN"
      CDS             10244..10333
                      /gene="petN"
+                     /codon_start=1
+                     /transl_table=11
                      /product="cytochrome b6/f subunit N"
                      /translation="MDIVSLAWAALMVVFTFSLSLVVWGRSGL"
-                     /transl_table=11
      gene            complement(10805..10909)
                      /gene="psbM"
      CDS             complement(10805..10909)
                      /gene="psbM"
+                     /codon_start=1
+                     /transl_table=11
                      /product="photosystem II subunit M"
                      /translation="MEVNILAFIATALFILVPTAFLLIIYVKTVSQNN"
-                     /transl_table=11
      gene            complement(11562..11638)
                      /gene="trnD-GUC"
      tRNA            complement(11562..11638)
@@ -156,27 +171,28 @@ FEATURES             Location/Qualifiers
                      /gene="rpoB"
      CDS             12974..16156
                      /gene="rpoB"
-                     /product="RNA polymerase subunit beta"
-                     /translation="MSTIPGFNQIQFEGFCRFIDQGLTEELSKFPKIEDTNQEIDFELF
-                     LERYKLVEPPIKERDAVYESLTYSSELYVSARLIWKNDRRRYIQEQTILIGKIPLMTSL
-                     GAFIVNGIYRIVINQILQSPGIYYQSELNDNGISVYTGTIISDWGGRLELEIDRKTRIW
-                     VRVSRQQKLSILVLLSAMGLNIREILENVCYPELFLSFLNEKKQIGSKENAILEFYQQF
-                     ACVEGDPVFSESLSKDLQKKFFQQRCELGGIGRRNMNRRLNLDIPQNNTFLLPRDILAA
-                     ADRLIRIKFGMGTLDDMNHLQNKRIRSVADLLQEQFGLALVRLENMARGNIYAALKHNW
-                     TPTPQNLVNSTPLTDTYKVFFRLHPLSQVLDRTNPLTQIVHGRKLSYLGPGGLTARTAT
-                     FPIRDIHPSHYGRICPIDTSEGINVGLIGSLAIHARIGRWGSLESPFYKISERSKGARM
-                     LYLSPGRDEYYMVAAGNSLALNQGIQEEQVVPARYRQEFLTIAWEQVHLRSIFSFQYFS
-                     IGASLIPFIEHNDANRALMSSNMQRQAVPLAQSEKCIVGTGLEGQAALDSGALAIAQHE
-                     GNIIYTDTDKILLSANGDTLRIPLVMYERSNKNTCMHQKSQVERGKCIKKGQILASGAA
-                     TVGGELALGKNVLVAYMPWEGYNFEDAVLISERLVYEDIYTSFHIRKYEIQLNQGHERV
-                     TNEIPHLEVHLLRNLDKNGIVMLGSWVEPGDILVGKLTPQMVKESSYAPEDRLLRTILG
-                     IRVYTSKETCLKLPIGGRGRVIDVRWVQSSKTDETEKTESIRVYILQKREIKVGDKVAG
-                     RHGNKGIISKILPRQDMPYLQDGRPVDMVFNPLGVPSRMNVGQIFESSLGLAGGLLDRH
-                     YRIAPFDERYEQEASRKLVFSELYEASKQTVNPWIFEPESPGKSRIFDGRTGDPFEQPV
-                     IIGKPYILKLIHQVDDKIHGRSSGRYSRLTQQPLKGRAKKGGQRVGEMEVWALEGFGVA
-                     YILQEMLTYKSDHIRARQEVLGTIIFGGRIPTPEDAPESFRLFVRELRSLALELNHFLV
-                     SEKTFQLNRKEA"
+                     /codon_start=1
                      /transl_table=11
+                     /product="RNA polymerase subunit beta"
+                     /translation="MSTIPGFNQIQFEGFCRFIDQGLTEELSKFPKIEDTNQEIDFEL
+                     FLERYKLVEPPIKERDAVYESLTYSSELYVSARLIWKNDRRRYIQEQTILIGKIPLMT
+                     SLGAFIVNGIYRIVINQILQSPGIYYQSELNDNGISVYTGTIISDWGGRLELEIDRKT
+                     RIWVRVSRQQKLSILVLLSAMGLNIREILENVCYPELFLSFLNEKKQIGSKENAILEF
+                     YQQFACVEGDPVFSESLSKDLQKKFFQQRCELGGIGRRNMNRRLNLDIPQNNTFLLPR
+                     DILAAADRLIRIKFGMGTLDDMNHLQNKRIRSVADLLQEQFGLALVRLENMARGNIYA
+                     ALKHNWTPTPQNLVNSTPLTDTYKVFFRLHPLSQVLDRTNPLTQIVHGRKLSYLGPGG
+                     LTARTATFPIRDIHPSHYGRICPIDTSEGINVGLIGSLAIHARIGRWGSLESPFYKIS
+                     ERSKGARMLYLSPGRDEYYMVAAGNSLALNQGIQEEQVVPARYRQEFLTIAWEQVHLR
+                     SIFSFQYFSIGASLIPFIEHNDANRALMSSNMQRQAVPLAQSEKCIVGTGLEGQAALD
+                     SGALAIAQHEGNIIYTDTDKILLSANGDTLRIPLVMYERSNKNTCMHQKSQVERGKCI
+                     KKGQILASGAATVGGELALGKNVLVAYMPWEGYNFEDAVLISERLVYEDIYTSFHIRK
+                     YEIQLNQGHERVTNEIPHLEVHLLRNLDKNGIVMLGSWVEPGDILVGKLTPQMVKESS
+                     YAPEDRLLRTILGIRVYTSKETCLKLPIGGRGRVIDVRWVQSSKTDETEKTESIRVYI
+                     LQKREIKVGDKVAGRHGNKGIISKILPRQDMPYLQDGRPVDMVFNPLGVPSRMNVGQI
+                     FESSLGLAGGLLDRHYRIAPFDERYEQEASRKLVFSELYEASKQTVNPWIFEPESPGK
+                     SRIFDGRTGDPFEQPVIIGKPYILKLIHQVDDKIHGRSSGRYSRLTQQPLKGRAKKGG
+                     QRVGEMEVWALEGFGVAYILQEMLTYKSDHIRARQEVLGTIIFGGRIPTPEDAPESFR
+                     LFVRELRSLALELNHFLVSEKTFQLNRKEA"
      gene            16183..18702
                      /gene="rpoC1"
                      /pseudo
@@ -187,42 +203,46 @@ FEATURES             Location/Qualifiers
                      /gene="rps2"
      CDS             23496..24206
                      /gene="rps2"
-                     /product="ribosomal protein S2"
-                     /translation="MTRRYWNINLEEMMEAGVHFGHGTRKWNPKMAPYISAKRKGIHIT
-                     NLTRTARFLSEACDLVFDAASRGKQFLIVGTKNKEADSVSWAAIRARCHYVNKKWLGGM
-                     LTNWSTTETRLHKFRDLRTEQKTGGLNRLPKRDAAMLKRQLSHLQTYLGGIKYMTGLPD
-                     IVIIVDQHEEYTALQECITLGIPTICLIDTNCDPDLADISIPANDDAISSIRLILNKLV
-                     FAICEGRSGYIRNP"
+                     /codon_start=1
                      /transl_table=11
+                     /product="ribosomal protein S2"
+                     /translation="MTRRYWNINLEEMMEAGVHFGHGTRKWNPKMAPYISAKRKGIHI
+                     TNLTRTARFLSEACDLVFDAASRGKQFLIVGTKNKEADSVSWAAIRARCHYVNKKWLG
+                     GMLTNWSTTETRLHKFRDLRTEQKTGGLNRLPKRDAAMLKRQLSHLQTYLGGIKYMTG
+                     LPDIVIIVDQHEEYTALQECITLGIPTICLIDTNCDPDLADISIPANDDAISSIRLIL
+                     NKLVFAICEGRSGYIRNP"
      gene            24422..25165
                      /gene="atpI"
      CDS             24422..25165
                      /gene="atpI"
-                     /product="CF0 subunit IV"
-                     /translation="MNVLSCSINTLNGLYDISGVEVGQHFYWKIGGFQVHGQVLITSWV
-                     VIAILLGSAILAVRNPQTIPTSGQNFFEYVLEFIRDVSKTQIGEEYGPWVPFIGTMFLF
-                     IFVSNWSGALLPWKIIQLPHGELAAPTNDINTTVALALLTSVAYFYAGLTKKGLGYFGK
-                     YIQPTPILLPINILEDFTKPLSLSFRLFGNILADELVVVVLVSLVPSVVPIPVMFLGLF
-                     TSGIQALIFATLAAAYIGESMEGHH"
+                     /codon_start=1
                      /transl_table=11
+                     /product="CF0 subunit IV"
+                     /translation="MNVLSCSINTLNGLYDISGVEVGQHFYWKIGGFQVHGQVLITSW
+                     VVIAILLGSAILAVRNPQTIPTSGQNFFEYVLEFIRDVSKTQIGEEYGPWVPFIGTMF
+                     LFIFVSNWSGALLPWKIIQLPHGELAAPTNDINTTVALALLTSVAYFYAGLTKKGLGY
+                     FGKYIQPTPILLPINILEDFTKPLSLSFRLFGNILADELVVVVLVSLVPSVVPIPVMF
+                     LGLFTSGIQALIFATLAAAYIGESMEGHH"
      gene            26267..26512
                      /gene="atpH"
      CDS             26267..26512
                      /gene="atpH"
-                     /product="CF0 subunit III"
-                     /translation="MNPLISAASVIAAGLAVGLASIGPGVGQGTAAGQAVEGIARQPEA
-                     EGKIRGTLLLSLAFMEALTIYGLVVALALLFANPFV"
+                     /codon_start=1
                      /transl_table=11
+                     /product="CF0 subunit III"
+                     /translation="MNPLISAASVIAAGLAVGLASIGPGVGQGTAAGQAVEGIARQPE
+                     AEGKIRGTLLLSLAFMEALTIYGLVVALALLFANPFV"
      gene            26841..28112
                      /gene="atpF"
      CDS             join(26841..26984,27702..28112)
                      /gene="atpF"
-                     /product="CF0 subunit I"
-                     /translation="MKNVTDSFLSLGHWPSAGSFGFNTDILATNLINLSVVLGVLIFFG
-                     KGVLSDLLDNRKQRILNTIRNSEELREGAIEQLEKARARLRKVEGEADQFRVNGYSEIE
-                     REKLNLIDSTYKTLEQLENYKNETINFEQQKASNQVRQRVFQQALQGALGTLSSCLNSE
-                     LHLRTISANIGILGAMKEITD"
+                     /codon_start=1
                      /transl_table=11
+                     /product="CF0 subunit I"
+                     /translation="MKNVTDSFLSLGHWPSAGSFGFNTDILATNLINLSVVLGVLIFF
+                     GKGVLSDLLDNRKQRILNTIRNSEELREGAIEQLEKARARLRKVEGEADQFRVNGYSE
+                     IEREKLNLIDSTYKTLEQLENYKNETINFEQQKASNQVRQRVFQQALQGALGTLSSCL
+                     NSELHLRTISANIGILGAMKEITD"
      exon            26841..26984
                      /gene="atpF"
                      /number=1
@@ -236,17 +256,19 @@ FEATURES             Location/Qualifiers
                      /gene="atpA"
      CDS             28177..29703
                      /gene="atpA"
-                     /product="CF1 subunit alpha"
-                     /translation="MVTIQADEISNIIRERIEQYNREVKIVNTGTVLQVGDGIARIHGL
-                     DEVMAGELVEFEEGTIGIALNLESTNVGVVLMGDGLLIQEGSSVKATGKIAQIPVSEAY
-                     LGRVINALAKPIDGRGEISSSEYRLIESPAPGIISRRSVYEPLQTGLIAIDSMIPIGRG
-                     QRELIIGDRQTGKTAVATDTILNQQGKNVICVYVAIGQKASSVAQVVTNFQERGAMEYT
-                     IVVAETADSPATLQYLAPYTGAALAEYFMYRERHTSIIYDDPSKQAQAYRQMSLLLRRP
-                     PGREAYPGDVFYLHSRLLERAAKLSSLLGEGSMTALPIVETQSGDVSAYIPTNVISITD
-                     GQIFLSADLFNAGIRPAINVGISVSRVGSAAQIKAMKQVAGKLKLELAQFAELEAFAQF
-                     ASDLDKATQNQLARGQRLRELLKQSQSAPLGVEEQVLTIYTGTNGYLDSLEIGQVRKFL
-                     VELRTYLKTNKPQFQEIISSTKTFTEEAEAILKEAIQEQRERFILQEQAA"
+                     /codon_start=1
                      /transl_table=11
+                     /product="CF1 subunit alpha"
+                     /translation="MVTIQADEISNIIRERIEQYNREVKIVNTGTVLQVGDGIARIHG
+                     LDEVMAGELVEFEEGTIGIALNLESTNVGVVLMGDGLLIQEGSSVKATGKIAQIPVSE
+                     AYLGRVINALAKPIDGRGEISSSEYRLIESPAPGIISRRSVYEPLQTGLIAIDSMIPI
+                     GRGQRELIIGDRQTGKTAVATDTILNQQGKNVICVYVAIGQKASSVAQVVTNFQERGA
+                     MEYTIVVAETADSPATLQYLAPYTGAALAEYFMYRERHTSIIYDDPSKQAQAYRQMSL
+                     LLRRPPGREAYPGDVFYLHSRLLERAAKLSSLLGEGSMTALPIVETQSGDVSAYIPTN
+                     VISITDGQIFLSADLFNAGIRPAINVGISVSRVGSAAQIKAMKQVAGKLKLELAQFAE
+                     LEAFAQFASDLDKATQNQLARGQRLRELLKQSQSAPLGVEEQVLTIYTGTNGYLDSLE
+                     IGQVRKFLVELRTYLKTNKPQFQEIISSTKTFTEEAEAILKEAIQEQRERFILQEQAA
+                     "
      gene            complement(29854..29925)
                      /gene="trnR-UCU"
      tRNA            complement(29854..29925)
@@ -274,30 +296,32 @@ FEATURES             Location/Qualifiers
                      /gene="psbD"
      CDS             32330..33391
                      /gene="psbD"
-                     /product="photosystem II protein D2"
-                     /translation="MTIALGKVTKDENDLFDIMDDWLRRDRFVFVGWSGLLLFPCAYFA
-                     VGGWFTGTTFVTSWYTHGLASSYLEGCNFLTAAVSTPANSLAHSLLLLWGPEAQGDFTR
-                     WCQLGGLWTFVALHGAFGLIGFMLRQFELARSVQLRPYNAIAFSGPIAVFVSVFLIYPL
-                     GQSGWFFAPSFGVAAIFRFILFFQGFHNWTLNPFHMMGVAGVLGAALLCAIHGATVENT
-                     LFEDGDGANTFRAFNPTQAEETYSMVTANRFWSQIFGVAFSNKRWLHFFMLFVPVTGLW
-                     MSALGVVGLALNLRAYDFVSQEIRAAEDPEFETFYTKNILLNEGIRAWMAAQDQPHENL
-                     IFPEEVLPRGNAL"
+                     /codon_start=1
                      /transl_table=11
+                     /product="photosystem II protein D2"
+                     /translation="MTIALGKVTKDENDLFDIMDDWLRRDRFVFVGWSGLLLFPCAYF
+                     AVGGWFTGTTFVTSWYTHGLASSYLEGCNFLTAAVSTPANSLAHSLLLLWGPEAQGDF
+                     TRWCQLGGLWTFVALHGAFGLIGFMLRQFELARSVQLRPYNAIAFSGPIAVFVSVFLI
+                     YPLGQSGWFFAPSFGVAAIFRFILFFQGFHNWTLNPFHMMGVAGVLGAALLCAIHGAT
+                     VENTLFEDGDGANTFRAFNPTQAEETYSMVTANRFWSQIFGVAFSNKRWLHFFMLFVP
+                     VTGLWMSALGVVGLALNLRAYDFVSQEIRAAEDPEFETFYTKNILLNEGIRAWMAAQD
+                     QPHENLIFPEEVLPRGNAL"
      gene            33339..34760
                      /gene="psbC"
      CDS             33339..34760
                      /gene="psbC"
-                     /product="photosystem II 43 kDa protein"
-                     /translation="MKTLYSLRRFYPVETLFNGTLALAGRDQETTGFAWWAGNARLINL
-                     SGKLLGAHVAHAGLIVFWAGAMNLFEVAHFVPEKPMYEQGLILLPHLATLGWGVGPGGE
-                     VIDTFPYFVSGVLHLISSAVLGFGGIYHALLGPETLEESFPFFGYVWKDRNKMTTILGI
-                     HLILLGIGAFLLVFKALYFGGVYDTWAPGGGDVRKITNLTLSPSIIFGYLLKSPFGGEG
-                     WIVSVDDLEDIIGGHVWLGSICILGGIWHILTKPFAWARRALVWSGEAYLSYSLAAISV
-                     FGFIACCFVWFNNTAYPSEFYGPTGPEASQAQAFTFLVRDQRLGANVGSAQGPTGLGKY
-                     LMRSPTGEVIFGGETMRFWDLRAPWLEPLRGPNGLDLSRLKKDIQPWQERRSAEYMTHA
-                     PLGSLNSVGGVATEINAVNYVSPRSWLATSHFVLGFFFFVGHLWHAGRARAAAAGFEKG
-                     IDRDFEPVLSMTPLN"
+                     /codon_start=1
                      /transl_table=11
+                     /product="photosystem II 43 kDa protein"
+                     /translation="MKTLYSLRRFYPVETLFNGTLALAGRDQETTGFAWWAGNARLIN
+                     LSGKLLGAHVAHAGLIVFWAGAMNLFEVAHFVPEKPMYEQGLILLPHLATLGWGVGPG
+                     GEVIDTFPYFVSGVLHLISSAVLGFGGIYHALLGPETLEESFPFFGYVWKDRNKMTTI
+                     LGIHLILLGIGAFLLVFKALYFGGVYDTWAPGGGDVRKITNLTLSPSIIFGYLLKSPF
+                     GGEGWIVSVDDLEDIIGGHVWLGSICILGGIWHILTKPFAWARRALVWSGEAYLSYSL
+                     AAISVFGFIACCFVWFNNTAYPSEFYGPTGPEASQAQAFTFLVRDQRLGANVGSAQGP
+                     TGLGKYLMRSPTGEVIFGGETMRFWDLRAPWLEPLRGPNGLDLSRLKKDIQPWQERRS
+                     AEYMTHAPLGSLNSVGGVATEINAVNYVSPRSWLATSHFVLGFFFFVGHLWHAGRARA
+                     AAAGFEKGIDRDFEPVLSMTPLN"
      gene            complement(34983..35065)
                      /gene="trnS-UGA"
      tRNA            complement(34983..35065)
@@ -307,10 +331,11 @@ FEATURES             Location/Qualifiers
                      /gene="psbZ"
      CDS             35403..35591
                      /gene="psbZ"
-                     /product="photosystem II subunit Z"
-                     /translation="MTLAFQLAVFALIATSSILLISVPVVFASPDGWSSNKNVVFSGTS
-                     LWIGLVFLVGILNSLIS"
+                     /codon_start=1
                      /transl_table=11
+                     /product="photosystem II subunit Z"
+                     /translation="MTLAFQLAVFALIATSSILLISVPVVFASPDGWSSNKNVVFSGT
+                     SLWIGLVFLVGILNSLIS"
      gene            35891..35962
                      /gene="trnG-GCC"
      tRNA            35891..35962
@@ -325,29 +350,31 @@ FEATURES             Location/Qualifiers
                      /gene="rps14"
      CDS             complement(36376..36678)
                      /gene="rps14"
-                     /product="ribosomal protein S14"
-                     /translation="MAKKSLIQREKKRQKLEQKYHLIRRSSKKEISKVRSLSDKWEIYG
-                     KLQSPPRNSAPTRLHRRCFSTGRPRANYRDFGLSGHILREMVHACLLPGATRSSW"
+                     /codon_start=1
                      /transl_table=11
+                     /product="ribosomal protein S14"
+                     /translation="MAKKSLIQREKKRQKLEQKYHLIRRSSKKEISKVRSLSDKWEIY
+                     GKLQSPPRNSAPTRLHRRCFSTGRPRANYRDFGLSGHILREMVHACLLPGATRSSW"
      gene            complement(36812..39016)
                      /gene="psaB"
      CDS             complement(36812..39016)
                      /gene="psaB"
-                     /product="photosystem I P700 apoprotein A2"
-                     /translation="MALRFPRFSQGLAQDPTTRRIWFGIATAHDFESHDDITEERLYQN
-                     IFASHFGQLAIIFLWTSGNLFHVAWQGNFESWVQDPLHVRPIAHAIWDPHFGQPAVEAF
-                     TRGGALGPVNIAYSGVYQWWYTIGLRTNEDLYTGALFLLLISAISLIAGWLHLQPKWKP
-                     SVSWFKNAESRLNHHLSGLFGVSSLAWTGHLVHVAIPASRGEYVRWNNFLDVLPHPQGL
-                     GPLFTGQWNLYAQNPDSSSHLFGTSQGAGTAILTLLGGFHPQTQSLWLTDMAHHHLAIA
-                     FLFLIAGHMYRTNFGIGHSMKDLLDAHIPPGGRLGRGHKGLYDTINNSLHFQLGLALAS
-                     LGVITSLVAQHMYSLPAYAFIAQDFTTQAALYTHHQYIAGFIMTGAFAHGAIFFIRDYN
-                     PEQNEDNVLARMLEHKEAIISHLSWASLFLGFHTLGLYVHNDVMLAFGTPEKQILIEPI
-                     FAQWIQSAHGKTSYGFDILLSSTSGPAFNAGRSIWLPGWLNAINENSNSLFLTIGPGDF
-                     LVHHAIALGLHTTTLILVKGALDARGSKLMPDKKDFGYSFPCDGPGRGGTCDISAWDAF
-                     YLAVFWMLNTIGWVTFYWHWKHITLWQGNVSQFNESSTYLMGWLRDYLWLNSSQLINGY
-                     NPFGMNSLSVWAWMFLFGHLVWATGFMFLISWRGYWQELIETLAWAHERTPLANLIRWR
-                     DKPVALSIVQARLVGLAHFSVGYIFTYAAFLIASTSGKFG"
+                     /codon_start=1
                      /transl_table=11
+                     /product="photosystem I P700 apoprotein A2"
+                     /translation="MALRFPRFSQGLAQDPTTRRIWFGIATAHDFESHDDITEERLYQ
+                     NIFASHFGQLAIIFLWTSGNLFHVAWQGNFESWVQDPLHVRPIAHAIWDPHFGQPAVE
+                     AFTRGGALGPVNIAYSGVYQWWYTIGLRTNEDLYTGALFLLLISAISLIAGWLHLQPK
+                     WKPSVSWFKNAESRLNHHLSGLFGVSSLAWTGHLVHVAIPASRGEYVRWNNFLDVLPH
+                     PQGLGPLFTGQWNLYAQNPDSSSHLFGTSQGAGTAILTLLGGFHPQTQSLWLTDMAHH
+                     HLAIAFLFLIAGHMYRTNFGIGHSMKDLLDAHIPPGGRLGRGHKGLYDTINNSLHFQL
+                     GLALASLGVITSLVAQHMYSLPAYAFIAQDFTTQAALYTHHQYIAGFIMTGAFAHGAI
+                     FFIRDYNPEQNEDNVLARMLEHKEAIISHLSWASLFLGFHTLGLYVHNDVMLAFGTPE
+                     KQILIEPIFAQWIQSAHGKTSYGFDILLSSTSGPAFNAGRSIWLPGWLNAINENSNSL
+                     FLTIGPGDFLVHHAIALGLHTTTLILVKGALDARGSKLMPDKKDFGYSFPCDGPGRGG
+                     TCDISAWDAFYLAVFWMLNTIGWVTFYWHWKHITLWQGNVSQFNESSTYLMGWLRDYL
+                     WLNSSQLINGYNPFGMNSLSVWAWMFLFGHLVWATGFMFLISWRGYWQELIETLAWAH
+                     ERTPLANLIRWRDKPVALSIVQARLVGLAHFSVGYIFTYAAFLIASTSGKFG"
      gene            complement(39518..41293)
                      /gene="psaA"
                      /pseudo
@@ -355,12 +382,13 @@ FEATURES             Location/Qualifiers
                      /gene="pafI"
      CDS             complement(join(42047..42199,42933..43162,43856..43979))
                      /gene="pafI"
-                     /product="photosystem I assembly factor I"
-                     /translation="MSRSRINGNFIDKTFTIVADILLRIIPTTSGEKEAFTYYRDGMSA
-                     QSEGNYAEALQNYYEAMRLEIDPYDRSYILYNIGLIHTSNGEHTKALEYYFRALERNPF
-                     LPQAFNNMAVICHYRGEQAIRQGDSEIAEAWFDQAAEYWKQAIALTPGNYIEAHNWLKI
-                     TRRFE"
+                     /codon_start=1
                      /transl_table=11
+                     /product="photosystem I assembly factor I"
+                     /translation="MSRSRINGNFIDKTFTIVADILLRIIPTTSGEKEAFTYYRDGMS
+                     AQSEGNYAEALQNYYEAMRLEIDPYDRSYILYNIGLIHTSNGEHTKALEYYFRALERN
+                     PFLPQAFNNMAVICHYRGEQAIRQGDSEIAEAWFDQAAEYWKQAIALTPGNYIEAHNW
+                     LKITRRFE"
      exon            complement(42047..42199)
                      /gene="pafI"
                      /number=3
@@ -385,12 +413,13 @@ FEATURES             Location/Qualifiers
                      /gene="rps4"
      CDS             complement(45211..45816)
                      /gene="rps4"
-                     /product="ribosomal protein S4"
-                     /translation="MSRYRGPRFKKIRRLGALPGLTNKRPRAVSDLRNQSRSGKKSQYR
-                     IRLEEKQKLRFHYGLTERQLLKYVRIAGKAKGSTGQVLLQLLEMRLDNILFRLGMAPTI
-                     PGARQLVNHRHILVNGRIVDIPSYRCKPRDTIAARDEQKSKALIQNSLDSSPHEELPNH
-                     LTLQPFQYKGLVNQIIDSKWVGLKINELLVVEYYSRQT"
+                     /codon_start=1
                      /transl_table=11
+                     /product="ribosomal protein S4"
+                     /translation="MSRYRGPRFKKIRRLGALPGLTNKRPRAVSDLRNQSRSGKKSQY
+                     RIRLEEKQKLRFHYGLTERQLLKYVRIAGKAKGSTGQVLLQLLEMRLDNILFRLGMAP
+                     TIPGARQLVNHRHILVNGRIVDIPSYRCKPRDTIAARDEQKSKALIQNSLDSSPHEEL
+                     PNHLTLQPFQYKGLVNQIIDSKWVGLKINELLVVEYYSRQT"
      gene            complement(46180..46254)
                      /gene="trnT-UGU"
      tRNA            complement(46180..46254)
@@ -419,22 +448,24 @@ FEATURES             Location/Qualifiers
                      /gene="ndhJ"
      CDS             complement(48363..48839)
                      /gene="ndhJ"
-                     /product="NADH dehydrogenase subunit J"
-                     /translation="MQGHLSAWLVKHGLIHRSLGFDYQGIETLQIKPGDWHSIAVILYV
-                     YGYNYLRSQCAYDVAPGGLLASVYHLTRIEYGVDQPEEVCIKVFAPRKDPRIPSVFWVW
-                     KSVDFQERESYDMLGISYDNHPRLKRILMPESWIGWPLRKDYIAPNFYEIQDAH"
+                     /codon_start=1
                      /transl_table=11
+                     /product="NADH dehydrogenase subunit J"
+                     /translation="MQGHLSAWLVKHGLIHRSLGFDYQGIETLQIKPGDWHSIAVILY
+                     VYGYNYLRSQCAYDVAPGGLLASVYHLTRIEYGVDQPEEVCIKVFAPRKDPRIPSVFW
+                     VWKSVDFQERESYDMLGISYDNHPRLKRILMPESWIGWPLRKDYIAPNFYEIQDAH"
      gene            complement(48943..49620)
                      /gene="ndhK"
      CDS             complement(48943..49620)
                      /gene="ndhK"
-                     /product="NADH dehydrogenase subunit K"
-                     /translation="MNSIEFPLFDRTTQNSVISTTLNDLSNWSRLSSLWPLLYGTSCCF
-                     IEFASLIGSRFDFDRYGLVPRSSPRQADLILTAGTVTMKMAPSLVRLYEQMPEPKYVIA
-                     MGACTITGGMFSTDSYSTVRGVDKLIPVDVYLPGCPPKPEAIIDAITKLRKKISREIYP
-                     DRIMSQRENRCFTTNHKFQVGHSIHTGNYDQGFLYQPTSASEIPPETFFKYKSSVSSPE
-                     LVN"
+                     /codon_start=1
                      /transl_table=11
+                     /product="NADH dehydrogenase subunit K"
+                     /translation="MNSIEFPLFDRTTQNSVISTTLNDLSNWSRLSSLWPLLYGTSCC
+                     FIEFASLIGSRFDFDRYGLVPRSSPRQADLILTAGTVTMKMAPSLVRLYEQMPEPKYV
+                     IAMGACTITGGMFSTDSYSTVRGVDKLIPVDVYLPGCPPKPEAIIDAITKLRKKISRE
+                     IYPDRIMSQRENRCFTTNHKFQVGHSIHTGNYDQGFLYQPTSASEIPPETFFKYKSSV
+                     SSPELVN"
      gene            complement(49633..49681)
                      /gene="psbG"
                      /pseudo
@@ -442,11 +473,12 @@ FEATURES             Location/Qualifiers
                      /gene="ndhC"
      CDS             complement(49672..50034)
                      /gene="ndhC"
-                     /product="NADH dehydrogenase subunit C"
-                     /translation="MFLLYEYDIFWAFLIISSLIPILVFFISGFLAPSSKGPEKLSSYE
-                     SGIEPIGDAWLQFRIRYYMFALVFVVFDVETVFLYPWAMSFDVLGVSVFVEALIFVLIL
-                     IVGLVYAWRKGALEWS"
+                     /codon_start=1
                      /transl_table=11
+                     /product="NADH dehydrogenase subunit C"
+                     /translation="MFLLYEYDIFWAFLIISSLIPILVFFISGFLAPSSKGPEKLSSY
+                     ESGIEPIGDAWLQFRIRYYMFALVFVVFDVETVFLYPWAMSFDVLGVSVFVEALIFVL
+                     ILIVGLVYAWRKGALEWS"
      gene            complement(51120..51762)
                      /gene="trnV-UAC"
      tRNA            complement(join(51120..51157,51728..51762))
@@ -470,131 +502,143 @@ FEATURES             Location/Qualifiers
                      /gene="atpE"
      CDS             complement(52230..52631)
                      /gene="atpE"
-                     /product="CF1 subunit epsilon"
-                     /translation="MTLNLCVLTPNRIVWDSEVKEIILSTNSGQIGVLPNHAPIATAVD
-                     IGILRIRLNDQWLTMALMGGFARIGNNEITVLVNDAEKSGDIDPEEAKQTLELAEAGLR
-                     KAEGKRQTIEANLALRRARTRVEAINAIS"
+                     /codon_start=1
                      /transl_table=11
+                     /product="CF1 subunit epsilon"
+                     /translation="MTLNLCVLTPNRIVWDSEVKEIILSTNSGQIGVLPNHAPIATAV
+                     DIGILRIRLNDQWLTMALMGGFARIGNNEITVLVNDAEKSGDIDPEEAKQTLELAEAG
+                     LRKAEGKRQTIEANLALRRARTRVEAINAIS"
      gene            complement(52628..54124)
                      /gene="atpB"
      CDS             complement(52628..54124)
                      /gene="atpB"
-                     /product="CF1 subunit beta"
-                     /translation="MRMNPTTSGSGVATLDKKKLGRIAQIIGPVLDVAFPPGKMPNIYN
-                     ALVVKGRDTAGEPINVTCEVQQLLGNNRVRAVAMSATDGLTRGMDVIDTGAPLSVPVGG
-                     ATLGRIFNVLGEPVDNLGPVDTSITFPIHRSAPAFIQLDTKLSIFETGIKVVDLLAPYR
-                     RGGKIGLFGGAGVGKTVLIMELINNIAKAHGGVSVFGGVGERTREGNDLYMEMKESGVI
-                     NEQNIPESKVALVYGQMNEPPGARMRVGLTALTMAEYFRDVNEQDVLLFIDNIFRFVQA
-                     GSEVSALLGRMPSAVGYQPTLSTEMGTLQERITSTKEGSITSIQAVYVPADDLTDPAPA
-                     TTFAHLDATTVLSRGLAAKGIYPAVDPLDSTSTMLQPRIVGEEHYDTAQKVKETLQRYK
-                     ELQDIIAILGLDELSEEDRLTVARARKIERFLSQPFFVAEVFTGSPGKYVGLAETIRGF
-                     QLILSGELDGLPEQAFYLVGNIDEATAKAINLEMESNLKK"
+                     /codon_start=1
                      /transl_table=11
+                     /product="CF1 subunit beta"
+                     /translation="MRMNPTTSGSGVATLDKKKLGRIAQIIGPVLDVAFPPGKMPNIY
+                     NALVVKGRDTAGEPINVTCEVQQLLGNNRVRAVAMSATDGLTRGMDVIDTGAPLSVPV
+                     GGATLGRIFNVLGEPVDNLGPVDTSITFPIHRSAPAFIQLDTKLSIFETGIKVVDLLA
+                     PYRRGGKIGLFGGAGVGKTVLIMELINNIAKAHGGVSVFGGVGERTREGNDLYMEMKE
+                     SGVINEQNIPESKVALVYGQMNEPPGARMRVGLTALTMAEYFRDVNEQDVLLFIDNIF
+                     RFVQAGSEVSALLGRMPSAVGYQPTLSTEMGTLQERITSTKEGSITSIQAVYVPADDL
+                     TDPAPATTFAHLDATTVLSRGLAAKGIYPAVDPLDSTSTMLQPRIVGEEHYDTAQKVK
+                     ETLQRYKELQDIIAILGLDELSEEDRLTVARARKIERFLSQPFFVAEVFTGSPGKYVG
+                     LAETIRGFQLILSGELDGLPEQAFYLVGNIDEATAKAINLEMESNLKK"
      gene            54862..56289
                      /gene="rbcL"
      CDS             54862..56289
                      /gene="rbcL"
+                     /codon_start=1
+                     /transl_table=11
                      /product="ribulose-1,5-bisphosphate carboxylase/oxygenase
                      large subunit"
-                     /translation="MSPQTETKASVGFKAGVKDYKLTYYTPDYETKDTDILAAFRVTPQ
-                     PGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYGIEPVPGEESQFIAYVAYP
-                     LDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPTAYVKTFQGPPHGIQVERDKLN
-                     KYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFCA
-                     EAIFKSQAETGEIKGHYLNATAGTCEEMMKRAIFARELGVPIVMHDYLTGGFTANTSLA
-                     HYCRDNGLLLHIHRAMHAVIDRQKNHGIHFRVLAKALRMSGGDHIHSGTVVGKLEGERE
-                     ITLGFVDLLRDDFVEKDRSRGIYFTQDWVSLPGVLPVASGGIHVWHMPALTEIFGDDSV
-                     LQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLATEGNQIIREATKWSPELAAA
-                     CEVWKEIKFEFEAMDTI"
-                     /transl_table=11
+                     /translation="MSPQTETKASVGFKAGVKDYKLTYYTPDYETKDTDILAAFRVTP
+                     QPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYGIEPVPGEESQFIAYVA
+                     YPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPTAYVKTFQGPPHGIQVERD
+                     KLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRF
+                     LFCAEAIFKSQAETGEIKGHYLNATAGTCEEMMKRAIFARELGVPIVMHDYLTGGFTA
+                     NTSLAHYCRDNGLLLHIHRAMHAVIDRQKNHGIHFRVLAKALRMSGGDHIHSGTVVGK
+                     LEGEREITLGFVDLLRDDFVEKDRSRGIYFTQDWVSLPGVLPVASGGIHVWHMPALTE
+                     IFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLATEGNQIIREATK
+                     WSPELAAACEVWKEIKFEFEAMDTI"
      gene            56801..57093
                      /gene="accD"
                      /pseudogene="unknown"
-                     /transl_table=11
      gene            57221..57331
                      /gene="psaI"
      CDS             57221..57331
                      /gene="psaI"
+                     /codon_start=1
+                     /transl_table=11
                      /product="photosystem I subunit I"
                      /translation="MTTFNFSSVLVPLVGLVFPAIAMASLFLHVQKNKIV"
-                     /transl_table=11
      gene            57732..58286
                      /gene="pafII"
      CDS             57732..58286
                      /gene="pafII"
-                     /product="photosystem I assembly factor II"
-                     /translation="MSCRSEHIWIEPITGARKTSNFCWAVILFLGSLGFLLVGTSSYLG
-                     RNLISLFPSQEIVFFPQGIVMSFYGIAGLFISSYLWCTISWNVGSGYDRFDRKDGIVCI
-                     FRWGFPGKNRRVFLQFLIKDIQSVRIEVKEGIYARRVLYMDIRGQGAIPLTRTDENFTP
-                     REMEQKAAELAYFLRVPIEVF"
+                     /codon_start=1
                      /transl_table=11
+                     /product="photosystem I assembly factor II"
+                     /translation="MSCRSEHIWIEPITGARKTSNFCWAVILFLGSLGFLLVGTSSYL
+                     GRNLISLFPSQEIVFFPQGIVMSFYGIAGLFISSYLWCTISWNVGSGYDRFDRKDGIV
+                     CIFRWGFPGKNRRVFLQFLIKDIQSVRIEVKEGIYARRVLYMDIRGQGAIPLTRTDEN
+                     FTPREMEQKAAELAYFLRVPIEVF"
      gene            58999..59688
                      /gene="cemA"
      CDS             58999..59688
                      /gene="cemA"
-                     /product="envelope membrane carbon uptake protein"
-                     /translation="MEKNKAFTPLLYLASIVFLPWWISLSFQKSMESWVAYWWNTRQSE
-                     LFLNDIEEKSILEKFIELEELLFLEEMIKEYSETHLQNLRIGIHKETIQLIKIHNEGRI
-                     HTILHFSTNIICFIILSGYSLLGNKELVILNSWAQEFLYNLSDTIKAFSLLLLTDLCIG
-                     FHSPHGWELMIGFVYKDLGFVHNEQIISGLVSTFPVILDTIFKYWIFRYLNRVSPSLVV
-                     IYHSMND"
+                     /codon_start=1
                      /transl_table=11
+                     /product="envelope membrane carbon uptake protein"
+                     /translation="MEKNKAFTPLLYLASIVFLPWWISLSFQKSMESWVAYWWNTRQS
+                     ELFLNDIEEKSILEKFIELEELLFLEEMIKEYSETHLQNLRIGIHKETIQLIKIHNEG
+                     RIHTILHFSTNIICFIILSGYSLLGNKELVILNSWAQEFLYNLSDTIKAFSLLLLTDL
+                     CIGFHSPHGWELMIGFVYKDLGFVHNEQIISGLVSTFPVILDTIFKYWIFRYLNRVSP
+                     SLVVIYHSMND"
      gene            59915..60877
                      /gene="petA"
      CDS             59915..60877
                      /gene="petA"
-                     /product="cytochrome f"
-                     /translation="MQTRNNFSWIKEQITRSISVSLMIYIITRASISNAYPIFAQKGYE
-                     NPREATGRIVCANCHLANKPVDIEVPQTVLPDTVFEAVVRIPYDMQLKQVLANGKKGAL
-                     NVGAVLILPEGFELAPPDRISPEIKEKMGNLSFQSYRPNQKNILVIGPVPGQKYSEITF
-                     PILSPDPATKKDIHFLKYPIYVGGNRGRGQIYPDGSKSNNTVYNATASGIVSKILRKEK
-                     GGYEITIADASDGRQVVDIIPPGPELLVSEGESIKFDQPLTSNPNVGGFGQGDAEIVLQ
-                     DPLRVQGLLFFLASVILAQIFLVLKKKQFEKVQLSEMNF"
+                     /codon_start=1
                      /transl_table=11
+                     /product="cytochrome f"
+                     /translation="MQTRNNFSWIKEQITRSISVSLMIYIITRASISNAYPIFAQKGY
+                     ENPREATGRIVCANCHLANKPVDIEVPQTVLPDTVFEAVVRIPYDMQLKQVLANGKKG
+                     ALNVGAVLILPEGFELAPPDRISPEIKEKMGNLSFQSYRPNQKNILVIGPVPGQKYSE
+                     ITFPILSPDPATKKDIHFLKYPIYVGGNRGRGQIYPDGSKSNNTVYNATASGIVSKIL
+                     RKEKGGYEITIADASDGRQVVDIIPPGPELLVSEGESIKFDQPLTSNPNVGGFGQGDA
+                     EIVLQDPLRVQGLLFFLASVILAQIFLVLKKKQFEKVQLSEMNF"
      gene            complement(61638..61760)
                      /gene="psbJ"
      CDS             complement(61638..61760)
                      /gene="psbJ"
+                     /codon_start=1
+                     /transl_table=11
                      /product="photosystem II subunit J"
                      /translation="MADTTGRIPLWIIGTVAGILVIGLVGVFFYGSYSGLGSSL"
-                     /transl_table=11
      gene            complement(61909..62025)
                      /gene="psbL"
      CDS             complement(61909..62025)
                      /gene="psbL"
+                     /note="Start codon created by RNA editing (C-to-U)"
+                     /codon_start=1
+                     /transl_except=(pos:complement(62023..62025),aa:Met)
+                     /transl_table=11
                      /product="photosystem II subunit L"
                      /translation="MTQSNPNEQNVELNRTSLYWGLLLIFVLAVLFSNYFFN"
-                     /transl_table=11
-                     /transl_except=(pos:complement(62023..62025),aa=M)
-                     /note="Start codon created by RNA editing (C-to-U)"
      gene            complement(62048..62167)
                      /gene="psbF"
      CDS             complement(62048..62167)
                      /gene="psbF"
+                     /codon_start=1
+                     /transl_table=11
                      /product="cytochrome b559 subunit beta"
                      /translation="MTIDRTYPIFTVRWLTVHGLAVPTVSFLGSISAMQFIQR"
-                     /transl_table=11
      gene            complement(62177..62428)
                      /gene="psbE"
      CDS             complement(62177..62428)
                      /gene="psbE"
-                     /product="cytochrome b559 subunit alpha"
-                     /translation="MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYD
-                     VFGSPRPNEYFTENRQGIPLITGRFDSLEQLDEFSRSF"
+                     /codon_start=1
                      /transl_table=11
+                     /product="cytochrome b559 subunit alpha"
+                     /translation="MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAY
+                     DVFGSPRPNEYFTENRQGIPLITGRFDSLEQLDEFSRSF"
      gene            63676..63771
                      /gene="petL"
      CDS             63676..63771
                      /gene="petL"
+                     /codon_start=1
+                     /transl_table=11
                      /product="cytochrome b6/f subunit L"
                      /translation="MPTITSYFGFLLTALTITSALFIGLSKIRLI"
-                     /transl_table=11
      gene            63937..64050
                      /gene="petG"
      CDS             63937..64050
                      /gene="petG"
+                     /codon_start=1
+                     /transl_table=11
                      /product="cytochrome b6/f subunit G"
                      /translation="MIEVFLFGIVLGLIPITLAGLFVTAYLQYRRGDQLDL"
-                     /transl_table=11
      gene            complement(64168..64241)
                      /gene="trnW-CCA"
      tRNA            complement(64168..64241)
@@ -609,46 +653,52 @@ FEATURES             Location/Qualifiers
                      /gene="psaJ"
      CDS             64788..64922
                      /gene="psaJ"
-                     /product="photosystem I subunit J"
-                     /translation="MRDLKTYLSVAPVLSTLWFGSLAGLLIEINRFFPDALTFPFFSF"
+                     /codon_start=1
                      /transl_table=11
+                     /product="photosystem I subunit J"
+                     /translation="MRDLKTYLSVAPVLSTLWFGSLAGLLIEINRFFPDALTFPFFSF
+                     "
      gene            65329..65535
                      /gene="rpl33"
      CDS             65329..65535
                      /gene="rpl33"
-                     /product="ribosomal protein L33"
-                     /translation="MAKGKDVRIPVLLECTACVRNGVNVNKASTGISRYITQKNRHNTP
-                     NRLELRKFCPYCYKHTIHGEVKK"
+                     /codon_start=1
                      /transl_table=11
+                     /product="ribosomal protein L33"
+                     /translation="MAKGKDVRIPVLLECTACVRNGVNVNKASTGISRYITQKNRHNT
+                     PNRLELRKFCPYCYKHTIHGEVKK"
      gene            65722..66027
                      /gene="rps18"
      CDS             65722..66027
                      /gene="rps18"
-                     /product="ribosomal protein S18"
-                     /translation="MDKSKRTFLKSKRSFRRRLPPIQSGDRIDYKNMSLISRFISEQGK
-                     ILSRRVNRLTLKQQRLITIAIKQARILSLLPFLNNEKQFERTESTTRPPSLRARKR"
+                     /codon_start=1
                      /transl_table=11
+                     /product="ribosomal protein S18"
+                     /translation="MDKSKRTFLKSKRSFRRRLPPIQSGDRIDYKNMSLISRFISEQG
+                     KILSRRVNRLTLKQQRLITIAIKQARILSLLPFLNNEKQFERTESTTRPPSLRARKR"
      gene            complement(66273..66653)
                      /gene="rpl20"
      CDS             complement(66273..66653)
                      /gene="rpl20"
-                     /product="ribosomal protein L20"
-                     /translation="MTRIRRGYIARRRRTKIRLFASSFRGAHSRLTRTITQQKIRALVS
-                     AHRDRDRQKINFRRLWITRINAAIRERGVCYSYSRLINGLYKRQLLLNRKILAQIAISN
-                     RNCLYMISNEIIKEVSWKESTG"
+                     /codon_start=1
                      /transl_table=11
+                     /product="ribosomal protein L20"
+                     /translation="MTRIRRGYIARRRRTKIRLFASSFRGAHSRLTRTITQQKIRALV
+                     SAHRDRDRQKINFRRLWITRINAAIRERGVCYSYSRLINGLYKRQLLLNRKILAQIAI
+                     SNRNCLYMISNEIIKEVSWKESTG"
      gene            join(complement(67399..67512),136034..136826)
                      /gene="rps12"
-                     /trans_splicing=""
+                     /trans_splicing
      CDS             join(complement(67399..67512),136034..136264,
                      136800..136826)
                      /gene="rps12"
-                     /product="ribosomal protein S12"
-                     /translation="MPTIKQLIRNTRQPIRNVTKSPALRGCPQRRGTCTRVYTITPKKP
-                     NSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHIVRGTLDA
-                     VGVKDRQQGRSQYGVKKPK"
-                     /trans_splicing=""
+                     /trans_splicing
+                     /codon_start=1
                      /transl_table=11
+                     /product="ribosomal protein S12"
+                     /translation="MPTIKQLIRNTRQPIRNVTKSPALRGCPQRRGTCTRVYTITPKK
+                     PNSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHIVRGTL
+                     DAVGVKDRQQGRSQYGVKKPK"
      exon            complement(67399..67512)
                      /gene="rps12"
                      /number=1
@@ -656,12 +706,14 @@ FEATURES             Location/Qualifiers
                      /gene="clpP1"
      CDS             complement(join(67693..67920,68521..68812,69612..69682))
                      /gene="clpP1"
-                     /product="ATP-dependent Clp protease proteolytic subunit 1"
-                     /translation="MPIGVPKVPFRSPGEEDASWVDIYNRLYRERLLFLGQDVDSEISN
-                     QLIGLMIYLSIENDTKDLYLFINSPGGWVIPGVALYDTMQFVQPDVQTICMGSAASMGS
-                     FILVGGEITKRLAFPHARVMIHQPAGSFSEVATGEFILEVGELLKLRETLTRVYVQRTG
-                     KPLWVVSEDMERDVFMSATEAQAYGIVDLVAVE"
+                     /codon_start=1
                      /transl_table=11
+                     /product="ATP-dependent Clp protease proteolytic subunit
+                     1"
+                     /translation="MPIGVPKVPFRSPGEEDASWVDIYNRLYRERLLFLGQDVDSEIS
+                     NQLIGLMIYLSIENDTKDLYLFINSPGGWVIPGVALYDTMQFVQPDVQTICMGSAASM
+                     GSFILVGGEITKRLAFPHARVMIHQPAGSFSEVATGEFILEVGELLKLRETLTRVYVQ
+                     RTGKPLWVVSEDMERDVFMSATEAQAYGIVDLVAVE"
      exon            complement(67693..67920)
                      /gene="clpP1"
                      /number=3
@@ -681,49 +733,55 @@ FEATURES             Location/Qualifiers
                      /gene="psbB"
      CDS             70126..71652
                      /gene="psbB"
-                     /product="photosystem II 47 kDa protein"
-                     /translation="MGLPWYRVHTVVLNDPGRLLSVHIMHTALVAGWAGSMALYELAVF
-                     DPSDPVLDPMWRQGMFVIPFMTRLGITNSWGGWSITGGTITNPGIWSYEGVAGAHIVFS
-                     GLCFLAAIWHWVYWDLEIFSDERTGKPSLDLPKIFGIHLFLAGVACFGFGAFHVTGLYG
-                     PGIWVSDPYGLTGKVQSVNPSWGVEGFDPFVPGGIASHHIAAGTLGILAGLFHLSVRPP
-                     QRLYKGLRMGNIETVLSSSIAAVFFAAFVVAGTMWYGSATTPIELFGPTRYQWDQGYFQ
-                     QEIYRRVSAGLAENQSLSEAWSKIPEKLAFYDYIGNNPAKGGLFRAGSMDNGDGIAVGW
-                     LGHPIFRDKEGRELFVRRMPTFFETFPVVLVDGDGIVRADVPFRRAESKYSVEQVGVSV
-                     EFYGGELNGVSYSDPVTVKKYARRAQLGEIFELDRATLKSDGVFRSSPRGWFTFGHASF
-                     ALLFFFGHIWHGARTLFRDVFAGIDPDLDAQVEFGAFQKLGDPTTRRQIG"
+                     /codon_start=1
                      /transl_table=11
+                     /product="photosystem II 47 kDa protein"
+                     /translation="MGLPWYRVHTVVLNDPGRLLSVHIMHTALVAGWAGSMALYELAV
+                     FDPSDPVLDPMWRQGMFVIPFMTRLGITNSWGGWSITGGTITNPGIWSYEGVAGAHIV
+                     FSGLCFLAAIWHWVYWDLEIFSDERTGKPSLDLPKIFGIHLFLAGVACFGFGAFHVTG
+                     LYGPGIWVSDPYGLTGKVQSVNPSWGVEGFDPFVPGGIASHHIAAGTLGILAGLFHLS
+                     VRPPQRLYKGLRMGNIETVLSSSIAAVFFAAFVVAGTMWYGSATTPIELFGPTRYQWD
+                     QGYFQQEIYRRVSAGLAENQSLSEAWSKIPEKLAFYDYIGNNPAKGGLFRAGSMDNGD
+                     GIAVGWLGHPIFRDKEGRELFVRRMPTFFETFPVVLVDGDGIVRADVPFRRAESKYSV
+                     EQVGVSVEFYGGELNGVSYSDPVTVKKYARRAQLGEIFELDRATLKSDGVFRSSPRGW
+                     FTFGHASFALLFFFGHIWHGARTLFRDVFAGIDPDLDAQVEFGAFQKLGDPTTRRQIG
+                     "
      gene            71841..71942
                      /gene="psbT"
      CDS             71841..71942
                      /gene="psbT"
+                     /codon_start=1
+                     /transl_table=11
                      /product="photosystem II subunit T"
                      /translation="MEALVYTFLLVSTLGIIFFAIFFREPPKIITKK"
-                     /transl_table=11
      gene            complement(72023..72154)
                      /gene="pbf1"
      CDS             complement(72023..72154)
                      /gene="pbf1"
+                     /codon_start=1
+                     /transl_table=11
                      /product="photosystem biogenesis factor 1"
                      /translation="METATLVAIFISGLLVSFTGYALYTAFGQPSQQLRDPFEEHGD"
-                     /transl_table=11
      gene            72258..72479
                      /gene="psbH"
      CDS             72258..72479
                      /gene="psbH"
-                     /product="photosystem II subunit H"
-                     /translation="MATQTVENDSRSGPRRTTVGDLLKPLNSEYGKVAPGWGTTPLMGV
-                     AMALFAVFLSIILEIYNSSVLLDGISMN"
+                     /codon_start=1
                      /transl_table=11
+                     /product="photosystem II subunit H"
+                     /translation="MATQTVENDSRSGPRRTTVGDLLKPLNSEYGKVAPGWGTTPLMG
+                     VAMALFAVFLSIILEIYNSSVLLDGISMN"
      gene            72604..74016
                      /gene="petB"
      CDS             join(72604..72609,73375..74016)
                      /gene="petB"
-                     /product="cytochrome b6"
-                     /translation="MSKVYDWFEERLEIQAIADDITSKYVPPHVNIFYCLGGITLTCFL
-                     VQVATGFAMTFYYRPTVTDAFASVQYIMTEANFGWLIRSVHRWSASMMVLMMILHVFRV
-                     YLTGGFKKPRELTWVTGVVLGVLTASFGVTGYSLPRDQIGYWAVKIVTGVPDAIPVIGS
-                     PLVELLRGSASVGQSTLTRFYSLHTFVLPLLTAVFMLMHFPMIRKQGISGPL"
+                     /codon_start=1
                      /transl_table=11
+                     /product="cytochrome b6"
+                     /translation="MSKVYDWFEERLEIQAIADDITSKYVPPHVNIFYCLGGITLTCF
+                     LVQVATGFAMTFYYRPTVTDAFASVQYIMTEANFGWLIRSVHRWSASMMVLMMILHVF
+                     RVYLTGGFKKPRELTWVTGVVLGVLTASFGVTGYSLPRDQIGYWAVKIVTGVPDAIPV
+                     IGSPLVELLRGSASVGQSTLTRFYSLHTFVLPLLTAVFMLMHFPMIRKQGISGPL"
      exon            72604..72609
                      /gene="petB"
                      /number=1
@@ -740,65 +798,73 @@ FEATURES             Location/Qualifiers
                      /gene="rpoA"
      CDS             complement(75585..76592)
                      /gene="rpoA"
-                     /product="RNA polymerase subunit alpha"
-                     /translation="MVREKITVSTRTLQWKCVESATDSKRLFYGRFILSPLMKGQADTI
-                     GIAMRRALLGEIEGTCITRAKSEKISHEYSTIMGIQESVHEILMNLKEIVLRSNLYGTC
-                     EASICVRGPGYVTAQDILLPPYVEILDNTQHIASLTEPIELVIGLQIEKNRGYLIKAPN
-                     TFQDGSYPIDPVFMPVRNANHSIHSYENGNKEILFLEIWTNGSLTPKEALYEASRNLID
-                     LLIPFLHTKEENLNLEGNQNMVPLPPFTFYDKLAKLTKNKKKMSLKSIFIDQLELPPRI
-                     YNCLKRSNIYTLLDLLNNSQEDLMKMEHFRIEDVKQILGILEKNFVIDLPKKKF"
+                     /codon_start=1
                      /transl_table=11
+                     /product="RNA polymerase subunit alpha"
+                     /translation="MVREKITVSTRTLQWKCVESATDSKRLFYGRFILSPLMKGQADT
+                     IGIAMRRALLGEIEGTCITRAKSEKISHEYSTIMGIQESVHEILMNLKEIVLRSNLYG
+                     TCEASICVRGPGYVTAQDILLPPYVEILDNTQHIASLTEPIELVIGLQIEKNRGYLIK
+                     APNTFQDGSYPIDPVFMPVRNANHSIHSYENGNKEILFLEIWTNGSLTPKEALYEASR
+                     NLIDLLIPFLHTKEENLNLEGNQNMVPLPPFTFYDKLAKLTKNKKKMSLKSIFIDQLE
+                     LPPRIYNCLKRSNIYTLLDLLNNSQEDLMKMEHFRIEDVKQILGILEKNFVIDLPKKK
+                     F"
      gene            complement(76688..77098)
                      /gene="rps11"
      CDS             complement(76688..77098)
                      /gene="rps11"
-                     /product="ribosomal protein S11"
-                     /translation="MAKAIPKKGSRGRIGSRKSTRKIPKGVIHIQASFNNTIVTVTDVR
-                     GRVVSWSSAGTCGFRGTRRGTPFAAQTAAGNAIRAVVDQGMQRAEVMIKGPGLGRDAAL
-                     RAIRRSGILLTFVRDVTPMPHNGCRPPKKRRV"
+                     /codon_start=1
                      /transl_table=11
+                     /product="ribosomal protein S11"
+                     /translation="MAKAIPKKGSRGRIGSRKSTRKIPKGVIHIQASFNNTIVTVTDV
+                     RGRVVSWSSAGTCGFRGTRRGTPFAAQTAAGNAIRAVVDQGMQRAEVMIKGPGLGRDA
+                     ALRAIRRSGILLTFVRDVTPMPHNGCRPPKKRRV"
      gene            complement(77203..77316)
                      /gene="rpl36"
      CDS             complement(77203..77316)
                      /gene="rpl36"
+                     /codon_start=1
+                     /transl_table=11
                      /product="ribosomal protein L36"
                      /translation="MKIRASVRKICEKCRLIRRRGRIIVICSNPRHKQRQG"
-                     /transl_table=11
      gene            complement(77434..77667)
                      /gene="infA"
      CDS             complement(77434..77667)
                      /gene="infA"
-                     /product="translational initiation factor 1"
-                     /translation="MKEQKWIHEGLITESLPNGMFRVRLDNEDMILGYVSGKIRRSFIR
-                     ILPGDRVKIEVSRYDSTRGRIIYRLRNKDSKD"
+                     /codon_start=1
                      /transl_table=11
+                     /product="translational initiation factor 1"
+                     /translation="MKEQKWIHEGLITESLPNGMFRVRLDNEDMILGYVSGKIRRSFI
+                     RILPGDRVKIEVSRYDSTRGRIIYRLRNKDSKD"
      gene            complement(77789..78193)
                      /gene="rps8"
      CDS             complement(77789..78193)
                      /gene="rps8"
-                     /product="ribosomal protein S8"
-                     /translation="MGSDTIADIITSIRNADMYRKSVVRVASTNISQSIVKILLREGFI
-                     ENVRKHRENNKSFLVLTLRHRRNSKSTYRNLLNLKRISRPGLRIYSNYQRIPRILGGMG
-                     IVILSTSRGIMTDREARLERIGGEILCYIW"
+                     /codon_start=1
                      /transl_table=11
+                     /product="ribosomal protein S8"
+                     /translation="MGSDTIADIITSIRNADMYRKSVVRVASTNISQSIVKILLREGF
+                     IENVRKHRENNKSFLVLTLRHRRNSKSTYRNLLNLKRISRPGLRIYSNYQRIPRILGG
+                     MGIVILSTSRGIMTDREARLERIGGEILCYIW"
      gene            complement(78370..78738)
                      /gene="rpl14"
      CDS             complement(78370..78738)
                      /gene="rpl14"
-                     /product="ribosomal protein L14"
-                     /translation="MIQPQTHLNVADNSGARELMCIRIIGASNRRYAHIGDVIVAVIKD
-                     AVPNMPLERSEVVRAVIVRTCKELKRDNGMIIRYDDNAAVVIDQEGNPKGTRVFGAIAR
-                     ELRQFNFTKIVSLAPEVL"
+                     /codon_start=1
                      /transl_table=11
+                     /product="ribosomal protein L14"
+                     /translation="MIQPQTHLNVADNSGARELMCIRIIGASNRRYAHIGDVIVAVIK
+                     DAVPNMPLERSEVVRAVIVRTCKELKRDNGMIIRYDDNAAVVIDQEGNPKGTRVFGAI
+                     ARELRQFNFTKIVSLAPEVL"
      gene            complement(78853..80292)
                      /gene="rpl16"
      CDS             complement(join(78853..79251,80284..80292))
                      /gene="rpl16"
-                     /product="ribosomal protein L16"
-                     /translation="MLSPKRTRFRKQHRGRMKGISYRGNDICFGKYALQALEPAWITSR
-                     QIEAGRRAMTRNARRGGKIWVRIFPDKPVTVRPAETRMGSGKGSPEYWVAVVKPGRILY
-                     EMGGVTENIARRAISIAASKMPIRAQFIISG"
+                     /codon_start=1
                      /transl_table=11
+                     /product="ribosomal protein L16"
+                     /translation="MLSPKRTRFRKQHRGRMKGISYRGNDICFGKYALQALEPAWITS
+                     RQIEAGRRAMTRNARRGGKIWVRIFPDKPVTVRPAETRMGSGKGSPEYWVAVVKPGRI
+                     LYEMGGVTENIARRAISIAASKMPIRAQFIISG"
      exon            complement(78853..79251)
                      /gene="rpl16"
                      /number=2
@@ -812,12 +878,14 @@ FEATURES             Location/Qualifiers
                      /gene="rps3"
      CDS             complement(80436..81095)
                      /gene="rps3"
-                     /product="ribosomal protein S3"
-                     /translation="MGQKINPIGFRLGTTQGHHSLWFAQPKNYSEGLQEDQKIRNYIQN
-                     YVQKNMKTSSGVEGIARIEIQKRIDLIQIIIYMGFPKILIESRPRGIEELQMNLQKEFH
-                     SVNRKLNIAITRIEKPYGNPNILAEFIAGQLKNRVSFRKAMKKAIELTEQADTKGIQVQ
-                     IAGRIDGKEIARVEWIREGRVPLQTIRAKIDYCSYTVRTIYGVLGIKIWIFIDGES"
+                     /codon_start=1
                      /transl_table=11
+                     /product="ribosomal protein S3"
+                     /translation="MGQKINPIGFRLGTTQGHHSLWFAQPKNYSEGLQEDQKIRNYIQ
+                     NYVQKNMKTSSGVEGIARIEIQKRIDLIQIIIYMGFPKILIESRPRGIEELQMNLQKE
+                     FHSVNRKLNIAITRIEKPYGNPNILAEFIAGQLKNRVSFRKAMKKAIELTEQADTKGI
+                     QVQIAGRIDGKEIARVEWIREGRVPLQTIRAKIDYCSYTVRTIYGVLGIKIWIFIDGE
+                     S"
      gene            complement(81004..81543)
                      /gene="rpl22"
                      /pseudo
@@ -825,10 +893,11 @@ FEATURES             Location/Qualifiers
                      /gene="rps19"
      CDS             complement(81610..81888)
                      /gene="rps19"
-                     /product="ribosomal protein S19"
-                     /translation="MTRSLKKNPFVANNLLKKINKLNTKAEKEIIITWSRASTIIPIMV
-                     GHTIAIHNGKEHLPIYITDRMVGHKLGEFAPTLNFRGHAKSDNRSRR"
+                     /codon_start=1
                      /transl_table=11
+                     /product="ribosomal protein S19"
+                     /translation="MTRSLKKNPFVANNLLKKINKLNTKAEKEIIITWSRASTIIPIM
+                     VGHTIAIHNGKEHLPIYITDRMVGHKLGEFAPTLNFRGHAKSDNRSRR"
      repeat_region   81834..106769
                      /note="inverted repeat B (IRB)"
                      /rpt_type=inverted
@@ -836,13 +905,14 @@ FEATURES             Location/Qualifiers
                      /gene="rpl2"
      CDS             complement(join(81947..82380,83046..83436))
                      /gene="rpl2"
-                     /product="ribosomal protein L2"
-                     /translation="MAIHLYKTSTPSTRNGTVDSQVKSNPRNNLIYGQHHCGKGRNARG
-                     IITAGHRGGGHKRLYRKIDFRRNEKDIYGRIVTIEYDPNRNAYICLIHYRDGEKRYILH
-                     PRGAIIGDTIVSGTEVPIKMGNALPLTDMPLGTAIHNIEITLGKGGQLARAAGAVAKLI
-                     AKEGKSATLKLPSGEVRLISKNCSATVGQVGNVGVNQKSLGRAGSKRWLGKRPVVRGVV
-                     MNPVDHPHGGGEGRAPIGRKKPTTPWGYPALGKRSRKRNKYSDNLILRRRSK"
+                     /codon_start=1
                      /transl_table=11
+                     /product="ribosomal protein L2"
+                     /translation="MAIHLYKTSTPSTRNGTVDSQVKSNPRNNLIYGQHHCGKGRNAR
+                     GIITAGHRGGGHKRLYRKIDFRRNEKDIYGRIVTIEYDPNRNAYICLIHYRDGEKRYI
+                     LHPRGAIIGDTIVSGTEVPIKMGNALPLTDMPLGTAIHNIEITLGKGGQLARAAGAVA
+                     KLIAKEGKSATLKLPSGEVRLISKNCSATVGQVGNVGVNQKSLGRAGSKRWLGKRPVV
+                     RGVVMNPVDHPHGGGEGRAPIGRKKPTTPWGYPALGKRSRKRNKYSDNLILRRRSK"
      exon            complement(81947..82380)
                      /gene="rpl2"
                      /number=2
@@ -856,10 +926,11 @@ FEATURES             Location/Qualifiers
                      /gene="rpl23"
      CDS             complement(83455..83736)
                      /gene="rpl23"
-                     /product="ribosomal protein L23"
-                     /translation="MDGIRYAVFTDKSIRLLGKNQYTSNVESGSTRTEIKHWVELFFGV
-                     KVIAMNSQRLRGKARRMGPIMGQTMHYRRMIITLQPGYSIPPLRKKRT"
+                     /codon_start=1
                      /transl_table=11
+                     /product="ribosomal protein L23"
+                     /translation="MDGIRYAVFTDKSIRLLGKNQYTSNVESGSTRTEIKHWVELFFG
+                     VKVIAMNSQRLRGKARRMGPIMGQTMHYRRMIITLQPGYSIPPLRKKRT"
      gene            complement(83901..83975)
                      /gene="trnM-CAU"
      tRNA            complement(83901..83975)
@@ -869,47 +940,49 @@ FEATURES             Location/Qualifiers
                      /gene="ycf2"
      CDS             84087..90941
                      /gene="ycf2"
-                     /product="Ycf2 protein"
-                     /translation="MTGHEFKSWILELREILREIKNSHYFLDSWTQFNSVGSFIHIFFH
-                     QERFIKLFDSRIWSILLSHNSQGSTRNRYLTIKGVILFGVAVLIYRINNRNMVERKNLY
-                     LIGLLPIPMNSIGPRKDTLEESVGSSNINRLIVSLLYLPKGKKIYESSFLNPKESTWVL
-                     PITKKCSMPESNWGSRWWRDWIGKKRDSSCKISNETVAGIEILFKEKDLKYLEFFFVYY
-                     RDDPIRKDHDWELFDRLSLRKRQNRINLNSGPLFEILVKHWICYLMSAFREKIPNEVEG
-                     FLKQQGAGSTIQSNDIEHVSYLFSRNKSAISLQKCAQFHMWQFRQDLFVSWGKNPPESD
-                     LLRNVSRDNLIWLDNVWLVNKDRFFRKVRNVSSNIQYDSTRSSFVQVRDSSQLKGSSDQ
-                     SRDHFDSISNEDSEYHTLINQREIQQLKERSILWDPSFLQMEGTEIESNRFPKCLSGYS
-                     SMSRLFTEREKQMINHLLPEEIEEFLGNPTRSVRSFFSDRWSELHLGSNPTERSTRDQK
-                     LLKKQQDLSFLRRSENKEMVNLFKIITYLQNTVSIHPISSDSECDMVPKDEPDMDSSNK
-                     ISFLNKNPFFYLFHLFHDRNRGRYTLHHDFESEERFQELADLFTLSITEPDLVYHKRFA
-                     FSIDSYGLDPKQFLNGVFNSRYEWKTTSLLVLLVLLPIFYEENESFYRRIRKKRVRISC
-                     GNDLEEPKPKIVVFASNNIMEAVNQYRLIRNLIQIQHSTHRYIRNVLNRFFLMNRSDRN
-                     FEYGIQRDQIGKDTLNHRTLMKYMINQHLSNLKKSQKRWFDPLIFFSRTERSMNRDLDA
-                     YRYKWSTGSKNFQEHLEHFVSEQKSRFQVVFDRLRINQYSIDWSEVIDKKDLSKPLRFF
-                     LSKLLLFLSNSLPFLFVSFGNIPIHRSEIYIYELKGPNDPQFLESIGLQIVHLKKLKPF
-                     LLDDHETCQKSKFLINGGTISPFLFNKIPKWMIDSFHTRNNRRKSFDNTDSYFSMIFHD
-                     QYNWLNPVKSFHRSSLRSSFYKANQLRFLNNPHHFCFYCNKRFPFYVEKARINNYDFTY
-                     GQFLNILFIRNKIFYLCVGKKKHAFGGRDTISAIESQVSNIFIPKAFPQSGDETYNLYK
-                     SFHFPSRSNPFVRRAIYSIADISGTPLTEGQIVNFERTYCQPLSDMNLSDSEGKNLYQY
-                     FNFNSNMGLIHTPCSEKYLPSEKRKKRSLCLKKCVEKGQMYRTFQQDSAYSTLSKWNLF
-                     QTYMPWFLTSTGYRYLKFLFLDTFSDLLPILSSSQKFVSIFHDIMHGSDISWRILQKKL
-                     CLPQRNLISEISSKCFHNLLLSEEMIHRNNESPLISTHLTNVREFLYAILFLLLVAAYL
-                     ACTRLLFVFGASSELQTEFEKVKSLMIPSSMIELRKLLDRYPTSEPNSFWLKNLFLIAL
-                     KQLGDSLGGNMLLGGGPAYRVKSIRSKKKYLNINLIDILDLISIIPNPINQITFSRNTR
-                     HLSHTSKEIYSLIRKRKNVNGDWIDDKIESWVANSDSIDDEKREFLVQFSALTTEKGID
-                     QILLSLTHSDHFSKNDSGYQMIEQPGAIYLRYLVDIHKKYLMNYEFNTSSLAERRIFLA
-                     HYQTITYSQTSCGANSLHFPSHGKPFSLRLALSLSRGTLVIGSIGTGRSYLVKYLAKNS
-                     YLPFITVFLNKFLDKKYRGFDDDDLYDIDASDDIDASDNIDASDDILDMELELLTSMNA
-                     LTMDMDMLPEDEDRLYMTLQFELAKAMSPCIIWIPNIHDLDVNESNYFSLGLLVNLLSR
-                     DYETRNILVIASTHIPQKVDPALIAPNKLNTCIKIRRLLIPQQRKHFFTLSYTRGFHLE
-                     KKMFHTNGFGSITMGSNARDLVALTNEALSISITQKKSIIDTNTIRSALHRQIWDLRSQ
-                     VRSVQDHGILFYKIGRAVAQNVLLSNCPIDPISIYMKKKSCNEVDYYLYNWYFELGTSM
-                     KKLTILLYILSCSAGSVTQDLWSLPGPDEKNGITPYGLVENDSGLVRGLLEVEGALVGS
-                     SRTCSQFDKDRVTLLLRPEPRNPLDMMQNGSCSILDQRFLYEKDESEFEEGEGEGALDP
-                     QQIEEDLFNHIVWAPRIWRPWGFLFDCIERPNELGFPYWSRSFRGKRIVYDEEDELQEN
-                     DSEFLQSGTVQYQTRDRSSKEQGLFRISQFIWDPADPLFFLFKAQPFVSVFSHRELFAD
-                     QEMSKGLLTPQKNRPTYLYKRWFIKKTQEKHFELLINRQRWLRTNRSLSNGSFRSNTLS
-                     ESYQYLSNLFLSNGTLLDQMTKALLRKRWLFPDEMQIGFMEQEKDLPFLSRKDMWP"
+                     /codon_start=1
                      /transl_table=11
+                     /product="Ycf2 protein"
+                     /translation="MTGHEFKSWILELREILREIKNSHYFLDSWTQFNSVGSFIHIFF
+                     HQERFIKLFDSRIWSILLSHNSQGSTRNRYLTIKGVILFGVAVLIYRINNRNMVERKN
+                     LYLIGLLPIPMNSIGPRKDTLEESVGSSNINRLIVSLLYLPKGKKIYESSFLNPKEST
+                     WVLPITKKCSMPESNWGSRWWRDWIGKKRDSSCKISNETVAGIEILFKEKDLKYLEFF
+                     FVYYRDDPIRKDHDWELFDRLSLRKRQNRINLNSGPLFEILVKHWICYLMSAFREKIP
+                     NEVEGFLKQQGAGSTIQSNDIEHVSYLFSRNKSAISLQKCAQFHMWQFRQDLFVSWGK
+                     NPPESDLLRNVSRDNLIWLDNVWLVNKDRFFRKVRNVSSNIQYDSTRSSFVQVRDSSQ
+                     LKGSSDQSRDHFDSISNEDSEYHTLINQREIQQLKERSILWDPSFLQMEGTEIESNRF
+                     PKCLSGYSSMSRLFTEREKQMINHLLPEEIEEFLGNPTRSVRSFFSDRWSELHLGSNP
+                     TERSTRDQKLLKKQQDLSFLRRSENKEMVNLFKIITYLQNTVSIHPISSDSECDMVPK
+                     DEPDMDSSNKISFLNKNPFFYLFHLFHDRNRGRYTLHHDFESEERFQELADLFTLSIT
+                     EPDLVYHKRFAFSIDSYGLDPKQFLNGVFNSRYEWKTTSLLVLLVLLPIFYEENESFY
+                     RRIRKKRVRISCGNDLEEPKPKIVVFASNNIMEAVNQYRLIRNLIQIQHSTHRYIRNV
+                     LNRFFLMNRSDRNFEYGIQRDQIGKDTLNHRTLMKYMINQHLSNLKKSQKRWFDPLIF
+                     FSRTERSMNRDLDAYRYKWSTGSKNFQEHLEHFVSEQKSRFQVVFDRLRINQYSIDWS
+                     EVIDKKDLSKPLRFFLSKLLLFLSNSLPFLFVSFGNIPIHRSEIYIYELKGPNDPQFL
+                     ESIGLQIVHLKKLKPFLLDDHETCQKSKFLINGGTISPFLFNKIPKWMIDSFHTRNNR
+                     RKSFDNTDSYFSMIFHDQYNWLNPVKSFHRSSLRSSFYKANQLRFLNNPHHFCFYCNK
+                     RFPFYVEKARINNYDFTYGQFLNILFIRNKIFYLCVGKKKHAFGGRDTISAIESQVSN
+                     IFIPKAFPQSGDETYNLYKSFHFPSRSNPFVRRAIYSIADISGTPLTEGQIVNFERTY
+                     CQPLSDMNLSDSEGKNLYQYFNFNSNMGLIHTPCSEKYLPSEKRKKRSLCLKKCVEKG
+                     QMYRTFQQDSAYSTLSKWNLFQTYMPWFLTSTGYRYLKFLFLDTFSDLLPILSSSQKF
+                     VSIFHDIMHGSDISWRILQKKLCLPQRNLISEISSKCFHNLLLSEEMIHRNNESPLIS
+                     THLTNVREFLYAILFLLLVAAYLACTRLLFVFGASSELQTEFEKVKSLMIPSSMIELR
+                     KLLDRYPTSEPNSFWLKNLFLIALKQLGDSLGGNMLLGGGPAYRVKSIRSKKKYLNIN
+                     LIDILDLISIIPNPINQITFSRNTRHLSHTSKEIYSLIRKRKNVNGDWIDDKIESWVA
+                     NSDSIDDEKREFLVQFSALTTEKGIDQILLSLTHSDHFSKNDSGYQMIEQPGAIYLRY
+                     LVDIHKKYLMNYEFNTSSLAERRIFLAHYQTITYSQTSCGANSLHFPSHGKPFSLRLA
+                     LSLSRGTLVIGSIGTGRSYLVKYLAKNSYLPFITVFLNKFLDKKYRGFDDDDLYDIDA
+                     SDDIDASDNIDASDDILDMELELLTSMNALTMDMDMLPEDEDRLYMTLQFELAKAMSP
+                     CIIWIPNIHDLDVNESNYFSLGLLVNLLSRDYETRNILVIASTHIPQKVDPALIAPNK
+                     LNTCIKIRRLLIPQQRKHFFTLSYTRGFHLEKKMFHTNGFGSITMGSNARDLVALTNE
+                     ALSISITQKKSIIDTNTIRSALHRQIWDLRSQVRSVQDHGILFYKIGRAVAQNVLLSN
+                     CPIDPISIYMKKKSCNEVDYYLYNWYFELGTSMKKLTILLYILSCSAGSVTQDLWSLP
+                     GPDEKNGITPYGLVENDSGLVRGLLEVEGALVGSSRTCSQFDKDRVTLLLRPEPRNPL
+                     DMMQNGSCSILDQRFLYEKDESEFEEGEGEGALDPQQIEEDLFNHIVWAPRIWRPWGF
+                     LFDCIERPNELGFPYWSRSFRGKRIVYDEEDELQENDSEFLQSGTVQYQTRDRSSKEQ
+                     GLFRISQFIWDPADPLFFLFKAQPFVSVFSHRELFADQEMSKGLLTPQKNRPTYLYKR
+                     WFIKKTQEKHFELLINRQRWLRTNRSLSNGSFRSNTLSESYQYLSNLFLSNGTLLDQM
+                     TKALLRKRWLFPDEMQIGFMEQEKDLPFLSRKDMWP"
      gene            complement(91343..91425)
                      /gene="trnL-CAA"
      tRNA            complement(91343..91425)
@@ -919,17 +992,19 @@ FEATURES             Location/Qualifiers
                      /gene="ndhB"
      CDS             complement(join(92002..92757,93427..94203))
                      /gene="ndhB"
-                     /product="NADH dehydrogenase subunit B"
-                     /translation="MIWHVQNENFILDSTRIFMKAFHLLLFDGSLIFPECILIFGLILL
-                     LMIDSTSDQKDIPWLYFISSTSLVMSITALLFRWREEPMISVSGNFQTNNFNEIFQFLI
-                     LLCSTLCIPLSVEYIECTEMAITEFLLFVLTATIGGMFLCGANDLITIFVAPECFSLCS
-                     YLLSGYTKKDVRSNEATMKYLLMGGASSSILVHGFSWLYGSSGGEIELQEIVNGLINTQ
-                     MYNSPGISIALIFITVGIGFKLSPAPSHQWTPDVYEGSPTPVVAFLSVTSKVAASASAT
-                     RIFDIPFYFSSNEWHLLLEILAILSMILGNLVAITQTSMKRMLAYSSIGQIGYVIIGII
-                     VGDSNDGYASMITYMLFYISMNLGTFACIVLFGLRTGTENIRDYAGLYTKDPFLALSLA
-                     LCLLSLGGLPPLAGFFGKLYLFWCGWQAGLYFLVLIGLLTSVVSIYYYLKIIKLLMTGR
-                     NQEITPHVRNYRRSPLRSNNSIELSMIVCVIASTIPGISMNPIIAIAQDTLF"
+                     /codon_start=1
                      /transl_table=11
+                     /product="NADH dehydrogenase subunit B"
+                     /translation="MIWHVQNENFILDSTRIFMKAFHLLLFDGSLIFPECILIFGLIL
+                     LLMIDSTSDQKDIPWLYFISSTSLVMSITALLFRWREEPMISVSGNFQTNNFNEIFQF
+                     LILLCSTLCIPLSVEYIECTEMAITEFLLFVLTATIGGMFLCGANDLITIFVAPECFS
+                     LCSYLLSGYTKKDVRSNEATMKYLLMGGASSSILVHGFSWLYGSSGGEIELQEIVNGL
+                     INTQMYNSPGISIALIFITVGIGFKLSPAPSHQWTPDVYEGSPTPVVAFLSVTSKVAA
+                     SASATRIFDIPFYFSSNEWHLLLEILAILSMILGNLVAITQTSMKRMLAYSSIGQIGY
+                     VIIGIIVGDSNDGYASMITYMLFYISMNLGTFACIVLFGLRTGTENIRDYAGLYTKDP
+                     FLALSLALCLLSLGGLPPLAGFFGKLYLFWCGWQAGLYFLVLIGLLTSVVSIYYYLKI
+                     IKLLMTGRNQEITPHVRNYRRSPLRSNNSIELSMIVCVIASTIPGISMNPIIAIAQDT
+                     LF"
      exon            complement(92002..92757)
                      /gene="ndhB"
                      /number=2
@@ -943,22 +1018,12 @@ FEATURES             Location/Qualifiers
                      /gene="rps7"
      CDS             complement(94494..94961)
                      /gene="rps7"
+                     /codon_start=1
+                     /transl_table=11
                      /product="ribosomal protein S7"
-                     /translation="MSRRGTAEEKTAKSDPIYRNRLVNMLVNRILKHGKKSLAYQIIYR
-                     AVKKIQQKTETNPLSVLRQAIHGVTPGIAVKARRVGGSTHQVPIEIGSTQGKALAIRWL
-                     LAASRKRPGRNMAFKLSSELVDAAKGSGDAIRKREETHRMAEANRAFAHFR"
-                     /transl_table=11
-     gene            complement(join(95015..95807,67399..67512))
-                     /gene="rps12"
-                     /trans_splicing=""
-     CDS             complement(join(95015..95040,95576..95807,67399..67512))
-                     /gene="rps12"
-                     /product="ribosomal protein S12"
-                     /translation="MPTIKQLIRNTRQPIRNVTKSPALRGCPQRRGTCTRVYTITPKKP
-                     NSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHIVRGTLDA
-                     VGVKDRQQGRSKYGVKKPK"
-                     /trans_splicing=""
-                     /transl_table=11
+                     /translation="MSRRGTAEEKTAKSDPIYRNRLVNMLVNRILKHGKKSLAYQIIY
+                     RAVKKIQQKTETNPLSVLRQAIHGVTPGIAVKARRVGGSTHQVPIEIGSTQGKALAIR
+                     WLLAASRKRPGRNMAFKLSSELVDAAKGSGDAIRKREETHRMAEANRAFAHFR"
      exon            complement(95015..95041)
                      /gene="rps12"
                      /number=3
@@ -981,10 +1046,11 @@ FEATURES             Location/Qualifiers
                      /gene="ycf15"
      CDS             complement(96782..96973)
                      /gene="ycf15"
-                     /product="Ycf15 protein"
-                     /translation="MRVQLHCIARIHVVYLKEVDLLASLTVQSSSRRAPFLLYPQRQNV
-                     GLAPTVHHGRKDSLSRDH"
+                     /codon_start=1
                      /transl_table=11
+                     /product="Ycf15 protein"
+                     /translation="MRVQLHCIARIHVVYLKEVDLLASLTVQSSSRRAPFLLYPQRQN
+                     VGLAPTVHHGRKDSLSRDH"
      gene            97658..97729
                      /gene="trnV-GAC"
      tRNA            97658..97729
@@ -1048,38 +1114,40 @@ FEATURES             Location/Qualifiers
                      /gene="trnN-GUU"
                      /product="tRNA-Asn"
      gene            106290..106769
-                     /note="ycf1 fragment"
                      /gene="ycf1 fragment"
                      /pseudo
      gene            complement(106766..108991)
                      /gene="ndhF"
      CDS             complement(106766..108991)
                      /gene="ndhF"
-                     /product="NADH dehydrogenase subunit F"
-                     /translation="MEQTYQYAWIIPFLPLPVPMLIGLGLLLFPTATKSLRRMWSFQSV
-                     LLLSIVMIFSMNLSIQQINSSYVYQYVWSWIINNDFSLEFGYLIDPLTSIMSILITTVG
-                     IMVLIYSDNYMSHDHGYLRFFAYMSFFSTSMLGLVTSSNLIQIYIFWELVGVCSYLLIG
-                     FWFTRPVAAKACQKAFVTNRVGDFGLLLGILGFYWITGSFEFRDLFQILNNLISNNEVN
-                     FLFVTLCAILLFAGAIAKSAQFPLHVWLPDAMEGPTPISALIHAATMVAAGIFLVARLM
-                     PLFIVIPHIMNFISLIGIITVFLGATLALAQKDIKRGLAYSTMSQLGYMMLALGMGSYR
-                     SALFHLITHAYSKALLFLGSGSVIHSMETLVGYCPKKSQNMVLMGGLTKHLPITKNSFL
-                     LGTLSLCGIPPLACFWSKDEILNDSWLYSPIFAIIAWSTAGLTAFYMCRIYLLTFEGHL
-                     NVHFQNYSGKRNTPFYSISLWGKEGSNISNKNVRLITLLKMKKNTPSSFFSNSNKVYKI
-                     DENERNLVEPCLSIPHFGNTKTYLYPYESDNTMLFPILVLILFTLFVGFLGIPFNQDVD
-                     ILSKWLTPSINLLHKNSNNLIDWSEFSKDAFFSVSIACFGIFIAFFLYKPVYSSFQNLD
-                     FLNVFFKVGPNRIFYDKIKSAIYDWSYNRGYIDAFYGRFLTAGIRKLADFAHFFDRRII
-                     DAIPNGVGLMSFFVAEVIKSVGGGRISSYLFFYFSYVAIFLVIYYLL"
+                     /codon_start=1
                      /transl_table=11
+                     /product="NADH dehydrogenase subunit F"
+                     /translation="MEQTYQYAWIIPFLPLPVPMLIGLGLLLFPTATKSLRRMWSFQS
+                     VLLLSIVMIFSMNLSIQQINSSYVYQYVWSWIINNDFSLEFGYLIDPLTSIMSILITT
+                     VGIMVLIYSDNYMSHDHGYLRFFAYMSFFSTSMLGLVTSSNLIQIYIFWELVGVCSYL
+                     LIGFWFTRPVAAKACQKAFVTNRVGDFGLLLGILGFYWITGSFEFRDLFQILNNLISN
+                     NEVNFLFVTLCAILLFAGAIAKSAQFPLHVWLPDAMEGPTPISALIHAATMVAAGIFL
+                     VARLMPLFIVIPHIMNFISLIGIITVFLGATLALAQKDIKRGLAYSTMSQLGYMMLAL
+                     GMGSYRSALFHLITHAYSKALLFLGSGSVIHSMETLVGYCPKKSQNMVLMGGLTKHLP
+                     ITKNSFLLGTLSLCGIPPLACFWSKDEILNDSWLYSPIFAIIAWSTAGLTAFYMCRIY
+                     LLTFEGHLNVHFQNYSGKRNTPFYSISLWGKEGSNISNKNVRLITLLKMKKNTPSSFF
+                     SNSNKVYKIDENERNLVEPCLSIPHFGNTKTYLYPYESDNTMLFPILVLILFTLFVGF
+                     LGIPFNQDVDILSKWLTPSINLLHKNSNNLIDWSEFSKDAFFSVSIACFGIFIAFFLY
+                     KPVYSSFQNLDFLNVFFKVGPNRIFYDKIKSAIYDWSYNRGYIDAFYGRFLTAGIRKL
+                     ADFAHFFDRRIIDAIPNGVGLMSFFVAEVIKSVGGGRISSYLFFYFSYVAIFLVIYYL
+                     L"
      misc_feature    106770..125071
                      /note="small single copy (SSC)"
      gene            110041..110205
                      /gene="rpl32"
      CDS             110041..110205
                      /gene="rpl32"
-                     /product="ribosomal protein L32"
-                     /translation="MAVPKKRTSISKKRIRKNIWKRKGYWAALKALSLGKSLSTGNSKS
-                     FFVRQKNKS"
+                     /codon_start=1
                      /transl_table=11
+                     /product="ribosomal protein L32"
+                     /translation="MAVPKKRTSISKKRIRKNIWKRKGYWAALKALSLGKSLSTGNSK
+                     SFFVRQKNKS"
      gene            110984..111063
                      /gene="trnL-UAG"
      tRNA            110984..111063
@@ -1089,80 +1157,87 @@ FEATURES             Location/Qualifiers
                      /gene="ccsA"
      CDS             111196..112164
                      /gene="ccsA"
-                     /product="cytochrome c biogenesis protein"
-                     /translation="MIFSTLEHIFTHISFSIVSIVITIQLITLLGNEIIKPYGSSEKGM
-                     LVTFLCLTGLLITRWIYSGHFPLSDLYESLIFLSWSFSLIHIVPYFKIRKNYLTTITAS
-                     STIFTQGFATSGLLTEIRKPTILVPALQSEWLIMHVSMMILSYAALLCGSLLSVALLVI
-                     TFRKIFSSSKSKNLILINSYYSFGEIQYKNERNNIFQKTSFFSAKNYYKAQLIQQLDYW
-                     SYRVISLGFIFLTIGILSGAVWANEAWGSYWSWDPKETWAFITWIVFAIYLHTRTNQNF
-                     KGASSAIVATLGFLIIWICYFGVNLLGIGLHSYGSFTVTSS"
+                     /codon_start=1
                      /transl_table=11
+                     /product="cytochrome c biogenesis protein"
+                     /translation="MIFSTLEHIFTHISFSIVSIVITIQLITLLGNEIIKPYGSSEKG
+                     MLVTFLCLTGLLITRWIYSGHFPLSDLYESLIFLSWSFSLIHIVPYFKIRKNYLTTIT
+                     ASSTIFTQGFATSGLLTEIRKPTILVPALQSEWLIMHVSMMILSYAALLCGSLLSVAL
+                     LVITFRKIFSSSKSKNLILINSYYSFGEIQYKNERNNIFQKTSFFSAKNYYKAQLIQQ
+                     LDYWSYRVISLGFIFLTIGILSGAVWANEAWGSYWSWDPKETWAFITWIVFAIYLHTR
+                     TNQNFKGASSAIVATLGFLIIWICYFGVNLLGIGLHSYGSFTVTSS"
      gene            complement(112422..113924)
                      /gene="ndhD"
      CDS             complement(112422..113924)
                      /gene="ndhD"
-                     /product="NADH dehydrogenase subunit D"
-                     /translation="MNKFPWLTIIVVLPIFAGSFILFFPHKGNRVIRWYTICICMLELI
-                     LTTYAFCYHFQLDDPLIQLVEDYKWINFFDFRWKLGIDGLSIGPVLLTGFITTLATLAA
-                     WPVTRDSRLFHFLMLAMYSGQIGSFSSRDLLLFFIMWELELIPVYLLLSMWGGKKRLYS
-                     ATKFILYTAGGSIFLLMGVLGVGLYGSNEPTLNFETSVNQSYPVALEIIFYIGFFIAFA
-                     VKSPILPLHTWLPDTHGEAHYSTCMLLAGILLKMGAYGLIRINMELLPHAHSIFAPWLM
-                     IVGTIQIIYAASTSPGQRNLKKRIAYSSVSHMGFILIGIASITDTGLNGAILQIISHGF
-                     IGAALFFLAGTSYDRIRLVYLDQMGGVAIPMPKIFTMFSSFSMASLALPGMSGFVAEVM
-                     VFLGIITSQKYLLIPKIAITFVMAIGMILTPIYSLSMLRQMFYGYKLFNTPNSYVFDSG
-                     PRELFVSISIFLPVIGIGMYPDFVLSLSVDKVEGILSNYFYR"
-                     /transl_table=11
-                     /transl_except=(pos:complement(113922..113924),aa=M)
                      /note="Start codon created by RNA editing (C-to-U)"
+                     /codon_start=1
+                     /transl_except=(pos:complement(113922..113924),aa:Met)
+                     /transl_table=11
+                     /product="NADH dehydrogenase subunit D"
+                     /translation="MNKFPWLTIIVVLPIFAGSFILFFPHKGNRVIRWYTICICMLEL
+                     ILTTYAFCYHFQLDDPLIQLVEDYKWINFFDFRWKLGIDGLSIGPVLLTGFITTLATL
+                     AAWPVTRDSRLFHFLMLAMYSGQIGSFSSRDLLLFFIMWELELIPVYLLLSMWGGKKR
+                     LYSATKFILYTAGGSIFLLMGVLGVGLYGSNEPTLNFETSVNQSYPVALEIIFYIGFF
+                     IAFAVKSPILPLHTWLPDTHGEAHYSTCMLLAGILLKMGAYGLIRINMELLPHAHSIF
+                     APWLMIVGTIQIIYAASTSPGQRNLKKRIAYSSVSHMGFILIGIASITDTGLNGAILQ
+                     IISHGFIGAALFFLAGTSYDRIRLVYLDQMGGVAIPMPKIFTMFSSFSMASLALPGMS
+                     GFVAEVMVFLGIITSQKYLLIPKIAITFVMAIGMILTPIYSLSMLRQMFYGYKLFNTP
+                     NSYVFDSGPRELFVSISIFLPVIGIGMYPDFVLSLSVDKVEGILSNYFYR"
      gene            complement(114040..114285)
                      /gene="psaC"
      CDS             complement(114040..114285)
                      /gene="psaC"
-                     /product="photosystem I subunit C"
-                     /translation="MSHSVKIYDTCIGCTQCVRACPTDVLEMIPWDGCKAKQIASAPRT
-                     EDCVGCKRCESACPTDFLSVRVYLWHETTRSMGIAY"
+                     /codon_start=1
                      /transl_table=11
+                     /product="photosystem I subunit C"
+                     /translation="MSHSVKIYDTCIGCTQCVRACPTDVLEMIPWDGCKAKQIASAPR
+                     TEDCVGCKRCESACPTDFLSVRVYLWHETTRSMGIAY"
      gene            complement(114515..114820)
                      /gene="ndhE"
      CDS             complement(114515..114820)
                      /gene="ndhE"
-                     /product="NADH dehydrogenase subunit E"
-                     /translation="MMLEHVLLLSAYLFSIGLYGLITSRNMVRALMCLELILNAVNLNF
-                     VTFSDFFDSRQLKGAIFSIFVIAIAAAEAAIGLAIVSSIYRNRKSTRINQSNLLNK"
+                     /codon_start=1
                      /transl_table=11
+                     /product="NADH dehydrogenase subunit E"
+                     /translation="MMLEHVLLLSAYLFSIGLYGLITSRNMVRALMCLELILNAVNLN
+                     FVTFSDFFDSRQLKGAIFSIFVIAIAAAEAAIGLAIVSSIYRNRKSTRINQSNLLNK"
      gene            complement(115038..115568)
                      /gene="ndhG"
      CDS             complement(115038..115568)
                      /gene="ndhG"
-                     /product="NADH dehydrogenase subunit G"
-                     /translation="MDLPGLIHDFLLVFLGLGLILGGLGVVLLRNPIYSAFSLGLVFVC
-                     ISLFYILSNSHFVAAAQLLIYVGAINVLIIFAVMFINGSEYSKDFHLWTVGDGVTSVVC
-                     TSLFVSLITTIPDTSWYGIIWTTKANQIIEQDLISNSQQIGIHLSTDFFLPFEFISIIL
-                     LVALIGAIAVARQ"
+                     /codon_start=1
                      /transl_table=11
+                     /product="NADH dehydrogenase subunit G"
+                     /translation="MDLPGLIHDFLLVFLGLGLILGGLGVVLLRNPIYSAFSLGLVFV
+                     CISLFYILSNSHFVAAAQLLIYVGAINVLIIFAVMFINGSEYSKDFHLWTVGDGVTSV
+                     VCTSLFVSLITTIPDTSWYGIIWTTKANQIIEQDLISNSQQIGIHLSTDFFLPFEFIS
+                     IILLVALIGAIAVARQ"
      gene            complement(115897..116397)
                      /gene="ndhI"
      CDS             complement(115897..116397)
                      /gene="ndhI"
-                     /product="NADH dehydrogenase subunit I"
-                     /translation="MFPMVTEFMNYGQQTVRAARYIGQGFMITLSHANRLPVTIQYPYE
-                     KLITSERFRGRIHFEFDKCIACEVCVRVCPIDLPVVDWKLETDIRKKRLLNYSIDFGIC
-                     IFCGNCVEYCPTNCLSMTEEYELSTYDRHELNYNQIALGRLPMSVIDDYTIRTIFNLPE
-                     IKT"
+                     /codon_start=1
                      /transl_table=11
+                     /product="NADH dehydrogenase subunit I"
+                     /translation="MFPMVTEFMNYGQQTVRAARYIGQGFMITLSHANRLPVTIQYPY
+                     EKLITSERFRGRIHFEFDKCIACEVCVRVCPIDLPVVDWKLETDIRKKRLLNYSIDFG
+                     ICIFCGNCVEYCPTNCLSMTEEYELSTYDRHELNYNQIALGRLPMSVIDDYTIRTIFN
+                     LPEIKT"
      gene            complement(116476..118621)
                      /gene="ndhA"
      CDS             complement(join(116476..117015,118070..118621))
                      /gene="ndhA"
-                     /product="NADH dehydrogenase subunit A"
-                     /translation="MIIDTTEVQAINSFSRLESLKEVYGIIWMLVPIFTPVLGITIGVL
-                     VIVWLEREISAGIQQRIGPEYAGPLGILQALADGTKLLFKENLLPSRGNTRLFSIGPSI
-                     AVISVLLSYLVIPFSYNLVLADLSIGVFLWIAISSIAPVGLLMSGYGSNNKYSFLGGLR
-                     AAAQSISYEIPLTLCVLSISLLSNSSSTVDIVEAQSKYGFWGWNLWRQPIGFLVFLISS
-                     LAECERLPFDLPEAEEELVAGYQTEYSGIKFGLFYVASYLNLLVSSLFVTVLYLGGWNL
-                     STPYIFVPDLFEITKRGRVFGTIIGIFITLAKTYLFLFIPIATRWTLPRLRMDQLLNLG
-                     WKFLLPISLGNLLLTTSSQLLSL"
+                     /codon_start=1
                      /transl_table=11
+                     /product="NADH dehydrogenase subunit A"
+                     /translation="MIIDTTEVQAINSFSRLESLKEVYGIIWMLVPIFTPVLGITIGV
+                     LVIVWLEREISAGIQQRIGPEYAGPLGILQALADGTKLLFKENLLPSRGNTRLFSIGP
+                     SIAVISVLLSYLVIPFSYNLVLADLSIGVFLWIAISSIAPVGLLMSGYGSNNKYSFLG
+                     GLRAAAQSISYEIPLTLCVLSISLLSNSSSTVDIVEAQSKYGFWGWNLWRQPIGFLVF
+                     LISSLAECERLPFDLPEAEEELVAGYQTEYSGIKFGLFYVASYLNLLVSSLFVTVLYL
+                     GGWNLSTPYIFVPDLFEITKRGRVFGTIIGIFITLAKTYLFLFIPIATRWTLPRLRMD
+                     QLLNLGWKFLLPISLGNLLLTTSSQLLSL"
      exon            complement(116476..117015)
                      /gene="ndhA"
                      /number=2
@@ -1176,23 +1251,26 @@ FEATURES             Location/Qualifiers
                      /gene="ndhH"
      CDS             complement(118623..119804)
                      /gene="ndhH"
-                     /product="NADH dehydrogenase subunit H"
-                     /translation="MTGPATRKDLMIVNMGPHHPSMHGVLRLIVTLDGEDVIDCEPILG
-                     YLHRGMEKIAENRTIIQYLPYVTRWDYLATMFTEAITVNAPEQLGNIQVPKRASYIRVI
-                     MLELSRIASHLLWLGPFMADIGAQTPFFYIFRERELIYDLFEAATGMRMMHNFFRIGGV
-                     AADLPHGWIDKCLDFCDYFLTGIAEYQKLITRNPIFLERVEGVGIIGGEEAINWGLSGP
-                     MLRASGIQWDLRKVDHYECYDEFDWEVQWQKEGDSLARYLVRISEMTESIKIIQQALEG
-                     IPGGPYENLEIRRFDRVKDTVWNEFDYRFISKKPSPTFELSKQELYARVEAPKGELGIF
-                     LIGDKGVFPWRYKIRPPGFINLQILPQLVKRMKLADIMTILGSIDIIMGEVDR"
+                     /codon_start=1
                      /transl_table=11
+                     /product="NADH dehydrogenase subunit H"
+                     /translation="MTGPATRKDLMIVNMGPHHPSMHGVLRLIVTLDGEDVIDCEPIL
+                     GYLHRGMEKIAENRTIIQYLPYVTRWDYLATMFTEAITVNAPEQLGNIQVPKRASYIR
+                     VIMLELSRIASHLLWLGPFMADIGAQTPFFYIFRERELIYDLFEAATGMRMMHNFFRI
+                     GGVAADLPHGWIDKCLDFCDYFLTGIAEYQKLITRNPIFLERVEGVGIIGGEEAINWG
+                     LSGPMLRASGIQWDLRKVDHYECYDEFDWEVQWQKEGDSLARYLVRISEMTESIKIIQ
+                     QALEGIPGGPYENLEIRRFDRVKDTVWNEFDYRFISKKPSPTFELSKQELYARVEAPK
+                     GELGIFLIGDKGVFPWRYKIRPPGFINLQILPQLVKRMKLADIMTILGSIDIIMGEVD
+                     R"
      gene            complement(119895..120173)
                      /gene="rps15"
      CDS             complement(119895..120173)
                      /gene="rps15"
-                     /product="ribosomal protein S15"
-                     /translation="MVKNSFISIIFQEQEENKKNSGSVEFQVVSFTNKIRRLTSHLELH
-                     KKDYLSQRGLRIILGKRQRLLAYLSNKNRARYKELIGRLDIRERKTR"
+                     /codon_start=1
                      /transl_table=11
+                     /product="ribosomal protein S15"
+                     /translation="MVKNSFISIIFQEQEENKKNSGSVEFQVVSFTNKIRRLTSHLEL
+                     HKKDYLSQRGLRIILGKRQRLLAYLSNKNRARYKELIGRLDIRERKTR"
      gene            complement(120579..125551)
                      /gene="ycf1"
                      /pseudo
@@ -1266,10 +1344,11 @@ FEATURES             Location/Qualifiers
                      /gene="ycf15"
      CDS             134868..135059
                      /gene="ycf15"
-                     /product="Ycf15 protein"
-                     /translation="MRVQLHCIARIHVVYLKEVDLLASLTVQSSSRRAPFLLYPQRQNV
-                     GLAPTVHHGRKDSLSRDH"
+                     /codon_start=1
                      /transl_table=11
+                     /product="Ycf15 protein"
+                     /translation="MRVQLHCIARIHVVYLKEVDLLASLTVQSSSRRAPFLLYPQRQN
+                     VGLAPTVHHGRKDSLSRDH"
      exon            136034..136264
                      /gene="rps12"
                      /number=2
@@ -1283,26 +1362,29 @@ FEATURES             Location/Qualifiers
                      /gene="rps7"
      CDS             136880..137347
                      /gene="rps7"
-                     /product="ribosomal protein S7"
-                     /translation="MSRRGTAEEKTAKSDPIYRNRLVNMLVNRILKHGKKSLAYQIIYR
-                     AVKKIQQKTETNPLSVLRQAIHGVTPGIAVKARRVGGSTHQVPIEIGSTQGKALAIRWL
-                     LAASRKRPGRNMAFKLSSELVDAAKGSGDAIRKREETHRMAEANRAFAHFR"
+                     /codon_start=1
                      /transl_table=11
+                     /product="ribosomal protein S7"
+                     /translation="MSRRGTAEEKTAKSDPIYRNRLVNMLVNRILKHGKKSLAYQIIY
+                     RAVKKIQQKTETNPLSVLRQAIHGVTPGIAVKARRVGGSTHQVPIEIGSTQGKALAIR
+                     WLLAASRKRPGRNMAFKLSSELVDAAKGSGDAIRKREETHRMAEANRAFAHFR"
      gene            137638..139839
                      /gene="ndhB"
      CDS             join(137638..138414,139084..139839)
                      /gene="ndhB"
-                     /product="NADH dehydrogenase subunit B"
-                     /translation="MIWHVQNENFILDSTRIFMKAFHLLLFDGSLIFPECILIFGLILL
-                     LMIDSTSDQKDIPWLYFISSTSLVMSITALLFRWREEPMISVSGNFQTNNFNEIFQFLI
-                     LLCSTLCIPLSVEYIECTEMAITEFLLFVLTATIGGMFLCGANDLITIFVAPECFSLCS
-                     YLLSGYTKKDVRSNEATMKYLLMGGASSSILVHGFSWLYGSSGGEIELQEIVNGLINTQ
-                     MYNSPGISIALIFITVGIGFKLSPAPSHQWTPDVYEGSPTPVVAFLSVTSKVAASASAT
-                     RIFDIPFYFSSNEWHLLLEILAILSMILGNLVAITQTSMKRMLAYSSIGQIGYVIIGII
-                     VGDSNDGYASMITYMLFYISMNLGTFACIVLFGLRTGTENIRDYAGLYTKDPFLALSLA
-                     LCLLSLGGLPPLAGFFGKLYLFWCGWQAGLYFLVLIGLLTSVVSIYYYLKIIKLLMTGR
-                     NQEITPHVRNYRRSPLRSNNSIELSMIVCVIASTIPGISMNPIIAIAQDTLF"
+                     /codon_start=1
                      /transl_table=11
+                     /product="NADH dehydrogenase subunit B"
+                     /translation="MIWHVQNENFILDSTRIFMKAFHLLLFDGSLIFPECILIFGLIL
+                     LLMIDSTSDQKDIPWLYFISSTSLVMSITALLFRWREEPMISVSGNFQTNNFNEIFQF
+                     LILLCSTLCIPLSVEYIECTEMAITEFLLFVLTATIGGMFLCGANDLITIFVAPECFS
+                     LCSYLLSGYTKKDVRSNEATMKYLLMGGASSSILVHGFSWLYGSSGGEIELQEIVNGL
+                     INTQMYNSPGISIALIFITVGIGFKLSPAPSHQWTPDVYEGSPTPVVAFLSVTSKVAA
+                     SASATRIFDIPFYFSSNEWHLLLEILAILSMILGNLVAITQTSMKRMLAYSSIGQIGY
+                     VIIGIIVGDSNDGYASMITYMLFYISMNLGTFACIVLFGLRTGTENIRDYAGLYTKDP
+                     FLALSLALCLLSLGGLPPLAGFFGKLYLFWCGWQAGLYFLVLIGLLTSVVSIYYYLKI
+                     IKLLMTGRNQEITPHVRNYRRSPLRSNNSIELSMIVCVIASTIPGISMNPIIAIAQDT
+                     LF"
      exon            137638..138414
                      /gene="ndhB"
                      /number=1
@@ -1321,47 +1403,49 @@ FEATURES             Location/Qualifiers
                      /gene="ycf2"
      CDS             complement(140900..147754)
                      /gene="ycf2"
-                     /product="Ycf2 protein"
-                     /translation="MTGHEFKSWILELREILREIKNSHYFLDSWTQFNSVGSFIHIFFH
-                     QERFIKLFDSRIWSILLSHNSQGSTRNRYLTIKGVILFGVAVLIYRINNRNMVERKNLY
-                     LIGLLPIPMNSIGPRKDTLEESVGSSNINRLIVSLLYLPKGKKIYESSFLNPKESTWVL
-                     PITKKCSMPESNWGSRWWRDWIGKKRDSSCKISNETVAGIEILFKEKDLKYLEFFFVYY
-                     RDDPIRKDHDWELFDRLSLRKRQNRINLNSGPLFEILVKHWICYLMSAFREKIPNEVEG
-                     FLKQQGAGSTIQSNDIEHVSYLFSRNKSAISLQKCAQFHMWQFRQDLFVSWGKNPPESD
-                     LLRNVSRDNLIWLDNVWLVNKDRFFRKVRNVSSNIQYDSTRSSFVQVRDSSQLKGSSDQ
-                     SRDHFDSISNEDSEYHTLINQREIQQLKERSILWDPSFLQMEGTEIESNRFPKCLSGYS
-                     SMSRLFTEREKQMINHLLPEEIEEFLGNPTRSVRSFFSDRWSELHLGSNPTERSTRDQK
-                     LLKKQQDLSFLRRSENKEMVNLFKIITYLQNTVSIHPISSDSECDMVPKDEPDMDSSNK
-                     ISFLNKNPFFYLFHLFHDRNRGRYTLHHDFESEERFQELADLFTLSITEPDLVYHKRFA
-                     FSIDSYGLDPKQFLNGVFNSRYEWKTTSLLVLLVLLPIFYEENESFYRRIRKKRVRISC
-                     GNDLEEPKPKIVVFASNNIMEAVNQYRLIRNLIQIQHSTHRYIRNVLNRFFLMNRSDRN
-                     FEYGIQRDQIGKDTLNHRTLMKYMINQHLSNLKKSQKRWFDPLIFFSRTERSMNRDLDA
-                     YRYKWSTGSKNFQEHLEHFVSEQKSRFQVVFDRLRINQYSIDWSEVIDKKDLSKPLRFF
-                     LSKLLLFLSNSLPFLFVSFGNIPIHRSEIYIYELKGPNDPQFLESIGLQIVHLKKLKPF
-                     LLDDHETCQKSKFLINGGTISPFLFNKIPKWMIDSFHTRNNRRKSFDNTDSYFSMIFHD
-                     QYNWLNPVKSFHRSSLRSSFYKANQLRFLNNPHHFCFYCNKRFPFYVEKARINNYDFTY
-                     GQFLNILFIRNKIFYLCVGKKKHAFGGRDTISAIESQVSNIFIPKAFPQSGDETYNLYK
-                     SFHFPSRSNPFVRRAIYSIADISGTPLTEGQIVNFERTYCQPLSDMNLSDSEGKNLYQY
-                     FNFNSNMGLIHTPCSEKYLPSEKRKKRSLCLKKCVEKGQMYRTFQQDSAYSTLSKWNLF
-                     QTYMPWFLTSTGYRYLKFLFLDTFSDLLPILSSSQKFVSIFHDIMHGSDISWRILQKKL
-                     CLPQRNLISEISSKCFHNLLLSEEMIHRNNESPLISTHLTNVREFLYAILFLLLVAAYL
-                     ACTRLLFVFGASSELQTEFEKVKSLMIPSSMIELRKLLDRYPTSEPNSFWLKNLFLIAL
-                     KQLGDSLGGNMLLGGGPAYRVKSIRSKKKYLNINLIDILDLISIIPNPINQITFSRNTR
-                     HLSHTSKEIYSLIRKRKNVNGDWIDDKIESWVANSDSIDDEKREFLVQFSALTTEKGID
-                     QILLSLTHSDHFSKNDSGYQMIEQPGAIYLRYLVDIHKKYLMNYEFNTSSLAERRIFLA
-                     HYQTITYSQTSCGANSLHFPSHGKPFSLRLALSLSRGTLVIGSIGTGRSYLVKYLAKNS
-                     YLPFITVFLNKFLDKKYRGFDDDDLYDIDASDDIDASDNIDASDDILDMELELLTSMNA
-                     LTMDMDMLPEDEDRLYMTLQFELAKAMSPCIIWIPNIHDLDVNESNYFSLGLLVNLLSR
-                     DYETRNILVIASTHIPQKVDPALIAPNKLNTCIKIRRLLIPQQRKHFFTLSYTRGFHLE
-                     KKMFHTNGFGSITMGSNARDLVALTNEALSISITQKKSIIDTNTIRSALHRQIWDLRSQ
-                     VRSVQDHGILFYKIGRAVAQNVLLSNCPIDPISIYMKKKSCNEVDYYLYNWYFELGTSM
-                     KKLTILLYILSCSAGSVTQDLWSLPGPDEKNGITPYGLVENDSGLVRGLLEVEGALVGS
-                     SRTCSQFDKDRVTLLLRPEPRNPLDMMQNGSCSILDQRFLYEKDESEFEEGEGEGALDP
-                     QQIEEDLFNHIVWAPRIWRPWGFLFDCIERPNELGFPYWSRSFRGKRIVYDEEDELQEN
-                     DSEFLQSGTVQYQTRDRSSKEQGLFRISQFIWDPADPLFFLFKAQPFVSVFSHRELFAD
-                     QEMSKGLLTPQKNRPTYLYKRWFIKKTQEKHFELLINRQRWLRTNRSLSNGSFRSNTLS
-                     ESYQYLSNLFLSNGTLLDQMTKALLRKRWLFPDEMQIGFMEQEKDLPFLSRKDMWP"
+                     /codon_start=1
                      /transl_table=11
+                     /product="Ycf2 protein"
+                     /translation="MTGHEFKSWILELREILREIKNSHYFLDSWTQFNSVGSFIHIFF
+                     HQERFIKLFDSRIWSILLSHNSQGSTRNRYLTIKGVILFGVAVLIYRINNRNMVERKN
+                     LYLIGLLPIPMNSIGPRKDTLEESVGSSNINRLIVSLLYLPKGKKIYESSFLNPKEST
+                     WVLPITKKCSMPESNWGSRWWRDWIGKKRDSSCKISNETVAGIEILFKEKDLKYLEFF
+                     FVYYRDDPIRKDHDWELFDRLSLRKRQNRINLNSGPLFEILVKHWICYLMSAFREKIP
+                     NEVEGFLKQQGAGSTIQSNDIEHVSYLFSRNKSAISLQKCAQFHMWQFRQDLFVSWGK
+                     NPPESDLLRNVSRDNLIWLDNVWLVNKDRFFRKVRNVSSNIQYDSTRSSFVQVRDSSQ
+                     LKGSSDQSRDHFDSISNEDSEYHTLINQREIQQLKERSILWDPSFLQMEGTEIESNRF
+                     PKCLSGYSSMSRLFTEREKQMINHLLPEEIEEFLGNPTRSVRSFFSDRWSELHLGSNP
+                     TERSTRDQKLLKKQQDLSFLRRSENKEMVNLFKIITYLQNTVSIHPISSDSECDMVPK
+                     DEPDMDSSNKISFLNKNPFFYLFHLFHDRNRGRYTLHHDFESEERFQELADLFTLSIT
+                     EPDLVYHKRFAFSIDSYGLDPKQFLNGVFNSRYEWKTTSLLVLLVLLPIFYEENESFY
+                     RRIRKKRVRISCGNDLEEPKPKIVVFASNNIMEAVNQYRLIRNLIQIQHSTHRYIRNV
+                     LNRFFLMNRSDRNFEYGIQRDQIGKDTLNHRTLMKYMINQHLSNLKKSQKRWFDPLIF
+                     FSRTERSMNRDLDAYRYKWSTGSKNFQEHLEHFVSEQKSRFQVVFDRLRINQYSIDWS
+                     EVIDKKDLSKPLRFFLSKLLLFLSNSLPFLFVSFGNIPIHRSEIYIYELKGPNDPQFL
+                     ESIGLQIVHLKKLKPFLLDDHETCQKSKFLINGGTISPFLFNKIPKWMIDSFHTRNNR
+                     RKSFDNTDSYFSMIFHDQYNWLNPVKSFHRSSLRSSFYKANQLRFLNNPHHFCFYCNK
+                     RFPFYVEKARINNYDFTYGQFLNILFIRNKIFYLCVGKKKHAFGGRDTISAIESQVSN
+                     IFIPKAFPQSGDETYNLYKSFHFPSRSNPFVRRAIYSIADISGTPLTEGQIVNFERTY
+                     CQPLSDMNLSDSEGKNLYQYFNFNSNMGLIHTPCSEKYLPSEKRKKRSLCLKKCVEKG
+                     QMYRTFQQDSAYSTLSKWNLFQTYMPWFLTSTGYRYLKFLFLDTFSDLLPILSSSQKF
+                     VSIFHDIMHGSDISWRILQKKLCLPQRNLISEISSKCFHNLLLSEEMIHRNNESPLIS
+                     THLTNVREFLYAILFLLLVAAYLACTRLLFVFGASSELQTEFEKVKSLMIPSSMIELR
+                     KLLDRYPTSEPNSFWLKNLFLIALKQLGDSLGGNMLLGGGPAYRVKSIRSKKKYLNIN
+                     LIDILDLISIIPNPINQITFSRNTRHLSHTSKEIYSLIRKRKNVNGDWIDDKIESWVA
+                     NSDSIDDEKREFLVQFSALTTEKGIDQILLSLTHSDHFSKNDSGYQMIEQPGAIYLRY
+                     LVDIHKKYLMNYEFNTSSLAERRIFLAHYQTITYSQTSCGANSLHFPSHGKPFSLRLA
+                     LSLSRGTLVIGSIGTGRSYLVKYLAKNSYLPFITVFLNKFLDKKYRGFDDDDLYDIDA
+                     SDDIDASDNIDASDDILDMELELLTSMNALTMDMDMLPEDEDRLYMTLQFELAKAMSP
+                     CIIWIPNIHDLDVNESNYFSLGLLVNLLSRDYETRNILVIASTHIPQKVDPALIAPNK
+                     LNTCIKIRRLLIPQQRKHFFTLSYTRGFHLEKKMFHTNGFGSITMGSNARDLVALTNE
+                     ALSISITQKKSIIDTNTIRSALHRQIWDLRSQVRSVQDHGILFYKIGRAVAQNVLLSN
+                     CPIDPISIYMKKKSCNEVDYYLYNWYFELGTSMKKLTILLYILSCSAGSVTQDLWSLP
+                     GPDEKNGITPYGLVENDSGLVRGLLEVEGALVGSSRTCSQFDKDRVTLLLRPEPRNPL
+                     DMMQNGSCSILDQRFLYEKDESEFEEGEGEGALDPQQIEEDLFNHIVWAPRIWRPWGF
+                     LFDCIERPNELGFPYWSRSFRGKRIVYDEEDELQENDSEFLQSGTVQYQTRDRSSKEQ
+                     GLFRISQFIWDPADPLFFLFKAQPFVSVFSHRELFADQEMSKGLLTPQKNRPTYLYKR
+                     WFIKKTQEKHFELLINRQRWLRTNRSLSNGSFRSNTLSESYQYLSNLFLSNGTLLDQM
+                     TKALLRKRWLFPDEMQIGFMEQEKDLPFLSRKDMWP"
      gene            147866..147940
                      /gene="trnM-CAU"
      tRNA            147866..147940
@@ -1371,21 +1455,23 @@ FEATURES             Location/Qualifiers
                      /gene="rpl23"
      CDS             148105..148386
                      /gene="rpl23"
-                     /product="ribosomal protein L23"
-                     /translation="MDGIRYAVFTDKSIRLLGKNQYTSNVESGSTRTEIKHWVELFFGV
-                     KVIAMNSQRLRGKARRMGPIMGQTMHYRRMIITLQPGYSIPPLRKKRT"
+                     /codon_start=1
                      /transl_table=11
+                     /product="ribosomal protein L23"
+                     /translation="MDGIRYAVFTDKSIRLLGKNQYTSNVESGSTRTEIKHWVELFFG
+                     VKVIAMNSQRLRGKARRMGPIMGQTMHYRRMIITLQPGYSIPPLRKKRT"
      gene            148405..149894
                      /gene="rpl2"
      CDS             join(148405..148795,149461..149894)
                      /gene="rpl2"
-                     /product="ribosomal protein L2"
-                     /translation="MAIHLYKTSTPSTRNGTVDSQVKSNPRNNLIYGQHHCGKGRNARG
-                     IITAGHRGGGHKRLYRKIDFRRNEKDIYGRIVTIEYDPNRNAYICLIHYRDGEKRYILH
-                     PRGAIIGDTIVSGTEVPIKMGNALPLTDMPLGTAIHNIEITLGKGGQLARAAGAVAKLI
-                     AKEGKSATLKLPSGEVRLISKNCSATVGQVGNVGVNQKSLGRAGSKRWLGKRPVVRGVV
-                     MNPVDHPHGGGEGRAPIGRKKPTTPWGYPALGKRSRKRNKYSDNLILRRRSK"
+                     /codon_start=1
                      /transl_table=11
+                     /product="ribosomal protein L2"
+                     /translation="MAIHLYKTSTPSTRNGTVDSQVKSNPRNNLIYGQHHCGKGRNAR
+                     GIITAGHRGGGHKRLYRKIDFRRNEKDIYGRIVTIEYDPNRNAYICLIHYRDGEKRYI
+                     LHPRGAIIGDTIVSGTEVPIKMGNALPLTDMPLGTAIHNIEITLGKGGQLARAAGAVA
+                     KLIAKEGKSATLKLPSGEVRLISKNCSATVGQVGNVGVNQKSLGRAGSKRWLGKRPVV
+                     RGVVMNPVDHPHGGGEGRAPIGRKKPTTPWGYPALGKRSRKRNKYSDNLILRRRSK"
      exon            148405..148795
                      /gene="rpl2"
                      /number=1
@@ -1398,7 +1484,7 @@ FEATURES             Location/Qualifiers
      gene            149953..150007
                      /gene="rps19 fragment"
                      /pseudo
-ORIGIN
+ORIGIN      
         1 aatttgggcg aacgacggga attgaacccg cgcatggtgg attcacaatc cactgccttg
        61 atccacttgg ctacatccgc ccctctacta ttatctagta tttctatatt tttccattaa
       121 catgaaaaaa aaaaaaaaag agcatattat ttctttctta tttctgaaat caaagtaata

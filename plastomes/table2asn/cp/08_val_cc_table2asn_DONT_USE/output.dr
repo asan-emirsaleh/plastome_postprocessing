@@ -1,0 +1,220 @@
+Discrepancy Report Results
+
+Summary
+COUNT_NUCLEOTIDES: 1 nucleotide Bioseq is present
+SOURCE_QUALS: taxname (all present, all unique)
+FEATURE_COUNT: CDS: 85 present
+FEATURE_COUNT: exon: 49 present
+FEATURE_COUNT: gene: 136 present
+FEATURE_COUNT: intron: 24 present
+FEATURE_COUNT: misc_feature: 2 present
+FEATURE_COUNT: rRNA: 8 present
+FEATURE_COUNT: repeat_region: 2 present
+FEATURE_COUNT: tRNA: 37 present
+SUSPECT_PRODUCT_NAMES: 2 product_names contain suspect phrases or characters
+	May contain database identifier more appropriate in note; remove from product name
+		2 features contains three or more numbers together that may be identifiers more appropriate in note
+CDS_WITHOUT_MRNA: 85 coding regions do not have an mRNA
+RNA_NO_PRODUCT: 4 RNA features have no product and are not pseudo
+SHORT_PROT_SEQUENCES: 13 protein sequences are shorter than 50 aa.
+AUTODEF_USER_OBJECT: 1 nucleotide sequence has no autodef user objects
+DUP_DEFLINE: All deflines are unique
+MITO_RRNA: 2 non mitochondrial rRNA names contain 12S/16S
+ORGANELLE_PRODUCTS: 40 suspect products not organelle
+ORG_TRNAS: 1 tRNA is too long
+SUPERFLUOUS_GENE: 21 gene features are not associated with any feature and are not pseudo.
+
+Detailed Report
+
+COUNT_NUCLEOTIDES: 1 nucleotide Bioseq is present
+output.sqn:Crepis_callicephala (length 149980)
+SOURCE_QUALS: taxname (all present, all unique)
+FEATURE_COUNT: CDS: 85 present
+FEATURE_COUNT: exon: 49 present
+FEATURE_COUNT: gene: 136 present
+FEATURE_COUNT: intron: 24 present
+FEATURE_COUNT: misc_feature: 2 present
+FEATURE_COUNT: rRNA: 8 present
+FEATURE_COUNT: repeat_region: 2 present
+FEATURE_COUNT: tRNA: 37 present
+SUSPECT_PRODUCT_NAMES: 2 product_names contain suspect phrases or characters
+SUSPECT_PRODUCT_NAMES: May contain database identifier more appropriate in note; remove from product name
+SUSPECT_PRODUCT_NAMES: 2 features contains three or more numbers together that may be identifiers more appropriate in note
+output.sqn:CDS	photosystem I P700 apoprotein A2	lcl|Crepis_callicephala:c38980-36776	
+output.sqn:CDS	photosystem I P700 apoprotein A1	lcl|Crepis_callicephala:c41258-39006	
+CDS_WITHOUT_MRNA: 85 coding regions do not have an mRNA
+output.sqn:CDS	ribosomal protein S12	[lcl|Crepis_callicephala:c67482-67369, c95793-95563, c95027-95001]	
+output.sqn:CDS	photosystem II protein D1	lcl|Crepis_callicephala:c1536-475	
+output.sqn:CDS	maturase K	lcl|Crepis_callicephala:c3591-2080	
+output.sqn:CDS	ribosomal protein S16	[lcl|Crepis_callicephala:c6269-6230, c5376-5150]	
+output.sqn:CDS	photosystem II subunit K	lcl|Crepis_callicephala:7693-7872	
+output.sqn:CDS	photosystem II subunit I	lcl|Crepis_callicephala:8274-8384	
+output.sqn:CDS	cytochrome b6/f subunit N	lcl|Crepis_callicephala:10227-10316	
+output.sqn:CDS	photosystem II subunit M	lcl|Crepis_callicephala:c10892-10788	
+output.sqn:CDS	RNA polymerase subunit beta	lcl|Crepis_callicephala:12956-16138	
+output.sqn:CDS	RNA polymerase subunit beta'	[lcl|Crepis_callicephala:16165-16595, 17319-18963]	
+output.sqn:CDS	RNA polymerase subunit beta''	lcl|Crepis_callicephala:19077-23201	
+output.sqn:CDS	ribosomal protein S2	lcl|Crepis_callicephala:23456-24166	
+output.sqn:CDS	CF0 subunit IV	lcl|Crepis_callicephala:24382-25125	
+output.sqn:CDS	CF0 subunit III	lcl|Crepis_callicephala:26231-26476	
+output.sqn:CDS	CF0 subunit I	[lcl|Crepis_callicephala:26805-26948, 27666-28076]	
+output.sqn:CDS	CF1 subunit alpha	lcl|Crepis_callicephala:28141-29667	
+output.sqn:CDS	photosystem II protein D2	lcl|Crepis_callicephala:32294-33355	
+output.sqn:CDS	photosystem II 43 kDa protein	lcl|Crepis_callicephala:33303-34724	
+output.sqn:CDS	photosystem II subunit Z	lcl|Crepis_callicephala:35367-35555	
+output.sqn:CDS	ribosomal protein S14	lcl|Crepis_callicephala:c36642-36340	
+output.sqn:CDS	photosystem I P700 apoprotein A2	lcl|Crepis_callicephala:c38980-36776	
+output.sqn:CDS	photosystem I P700 apoprotein A1	lcl|Crepis_callicephala:c41258-39006	
+output.sqn:CDS	photosystem I assembly factor I	[lcl|Crepis_callicephala:c43944-43821, c43127-42898, c42164-42012]	
+output.sqn:CDS	ribosomal protein S4	lcl|Crepis_callicephala:c45781-45176	
+output.sqn:CDS	NADH dehydrogenase subunit J	lcl|Crepis_callicephala:c48803-48327	
+output.sqn:CDS	NADH dehydrogenase subunit K	lcl|Crepis_callicephala:c49584-48907	
+output.sqn:CDS	NADH dehydrogenase subunit C	lcl|Crepis_callicephala:c49998-49636	
+output.sqn:CDS	CF1 subunit epsilon	lcl|Crepis_callicephala:c52596-52195	
+output.sqn:CDS	CF1 subunit beta	lcl|Crepis_callicephala:c54089-52593	
+output.sqn:CDS	ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit	lcl|Crepis_callicephala:54827-56254	
+output.sqn:CDS	photosystem I subunit I	lcl|Crepis_callicephala:57192-57302	
+output.sqn:CDS	photosystem I assembly factor II	lcl|Crepis_callicephala:57703-58257	
+output.sqn:CDS	envelope membrane carbon uptake protein	lcl|Crepis_callicephala:58970-59659	
+output.sqn:CDS	cytochrome f	lcl|Crepis_callicephala:59886-60848	
+output.sqn:CDS	photosystem II subunit J	lcl|Crepis_callicephala:c61732-61610	
+output.sqn:CDS	photosystem II subunit L	lcl|Crepis_callicephala:c61997-61881	
+output.sqn:CDS	cytochrome b559 subunit beta	lcl|Crepis_callicephala:c62139-62020	
+output.sqn:CDS	cytochrome b559 subunit alpha	lcl|Crepis_callicephala:c62400-62149	
+output.sqn:CDS	cytochrome b6/f subunit L	lcl|Crepis_callicephala:63650-63745	
+output.sqn:CDS	cytochrome b6/f subunit G	lcl|Crepis_callicephala:63911-64024	
+output.sqn:CDS	photosystem I subunit J	lcl|Crepis_callicephala:64762-64896	
+output.sqn:CDS	ribosomal protein L33	lcl|Crepis_callicephala:65303-65509	
+output.sqn:CDS	ribosomal protein S18	lcl|Crepis_callicephala:65694-65999	
+output.sqn:CDS	ribosomal protein L20	lcl|Crepis_callicephala:c66625-66245	
+output.sqn:CDS	ribosomal protein S12	[lcl|Crepis_callicephala:c67482-67369, 136002-136232, 136768-136794]	
+output.sqn:CDS	ATP-dependent Clp protease proteolytic subunit 1	[lcl|Crepis_callicephala:c69652-69582, c68782-68491, c67890-67663]	
+output.sqn:CDS	photosystem II 47 kDa protein	lcl|Crepis_callicephala:70096-71622	
+output.sqn:CDS	photosystem II subunit T	lcl|Crepis_callicephala:71815-71916	
+output.sqn:CDS	photosystem biogenesis factor 1	lcl|Crepis_callicephala:c72128-71997	
+output.sqn:CDS	photosystem II subunit H	lcl|Crepis_callicephala:72232-72453	
+output.sqn:CDS	cytochrome b6	[lcl|Crepis_callicephala:72578-72583, 73349-73990]	
+output.sqn:CDS	cytochrome b6/f subunit IV	lcl|Crepis_callicephala:74837-75361	
+output.sqn:CDS	RNA polymerase subunit alpha	lcl|Crepis_callicephala:c76566-75559	
+output.sqn:CDS	ribosomal protein S11	lcl|Crepis_callicephala:c77072-76662	
+output.sqn:CDS	ribosomal protein L36	lcl|Crepis_callicephala:c77290-77177	
+output.sqn:CDS	translational initiation factor 1	lcl|Crepis_callicephala:c77641-77408	
+output.sqn:CDS	ribosomal protein S8	lcl|Crepis_callicephala:c78167-77763	
+output.sqn:CDS	ribosomal protein L14	lcl|Crepis_callicephala:c78712-78344	
+output.sqn:CDS	ribosomal protein L16	[lcl|Crepis_callicephala:c80277-80269, c79231-78833]	
+output.sqn:CDS	ribosomal protein S3	lcl|Crepis_callicephala:c81080-80421	
+output.sqn:CDS	ribosomal protein L22	lcl|Crepis_callicephala:c81529-81065	
+output.sqn:CDS	ribosomal protein S19	lcl|Crepis_callicephala:c81874-81596	
+output.sqn:CDS	ribosomal protein L2	[lcl|Crepis_callicephala:c83422-83032, c82366-81933]	
+output.sqn:CDS	ribosomal protein L23	lcl|Crepis_callicephala:c83722-83441	
+output.sqn:CDS	Ycf2 protein	lcl|Crepis_callicephala:84073-90927	
+output.sqn:CDS	NADH dehydrogenase subunit B	[lcl|Crepis_callicephala:c94189-93413, c92743-91988]	
+output.sqn:CDS	ribosomal protein S7	lcl|Crepis_callicephala:c94947-94480	
+output.sqn:CDS	Ycf15 protein	lcl|Crepis_callicephala:c96959-96768	
+output.sqn:CDS	NADH dehydrogenase subunit F	lcl|Crepis_callicephala:c108969-106744	
+output.sqn:CDS	ribosomal protein L32	lcl|Crepis_callicephala:110023-110187	
+output.sqn:CDS	cytochrome c biogenesis protein	lcl|Crepis_callicephala:111179-112147	
+output.sqn:CDS	NADH dehydrogenase subunit D	lcl|Crepis_callicephala:c113907-112405	
+output.sqn:CDS	photosystem I subunit C	lcl|Crepis_callicephala:c114268-114023	
+output.sqn:CDS	NADH dehydrogenase subunit E	lcl|Crepis_callicephala:c114803-114498	
+output.sqn:CDS	NADH dehydrogenase subunit G	lcl|Crepis_callicephala:c115551-115021	
+output.sqn:CDS	NADH dehydrogenase subunit I	lcl|Crepis_callicephala:c116380-115880	
+output.sqn:CDS	NADH dehydrogenase subunit A	[lcl|Crepis_callicephala:c118605-118054, c116998-116459]	
+output.sqn:CDS	NADH dehydrogenase subunit H	lcl|Crepis_callicephala:c119788-118607	
+output.sqn:CDS	ribosomal protein S15	lcl|Crepis_callicephala:c120157-119879	
+output.sqn:CDS	Ycf15 protein	lcl|Crepis_callicephala:134836-135027	
+output.sqn:CDS	ribosomal protein S7	lcl|Crepis_callicephala:136848-137315	
+output.sqn:CDS	NADH dehydrogenase subunit B	[lcl|Crepis_callicephala:137606-138382, 139052-139807]	
+output.sqn:CDS	Ycf2 protein	lcl|Crepis_callicephala:c147722-140868	
+output.sqn:CDS	ribosomal protein L23	lcl|Crepis_callicephala:148073-148354	
+output.sqn:CDS	ribosomal protein L2	[lcl|Crepis_callicephala:148373-148763, 149429-149862]	
+RNA_NO_PRODUCT: 4 RNA features have no product and are not pseudo
+output.sqn:tRNA	tRNA	lcl|Crepis_callicephala:c35029-34947	
+output.sqn:tRNA	tRNA	lcl|Crepis_callicephala:44778-44864	
+output.sqn:tRNA	tRNA	lcl|Crepis_callicephala:110967-111046	
+output.sqn:tRNA	tRNA	[lcl|Crepis_callicephala:c132067-132028, c131266-131234]	
+SHORT_PROT_SEQUENCES: 13 protein sequences are shorter than 50 aa.
+output.sqn:Crepis_callicephala_6 (length 36)
+output.sqn:Crepis_callicephala_7 (length 29)
+output.sqn:Crepis_callicephala_8 (length 34)
+output.sqn:Crepis_callicephala_31 (length 36)
+output.sqn:Crepis_callicephala_35 (length 40)
+output.sqn:Crepis_callicephala_36 (length 38)
+output.sqn:Crepis_callicephala_37 (length 39)
+output.sqn:Crepis_callicephala_39 (length 31)
+output.sqn:Crepis_callicephala_40 (length 37)
+output.sqn:Crepis_callicephala_41 (length 44)
+output.sqn:Crepis_callicephala_48 (length 33)
+output.sqn:Crepis_callicephala_49 (length 43)
+output.sqn:Crepis_callicephala_55 (length 37)
+AUTODEF_USER_OBJECT: 1 nucleotide sequence has no autodef user objects
+output.sqn:Crepis_callicephala (length 149980)
+DUP_DEFLINE: All deflines are unique
+MITO_RRNA: 2 non mitochondrial rRNA names contain 12S/16S
+output.sqn:rRNA	16S ribosomal RNA (chloroplast)	lcl|Crepis_callicephala:97944-99433	
+output.sqn:rRNA	16S ribosomal RNA (chloroplast)	lcl|Crepis_callicephala:c133852-132363	
+ORGANELLE_PRODUCTS: 40 suspect products not organelle
+output.sqn:CDS	photosystem II protein D1	lcl|Crepis_callicephala:c1536-475	
+output.sqn:CDS	maturase K	lcl|Crepis_callicephala:c3591-2080	
+output.sqn:CDS	photosystem II subunit K	lcl|Crepis_callicephala:7693-7872	
+output.sqn:CDS	photosystem II subunit I	lcl|Crepis_callicephala:8274-8384	
+output.sqn:CDS	cytochrome b6/f subunit N	lcl|Crepis_callicephala:10227-10316	
+output.sqn:CDS	photosystem II subunit M	lcl|Crepis_callicephala:c10892-10788	
+output.sqn:CDS	photosystem II protein D2	lcl|Crepis_callicephala:32294-33355	
+output.sqn:CDS	photosystem II 43 kDa protein	lcl|Crepis_callicephala:33303-34724	
+output.sqn:CDS	photosystem II subunit Z	lcl|Crepis_callicephala:35367-35555	
+output.sqn:CDS	photosystem I P700 apoprotein A2	lcl|Crepis_callicephala:c38980-36776	
+output.sqn:CDS	photosystem I P700 apoprotein A1	lcl|Crepis_callicephala:c41258-39006	
+output.sqn:CDS	photosystem I assembly factor I	[lcl|Crepis_callicephala:c43944-43821, c43127-42898, c42164-42012]	
+output.sqn:CDS	NADH dehydrogenase subunit J	lcl|Crepis_callicephala:c48803-48327	
+output.sqn:CDS	NADH dehydrogenase subunit K	lcl|Crepis_callicephala:c49584-48907	
+output.sqn:CDS	NADH dehydrogenase subunit C	lcl|Crepis_callicephala:c49998-49636	
+output.sqn:CDS	ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit	lcl|Crepis_callicephala:54827-56254	
+output.sqn:CDS	photosystem I subunit I	lcl|Crepis_callicephala:57192-57302	
+output.sqn:CDS	photosystem I assembly factor II	lcl|Crepis_callicephala:57703-58257	
+output.sqn:CDS	photosystem II subunit J	lcl|Crepis_callicephala:c61732-61610	
+output.sqn:CDS	photosystem II subunit L	lcl|Crepis_callicephala:c61997-61881	
+output.sqn:CDS	cytochrome b559 subunit beta	lcl|Crepis_callicephala:c62139-62020	
+output.sqn:CDS	cytochrome b559 subunit alpha	lcl|Crepis_callicephala:c62400-62149	
+output.sqn:CDS	cytochrome b6/f subunit L	lcl|Crepis_callicephala:63650-63745	
+output.sqn:CDS	cytochrome b6/f subunit G	lcl|Crepis_callicephala:63911-64024	
+output.sqn:CDS	photosystem I subunit J	lcl|Crepis_callicephala:64762-64896	
+output.sqn:CDS	photosystem II 47 kDa protein	lcl|Crepis_callicephala:70096-71622	
+output.sqn:CDS	photosystem II subunit T	lcl|Crepis_callicephala:71815-71916	
+output.sqn:CDS	photosystem II subunit H	lcl|Crepis_callicephala:72232-72453	
+output.sqn:CDS	cytochrome b6	[lcl|Crepis_callicephala:72578-72583, 73349-73990]	
+output.sqn:CDS	cytochrome b6/f subunit IV	lcl|Crepis_callicephala:74837-75361	
+output.sqn:CDS	NADH dehydrogenase subunit B	[lcl|Crepis_callicephala:c94189-93413, c92743-91988]	
+output.sqn:CDS	NADH dehydrogenase subunit F	lcl|Crepis_callicephala:c108969-106744	
+output.sqn:CDS	NADH dehydrogenase subunit D	lcl|Crepis_callicephala:c113907-112405	
+output.sqn:CDS	photosystem I subunit C	lcl|Crepis_callicephala:c114268-114023	
+output.sqn:CDS	NADH dehydrogenase subunit E	lcl|Crepis_callicephala:c114803-114498	
+output.sqn:CDS	NADH dehydrogenase subunit G	lcl|Crepis_callicephala:c115551-115021	
+output.sqn:CDS	NADH dehydrogenase subunit I	lcl|Crepis_callicephala:c116380-115880	
+output.sqn:CDS	NADH dehydrogenase subunit A	[lcl|Crepis_callicephala:c118605-118054, c116998-116459]	
+output.sqn:CDS	NADH dehydrogenase subunit H	lcl|Crepis_callicephala:c119788-118607	
+output.sqn:CDS	NADH dehydrogenase subunit B	[lcl|Crepis_callicephala:137606-138382, 139052-139807]	
+ORG_TRNAS: 1 tRNA is too long
+output.sqn:tRNA	Gly	[lcl|Crepis_callicephala:c30875-30816, c30124-30094]	
+SUPERFLUOUS_GENE: 21 gene features are not associated with any feature and are not pseudo.
+output.sqn:Gene	trnK-UUU	lcl|Crepis_callicephala:c4357-4321	
+output.sqn:Gene	trnM-CAU	lcl|Crepis_callicephala:51914-51986	
+output.sqn:Gene	rps12	[lcl|Crepis_callicephala:c67482-67369, 136002-136794]	
+output.sqn:Gene	trnM-CAU	lcl|Crepis_callicephala:c83961-83888	
+output.sqn:Gene	trnN-GUU	lcl|Crepis_callicephala:125855-125926	
+output.sqn:Gene	trnR-ACG	lcl|Crepis_callicephala:c126494-126421	
+output.sqn:Gene	rrn5	lcl|Crepis_callicephala:c126870-126749	
+output.sqn:Gene	rrn4.5	lcl|Crepis_callicephala:c127216-127114	
+output.sqn:Gene	rrn23	lcl|Crepis_callicephala:c130124-127315	
+output.sqn:Gene	trnA-UGC	lcl|Crepis_callicephala:c131169-130277	
+output.sqn:Gene	trnI-GAU	lcl|Crepis_callicephala:c132067-131234	
+output.sqn:Gene	rrn16	lcl|Crepis_callicephala:c133852-132363	
+output.sqn:Gene	trnV-GAC	lcl|Crepis_callicephala:c134152-134080	
+output.sqn:Gene	ycf15	lcl|Crepis_callicephala:134836-135027	
+output.sqn:Gene	rps7	lcl|Crepis_callicephala:136848-137315	
+output.sqn:Gene	ndhB	lcl|Crepis_callicephala:137606-139807	
+output.sqn:Gene	trnL-CAA	lcl|Crepis_callicephala:140385-140465	
+output.sqn:Gene	ycf2	lcl|Crepis_callicephala:c147722-140868	
+output.sqn:Gene	trnM-CAU	lcl|Crepis_callicephala:147834-147908	
+output.sqn:Gene	rpl23	lcl|Crepis_callicephala:148073-148354	
+output.sqn:Gene	rpl2	lcl|Crepis_callicephala:148373-149862	

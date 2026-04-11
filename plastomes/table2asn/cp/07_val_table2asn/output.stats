@@ -1,0 +1,11 @@
+Total messages:		16
+
+=================================================================
+16 WARNING-level messages exist
+
+SEQ_FEAT.CDSgeneRange:	7
+SEQ_FEAT.MissingTrnaAA:	1
+SEQ_FEAT.GeneXrefStrandProblem:	7
+SEQ_FEAT.rRNADoesNotHaveProduct:	1
+
+=================================================================
